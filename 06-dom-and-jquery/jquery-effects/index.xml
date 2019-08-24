@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jQuery Effects on JavaScript</title>
+    <link>/06-dom-and-jquery/jquery-effects/</link>
+    <description>Recent content in jQuery Effects on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/06-dom-and-jquery/jquery-effects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.show() &amp; .hide()</title>
+      <link>/06-dom-and-jquery/jquery-effects/show-hide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-effects/show-hide/</guid>
+      <description>.show() &amp;amp; .hide() Methods .hide()  Method used to hide targeted elements  Example $(() =&amp;gt; { $(&amp;#34;button&amp;#34;).click(() =&amp;gt; { // hide #box element  $(&amp;#34;#box&amp;#34;).hide() }) })  JS Bin on jsbin.com
+.show() $(() =&amp;gt; { $(&amp;#34;button&amp;#34;).click(() =&amp;gt; { // show #box element  $(&amp;#34;#box&amp;#34;).show() }) })   Method used to show targeted elements that are currently hidden  JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>.toggle()</title>
+      <link>/06-dom-and-jquery/jquery-effects/toggle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-effects/toggle/</guid>
+      <description>.toggle() Method  Method that shows or hides element in such a way that if the element is initially displayed, it will be hidden; if hidden, it will be displayed  Example $(() =&amp;gt; { $(&amp;#34;button&amp;#34;).click(() =&amp;gt; { // toggle #box element  $(&amp;#34;#box&amp;#34;).toggle() }) })  JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>.slideUp() &amp; .slideDown()</title>
+      <link>/06-dom-and-jquery/jquery-effects/slide-up-slide-down/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-effects/slide-up-slide-down/</guid>
+      <description>.slideUp() &amp;amp; .slideDown() Methods  Methods used to hide or show the HTML elements by gradually decreasing or increasing their height  .slideUp() Example $(() =&amp;gt; { $(&amp;#34;button&amp;#34;).click(() =&amp;gt; { // slide #box element up with duration of 2 secs  $(&amp;#34;#box&amp;#34;).slideUp(2000) }) })  JS Bin on jsbin.com
+.slideDown() Example $(() =&amp;gt; { $(&amp;#34;button&amp;#34;).click(() =&amp;gt; { // slide #box element down  $(&amp;#34;#box&amp;#34;).slideDown() }) })  JS Bin on jsbin.</description>
+    </item>
+    
+    <item>
+      <title>.slideToggle()</title>
+      <link>/06-dom-and-jquery/jquery-effects/slide-toggle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-effects/slide-toggle/</guid>
+      <description>.slideToggle() Method  Method that toggles between the slideUp() and slideDown() methods  Example $(() =&amp;gt; { $(&amp;#34;button&amp;#34;).click(() =&amp;gt; { // slide toggle #box element  $(&amp;#34;#box&amp;#34;).slideToggle() }) })  JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>.fadeIn() &amp; .fadeOut()</title>
+      <link>/06-dom-and-jquery/jquery-effects/fade-in-fade-out/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-effects/fade-in-fade-out/</guid>
+      <description>.fadeIn() &amp;amp; .fadeOut() Methods  Methods used to display or hide the HTML elements by gradually increasing or decreasing their opacity  .fadeIn() Example $(() =&amp;gt; { $(&amp;#34;button&amp;#34;).click(() =&amp;gt; { // fade in #box element; duration 1 sec  $(&amp;#34;#box&amp;#34;).fadeIn(1000) }) })  JS Bin on jsbin.com
+.fadeOut() Example $(() =&amp;gt; { $(&amp;#34;button&amp;#34;).click(() =&amp;gt; { // fade out #box element; duration 3 sec  $(&amp;#34;#box&amp;#34;).fadeOut(3000) }) })  JS Bin on jsbin.</description>
+    </item>
+    
+    <item>
+      <title>Other Effects</title>
+      <link>/06-dom-and-jquery/jquery-effects/other-effects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-effects/other-effects/</guid>
+      <description>Other Effects There are many other effects available, click here to see a complete list of jQuery Effects</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Node &amp; Git Installation on JavaScript</title>
+    <link>/class-resources/node-git-installation/</link>
+    <description>Recent content in Node &amp; Git Installation on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/class-resources/node-git-installation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mac OS X Installation Instructions</title>
+      <link>/class-resources/node-git-installation/mac-os-x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/class-resources/node-git-installation/mac-os-x/</guid>
+      <description>Mac OS X Installation Instructions 1) Open your terminal application  Open your terminal (Applications &amp;gt; Utilities &amp;gt; Terminal)
+ All of the following commands (below) that start with $ should be copied and pasted in your terminal / command prompt (also referred to as the &amp;ldquo;command line&amp;rdquo;)
+ DO NOT include the &amp;lsquo;$&amp;rsquo; when copying and pasting the commands below; &amp;lsquo;$&amp;rsquo; is a universal symbol for the terminal / command line</description>
+    </item>
+    
+    <item>
+      <title>Windows Installation Instructions</title>
+      <link>/class-resources/node-git-installation/windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/class-resources/node-git-installation/windows/</guid>
+      <description>Windows Installation Instructions 1) Open the Command Prompt application  All of the following commands (below) that start with $ should be copied and pasted in your terminal / command prompt (also referred to as the &amp;ldquo;command line&amp;rdquo;)
+ DO NOT include the &amp;lsquo;$&amp;rsquo; when copying and pasting the commands below; &amp;lsquo;$&amp;rsquo; is a universal symbol for the terminal / command line
+ Press the enter / return key on your keyboard after pasting the command</description>
+    </item>
+    
+    <item>
+      <title>Linux Installation Instructions</title>
+      <link>/class-resources/node-git-installation/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/class-resources/node-git-installation/linux/</guid>
+      <description>Linux Installation Instructions 1) Find and Open your Terminal / Command Prompt application  All of the following commands (below) that start with $ should be copied and pasted in your terminal / command prompt (also referred to as the &amp;ldquo;command line&amp;rdquo;)
+ DO NOT include the &amp;lsquo;$&amp;rsquo; when copying and pasting the commands below; &amp;lsquo;$&amp;rsquo; is a universal symbol for the terminal / command line
+ Press the enter / return key on your keyboard after pasting the command</description>
+    </item>
+    
+  </channel>
+</rss>

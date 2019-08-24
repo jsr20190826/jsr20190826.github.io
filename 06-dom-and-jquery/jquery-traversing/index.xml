@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jQuery Traversing on JavaScript</title>
+    <link>/06-dom-and-jquery/jquery-traversing/</link>
+    <description>Recent content in jQuery Traversing on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/06-dom-and-jquery/jquery-traversing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ancestors</title>
+      <link>/06-dom-and-jquery/jquery-traversing/ancestors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-traversing/ancestors/</guid>
+      <description>ancestor Methods  Methods used to get the ancestors of the selected element  .parent()  Method is used to get the direct parent of the selected element  Example $(() =&amp;gt; { $(&amp;#39;button&amp;#39;).click(() =&amp;gt; { $(&amp;#39;.box&amp;#39;).parent().toggleClass(&amp;#39;backgroundEffect&amp;#39;) }) })  JS Bin on jsbin.com
+.parents()  Method is used to get the ancestors of the selected element  Example $(() =&amp;gt; { $(&amp;#39;button&amp;#39;).click(() =&amp;gt; { // this will apply the class to &amp;#34;all&amp;#34; ancestors  $(&amp;#39;.</description>
+    </item>
+    
+    <item>
+      <title>descendants</title>
+      <link>/06-dom-and-jquery/jquery-traversing/descendants/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-traversing/descendants/</guid>
+      <description>descendant Methods .children()  Method is used to get the direct children of the selected element  Example $(() =&amp;gt; { $(&amp;#34;button&amp;#34;).click(() =&amp;gt; { // this will add a border bottom  // to all the children of the div element (the &amp;lt;p&amp;gt; elements)  $(&amp;#39;div&amp;#39;).children().css(&amp;#34;border-bottom&amp;#34;, &amp;#34;3px double red&amp;#34;) }) })  JS Bin on jsbin.com
+.find()  Method is used to get the descendant elements of the selected element</description>
+    </item>
+    
+    <item>
+      <title>Other Traversal Methods</title>
+      <link>/06-dom-and-jquery/jquery-traversing/other-traversal-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-traversing/other-traversal-methods/</guid>
+      <description>Other Traversal Methods There are many other traversal methods available click here to see a complete list</description>
+    </item>
+    
+  </channel>
+</rss>

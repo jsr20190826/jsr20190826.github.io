@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jQuery Overview on JavaScript</title>
+    <link>/06-dom-and-jquery/jquery-overview/</link>
+    <description>Recent content in jQuery Overview on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/06-dom-and-jquery/jquery-overview/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What is jQuery?</title>
+      <link>/06-dom-and-jquery/jquery-overview/what-is-jquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-overview/what-is-jquery/</guid>
+      <description>What is jQuery?  A JavaScript library that makes it easy to dynamically update your pages (i.e. perform DOM manipulation)
+ Offers a simple way to achieve a variety of common JavaScript tasks
+ Consistent across all browsers
+ Does not do anything native / vanilla JavaScript cannot do, just does it with a more intuitive syntax
+  It&amp;rsquo;s important to note that jQuery is NOT another programming language it is a library or tool built on top of JavaScript</description>
+    </item>
+    
+    <item>
+      <title>Benefits of jQuery</title>
+      <link>/06-dom-and-jquery/jquery-overview/benefits-of-jquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-overview/benefits-of-jquery/</guid>
+      <description>Benefits of jQuery?  Uses CSS selectors to help us grab or select elements programmatically (i.e. in our code)
+ Accomplishes more with less code vs using native JavaScript
+  CSS selectors means less code Here&amp;rsquo;s how we would programmatically select an element with an id of &amp;ldquo;flavors&amp;rdquo; using native JavaScript
+// selecting an element using native JavaScript document.getElementById(&amp;#39;flavors&amp;#39;).onClick = doSomething()  Here&amp;rsquo;s how we would programmatically select an element with an id of &amp;ldquo;flavors&amp;rdquo; using jQuery</description>
+    </item>
+    
+    <item>
+      <title>Document Ready Function</title>
+      <link>/06-dom-and-jquery/jquery-overview/document-ready/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-overview/document-ready/</guid>
+      <description>Document Ready Function  jQuery (and native JavaScript) must wait for a page to be loaded before it can try to dynamically update a page (i.e. Manipulate the page&amp;rsquo;s DOM)  We can also avoid this issue by adding the &amp;lt;script&amp;gt; tag (the tag we used to link our .js files to our .html files) at the bottom of your html pages right before the closing &amp;lt;\body&amp;gt; tag
+  jQuery provides a &amp;ldquo;document ready&amp;rdquo; function that will run once the DOM is fully loaded (i.</description>
+    </item>
+    
+    <item>
+      <title>jQuery Syntax</title>
+      <link>/06-dom-and-jquery/jquery-overview/jquery-syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-overview/jquery-syntax/</guid>
+      <description>$() function  jQuery uses a built-in function called jQuery() to allow developers to programmatically select elements on a html page
+ $() is shorthand for jQuery()
+ This shorthand syntax is used almost exclusively (because results in less typing) and that is what we will be using throughout the course   // programmatically &amp;#34;select&amp;#34; all p tags on the page using jQuery() syntax  jQuery(&amp;#39;p&amp;#39;)  is the same as:</description>
+    </item>
+    
+    <item>
+      <title>jQuery Selectors</title>
+      <link>/06-dom-and-jquery/jquery-overview/jquery-selectors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-overview/jquery-selectors/</guid>
+      <description>Selecting Elements  A most common usage pattern for jQuery is to:
+ Programmatically select (or grab) an element, then
+ Add an event listener to it or manipulate (change) it in some way
+  jQuery allows us to use css selectors to select elements:
+   // We can use css selectors to programmatically select elements $(&#39;p&#39;) // Type (Tag) selector $(&#39;.feature&#39;) // Class selector $(&#39;#checkout&#39;) // ID selector $(&#39;li strong&#39;) // Descendant selector $(&#39;em, i&#39;) // Multiple selector $(&#39;a[target=&amp;quot;_blank&amp;quot;]&#39;) // Attribute selector $(&#39;p:nth-child(2)&#39;) // Pseudo-class selector   ID, Class, Type and Descendant selectors are the selectors we&amp;rsquo;ll be using the most during this course  A complete list of CSS Selectors can be found here</description>
+    </item>
+    
+    <item>
+      <title>jQuery Objects</title>
+      <link>/06-dom-and-jquery/jquery-overview/jquery-objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-overview/jquery-objects/</guid>
+      <description>jQuery Objects  Whenever we use $() or jQuery() to target an element, a jQuery object is created
+ For example $(&#39;p&#39;) creates a jQuery object that targets all &amp;lt;p&amp;gt; elements on a page  jQuery objects can be stored in variables in the same way we are already familiar with
+ It is a best practice to prepend a $ to the name of any variable that holds a jQuery Object:   // store jQuery object into a variable named &amp;#34;$mainMenu&amp;#34;  $mainMenu = $(&amp;#39;#main-menu&amp;#39;) // call a jQuery methods `.</description>
+    </item>
+    
+  </channel>
+</rss>

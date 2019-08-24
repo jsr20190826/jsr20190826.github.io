@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homework Assignments on JavaScript</title>
+    <link>/homework-assignments/</link>
+    <description>Recent content in Homework Assignments on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/homework-assignments/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HW Assignment #1</title>
+      <link>/homework-assignments/hw-assignment-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/homework-assignments/hw-assignment-01/</guid>
+      <description>Summary of this week&amp;rsquo;s homework assignment: Due Date: Thursday, August 15th
+1. Complete Homework #1 - JS Basics, Control Flow &amp;amp; Loops  You are tasked with completing the problem set which is hosted on Github, see the url below:
+ Github Repo for Homework #1 - JS Basics, Control Flow &amp;amp; Loops  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  2.</description>
+    </item>
+    
+    <item>
+      <title>HW Assignment #2</title>
+      <link>/homework-assignments/hw-assignment-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/homework-assignments/hw-assignment-02/</guid>
+      <description> Summary of this week&amp;rsquo;s homework assignment: Due Date: Thursday, August 22nd
+Complete Homework #2 - Functions and Iterators  You are tasked with completing the problem set which is hosted on Github, see the url below:
+ Github Repo for Homework #2 - Functions &amp;amp; Iterators  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+    <item>
+      <title>HW Assignment #3</title>
+      <link>/homework-assignments/hw-assignment-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/homework-assignments/hw-assignment-03/</guid>
+      <description> Summary of this week&amp;rsquo;s homework assignment: Due Date: Friday, August 30th
+Complete Homework #3 - Rock, Paper, Scissors Application  You are tasked with finishing the partially built Rock, Paper, Scissors application. The code is hosted on Github, see the url below:
+ Github Repo for Homework #3 - Rock, Paper, Scissors Application  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+  </channel>
+</rss>

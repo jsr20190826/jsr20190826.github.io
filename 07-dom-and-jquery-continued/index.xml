@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DOM &amp; jQuery, Continued on JavaScript</title>
+    <link>/07-dom-and-jquery-continued/</link>
+    <description>Recent content in DOM &amp; jQuery, Continued on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/07-dom-and-jquery-continued/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>$(this)</title>
+      <link>/07-dom-and-jquery-continued/jquery-this/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-dom-and-jquery-continued/jquery-this/</guid>
+      <description>$(this)  this one of the most misunderstood concepts in JavaScript
+ this (native JavaScript) refers to the owner of a function
+ $(this) (jquery) gives you reference to uses jQuery to select the current element
+  We&amp;rsquo;ll cover the this (native JavaScript) in later in the course
+ Example $(() =&amp;gt; { $(&amp;#34;#box&amp;#34;).click(function() { // use $(this) with with regular function syntax  // to reference the element that is being &amp;#34;acted on&amp;#34;  $(this).</description>
+    </item>
+    
+    <item>
+      <title>event.currentTarget</title>
+      <link>/07-dom-and-jquery-continued/event-current-target/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-dom-and-jquery-continued/event-current-target/</guid>
+      <description>event.currentTarget  JavaScript property (not specific to jQuery) that identifies the current target for the event
+ It always refers to the element to which the event handler has been attached, as opposed
+ Similar to $(this), with the added benefit that it works with arrow functions
+ When using event.currentTarget in the context of jQuery, it should be wrapped in a jQuery object: $(event.currentTarget)
+  Example $(() =&amp;gt; { $(&amp;#34;#box&amp;#34;).</description>
+    </item>
+    
+    <item>
+      <title>Code Along: Color Scheme Switcher</title>
+      <link>/07-dom-and-jquery-continued/code-along-color-scheme-switcher-jquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-dom-and-jquery-continued/code-along-color-scheme-switcher-jquery/</guid>
+      <description> Code Along: Color Scheme Switcher  The starter code for this code along is hosted on Github, see the url below:
+ Code Along: Color Scheme Switcher  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+    <item>
+      <title>Code Along: Traffic Light</title>
+      <link>/07-dom-and-jquery-continued/code-along-traffic-light/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-dom-and-jquery-continued/code-along-traffic-light/</guid>
+      <description> Code Along: Traffic Light  The starter code for this code along is hosted on Github, see the url below:
+ Code Along: Traffic Light  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+    <item>
+      <title>Code Along: Score Keeper</title>
+      <link>/07-dom-and-jquery-continued/code-along-score-keeper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-dom-and-jquery-continued/code-along-score-keeper/</guid>
+      <description> Code Along: Score Keeper  The starter code for this code along is hosted on Github, see the url below:
+ Code Along: Score Keeper  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+    <item>
+      <title>Code Along: HiLo</title>
+      <link>/07-dom-and-jquery-continued/code-along-hilo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-dom-and-jquery-continued/code-along-hilo/</guid>
+      <description> Code Along: HiLo  The starter code for this code along is hosted on Github, see the url below:
+ Code Along: HiLo  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+    <item>
+      <title>Lab: CitiPix</title>
+      <link>/07-dom-and-jquery-continued/lab-citipix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-dom-and-jquery-continued/lab-citipix/</guid>
+      <description> Lab: CitiPix  The starter code for this lab is hosted on Github, see the url below:
+ Lab: CitiPix  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+  </channel>
+</rss>

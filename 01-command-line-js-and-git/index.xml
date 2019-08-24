@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Command Line JS &amp; Git on JavaScript</title>
+    <link>/01-command-line-js-and-git/</link>
+    <description>Recent content in Command Line JS &amp; Git on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/01-command-line-js-and-git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Objectives</title>
+      <link>/01-command-line-js-and-git/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/objectives/</guid>
+      <description> Use the most common commands to navigate and modify files / directories via the command line
+ Learn the basics of working with a Git project
+ Gain familiarity with the most common git commands
+ Learn how GitHub is used for developer collaboration
+ Run basic JavaScript script on the command line using Node
+  </description>
+    </item>
+    
+    <item>
+      <title>Intro the the Command Line</title>
+      <link>/01-command-line-js-and-git/intro-to-the-command-line/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/intro-to-the-command-line/</guid>
+      <description>Introduction to the Command Line  The command line is the heart of your operating system
+ Almost anything you can do from a GUI (Graphical User Interface), you can also do from the command line, but FASTER!
+ We&amp;rsquo;ll learn how to navigate computer files and folders using the terminal; this will help us when we start working with git and GitHub
+  Command Line Basics Here are some important UNIX commands to know as you&amp;rsquo;re working on the terminal.</description>
+    </item>
+    
+    <item>
+      <title>Code Along: Command Line Intro</title>
+      <link>/01-command-line-js-and-git/code-along-command-line-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/code-along-command-line-intro/</guid>
+      <description>Code Along: Command Line Intro For Macs: * Open the &amp;ldquo;Terminal&amp;rdquo; app (Applications &amp;gt; Utilities &amp;gt; Terminal) * Optionally, download and install iTerm 2, which is a replacement for the terminal app that is more configurable.
+For Windows: * Open the &amp;ldquo;Command Prompt&amp;rdquo; application. * For a better experience, try Console.
+Get familiar with the basic commands on the terminal!
+When copying the following code snippets, DO NOT include the $ this is a universal symbol to indicate that the anything following the &amp;lsquo;$&amp;rsquo; should be entered into the command line</description>
+    </item>
+    
+    <item>
+      <title>Git Overview</title>
+      <link>/01-command-line-js-and-git/git-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/git-overview/</guid>
+      <description>Version Control System (VCS)  Tracks the history of changes as people and teams collaborate on projects together (think &amp;ldquo;track changes feature available for MS Word or Google Docs&amp;rdquo;)
+ Developers can review project history to find out:
+ Which changes were made?
+ Who made the changes?
+ When were the changes made?
+ Why were changes needed?
+   What is Git?  Git is VCS that is distributed - meaning developers don&amp;rsquo;t need a constant connection to be able to collaborate with other developers (unlike other VCSs)</description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>/01-command-line-js-and-git/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/github/</guid>
+      <description>What is Github?  Web-based Git repository hosting service
+ Built on top of git
+ Serves as the remote repository for a developer&amp;rsquo;s git projects
+ Home to +90% of all open source projects
+ Has become a &amp;ldquo;social network&amp;rdquo; for developers share, discuss and collaborate on software projects
+ Many companies also use GitHub internally to privately collaborate on software projects with the other software engineers within their organization</description>
+    </item>
+    
+    <item>
+      <title>Git Vocabulary</title>
+      <link>/01-command-line-js-and-git/git-vocabulary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/git-vocabulary/</guid>
+      <description>Git Vocabulary Repository  Most basic element of GitHub
+ A repository can be referred to as a project
+ contains all of a project&amp;rsquo;s files
+ Stores each file&amp;rsquo;s revision history
+ Repositories can have multiple collaborators and can be either public or private.
+  Commit  A &amp;ldquo;revision&amp;rdquo;, is an individual change to a file (or set of files)
+ Git&amp;rsquo;s version of saving
+ Commits save a &amp;ldquo;snapshot&amp;rdquo; of all of the project&amp;rsquo;s files at that point in time</description>
+    </item>
+    
+    <item>
+      <title>Git Basics</title>
+      <link>/01-command-line-js-and-git/git-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/git-basics/</guid>
+      <description>Git Basics  Before we can understand how git saves files, we need to cover some concepts about how git works  Three States of a Git file  Git has three main states that your files can reside in: committed, modified, and staged
+ committed: files that have been saved / recorded to the repository&amp;rsquo;s history
+ staged: files that have been modified
+ modified: files that has been modified but have not yet been staged and committed to project&amp;rsquo;s history</description>
+    </item>
+    
+    <item>
+      <title>Code Along: Basic Git Workflow</title>
+      <link>/01-command-line-js-and-git/code-along-basic-git-workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/code-along-basic-git-workflow/</guid>
+      <description>Code Along: Basic Git Workflow  There&amp;rsquo;s a learning curve when working with Git
+ The best way to learn how Git works is to see it in action
+ Along the way, we&amp;rsquo;re going introduce important concepts and Git Commands
+ This tutorial is meant to be interactive, so please follow along
+ The tutorial will involve heavy use of the command line
+  Step 0: Navigate to your class folder on your command line  From your command line, navigate to your class folder (i.</description>
+    </item>
+    
+    <item>
+      <title>Code Along: Git Branching &amp; Merging</title>
+      <link>/01-command-line-js-and-git/code-along-git-branching-merging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/code-along-git-branching-merging/</guid>
+      <description>Code Along: Git Branching &amp;amp; Merging Step 0: Navigate to your class folder on your command line  From your command line, navigate to your class folder (i.e. the folder named jsd)  Step 1: Set up your project directory  Navigate into the lesson_01_files directory (this assumes you are currently in your jsd directory)
+$ cd lesson_01_files  Create a new directory named nursery_rhymes
+$ mkdir nursery_rhymes  Navigate into the nursery_rhymes directory using the cd command</description>
+    </item>
+    
+  </channel>
+</rss>

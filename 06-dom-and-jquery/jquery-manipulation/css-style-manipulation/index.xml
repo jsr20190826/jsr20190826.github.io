@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS &amp; Style Manipulation on JavaScript</title>
+    <link>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/</link>
+    <description>Recent content in CSS &amp; Style Manipulation on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.css()</title>
+      <link>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/css/</guid>
+      <description>.css() Method  Method that provides a quick way to apply the styles directly to the HTML elements (i.e. inline styles) that haven&amp;rsquo;t been or can&amp;rsquo;t easily be defined in a stylesheet  Example of Getting (Reading) a css property from an element  To Get (Read) css properties of an element use css(cssPropertyName) with nothing inside the parentheses  $(() =&amp;gt; { $(&amp;#34;#readBorderProperties&amp;#34;).click(() =&amp;gt; { // read &amp;#34;border&amp;#34; css properties of box  const $borderProperties = $(&amp;#34;.</description>
+    </item>
+    
+    <item>
+      <title>.addClass()</title>
+      <link>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/add-class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/add-class/</guid>
+      <description>.addClass() Method  Method adds one or more classes to the selected elements  Example $(() =&amp;gt; { $(&amp;#34;#addBorderClass&amp;#34;).click(() =&amp;gt; { // add .strongBorder to box  $(&amp;#34;.box&amp;#34;).addClass(&amp;#34;strongBorder&amp;#34;) }) })  JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>.removeClass()</title>
+      <link>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/remove-class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/remove-class/</guid>
+      <description>.removeClass() Method  Method removes one or more classes from selected elements  Example $(() =&amp;gt; { $(&amp;#34;#removeBorderClass&amp;#34;).click(() =&amp;gt; { // remove .strongBorder to box  $(&amp;#34;.box&amp;#34;).removeClass(&amp;#34;strongBorder&amp;#34;) }) })  JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>.toggleClass()</title>
+      <link>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/toggle-class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/toggle-class/</guid>
+      <description>.toggleClass() Method  Method toggles one or more classes to / from selected elements  Example $(() =&amp;gt; { $(&amp;#34;#toggleBorderClass&amp;#34;).click(() =&amp;gt; { // toggle .strongBorder on box  $(&amp;#34;.box&amp;#34;).toggleClass(&amp;#34;strongBorder&amp;#34;) }) })  JS Bin on jsbin.com</description>
+    </item>
+    
+  </channel>
+</rss>

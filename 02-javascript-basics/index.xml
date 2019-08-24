@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript Basics on JavaScript</title>
+    <link>/02-javascript-basics/</link>
+    <description>Recent content in JavaScript Basics on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/02-javascript-basics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Objectives</title>
+      <link>/02-javascript-basics/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/objectives/</guid>
+      <description>After this lesson, students will be able to:
+ Describe the concept of a &amp;ldquo;data type&amp;rdquo; and how it relates to variables
+ Declare, assign to, and manipulate data stored in a variable
+ Create arrays and access values in them
+ Understand the difference between comparison operators
+ Distinguish between the different types of logical operators
+ Run simple JavaScript programs from the command line using Node
+  </description>
+    </item>
+    
+    <item>
+      <title>Arithmetic Operators</title>
+      <link>/02-javascript-basics/arithmetic-operators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/arithmetic-operators/</guid>
+      <description>Arithmetic Operators  Mathematical symbol that can act on two values (or variables) and produce a result
+ JavaScript adheres to the PEDMAS approach when determining the order of operations
+     Description Operator Example     Addition + 7 + 8   Subtraction - 34 - 12   Multiplication * 3 * 5   Division / 42 / 6   Modulus (Remainder) % 13 % 6 (returns 1, as 6 goes into 13 twice, leaving 1 as the remainder )   Exponential ** 4 ** 2 (returns 16 or 4 * 4)   Increment ++ 9++ (returns 10)   Decrement -- 37-- (returns 36)    Examples JS Bin on jsbin.</description>
+    </item>
+    
+    <item>
+      <title>Comparison Operators</title>
+      <link>/02-javascript-basics/comparison-operators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/comparison-operators/</guid>
+      <description>Comparison Operators  Compares operands (the things on either side of the operator) and returns true or false (boolean) based one the comparison     Operator Description Example (all return true)     Equal (==) Returns true if the operands are equal 3 == &amp;ldquo;3&amp;rdquo; (uhmm yes this is actually true)   Not equal (!=) Returns true if the operands are not equal. (4 + 1) !</description>
+    </item>
+    
+    <item>
+      <title>Logical Operators</title>
+      <link>/02-javascript-basics/logical-operators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/logical-operators/</guid>
+      <description>Logical Operators  Evaluates between two conditions/expressions and returns true or false
+ with &amp;amp;&amp;amp; (Logical And) operators, both conditions have to be true in order for the whole expression to be true
+ with || (Logical Or) operators, any of the condition must be true for entire expression to be true; but if all conditions are false then the entire expression is false
+     Operator Description Example (all return true)     Logical AND (&amp;amp;&amp;amp;) expr1 &amp;amp;&amp;amp; expr2 (3 &amp;gt; 1) &amp;amp;&amp;amp; &amp;ldquo;cat&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/02-javascript-basics/truthy-falsey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/truthy-falsey/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

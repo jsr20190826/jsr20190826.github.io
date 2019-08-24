@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Control Flow and Loops on JavaScript</title>
+    <link>/03-control-flow-and-loops/</link>
+    <description>Recent content in Control Flow and Loops on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/03-control-flow-and-loops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Objectives</title>
+      <link>/03-control-flow-and-loops/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-control-flow-and-loops/objectives/</guid>
+      <description>After this lesson, students will be able to:
+ Use if/else conditionals to control program flow based on Boolean (true or false) tests
+ Use switch/case conditionals to control program flow based on matching explicit values
+ Use while and do/while loops
+ Understand how loop iteration using for and forEach works
+  </description>
+    </item>
+    
+    <item>
+      <title>Switch Statement</title>
+      <link>/03-control-flow-and-loops/switch-statement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-control-flow-and-loops/switch-statement/</guid>
+      <description>Switch Statement  Used an alternative to if..else if statements
+ Evaluates an expression, and matches that expression against each of the case clauses
+ if there&amp;rsquo;s a match, the statements associated with that case clause will be executed
+ The break keyword must be used to exit the Switch statement after a match is found
+  switch(expression) { case x: // execute code block when expression === x  break // &amp;lt;- break must be called to exit the switch statement after the match  case y: // execute code block when expression === y  break // &amp;lt;- break must be called to exit the switch statement after the match  default: // execute code block when expression === when none of the above cases match }  Example let food = &amp;#34;apple&amp;#34; switch(food) { case &amp;#39;pear&amp;#39;: console.</description>
+    </item>
+    
+    <item>
+      <title>Lab: JS Basics, Control Flow &amp; Loops</title>
+      <link>/03-control-flow-and-loops/lab-js-basics-control-flow-loops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-control-flow-and-loops/lab-js-basics-control-flow-loops/</guid>
+      <description>Lab: JavaScript Basics, Control Flow &amp;amp; Loops  You are tasked with completing the problem set which is hosted on Github, see the url below:
+ Github Repo for JS Basics, Control Flow &amp;amp; Loops Lab  Use the &amp;ldquo;Assignment Submission Git Workflow&amp;rdquo; (instructions) to access the lab files and submit your completed assignment
+  Tips  Be resourceful, leverage the class notes, google, MDN or any other means at your disposal to solve these problems (a core developer skill is being able to look things up and find the answers)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mouse Events on JavaScript</title>
+    <link>/06-dom-and-jquery/jquery-events/mouse-events/</link>
+    <description>Recent content in Mouse Events on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/06-dom-and-jquery/jquery-events/mouse-events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.click() Event</title>
+      <link>/06-dom-and-jquery/jquery-events/mouse-events/click/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-events/mouse-events/click/</guid>
+      <description>.click() Event  Attaches an event handler function to an element that is triggered when users click on the element with their mouse  Example $(() =&amp;gt; { // listen for .click() on #toggleBtn  $(&amp;#39;#toggleBtn&amp;#39;).click(() =&amp;gt; { $(&amp;#39;.box&amp;#39;).slideToggle() }) })  JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>.hover() Event</title>
+      <link>/06-dom-and-jquery/jquery-events/mouse-events/hover/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-events/mouse-events/hover/</guid>
+      <description>.hover() Event  Attaches an event handler function to an element that is triggered when users hover over the element with their mouse
+ with .hover() you can specify two handlers functions to the matched elements, where the first handler is executed when the mouse pointer enters initially hovers over the element and the 2nd handler is executed when the most is no longer hovered over the targeted elements</description>
+    </item>
+    
+  </channel>
+</rss>

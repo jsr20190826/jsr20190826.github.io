@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jQuery Events on JavaScript</title>
+    <link>/06-dom-and-jquery/jquery-events/</link>
+    <description>Recent content in jQuery Events on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/06-dom-and-jquery/jquery-events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Events Handlers</title>
+      <link>/06-dom-and-jquery/jquery-events/event-handlers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-events/event-handlers/</guid>
+      <description>Event Handlers  Event handlers are blocks of code (usually a user-defined JavaScript function) that will be run when an event fires
+ There are two parts to an event handler: an event listener and a callback function.
+ An event listener is a method that listens for a specified event to occur, like a click event
+ A callback function is a function that executes when something triggers the event listener</description>
+    </item>
+    
+    <item>
+      <title>Other Events</title>
+      <link>/06-dom-and-jquery/jquery-events/other-events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-events/other-events/</guid>
+      <description>Other Events There are many other events available, click here to see a complete list of jQuery Events</description>
+    </item>
+    
+  </channel>
+</rss>

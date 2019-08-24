@@ -1,0 +1,1289 @@
+[
+{
+	"uri": "/00-course-intro-and-tools/",
+	"title": "Course Introduction &amp; Tools",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 00 Class Introduction \u0026amp; Tools "
+},
+{
+	"uri": "/01-command-line-js-and-git/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Use the most common commands to navigate and modify files / directories via the command line\n Learn the basics of working with a Git project\n Gain familiarity with the most common git commands\n Learn how GitHub is used for developer collaboration\n Run basic JavaScript script on the command line using Node\n  "
+},
+{
+	"uri": "/02-javascript-basics/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": "After this lesson, students will be able to:\n Describe the concept of a \u0026ldquo;data type\u0026rdquo; and how it relates to variables\n Declare, assign to, and manipulate data stored in a variable\n Create arrays and access values in them\n Understand the difference between comparison operators\n Distinguish between the different types of logical operators\n Run simple JavaScript programs from the command line using Node\n  "
+},
+{
+	"uri": "/03-control-flow-and-loops/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": "After this lesson, students will be able to:\n Use if/else conditionals to control program flow based on Boolean (true or false) tests\n Use switch/case conditionals to control program flow based on matching explicit values\n Use while and do/while loops\n Understand how loop iteration using for and forEach works\n  "
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-overview/what-is-jquery/",
+	"title": "What is jQuery?",
+	"tags": [],
+	"description": "",
+	"content": " What is jQuery?  A JavaScript library that makes it easy to dynamically update your pages (i.e. perform DOM manipulation)\n Offers a simple way to achieve a variety of common JavaScript tasks\n Consistent across all browsers\n Does not do anything native / vanilla JavaScript cannot do, just does it with a more intuitive syntax\n  It\u0026rsquo;s important to note that jQuery is NOT another programming language it is a library or tool built on top of JavaScript\n "
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-overview/add-jquery/via-download/",
+	"title": "Add jQuery via Download",
+	"tags": [],
+	"description": "",
+	"content": " Add jQuery via Download This approach assumes you downloaded the jQuery file and stored it on your js folder\n\u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;title\u0026gt;Add jQuery by downloading jQuery file(s)\u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;script src=\u0026quot;js/jquery-3.4.1.js\u0026quot;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;script src=\u0026quot;js/app.js\u0026quot;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt;  "
+},
+{
+	"uri": "/01-command-line-js-and-git/",
+	"title": "Command Line JS &amp; Git",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 01 Command Line JavaScript \u0026amp; Git "
+},
+{
+	"uri": "/05-arrays-objects/objects/creating-objects/",
+	"title": "Creating Objects",
+	"tags": [],
+	"description": "",
+	"content": " Creating Objects  Data in an object is organized into key-value pairs\n A key is like a variable name that points to a location in memory that holds a value\n keys are strings, but when we have a key that does not have any special characters in it, JavaScript allows us to omit the quotation marks:\nlet superHero = { \u0026#39;secret identity\u0026#39;: \u0026#39;Peter Parker\u0026#39;, name: \u0026#39;Spiderman\u0026#39;, powers: [\u0026#39;super strength\u0026#39;, \u0026#39;hyper awareness\u0026#39;, \u0026#39;agility\u0026#39;, \u0026#39;genius intellect\u0026#39;], age: 17 }  values can be of any data type\n  "
+},
+{
+	"uri": "/06-dom-and-jquery/dom-intro/",
+	"title": "Document Object Model",
+	"tags": [],
+	"description": "",
+	"content": " Document Object Model (DOM)  Browsers view our webpages as documents\n Programming interface for HTML documents\n The DOM allows us to use a programming language (JavaScript) to make dynamic changes to our web pages  Using JavaScript to dynamically change our web pages is also referred to as manipulating the DOM\n  Example: Visual representation of the DOM\nIn the image above, we have a html document on the left and a visual representation of this page\u0026rsquo;s DOM on the right\nClick here for a good overview of the DOM\n "
+},
+{
+	"uri": "/class-resources/documentation/",
+	"title": "Documentation",
+	"tags": [],
+	"description": "",
+	"content": "  Referencing documentation is a core task for developers.\n Documentation communicates how something (in our case programming languages, software libraries) works.\n Good documentation reduces implementation time and increases predictability of our software programs.\n  We will be referring to the following list of the documentation resources frequently throughout the course:\nHTML MDN\u0026rsquo;s HTML Reference\nCSS MDN\u0026rsquo;s CSS Reference\nJavaScript MDN\u0026rsquo;s JavaScript Reference\njQuery jQuery Documentation\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-events/event-handlers/",
+	"title": "Events Handlers",
+	"tags": [],
+	"description": "",
+	"content": " Event Handlers  Event handlers are blocks of code (usually a user-defined JavaScript function) that will be run when an event fires\n There are two parts to an event handler: an event listener and a callback function.\n An event listener is a method that listens for a specified event to occur, like a click event\n A callback function is a function that executes when something triggers the event listener\n  Both the event listener and callback function make up an event handler\n  Example $(() =\u0026gt; { $(\u0026#39;button\u0026#39;).click(() =\u0026gt; { $(\u0026#39;.box\u0026#39;).hide() }) })  JS Bin on jsbin.com\n Here\u0026rsquo;s a summary of what is happening in the code above:\n $('.box') selects all HTML elements with a class of .box\n The .click() method is the event listener; it checks if the user has clicked an .box HTML element\n The second argument to .on() is a callback function; when a \u0026lsquo;click\u0026rsquo; occurs on an .box element, this function executes\n   "
+},
+{
+	"uri": "/04-functions-and-scope/function-overview/",
+	"title": "Function Overview",
+	"tags": [],
+	"description": "",
+	"content": " What are Functions?  Functions are the main “building blocks” of the program; they allow the code to be called many times without repetition\n One of the main advantages of functions is code reuse\n You can control when functions are executed, for example - you can write functions that only get executed (or called) when a user clicks a specific button\n  // a simple function that greets you with a \u0026#39;Good Morning\u0026#39; alert  // 1) Declare a function named greeting  function greeting(){ console(\u0026#39;Good Morning\u0026#39;) } // 2) Call (or run) the function  greeting()  "
+},
+{
+	"uri": "/04-functions-and-scope/scope/global-scope/",
+	"title": "Global Scope",
+	"tags": [],
+	"description": "",
+	"content": " Global Scope  Variables defined outside of a function are in in the Global Scope  Example // Global function because it was declared outside of a function let name = \u0026#39;Simone Biles\u0026#39; console.log(name) function bestGymnastEver() { // \u0026#39;name\u0026#39; variable is accessible here and everywhere else because it is global  console.log(name) } logName() // logs \u0026#39;Simone Biles\u0026#39;  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/02-javascript-basics/data-types/strings/",
+	"title": "Strings",
+	"tags": [],
+	"description": "",
+	"content": " Strings  Strings can consist of letters and other characters\n They are surrounded by either double quotes or single quotes (this is how you recognize you are working with a string)\n Concatenation allows you to combine strings\n  // declare a variable called color and store a string  let color = \u0026#34;green\u0026#34;  Single or double quotes can be used for strings, but the opening quote must match the closing quote\n String Methods  JavaScript has some built-in methods that allow developers to work with strings\n For example: if you wanted to know how many characters were in a string, you would use the .length method\n Here are some example of other methods you can use on strings\n  JS Bin on jsbin.com\nString Template Literals  Template literals were introduced with ES6 (the newest version of JavaScript)\n Template literals provides are much cleaner syntax for mixing variables with strings\n Template literals are enclosed by the back-tick (` `) character instead of double or single quotes\n Template literals can contain placeholders. These are indicated by the dollar sign and curly braces (${expression})\n  let name = \u0026#34;Tristan\u0026#34; console.log(`Hello ${name}`)  JS Bin on jsbin.com\nClick here for complete list of all the String methods\n "
+},
+{
+	"uri": "/02-javascript-basics/variables/what-are-variables/",
+	"title": "What are Variables?",
+	"tags": [],
+	"description": "",
+	"content": " What are variables?  Allows us to store values and so our programs can keep track of Data\n Similar to algebra\n Helps you represent data or values\n Used to help your program “remember” values\n Can be thought of as a “box” that we put values in\n In programming, you store values in variables if you plan on referencing that value at a later time\n  "
+},
+{
+	"uri": "/class-resources/git-commands/",
+	"title": "Git Commands",
+	"tags": [],
+	"description": "",
+	"content": " The following is a summary of the most commonly used git commands\nCreate Repositories Start a new repository or obtain one from an existing URL\n   Command Description     git init Creates a new local repository in the current directory   git init [project-name] Creates a new local repository with the specified name   git clone [url] Downloads a project and its entire version history    Making Changes    Command Description     git status Lists all new or modified files to be committed   git add [file] Snapshots the file in preparation for versioning   git commit -m \u0026quot;[descriptive message]\u0026quot; Records file snapshots permanently in version history   git diff Shows file differences not yet staged   git diff --staged Shows file differences between staging and the last file version   git reset [file] Unstages the file, but preserve its contents    Working with Branches    Command Description     git branch Lists all local branches in the current repository   git branch [branch-name] Creates a new branch   git checkout [branch-name] Switches to the specified branch and updates the working directory   git merge [branch] Combines the specified branch’s history into the current branch   git branch -d [branch-name] Deletes the specified branch    Review History    Command Description     git log Lists version history for the current branch   git log --follow [file] Lists version history for a file, including renames   git show [commit] Outputs metadata and content changes of the specified commit   git diff [first-branch]...[second-branch] Shows content differences between two branches    Synchronize Changes    Command Description     git fetch [bookmark] Downloads all history from the repository bookmark   git merge [bookmark]/[branch] Combines bookmark’s branch into current local branch   git push [alias] [branch] Uploads all local branch commits to GitHub   git pull Downloads bookmark history and incorporates changes    "
+},
+{
+	"uri": "/01-command-line-js-and-git/intro-to-the-command-line/",
+	"title": "Intro the the Command Line",
+	"tags": [],
+	"description": "",
+	"content": " Introduction to the Command Line  The command line is the heart of your operating system\n Almost anything you can do from a GUI (Graphical User Interface), you can also do from the command line, but FASTER!\n We\u0026rsquo;ll learn how to navigate computer files and folders using the terminal; this will help us when we start working with git and GitHub\n  Command Line Basics Here are some important UNIX commands to know as you\u0026rsquo;re working on the terminal.\n   Command Description Command Description     ls List the contents of the directory atom Open atom   cd Change directories pwd Print working directory   mkdir Make directory say Make your computer talk   rmdir Remove empty directories open Open a particular file in their default application   rm Remove files or directories ./ The current folder   touch Create an empty file ../ One folder above your current working directory   echo Return a string ~/ The home folder    "
+},
+{
+	"uri": "/01-command-line-js-and-git/code-along-command-line-intro/",
+	"title": "Code Along: Command Line Intro",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: Command Line Intro For Macs: * Open the \u0026ldquo;Terminal\u0026rdquo; app (Applications \u0026gt; Utilities \u0026gt; Terminal) * Optionally, download and install iTerm 2, which is a replacement for the terminal app that is more configurable.\nFor Windows: * Open the \u0026ldquo;Command Prompt\u0026rdquo; application. * For a better experience, try Console.\nGet familiar with the basic commands on the terminal!\nWhen copying the following code snippets, DO NOT include the $ this is a universal symbol to indicate that the anything following the \u0026lsquo;$\u0026rsquo; should be entered into the command line\n Step 0: Navigate to your class folder on your command line  From your command line, navigate to your class folder (i.e. the folder named jsd)\n Navigate to your jsd from your Root Directory. cd ~ and then cd Documents/jsd (assuming your class folder is named \u0026lsquo;jsd\u0026rsquo; and located in your Documents folder)\n  Step 1: Make a new directory and \u0026ldquo;change\u0026rdquo; into it  Create a directory named command_line_tutorial\n$ mkdir command_line_tutorial  Change into this directory\n$ cd command_line_tutorial   Step 2: Create some files from the command line  Create a file named \u0026ldquo;index.html\u0026rdquo; using the touch command.\n$ touch index.html   Step 3: Open your your text editor from the command line $ atom .   Use subl if you are using sublime  Step 4: Create an empty folder and remove it  Create a folder named test_folder\n$ mkdir test_folder  Now remove it\n$ rmdir test_folder   Student Exercise - Part I : More Independent Practice Complete the following instructions below in the Terminal application.\n Create a folder in your jsd/lesson_01_files directory named my_site\n Once inside that folder, create three empty files:\n goals.html\n worries.html\n index.html\n  Open the my_site folder with in your text editor\n  In the respective files (goals.html and worries.html), write your top three goals and top three worries for this course.\n Paste the following contents into index.html:  \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;title\u0026gt;My Site \u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;a href=\u0026quot;goals.html\u0026quot;\u0026gt;\u0026lt;img src=\u0026quot;http://i.imgur.com/dosK05U.gif\u0026quot; /\u0026gt;\u0026lt;/a\u0026gt; \u0026lt;br\u0026gt; \u0026lt;a href=\u0026quot;worries.html\u0026quot;\u0026gt;\u0026lt;img src=\u0026quot;http://i.imgur.com/2s0HwpM.gif\u0026quot; /\u0026gt;\u0026lt;/a\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt;   Open index.html with your browser and make sure you see your goals and worries.  Student Exercise - Part II: More Independent Practice  Use your new knowledge of the command line to create a lesson folder for each of the remaining lessons in the course inside your jsd folder\n There are 20 lessons in the course and the lesson names should use the following format: lesson_02_files, lesson_03_files, etc\n The last class should be named lesson_19_files (we started counting at 00)\n  "
+},
+{
+	"uri": "/class-resources/git-workflow-submitting-assignments/",
+	"title": "Git Workflow for Submitting Assignments",
+	"tags": [],
+	"description": "",
+	"content": " Step 0: Fork the Assignment Repository  This step is only done once per project\n Every assignment will be accompanied by repository url on GitHub\n Click on the provided url and then fork the repository\n   Step 1: Clone the project down to your computer  This step is only done once per project\n While on the repository page of the forked repository, click on the \u0026ldquo;Clone or Download\u0026rdquo; button\n Copy the provided url (you may need to click on \u0026ldquo;Use HTTPS\u0026rdquo; if you don\u0026rsquo;t have SSH configured (ssh instructions)\n Use your command line to navigate to the desired directory / folder\n Then type the following command:\n$ git clone paste-url-to-remote-repository-on-github-here    Step 2: Work on Assignment in text editor, Commit and Push  This step is done as many times as needed\n Next step is to use your text editor to work on the assignment\n You should be using the best practice of committing as often as needed (this is especially important when working on larger assignments and projects)\n You should also periodically push your code to GitHub using git push so your local and remote repositories stay in sync\n Once you\u0026rsquo;ve completed the assignment the next step is to submit a Pull Request\n  Step 3: Submit your completed assignment using a Pull Request  This step is only done once per project\n Before proceeding, please ensure that your latest changes have pushed to GitHub\n Next submit a Pull Request by following the instructions in the video below:\n   "
+},
+{
+	"uri": "/class-resources/keyboard-shortcuts/",
+	"title": "Keyboard Shortcuts",
+	"tags": [],
+	"description": "",
+	"content": " General Window Management \u0026amp; Browser Shortcuts    Action Mac Windows     Open Chrome Developer Tools cmd+option + i F2 or ctrl + shift + i   Refresh page cmd + R ctrl + R   Switch between applications cmd + tab alt + tab   Switch between windows in the same application cmd + ~     Atom Shortcuts Files, Windows, Tabs Management    Command macOS Windows Linux Description     Open Settings Menu cmd+, ctrl+, ctrl+, Opens the Atom\u0026rsquo;s settings menu   Open File (Fuzzy) cmd+p or cmd+t ctrl+p or ctrl+t ctrl+p or ctrl+t Opens the Fuzzy Finder   Browse Open Files cmd+b ctrl+b ctrl+b Browse tabs within the window   Previous Tab alt+cmd+left ctrl+pageup ctrl+pageup Cycles left through open tabs (in the active pane)   Next Tab alt+cmd+right ctrl+pagedown ctrl+pagedown Cycles right through open tabs (in the active page)   Toggle Tree View cmd+\\ ctrl+\\ ctrl+\\ Toggles Atom\u0026rsquo;s file Tree View   Show Available Snippets alt+shift+s alt+shift+s alt+shift+s Shows the snippets available to Atom   Save cmd+s ctrl+s ctrl+s Saves the currently active file   Save As shift+cmd+s ctrl+shift+s ctrl+shift+s Saves the currently active file under a different name   Save All alt+cmd+s   Saves all changed files   Close Tab cmd+w ctrl+w ctrl+w Closes the currently active tab   Close Window shift+cmd+w ctrl+shift+w ctrl+shift+w Closes the currently active editor window   Split Window cmd+k up/down/left/right ctrl+k up/down/left/right ctrl+k up/down/left/right Split the currently active tab in one of the four directions   Focus Pane cmd+k cmd+up/down/left/right ctrl+k ctrl+up/down/left/right ctrl+k ctrl+up/down/left/right Move the focus to the pane in one of the four directions   Toggle full screen ctrl+cmd+f F11 F11 Toggle full screen window    Editing    Command macOS Windows Linux Description     Duplicate Lines shift+cmd+d ctrl+shift+d ctrl+shift+d Duplicates the line of the current cursor position and creates a new line under it with the same contents   Delete Line ctrl+shift+k ctrl+shift+k ctrl+shift+k Deletes the current line   Move Line Up ctrl+cmd+up ctrl+up ctrl+up Moves the contents of the current cursor position up one line. If there is a line above with content, the current lines content will swap with the one above it.   Move Line Down ctrl+cmd+down ctrl+down ctrl+down Moves the contents of the current cursor position down one line. If there is a line below with content, the line\u0026rsquo;s content will swap with the one below it.   Find/Replace cmd+f ctrl+f ctrl+f Opens up the Find/Replace panel   Find Next cmd+g F3 F3 Toggles forward through the results of the current buffer in the file while the Find/Replace panel is active   Find Previous shift+cmd+g shift+F3 shift+F3 Toggles backward through the results of the current buffer in the file while the Find/Replace panel is active   Find in Project shift+cmd+f ctrl+shift+f ctrl+shift+f Opens the Find in Project Panel   Go To Line ctrl+g ctrl+g ctrl+g Opens the Go To Line panel   Go To Matching Bracket ctrl+m ctrl+m ctrl+m The cursor goes to the matching top bracket that the cursor is ecapsulated in   Select Line cmd+l ctrl+l ctrl+l Selects the entire line the cursor\u0026rsquo;s current position is in   Toggle Comment cmd+/ ctrl+/ ctrl+/ Toggles the selected text into a comment of the current grammar   Column Selection ctrl+shift+up/down ctrl+alt+up/down shift+alt+up/down Allows to select multiple rows, where the same edit will be applied   Select Same Words cmd+d ctrl+d ctrl+d If you select a word, and then hit the key combo for this command, Atom will select the next same word for you. Then you can either type directly (which will replace the old words) or use left or right arrow to append things.   Undo Selection cmd+u ctrl+u ctrl+u This undoes the previous selection, like from Select Same Words.   Select All The Same Words At Once cmd+ctrl+g alt+f3 alt+f3 This shortcut is similar to cmd+d/ctrl+d but it selects all the matching words at once.    "
+},
+{
+	"uri": "/07-dom-and-jquery-continued/jquery-this/",
+	"title": "$(this)",
+	"tags": [],
+	"description": "",
+	"content": " $(this)  this one of the most misunderstood concepts in JavaScript\n this (native JavaScript) refers to the owner of a function\n $(this) (jquery) gives you reference to uses jQuery to select the current element\n  We\u0026rsquo;ll cover the this (native JavaScript) in later in the course\n Example $(() =\u0026gt; { $(\u0026#34;#box\u0026#34;).click(function() { // use $(this) with with regular function syntax  // to reference the element that is being \u0026#34;acted on\u0026#34;  $(this).fadeOut(1000) }) })  JS Bin on jsbin.com\nExample: Active Link using $(this)  The following is example of how a developer could go using javascript to implement an \u0026ldquo;active link\u0026rdquo; effect  $(function(){ // store reference to ALL li elements that are children of ul.nav  let $links = $(\u0026#39;ul.nav li\u0026#39;) // Add click event to each link  // using special jquery object $(this)  // to reference each element that was matched  $links.on(\u0026#39;click\u0026#39;, function(){ // Remove the active class from all links  $links.removeClass(\u0026#39;active\u0026#39;) // Add the active class to the link that was clicked  // which is refererenced by $(this)  $(this).addClass(\u0026#39;active\u0026#39;) }) })  JS Bin on jsbin.com\n$(this) can only be used with \u0026ldquo;regular functions\u0026rdquo;  $(this) can only be used in conjunction with regular function syntax and will not work with arrow functions\n This is due to the difference in the way regular functions (using function keyword) and arrow functions (=\u0026gt;) create a private scope (we\u0026rsquo;ll go deeper into this concept later in the course)\n  Example: Using $(this) with arrow functions  This will not work because of the way arrow functions create local scope  $(\u0026#34;#box\u0026#34;).click(() =\u0026gt; { // use $(this) with with an arrow function  // this will not work  $(this).fadeOut(1000) })  JS Bin on jsbin.com\nExercise: Fix the Todo List using $(this)  Fix the Todo List application below so clicking on a single item will only toggle the item that was selected and not toggle all of the items  $(function(){ // 1) Add a click event to each span element  $(\u0026#39;.todo li span\u0026#39;).click(function(){ // 2) Add toggleClass method to the span  // that is clicked so its class will toggle  // \u0026#34;.done\u0026#34; on and off  $(\u0026#39;.todo li span\u0026#39;).toggleClass(\u0026#34;done\u0026#34;) }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/append/",
+	"title": ".append()",
+	"tags": [],
+	"description": "",
+	"content": " .append() Method  Method used to insert content to the end of selected elements (as the last child)  Example $(() =\u0026gt; { $(\u0026#39;#appendParagraph\u0026#39;).click(() =\u0026gt; { // append a new paragraph to list of paragraphs  const newParagraph = \u0026#34;\u0026lt;p class=\u0026#39;four\u0026#39;\u0026gt;Four\u0026lt;/p\u0026gt;\u0026#34; $(\u0026#39;.numbers\u0026#39;).append(newParagraph) }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-events/form-events/change/",
+	"title": ".change() Event",
+	"tags": [],
+	"description": "",
+	"content": " .change() Event  Attaches an event handler function to the \u0026lt;input\u0026gt;, \u0026lt;textarea\u0026gt; and \u0026lt;select\u0026gt; elements that is executed when its value changes  Example  The following example will display an alert message when you select any option in dropdown select box  $(\u0026#39;select\u0026#39;).change((event) =\u0026gt; { const $selectedOption = $(event.currentTarget).find(\u0026#39;:selected\u0026#39;).val() alert(`You have selected ${$selectedOption}`) })  JS Bin on jsbin.com\nWe\u0026rsquo;ll discuss currentTarget and the .find() method later in the course\n "
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-events/mouse-events/click/",
+	"title": ".click() Event",
+	"tags": [],
+	"description": "",
+	"content": " .click() Event  Attaches an event handler function to an element that is triggered when users click on the element with their mouse  Example $(() =\u0026gt; { // listen for .click() on #toggleBtn  $(\u0026#39;#toggleBtn\u0026#39;).click(() =\u0026gt; { $(\u0026#39;.box\u0026#39;).slideToggle() }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/css/",
+	"title": ".css()",
+	"tags": [],
+	"description": "",
+	"content": " .css() Method  Method that provides a quick way to apply the styles directly to the HTML elements (i.e. inline styles) that haven\u0026rsquo;t been or can\u0026rsquo;t easily be defined in a stylesheet  Example of Getting (Reading) a css property from an element  To Get (Read) css properties of an element use css(cssPropertyName) with nothing inside the parentheses  $(() =\u0026gt; { $(\u0026#34;#readBorderProperties\u0026#34;).click(() =\u0026gt; { // read \u0026#34;border\u0026#34; css properties of box  const $borderProperties = $(\u0026#34;.box\u0026#34;).css(\u0026#34;border\u0026#34;) alert($borderProperties) }) })  JS Bin on jsbin.com\nExample of Setting (writing) css properties on an element  To Set (Write) text of an element use css({cssPropertyName: , cssPropertyValue }) with an object representing the new css properties inside the parentheses  $(() =\u0026gt; { $(\u0026#34;#setCssProperties\u0026#34;).click(() =\u0026gt; { // set new css properties on box  $(\u0026#34;.box\u0026#34;).css({ backgroundColor: \u0026#34;green\u0026#34;, border: \u0026#34;3px dashed black\u0026#34;, width: \u0026#34;200px\u0026#34; }) }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/05-arrays-objects/array-iterators/for-each/",
+	"title": ".forEach()",
+	"tags": [],
+	"description": "",
+	"content": " .forEach()  Method allows us to run a callback function for every element of the array\n The callback function for forEach provides the following:\n element - this current element from the array that is being evaluated\n index - this represents the current element\u0026rsquo;s index (or position in the array)\n   Example let chipmunks = [\u0026#34;alvin\u0026#34;, \u0026#34;simon\u0026#34;, \u0026#34;theodore\u0026#34;] chipmunks.forEach(function(element, index) { console.log(`${element}is at index ${index}`) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/05-arrays-objects/array-review/adding-removing-items/push/",
+	"title": ".push()",
+	"tags": [],
+	"description": "",
+	"content": " .push()  Appends the element to the end of the array  Example let fruits = [\u0026#34;Apple\u0026#34;, \u0026#34;Orange\u0026#34;] fruits.push(\u0026#34;Pear\u0026#34;) console.log( fruits ) // Apple, Orange, Pear   Note that our fruits array has been changed by push(); this means that the push() method is a mutating method  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-effects/show-hide/",
+	"title": ".show() &amp; .hide()",
+	"tags": [],
+	"description": "",
+	"content": " .show() \u0026amp; .hide() Methods .hide()  Method used to hide targeted elements  Example $(() =\u0026gt; { $(\u0026#34;button\u0026#34;).click(() =\u0026gt; { // hide #box element  $(\u0026#34;#box\u0026#34;).hide() }) })  JS Bin on jsbin.com\n.show() $(() =\u0026gt; { $(\u0026#34;button\u0026#34;).click(() =\u0026gt; { // show #box element  $(\u0026#34;#box\u0026#34;).show() }) })   Method used to show targeted elements that are currently hidden  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-manipulation/getting-setting-content/text/",
+	"title": ".text()",
+	"tags": [],
+	"description": "",
+	"content": " .text() Method  Method is either used to get (read) the combined text contents of the selected elements, including their descendants, or set (write) the text contents of the selected elements  Example of Getting (Reading) text  To Get (Read) text of an element use .text() with nothing inside the parentheses  $(() =\u0026gt; { $(\u0026#39;#readAll\u0026#39;).click(() =\u0026gt; { // read text from all p elements  const $allParagraphs = $(\u0026#34;p\u0026#34;).text() alert(`text from all paragraphs: ${$allParagraphs}`) }) $(\u0026#39;#readFirst\u0026#39;).click(() =\u0026gt; { // read text from only the 1st p element  const $firstParagraph = $(\u0026#34;p:first\u0026#34;).text() alert(`text from the 1st paragraph: ${$firstParagraph}`) }) })  JS Bin on jsbin.com\nExample of Setting (writing) text  To Set (Write) text of an element use .text(newText) with the new text inside the parentheses  $(\u0026#39;#convertAllWords\u0026#39;).click(() =\u0026gt; { // set text for all p elements to spanish translation  $(\u0026#34;.one\u0026#34;).text(\u0026#34;uno\u0026#34;) $(\u0026#34;.two\u0026#34;).text(\u0026#34;dos\u0026#34;) $(\u0026#34;.three\u0026#34;).text(\u0026#34;tres\u0026#34;) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/05-arrays-objects/objects/accessing-properties/",
+	"title": "Accessing Properties",
+	"tags": [],
+	"description": "",
+	"content": " Accessing Properties  There are two ways we can access an object’s property:\n Dot Notation   Bracket Notation     "
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-overview/add-jquery/via-cdn/",
+	"title": "Add jQuery via CDN",
+	"tags": [],
+	"description": "",
+	"content": " Add jQuery via CDN  This approach references the jQuery file that lives on a CDN (another server)\n The example below utilizes a jQuery-specific CDN found here\n The integrity and crossorigin properties in the example ensure the file is delivered without any third-party manipulation   \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;title\u0026gt;Add jQuery using a CDN\u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;script src=\u0026quot;https://code.jquery.com/jquery-3.4.1.min.js\u0026quot; integrity=\u0026quot;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=\u0026quot; crossorigin=\u0026quot;anonymous\u0026quot;\u0026gt; \u0026lt;/script\u0026gt; \u0026lt;script src=\u0026quot;js/app.js\u0026quot;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt;   Using a CDN like jQuery or Google also helps with loading time, and potential caching benefits.  What is a CDN?  A CDN is a collection of servers that can deliver content\n A content delivery network (CDN) places files in different locations so that the person using your webpage can receive the nearest copy of it faster\n Prevents your users\u0026rsquo; browsers from downloading commonly used libraries(like jQuery) every time they visit your site\n Use of CDNs increases page speed for highly trafficked sites\n Click here for a nice overview of CDNs\n  "
+},
+{
+	"uri": "/05-arrays-objects/array-review/",
+	"title": "Array Review",
+	"tags": [],
+	"description": "",
+	"content": " Array Review  Creating Arrays   Accessing Array Values   Updating Array Values   Adding \u0026amp; Removing Items   length() Property   "
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-overview/benefits-of-jquery/",
+	"title": "Benefits of jQuery",
+	"tags": [],
+	"description": "",
+	"content": " Benefits of jQuery?  Uses CSS selectors to help us grab or select elements programmatically (i.e. in our code)\n Accomplishes more with less code vs using native JavaScript\n  CSS selectors means less code Here\u0026rsquo;s how we would programmatically select an element with an id of \u0026ldquo;flavors\u0026rdquo; using native JavaScript\n// selecting an element using native JavaScript document.getElementById(\u0026#39;flavors\u0026#39;).onClick = doSomething()  Here\u0026rsquo;s how we would programmatically select an element with an id of \u0026ldquo;flavors\u0026rdquo; using jQuery\n// using jQuery (same as above but with much more intuitive syntax) $(\u0026#39;#flavors\u0026#39;).click(doSomething)  In this code snippet above you can see jQuery allows us to use CSS selectors to programmatically select elements on our page\nThe ability to use CSS selectors to programmatically select elements is the main reason jQuery is so popular today\n Another Example Here\u0026rsquo;s another example of how jQuery results in much more clear and readable DOM manipulation logic\nIn this code snippet, we are using native JavaScript to programmatically select the \u0026lt;body\u0026gt; element and then change the background color to white\n// selecting an element using native JavaScript  document.getElementsByTagName(\u0026#39;body\u0026#39;)[0].style.backgroundColor = \u0026#39;white\u0026#39;  Compare the snippet above with the following snippet that accomplishes the same result using jQuery\n// using jQuery (same as above but with much more intuitive syntax)  $(\u0026#39;body\u0026#39;).css(\u0026#39;backgroundColor\u0026#39;, \u0026#39;white\u0026#39;)  Note: best practice is to use camel case when referencing css properties that have multiple words i.e. \u0026lsquo;backgroundColor\u0026rsquo; instead of \u0026lsquo;background-color\u0026rsquo;\n "
+},
+{
+	"uri": "/03-control-flow-and-loops/conditionals/",
+	"title": "Conditionals",
+	"tags": [],
+	"description": "",
+	"content": " What are Conditionals?  Conditional statements enable our programs to decide which blocks of code to execute and which to skip, based on whether an \u0026ldquo;expression\u0026rdquo; evaluates to true or false\n if statements are the most common form of conditionals\n There are a few types of if statements\n if statement\n if..else statement\n if..else if statement\n ternary operator\n   "
+},
+{
+	"uri": "/05-arrays-objects/array-review/creating-arrays/",
+	"title": "Creating Arrays",
+	"tags": [],
+	"description": "",
+	"content": " Creating Arrays  You can create that doesn\u0026rsquo;t initially contain any values, this is called an empty array\n An array can also be created with initial values\n Square brackets are a means of identifying if a variable is an array\n  Example // declare a variable as an empty array let numbers = [] // or you can declare an array with initial values let streets = [\u0026#39;Broadway\u0026#39;, \u0026#39;Houston\u0026#39;, \u0026#39;Grand\u0026#39;]  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/04-functions-and-scope/declaring-functions/",
+	"title": "Declaring Functions",
+	"tags": [],
+	"description": "",
+	"content": " Declaring a Function  A function declaration is code that stipulates what the function can do\n Use the function keyword to define a function\n Functions can be given a name\n The name must be followed by parentheses\n The opening and closing curly braces indicate a “code block”\n The statements for your function goes within the code block\n Also referred to as \u0026ldquo;defining a function\u0026rdquo;\n  Simply declaring the function will not run this code, this function must be called in order for the code inside the function to be run\n Example // declare a function named sayGoodMorning() function sayGoodMorning() { console.log(\u0026#34;Good Morning\u0026#34;) }  JS Bin on jsbin.com\nExercise  Declare a function named bark that prints (via console.log()) 'Woof, Woof'  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/02-javascript-basics/variables/declaring-variables/",
+	"title": "Declaring Variables",
+	"tags": [],
+	"description": "",
+	"content": " Declaring Variables  Variables are created by declaring them\n Use the let keyword to declare a variable\n If you declare a variable without assigning it an initial value, the value of that variable will be undefined\n  // declaring a variable  let firstName  Variables only need to be declared once\n "
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-overview/document-ready/",
+	"title": "Document Ready Function",
+	"tags": [],
+	"description": "",
+	"content": " Document Ready Function  jQuery (and native JavaScript) must wait for a page to be loaded before it can try to dynamically update a page (i.e. Manipulate the page\u0026rsquo;s DOM)  We can also avoid this issue by adding the \u0026lt;script\u0026gt; tag (the tag we used to link our .js files to our .html files) at the bottom of your html pages right before the closing \u0026lt;\\body\u0026gt; tag\n  jQuery provides a \u0026ldquo;document ready\u0026rdquo; function that will run once the DOM is fully loaded (i.e the page elements have been fully rendered)\n There are two ways to express the \u0026ldquo;document ready\u0026rdquo; function for jQuery\n  Option #1: Long form syntax // using jQuery (same as above but with much more intuitive syntax)  $(document).ready(function(){ // place your code here  // jQuery code must be placed inside of a document ready block })  Option #2: Short form alternative syntax // using jQuery (same as above but with much more intuitive syntax)  $(function(){ // this is the same as the $(document).ready(function(){}) function  // just much less code  // place your code here })  Option #2a: Short form alternative syntax with ES6  Even less typing :)  // using jQuery (same as above but with much more intuitive syntax)  $(() =\u0026gt; { // this is the same as the $(document).ready(function(){}) function  // just much less code  // place your code here })  There are no advantages to choosing one syntax over the other. However, option #2 \u0026amp; #2a is less typing :)\n "
+},
+{
+	"uri": "/05-arrays-objects/objects/accessing-properties/dot-notation/",
+	"title": "Dot Notation",
+	"tags": [],
+	"description": "",
+	"content": " Dot Notation  Dot notation allows us to access properties with a .  Example let superHero = { \u0026#39;secret identity\u0026#39;: \u0026#39;Peter Parker\u0026#39;, name: \u0026#39;Spiderman\u0026#39;, powers: [\u0026#39;super strength\u0026#39;, \u0026#39;hyper awareness\u0026#39;, \u0026#39;agility\u0026#39;, \u0026#39;genius intellect\u0026#39;], age: 17 } console.log(superHero.name) console.log(superHero.powers)  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-manipulation/getting-setting-content/",
+	"title": "Getting &amp; Setting Content",
+	"tags": [],
+	"description": "",
+	"content": " Getting \u0026amp; Setting Content  .text()   .html()   .val()   .attr()   "
+},
+{
+	"uri": "/homework-assignments/hw-assignment-01/",
+	"title": "HW Assignment #1",
+	"tags": [],
+	"description": "",
+	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Thursday, August 15th\n1. Complete Homework #1 - JS Basics, Control Flow \u0026amp; Loops  You are tasked with completing the problem set which is hosted on Github, see the url below:\n Github Repo for Homework #1 - JS Basics, Control Flow \u0026amp; Loops  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  2. Finish the JS Basics, Control Flow \u0026amp; Loops Lab  Finish the Lab: JS Basics, Control Flow \u0026amp; Loops we started at the end of Lesson 03\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
+	"uri": "/02-javascript-basics/",
+	"title": "JavaScript Basics",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 02 JavaScript Basics "
+},
+{
+	"uri": "/04-functions-and-scope/scope/local-scope/",
+	"title": "Local Scope",
+	"tags": [],
+	"description": "",
+	"content": " Local Scope  Variables defined inside a function are in the local scope\n A variable with local scope cannot be referenced outside of that function\n Functions create their own private scope that prevents code from outside directly accessing it\u0026rsquo;s variables\n  Example function showInspirationalMessage() { // \u0026#34;message\u0026#34; variable is declared **inside** a function which means it is LOCAL to this function  let message = \u0026#34;Don\u0026#39;t give up, you can do it!!\u0026#34; console.log(message) } // prints message variable showInspirationalMessage() /* Now let\u0026#39;s attempt to directly access the message variable and log it out to the console */ console.log(message) // \u0026lt;-- Error! The variable is local to the function can cannot be \u0026#34;directly\u0026#34; accessed outside of the function  JS Bin on jsbin.com\n As you can see in this example any variables declared / defined inside of the showInspirationalMessage() function are only accessible inside showInspirationalMessage; this prevents any other code from outside of the function from directly accessing it\u0026rsquo;s variables  Local Scope with Parameters  Function parameters are local to the function and cannot be accessed outside of the function  Example function squareMe(number) { // The \u0026#34;number\u0026#34; parameter is variable that is LOCAL to the squareMe function  return number**2 } let result = squareMe(7) console.log(result) /* Now let\u0026#39;s attempt to directly access the `number` parameter */ console.log(number) // \u0026lt;-- Error! The variable is local to the function can cannot be \u0026#34;directly\u0026#34; accessed outside of the function  JS Bin on jsbin.com\nVariables with the same name in different scopes ARE NOT THE SAME  Multiple variables with the same name but different scopes each will be treated as if they are distinct variables with each variable containing their own separate values  Example // declare a variable named \u0026#39;actor\u0026#39; in the Global Scope let actor = \u0026#34;Daniel Craig\u0026#34; function bestBondActor() { // declare a variable named \u0026#39;actor\u0026#39; within a function (Local Scope)  let actor = \u0026#34;Sean Connery\u0026#34; return actor } let result = bestBondActor() console.log(result) // \u0026lt;-- prints Sean Connery  /* Now let\u0026#39;s print out the `actor` variable */ console.log(actor) // \u0026lt;-- prints Daniel Craig  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/class-resources/node-git-installation/mac-os-x/",
+	"title": "Mac OS X Installation Instructions",
+	"tags": [],
+	"description": "",
+	"content": " Mac OS X Installation Instructions 1) Open your terminal application  Open your terminal (Applications \u0026gt; Utilities \u0026gt; Terminal)\n All of the following commands (below) that start with $ should be copied and pasted in your terminal / command prompt (also referred to as the \u0026ldquo;command line\u0026rdquo;)\n DO NOT include the \u0026lsquo;$\u0026rsquo; when copying and pasting the commands below; \u0026lsquo;$\u0026rsquo; is a universal symbol for the terminal / command line\n Press the enter / return key on your keyboard after pasting the command\n  2) Install brew  Brew is a package manager that we use to install various command line applications to your computer.\n Paste the following command in your Terminal, and hit enter:\n  $ ruby -e \u0026quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\u0026quot;  3) Install Git Git is used to track the state of your code over time. GitHub has built its platform on Git technology. We will be using both Git and GitHub to distribute code, submit assignments, and offer feedback.\nPaste the following command in your Terminal, and hit enter to install Git:\n $ brew install git  4) Configure Git  Copy and paste the following two commands (separately) into your Terminal. Replace the name and email address values with your own   $ git config --global user.name \u0026quot;Steve Jobs\u0026quot; $ git config --global user.email \u0026quot;steve@apple.com\u0026quot;   Follow these instructions to create a new SSH Key (a special, very secure, key which allows your laptop access to your github account without having to remember your github password)\n Add your new SSH Key to GitHub following these instructions\n Verify your key works by running the following:\n  $ ssh git@github.com   You should see output similar to:   Hi \u0026lt;you\u0026gt;! You've successfully authenticated, but GitHub does not provide shell access. Connection to github.com closed.  5) Install Node  Refer to the package installer on Node’s website  "
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-events/mouse-events/",
+	"title": "Mouse Events",
+	"tags": [],
+	"description": "",
+	"content": " Mouse Events  Mouse events are fired when users click some element, move the mouse pointer etc\n Here are some commonly used jQuery methods to handle the mouse events:\n .click() Event   .hover() Event     "
+},
+{
+	"uri": "/02-javascript-basics/data-types/numbers/",
+	"title": "Numbers",
+	"tags": [],
+	"description": "",
+	"content": " Numbers  Used for tasks involving counting or calculating sums\n Whole numbers (integers) or decimals (floats)\n Numbers can be negative or positive\n Numbers do not have quotes around them\n  There are no commas used when expressing numbers, for example the number 1,750 is expressed as 1750 in JavaScript\n JS Bin on jsbin.com\nConverting Strings to Numbers  Sometimes you will find yourself in a position where you need to convert a string to a number\n This happens when you attempt to read numeric values from html (html displays everything as a string)\n Use the parseInt() or parseFloat() methods to accomplish this\n  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/00-course-intro-and-tools/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Cover class logistics, structure \u0026amp; keys to success\n Introduce tools you will be using throughout the class\n Discuss the benchmarks for assessments in terms of class participation, homework, and unit projects\n Confirm installation and configuration of Node, Git, and other command line tools\n Practice programmatic thinking by writing pseudocode\n  "
+},
+{
+	"uri": "/04-functions-and-scope/scope/block-statements/",
+	"title": "Scope in Block Statements",
+	"tags": [],
+	"description": "",
+	"content": " Scope in Block Statements  Block statements like if and switch conditions or for and while loops, unlike functions, will create a new scope if you use let or const but NOT when you use var  Example  Declaring a variable within a Block statement using let creates local scope  if (true) { // this \u0026#39;if\u0026#39; conditional block creates a new scope because we use \u0026#39;let\u0026#39;  let name = \u0026#39;Prince\u0026#39; // name is local to the if block  console.log(name) // logs \u0026#39;Prince\u0026#39; } console.log(\u0026#39;----\u0026#39;) console.log(name) // \u0026lt;--- error because the \u0026#39;name\u0026#39; variable can only be accessed from within the block (due to the use of \u0026#39;let\u0026#39;)  JS Bin on jsbin.com\n Declaring a variable within a Block statement using var DOES NOT create local scope  if (true) { var name = \u0026#39;Prince\u0026#39; // declare a variable using \u0026#39;var`  console.log(name) // logs \u0026#39;Prince\u0026#39; } console.log(\u0026#39;----\u0026#39;) console.log(name) // \u0026lt;--- logs \u0026#39;Prince\u0026#39; because the \u0026#39;name\u0026#39; variable is in the global scope due to the use of `var`  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-traversing/ancestors/",
+	"title": "ancestors",
+	"tags": [],
+	"description": "",
+	"content": " ancestor Methods  Methods used to get the ancestors of the selected element  .parent()  Method is used to get the direct parent of the selected element  Example $(() =\u0026gt; { $(\u0026#39;button\u0026#39;).click(() =\u0026gt; { $(\u0026#39;.box\u0026#39;).parent().toggleClass(\u0026#39;backgroundEffect\u0026#39;) }) })  JS Bin on jsbin.com\n.parents()  Method is used to get the ancestors of the selected element  Example $(() =\u0026gt; { $(\u0026#39;button\u0026#39;).click(() =\u0026gt; { // this will apply the class to \u0026#34;all\u0026#34; ancestors  $(\u0026#39;.box\u0026#39;).parents().toggleClass(\u0026#39;backgroundEffect\u0026#39;) // uncomment the line below and observe the difference; we are using method chaining here to target only the \u0026#34;grandparent\u0026#34; of the black box  //$(\u0026#39;.box\u0026#39;).parent().parent().toggleClass(\u0026#39;backgroundEffect\u0026#39;)  }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/03-control-flow-and-loops/conditionals/if-statement/",
+	"title": "if Statement",
+	"tags": [],
+	"description": "",
+	"content": " if Statement  Used when you want to have some sort of single branching logic  if (condition) { code to run if condition is true } // run some other code  Example let isRewardsMember = true let totalPrice = 100 if (isRewardsMember) { totalPrice = totalPrice * 0.80 } console.log(totalPrice)  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-overview/",
+	"title": "jQuery Overview",
+	"tags": [],
+	"description": "",
+	"content": " jQuery Overview During this section we\u0026rsquo;ll cover:\n What is jQuery?   Benefits of jQuery   Document Ready Function   Adding jQuery to your Projects   jQuery Syntax   jQuery Selectors   jQuery Objects   "
+},
+{
+	"uri": "/03-control-flow-and-loops/loops-and-iteration/while-loops/",
+	"title": "while Loop",
+	"tags": [],
+	"description": "",
+	"content": " while Loop  While loops run its statements as long as a specified condition evaluates to true  while (condition) { statement } // run some other code   If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop  Example let n = 0 while (n \u0026lt; 5) { console.log(n) n++ }  JS Bin on jsbin.com\nExercise Write a program that uses a while loop to print (using console.log()) a countdown from 10 to 1\nJS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-effects/toggle/",
+	"title": ".toggle()",
+	"tags": [],
+	"description": "",
+	"content": " .toggle() Method  Method that shows or hides element in such a way that if the element is initially displayed, it will be hidden; if hidden, it will be displayed  Example $(() =\u0026gt; { $(\u0026#34;button\u0026#34;).click(() =\u0026gt; { // toggle #box element  $(\u0026#34;#box\u0026#34;).toggle() }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-overview/add-jquery/",
+	"title": "Adding jQuery to your Projects",
+	"tags": [],
+	"description": "",
+	"content": " There are two ways to add jQuery to your projects  Download the jQuery library file and store it within your project\n Use a CDN (content delivery network) and reference the jQuery library file remotely\n   Add jQuery via Download   Add jQuery via CDN   "
+},
+{
+	"uri": "/02-javascript-basics/data-types/booleans/",
+	"title": "Booleans",
+	"tags": [],
+	"description": "",
+	"content": " Booleans  Can only have a value of true or false\n true/false are special keywords in JavaScript and do not have quotes around them\n  // declare a variable called isOn and assign a value of true let isOn = true // declare a variable called isWarm let isWarm // assign a value of false to isWarm isWarm = false   Booleans are useful for helping our programs make decisions (when used with conditionals, comparison \u0026amp; logical operators)\n Booleans also helps a program known when it should stop/start looping\n  "
+},
+{
+	"uri": "/04-functions-and-scope/calling-functions/",
+	"title": "Calling Functions",
+	"tags": [],
+	"description": "",
+	"content": " Calling a Function  Calling a function means you are using the function (as opposed to defining a function which only tells us what the function can do)\n To call a function you simply write function name followed by parentheses (don’t forget the parentheses!)\n Now you can call this function as many times as you want\n  /** define / declare a function named shout() by itself this doesn\u0026#39;t do anything, we must \u0026#34;Call\u0026#34; it in order to use it **/ function shout() { console.log(\u0026#34;HELLO!\u0026#34;) } /** Calling the function named shout we call a function by writing the name of the function followed by parentheses **/ shout()  JS Bin on jsbin.com\nExercise:  Create a function named yolo that logs 'yolo'. Next, use your knowledge of calling functions to ensure that 'yolo' is printed 3 times in the console  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/03-control-flow-and-loops/",
+	"title": "Control Flow and Loops",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 03 Control Flow and Loops "
+},
+{
+	"uri": "/class-resources/atom-editor-settings/",
+	"title": "Recommended Atom Editor Settings",
+	"tags": [],
+	"description": "",
+	"content": " All of the settings below can be accessed using the following steps:\n Mac: cmd + , -\u0026gt; Editor PC: ctrl + , -\u0026gt; Editor  Setting indentation levels / default tab-size During our course we will be using a set indentation level of 2 spaces (1 indentation level = 2 spaces). Atom makes it easy conform to this approach by setting our tab to a set level of indentation.\nAfter updating this setting, pressing the tab key will represent one level of indentation which will translate to 2 spaces.\nDisplaying indentation guides Displaying the indentation guide provides a visual way of helping you ensure your indentation levels are correct\nSetting wordwrap Wordwrap ensures that long lines in your code are automatically wrapped to the next line. This improves readability of your code.\n"
+},
+{
+	"uri": "/03-control-flow-and-loops/switch-statement/",
+	"title": "Switch Statement",
+	"tags": [],
+	"description": "",
+	"content": " Switch Statement  Used an alternative to if..else if statements\n Evaluates an expression, and matches that expression against each of the case clauses\n if there\u0026rsquo;s a match, the statements associated with that case clause will be executed\n The break keyword must be used to exit the Switch statement after a match is found\n  switch(expression) { case x: // execute code block when expression === x  break // \u0026lt;- break must be called to exit the switch statement after the match  case y: // execute code block when expression === y  break // \u0026lt;- break must be called to exit the switch statement after the match  default: // execute code block when expression === when none of the above cases match }  Example let food = \u0026#34;apple\u0026#34; switch(food) { case \u0026#39;pear\u0026#39;: console.log(\u0026#34;I like pears\u0026#34;) break case \u0026#39;apple\u0026#39;: case \u0026#39;oranges\u0026#39;: console.log(\u0026#34;I like apples \u0026amp; oranges\u0026#34;) break case \u0026#39;grapes\u0026#39;: console.log(\u0026#34;I like grapes\u0026#34;) break default: console.log(\u0026#34;Your fruit selection is weak :(\u0026#34;) }  JS Bin on jsbin.com\nExercise Rewrite the following if..else if statement using a switch statement:\nlet yourGrade = 84 if (yourGrade \u0026gt;= 90) { console.log(\u0026#34;Congrats your score is 90 or above, that\u0026#39;s an A!\u0026#34;) } else if (yourGrade \u0026gt;= 80) { console.log(\u0026#34;Congrats your score is 80 or above, you earned a B\u0026#34;) } else { console.log(\u0026#34;Your score is less than 80, no bueno\u0026#34;) }  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/02-javascript-basics/variables/updating-variables/",
+	"title": "Updating Variables",
+	"tags": [],
+	"description": "",
+	"content": " Updating Variables  We can provide variables with a value by updating a value to the variable\n An = (equal sign) is used to assign a value to variable\n This process of updating/changing variable\u0026rsquo;s value is also referred to as assigning a value to a variable\n  let firstName // assigning a value to the variable firstName = \u0026#34;Cletus\u0026#34;  Declaring \u0026amp; Assigning Variables in one step  We can both declare and assign variables in one step\n This would be done if the developer wanted to set the initial value of the variable\n  // declare and assign an intial value to a variable let score = 0  Changing the value of a Variable after an initial value has already been assigned  In this case we will still use a single = (equal sign) to change or reassign a value of a variable  // declare and assign a value of 0 to the score variable let score = 0 // changing the value of the score variable from 0 to 3 score = 3  "
+},
+{
+	"uri": "/02-javascript-basics/variables/",
+	"title": "Variables",
+	"tags": [],
+	"description": "",
+	"content": " What are Variables?\n Declaring Variables\n Updating Variables\n Naming Rules for Variables\n let vs var\n const\n  "
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/add-class/",
+	"title": ".addClass()",
+	"tags": [],
+	"description": "",
+	"content": " .addClass() Method  Method adds one or more classes to the selected elements  Example $(() =\u0026gt; { $(\u0026#34;#addBorderClass\u0026#34;).click(() =\u0026gt; { // add .strongBorder to box  $(\u0026#34;.box\u0026#34;).addClass(\u0026#34;strongBorder\u0026#34;) }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-manipulation/getting-setting-content/html/",
+	"title": ".html()",
+	"tags": [],
+	"description": "",
+	"content": " .html() Method  Method is used to get or set the HTML contents of the elements  Example of Getting (Reading) Html  To Get (Read) text of an element use .html() with nothing inside the parentheses\n When using .html() to get html contents, the html contents of the only the first matched element will be returned; see the docs for more info\n  $(() =\u0026gt; { $(\u0026#39;#readHtmlOfParagraph\u0026#39;).click(() =\u0026gt; { // get html of the first matched p element  const $htmlOfParagraph = $(\u0026#34;p\u0026#34;).html() alert($htmlOfParagraph) }) $(\u0026#39;#readHtmlOfContainer\u0026#39;).click(() =\u0026gt; { // get html of container  const $htmlOfContainer = $(\u0026#34;.container\u0026#34;).html() alert($htmlOfContainer) }) })  JS Bin on jsbin.com\nExample of Setting (writing) Html  To Set (Write) text of an element use .html(newHtml) with the new Html inside the parentheses  $(() =\u0026gt; { $(\u0026#39;#addNewNumber\u0026#39;).click(() =\u0026gt; { // create a new html element  const $htmlOfNewNumber = $(\u0026#34;\u0026lt;p class=\u0026#39;four\u0026#39;\u0026gt; \u0026lt;span\u0026gt;Four\u0026lt;/span\u0026gt;\u0026lt;/p\u0026gt;\u0026#34;) // add new html element to .numbers div  $(\u0026#39;.numbers\u0026#39;).html($htmlOfNewNumber) }) })  JS Bin on jsbin.com\n Notice how the previous paragraphs (\u0026lt;p\u0026gt;one\u0026lt;/p\u0026gt;, \u0026lt;p\u0026gt;two\u0026lt;/p\u0026gt; and \u0026lt;p\u0026gt;three\u0026lt;/p\u0026gt;) were replaced with \u0026lt;p\u0026gt;four\u0026lt;/p\u0026gt;, using .html(newHtml) will replace the children of the targeted element (in our case the targeted element was .container)\n Later in this lesson, we\u0026rsquo;ll see how we can add a new element to a list without replacing the exiting elements\n  "
+},
+{
+	"uri": "/05-arrays-objects/array-iterators/map/",
+	"title": ".map()",
+	"tags": [],
+	"description": "",
+	"content": " .map()  Calls a function for each element of the array and returns a new array of results\n .map() is one of the most useful and used iterator methods\n .map() is does NOT mutate the original array\n The callback function for .map() accepts the following parameters:\n currentValue: (required) current element being processed in the array.\n index: (optional) index of the current element being processed in the array\n array: (optional) the array map was called upon.\n   Syntax Using traditional (ES5) function syntax\nlet result = arr.map(function(item, index, array) { // returns the new value instead of item })  Using arrow syntax (ES6)\nlet result = arr.map((item, index, array) =\u0026gt; { // returns the new value instead of item })  Example let numbers = [1, 2, 3, 4, 5 ] let numbersSquared = numbers.map( number =\u0026gt; number**2 ) console.log(numbersSquared) // [2, 4, 9, 16, 25]  console.log(numbers) // [1, 2, 3, 4, 5 ]  JS Bin on jsbin.com\nExercise  Use .map() to downcase all the words in loudWords. Save the returned values to a variable declared with const called lowerCaseWords;  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/05-arrays-objects/array-review/adding-removing-items/pop/",
+	"title": ".pop()",
+	"tags": [],
+	"description": "",
+	"content": " .pop()  Extracts the last element of the array and returns it\n Like pop(), push() is also a mutating method because it changes the value of the original array\n  Example let fruits = [\u0026#34;Apple\u0026#34;, \u0026#34;Orange\u0026#34;, \u0026#34;Grapes\u0026#34;] fruits.pop() console.log(fruits) // Apple, Orange  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/prepend/",
+	"title": ".prepend()",
+	"tags": [],
+	"description": "",
+	"content": " .prepend() Method  Method used to insert content to the beginning of the selected elements (as the first child)  Example $(() =\u0026gt; { $(\u0026#39;#prependParagraph\u0026#39;).click(() =\u0026gt; { // prepend a new paragraph to list of paragraphs  const newParagraph = \u0026#34;\u0026lt;p class=\u0026#39;one\u0026#39;\u0026gt;One\u0026lt;/p\u0026gt;\u0026#34; $(\u0026#39;.numbers\u0026#39;).prepend(newParagraph) }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-effects/slide-up-slide-down/",
+	"title": ".slideUp() &amp; .slideDown()",
+	"tags": [],
+	"description": "",
+	"content": " .slideUp() \u0026amp; .slideDown() Methods  Methods used to hide or show the HTML elements by gradually decreasing or increasing their height  .slideUp() Example $(() =\u0026gt; { $(\u0026#34;button\u0026#34;).click(() =\u0026gt; { // slide #box element up with duration of 2 secs  $(\u0026#34;#box\u0026#34;).slideUp(2000) }) })  JS Bin on jsbin.com\n.slideDown() Example $(() =\u0026gt; { $(\u0026#34;button\u0026#34;).click(() =\u0026gt; { // slide #box element down  $(\u0026#34;#box\u0026#34;).slideDown() }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-events/form-events/submit/",
+	"title": ".submit() Event",
+	"tags": [],
+	"description": "",
+	"content": " .submit() Event  Attaches an event handler function to \u0026lt;form\u0026gt; elements that is executed when the user is attempts to submit a form  Example $(() =\u0026gt; { // listen for a .submit() event on this form  $(\u0026#39;form\u0026#39;).submit((event) =\u0026gt; { // prevent default behavior of forms  event.preventDefault() // read data from text field  const $name = $(\u0026#39;input\u0026#39;).val() if ($name === \u0026#39;\u0026#39;) { alert(\u0026#39;Please enter a name\u0026#39;) } else { alert(`Hello ${$name}!`) } }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/05-arrays-objects/array-review/accessing-array-values/",
+	"title": "Accessing Array Values",
+	"tags": [],
+	"description": "",
+	"content": " Accessing Arrays Values  Values in an array are accessed as if they are in a numbered list\n Arrays are zero based meaning the 1st “value” in an array is at position (index) 0, the 2nd element is at position 1, and so on\n You access the value of an element in the array by passing the index of the item in square brackets\n  Example  You can access a value of an array by referencing its index (i.e. its order within the array)  // declare a variable called chipmunks and use it to store // an array of names let chipmunks = [\u0026#34;Alvin\u0026#34;, \u0026#34;Simon\u0026#34;, \u0026#34;Theodore\u0026#34;]; // reference the first value in the array // here we pass in a zero, since that represents the first // element (value) in an array  let bandMember = chipmunks[0] //\u0026gt; the value stored in bandMember is \u0026#34;Alvin\u0026#34;  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/05-arrays-objects/array-iterators/",
+	"title": "Array Iterators",
+	"tags": [],
+	"description": "",
+	"content": " Array Iterators  Looping though lists is a common task is programming\n Earlier in the course we reviewed loops suchs as while, do..while and for loops\n JavaScript also offers to built-in array methods (also known as iterators or iterator methods) which make looping easier when working with arrays\n Iterator methods called on arrays to manipulate elements and return values\n Let\u0026rsquo;s review some of the most common iterator methods:\n .forEach()   .map()   .find()   .filter()   .reduce()   Other Iterators     "
+},
+{
+	"uri": "/02-javascript-basics/data-types/arrays/",
+	"title": "Arrays",
+	"tags": [],
+	"description": "",
+	"content": " Arrays  Used to when you are working with a list of values that are related to each other\n Use square brackets to create an array (this is also how you quickly recognize arrays)\n Values in an array are separated by commas\n  Creating an Array  We can store variables just like any other data type\n You can create that doesn\u0026rsquo;t initially contain any values, this is called an empty array\n An array can also be created with initial values\n Square brackets are a means of identifying if a variable is an array\n  // declare a variable as an empty array let numbers = [] // or you can declare an array with initial values let streets = [\u0026#39;Broadway\u0026#39;, \u0026#39;Houston\u0026#39;, \u0026#39;Grand\u0026#39;]  Values in an Array  Values in an array are accessed as if they are in a numbered list\n Arrays are zero based meaning the 1st “value” in an array is at position (index) 0, the 2nd element is at position 1, and so on\n You access the value of an element in the array by passing the index of the item in square brackets\n  let streets = [\u0026#39;Broadway\u0026#39;, \u0026#39;Houston\u0026#39;, \u0026#39;Grand\u0026#39;] // access the 2nd street listed in the array which is at index 1 let streetTwo = streets[1]  Accessing Values in an Array  You can access a value of an array by referencing its index (i.e. its order within the array)  // declare a variable called chipmunks and use it to store // an array of names let chipmunks = [\u0026#34;Alvin\u0026#34;, \u0026#34;Simon\u0026#34;, \u0026#34;Theodore\u0026#34;]; // reference the first value in the array // here we pass in a zero, since that represents the first // element (value) in an array  let bandMember = chipmunks[0] //\u0026gt; the value stored in bandMember is \u0026#34;Alvin\u0026#34;  Changing Values in an Array  You can change a value in an array by referencing the value and then changing the value using an = (equal sign)  // declare a variable called newEditionMembers and use it to store // an array of names  let newEditionMembers = [\u0026#34;Ricky Bell\u0026#34;, \u0026#34;Michael Bivins\u0026#34;, \u0026#34;Bobby Brown\u0026#34;, \u0026#34;Ronnie DeVoe\u0026#34;, \u0026#34;Ralph Tresvant\u0026#34;] // We are going replace Bobby Brown with Johnny Gill // by referencing the 3rd element of the array by using index 2 // and then use assignment (just an equal sign) to change // the value to Johnny Gill  newEditionMembers[2] = \u0026#34;Johnny Gill\u0026#34;;  Array Examples JS Bin on jsbin.com\nArrays are a flexible and powerful feature of JavaScript (and other programming languages as well). Click here for more information about Arrays\n "
+},
+{
+	"uri": "/05-arrays-objects/objects/assigning-properties/",
+	"title": "Assigning Properties",
+	"tags": [],
+	"description": "",
+	"content": " Assigning Properties  We can use either dot notation, or bracket notation and the assignment operator, = to add new key-value pairs to an object or change an existing property  Example let superHero = { \u0026#39;secret identity\u0026#39;: \u0026#39;Peter Parker\u0026#39;, name: \u0026#39;Spiderman\u0026#39;, powers: [\u0026#39;super strength\u0026#39;, \u0026#39;hyper awareness\u0026#39;, \u0026#39;agility\u0026#39;, \u0026#39;genius intellect\u0026#39;], age: 17 } // update existing properties  superHero.powers.push(\u0026#39;endurance\u0026#39;) superHero.age = 18 // add a new property  superHero.homeCity = \u0026#39;New York City\u0026#39; console.log(superHero)  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/05-arrays-objects/objects/accessing-properties/bracket-notation/",
+	"title": "Bracket Notation",
+	"tags": [],
+	"description": "",
+	"content": " Bracket Notation  Bracket notation is another way to to access a key’s value is by using bracket notation, [ ]\n To use bracket notation to access an object’s property, we pass in the property name (key) as a string\nsuperHero['secret identity']`\n We must use bracket notation when accessing keys that have numbers, spaces, or special characters in them\n Remember, object keys are always strings\n  Example let superHero = { \u0026#39;secret identity\u0026#39;: \u0026#39;Peter Parker\u0026#39;, name: \u0026#39;Spiderman\u0026#39;, powers: [\u0026#39;super strength\u0026#39;, \u0026#39;hyper awareness\u0026#39;, \u0026#39;agility\u0026#39;, \u0026#39;genius intellect\u0026#39;], age: 17 } console.log(superHero[\u0026#34;secret identity\u0026#34;]) console.log(superHero[\u0026#34;name\u0026#34;])  JS Bin on jsbin.com\nUsing variables to access properties  Bracket notation also allows us to use a variable inside the brackets to select the keys of an object  Example let superHero = { \u0026#39;secret identity\u0026#39;: \u0026#39;Peter Parker\u0026#39;, name: \u0026#39;Spiderman\u0026#39;, powers: [\u0026#39;super strength\u0026#39;, \u0026#39;hyper awareness\u0026#39;, \u0026#39;agility\u0026#39;, \u0026#39;genius intellect\u0026#39;], age: 17 } let attribute = \u0026#34;name\u0026#34; // use the \u0026#39;attribute\u0026#39; variable to access a property in superHero  let attributeValue = superHero[attribute] console.log(superHero[attribute]) // This is the result of trying the same thing using dot notation  console.log(superHero.attribute) // undefined  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/02-javascript-basics/data-types/",
+	"title": "Data Types",
+	"tags": [],
+	"description": "",
+	"content": " Strings\n Numbers\n Booleans\n Arrays\n Objects\n  "
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-events/form-events/",
+	"title": "Form Events",
+	"tags": [],
+	"description": "",
+	"content": " Form Events  Form events are fired when a form control receive or loses focus or when the user modify a form control value such as by typing text in a text input, select any option in a select box etc\n Here\u0026rsquo;re some commonly used jQuery methods to handle the form events:\n .change() Event   .submit() Event     "
+},
+{
+	"uri": "/04-functions-and-scope/",
+	"title": "Functions and Scope",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 04 Functions and Scope "
+},
+{
+	"uri": "/01-command-line-js-and-git/git-overview/",
+	"title": "Git Overview",
+	"tags": [],
+	"description": "",
+	"content": " Version Control System (VCS)  Tracks the history of changes as people and teams collaborate on projects together (think \u0026ldquo;track changes feature available for MS Word or Google Docs\u0026rdquo;)\n Developers can review project history to find out:\n Which changes were made?\n Who made the changes?\n When were the changes made?\n Why were changes needed?\n   What is Git?  Git is VCS that is distributed - meaning developers don\u0026rsquo;t need a constant connection to be able to collaborate with other developers (unlike other VCSs)\n Allows developers to work anywhere and collaborate asynchronously from any time zone\n Git is the most popular VCS, used by over 70% of developers across the world\n Git operates a robust filesystem that keeps track every change to every file in your project by taking snapshots of a projects files every time changes are committed\n Git and GitHub are not the same\n  "
+},
+{
+	"uri": "/homework-assignments/hw-assignment-02/",
+	"title": "HW Assignment #2",
+	"tags": [],
+	"description": "",
+	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Thursday, August 22nd\nComplete Homework #2 - Functions and Iterators  You are tasked with completing the problem set which is hosted on Github, see the url below:\n Github Repo for Homework #2 - Functions \u0026amp; Iterators  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
+	"uri": "/04-functions-and-scope/hoisting/",
+	"title": "Hoisting",
+	"tags": [],
+	"description": "",
+	"content": " Hoisting  Hoisting is a feature in JavaScript which allows access to function declarations before they’re defined\n This means that we can place a function call before our function declaration and everything will still work as expected\n  Example // Calling greetWorld() BEFORE it\u0026#39;s function declararion greetWorld() // declaration of greetWorld() function greetWorld() { console.log(\u0026#39;Hello, World!\u0026#39;) }  JS Bin on jsbin.com\n Notice how hoisting allowed greetWorld() to be called before the greetWorld() function was defined\n This is not considered a best practice, but you should be aware that the feature exists\n  "
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/",
+	"title": "Inserting &amp; Removing Content",
+	"tags": [],
+	"description": "",
+	"content": " Inserting \u0026amp; Removing Content  .append()   .prepend()   .before()   .after()   "
+},
+{
+	"uri": "/03-control-flow-and-loops/loops-and-iteration/",
+	"title": "Loops &amp; Iteration",
+	"tags": [],
+	"description": "",
+	"content": " Loops \u0026amp; Iteration  Loops offer a quick and easy way to do something repeatedly\n Loops must terminate or they will run forever; these are referred to as \u0026ldquo;infinite loops\u0026rdquo;\n Some loops use conditions to determine when it should start and stop\n There are many different kinds of loops, but they all essentially do the same thing: they repeat an action some number of times (and it\u0026rsquo;s actually possible that number could be zero)\n while loops\n do..while loops\n for loops\n forEach loops\n   "
+},
+{
+	"uri": "/02-javascript-basics/variables/naming-rules/",
+	"title": "Naming Rules for Variables",
+	"tags": [],
+	"description": "",
+	"content": " Naming Rules for Variables    Do Don\u0026rsquo;t     Use variable names that start with a letter, $, or _ Use variable names that start with a number   Use variable names that include letters, numbers, $ or _ Create variable names that include a \u0026ldquo;-\u0026rdquo;, \u0026ldquo;.\u0026rdquo; or space   Use \u0026ldquo;lower camel case\u0026rdquo; when creating variable names made up of more than one word, for example: firstName Create variable names that use reserved JavaScript keywords such as let, var, function or switch    Variables names should describe the kind of information the variable stores\n Here\u0026rsquo;s a list of JavaScript\u0026rsquo;s reserved keywords\n "
+},
+{
+	"uri": "/02-javascript-basics/data-types/objects/",
+	"title": "Objects",
+	"tags": [],
+	"description": "",
+	"content": " Objects  Objects are used to represent real world objects in programming\n Within an object, variables are known as properties and functions are known as methods\n Curly braces are a means of identifying if a variable is an object\n  // create an object that represents a dog  let myDog = { name: \u0026#34;Fido\u0026#34;, age: 4, speak: function() { console.log(\u0026#39;Woof woof\u0026#39;) } }   In the example above, we created an object and stored it in a variable called myDog\n This object has two (2) properties (name and age) and 1 method (speak)\n  Accessing Properties and Methods of Objects  Properties and values can be assigned and read using Dot notation  let myDog = { name: \u0026#34;Fido\u0026#34;, age: 4, speak: function() { console.log(\u0026#39;Woof woof\u0026#39;) } } // store myDog\u0026#39;s name in a variable called dogName let dogName = myDog.name // call the speak method of myDog myDog.speak()  JS Bin on jsbin.com Updating Object properties using dot notation  Object properties can be updated, added or deleted  JS Bin on jsbin.com\nThink of methods as actions that our objects can take. Objects are another flexible and powerful feature of JavaScript. Click here for more information about Objects\n "
+},
+{
+	"uri": "/class-resources/opening-atom-from-command-line/",
+	"title": "Opening Atom from Command Line",
+	"tags": [],
+	"description": "",
+	"content": " Atom allows you to open files from the command line\nIf you have Atom installed you can run the atom command with one or more file paths to open up those files in Atom.\nCheck if Atom is already configured to run on your computer\u0026rsquo;s Command Line Open up your terminal and run the following command\n$ atom --help  You should receive output similar to the following\nAtom Editor v1.39.1 Usage: atom atom [options] [path ...] atom file[:line[:column]] One or more paths to files or folders may be specified. If there is an existing Atom window that contains all of the given folders, the paths will be opened in that window. Otherwise, they will be opened in a new window.  If Atom is not configured to run from your computer\u0026rsquo;s Command Line Open Atom and choose the following from the menu bar Atom -\u0026gt; Install Shell Commands\n"
+},
+{
+	"uri": "/class-resources/node-git-installation/windows/",
+	"title": "Windows Installation Instructions",
+	"tags": [],
+	"description": "",
+	"content": " Windows Installation Instructions 1) Open the Command Prompt application  All of the following commands (below) that start with $ should be copied and pasted in your terminal / command prompt (also referred to as the \u0026ldquo;command line\u0026rdquo;)\n DO NOT include the \u0026lsquo;$\u0026rsquo; when copying and pasting the commands below; \u0026lsquo;$\u0026rsquo; is a universal symbol for the terminal / command line\n Press the enter / return key on your keyboard after pasting the command\n  2) Install Git  Git is used to track the state of your code over time. GitHub has built its platform on Git technology. We will be using both Git and GitHub in this class to distribute code, submit assignments, and offer feedback.\n Git can be downloaded and installed from this URL.\n  3) Configure Git  In order to interact with Git, you\u0026rsquo;ll need to first open the Git Bash utility. A quick way to access this terminal is by right clicking your desktop and choosing \u0026ldquo;Git Bash\u0026rdquo;.\n Copy and paste the following two commands (separately) into your Terminal / Command Prompt. Replace the name and email address values with your own\n   $ git config --global user.name \u0026quot;Steve Jobs\u0026quot; $ git config --global user.email \u0026quot;steve@apple.com\u0026quot;   Follow these instructions to create a new SSH Key (a special, very secure, key which allows your laptop access to your github account without having to remember your github password)\n Add your new SSH Key to GitHub following these instructions\n Verify your key works by running the following:\n$ ssh git@github.com  You should see output similar to:\nHi \u0026lt;you\u0026gt;! You've successfully authenticated, but GitHub does not provide shell access. Connection to github.com closed.   4) Install Node  Refer to the package installer on Node’s website  "
+},
+{
+	"uri": "/class-resources/atom-themes/",
+	"title": "Working with Atom Themes",
+	"tags": [],
+	"description": "",
+	"content": " Changing Themes Atom allows you to easily switch between your installed themes by doing the following:\n Opening Atom Settings (mac: cmd + , | pc: ctrl + ,) Select Themes in the left-hand menu Select the dropdown menu labeled Syntax Themes Choose one of the installed themes listed in the dropdown menu  Atom comes pre-installed with a set of themes. See that section below to add new themes to Atom\n Installing New Themes Atom allows you to install themes created by developers who participate in Atom\u0026rsquo;s vibrant community. Atom has a dedication section on their official site for the discovery of these themes (Atom Themes)\nHere are steps involved in adding a new Atom theme:\n Visit https://atom.io/themes Find a theme that you\u0026rsquo;d like to install Press the install button on the theme\u0026rsquo;s page An alert will be displayed asking you if you would like to open Atom - select the option labeled Open Atom While in Atom Settings, press the button labeled Install to install the new theme Select Themes in the left-hand menu of Atom Settings Select the dropdown menu labeled Syntax Themes Select the newly installed theme from the dropdown menu to apply the new theme to Atom  Here\u0026rsquo;s an example of the installation of an Atom theme named Atom Material\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-traversing/descendants/",
+	"title": "descendants",
+	"tags": [],
+	"description": "",
+	"content": " descendant Methods .children()  Method is used to get the direct children of the selected element  Example $(() =\u0026gt; { $(\u0026#34;button\u0026#34;).click(() =\u0026gt; { // this will add a border bottom  // to all the children of the div element (the \u0026lt;p\u0026gt; elements)  $(\u0026#39;div\u0026#39;).children().css(\u0026#34;border-bottom\u0026#34;, \u0026#34;3px double red\u0026#34;) }) })  JS Bin on jsbin.com\n.find()  Method is used to get the descendant elements of the selected element\n The find() and children() methods are similar, except that the find() method search through multiple levels down the DOM tree to the last descendant, whereas the children() method only search a single level down the DOM tree\n  Example $(() =\u0026gt; { $(\u0026#34;button\u0026#34;).click(() =\u0026gt; { // this will add a border bottom  // to all spans within the div element  $(\u0026#39;div\u0026#39;).find(\u0026#39;span\u0026#39;).css(\u0026#34;border-bottom\u0026#34;, \u0026#34;3px double red\u0026#34;) }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/03-control-flow-and-loops/loops-and-iteration/do-while-loops/",
+	"title": "do..while Loop",
+	"tags": [],
+	"description": "",
+	"content": " do..while Loop  A do\u0026hellip;while loop repeats until a specified condition evaluates to false  do { statement } while (condition)   statement is always executed once before the condition is checked (and then again until the while condition returns false)\n With do\u0026hellip;while loops, everything in-between the curly braces (i.e. statement(s)) will run at least once\n  Example let n = 0 do { console.log(n) n++ } while (n \u0026lt; 0)   the loop will run at least once and then terminate because 0 is NOT \u0026lt; 0  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/07-dom-and-jquery-continued/event-current-target/",
+	"title": "event.currentTarget",
+	"tags": [],
+	"description": "",
+	"content": " event.currentTarget  JavaScript property (not specific to jQuery) that identifies the current target for the event\n It always refers to the element to which the event handler has been attached, as opposed\n Similar to $(this), with the added benefit that it works with arrow functions\n When using event.currentTarget in the context of jQuery, it should be wrapped in a jQuery object: $(event.currentTarget)\n  Example $(() =\u0026gt; { $(\u0026#34;#box\u0026#34;).click((event) =\u0026gt; { // use $(event.currentTarget) with with an arrow function  // to reference the element that is being \u0026#34;acted on\u0026#34;  $(event.currentTarget).fadeOut(1000) }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/03-control-flow-and-loops/conditionals/if-else/",
+	"title": "if..else Statement",
+	"tags": [],
+	"description": "",
+	"content": " if..else Statement  Used when evaluating between just two choices\n These are great for “either or” situations\n You do not specify a condition for the “else” clause\n  // if..else statement  if (condition) { code to run if condition is true } else { code to run if the above condition is NOT true } // run some other code  Example let yearOfBirth = 2001 if (yearOfBirth \u0026lt;= 2002) { console.log(\u0026#39;you will be old enough to vote in 2020\u0026#39;) } else { console.log(\u0026#39;Sorry, you will not be old enough to vote next year\u0026#39;) }  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-overview/jquery-syntax/",
+	"title": "jQuery Syntax",
+	"tags": [],
+	"description": "",
+	"content": " $() function  jQuery uses a built-in function called jQuery() to allow developers to programmatically select elements on a html page\n $() is shorthand for jQuery()\n This shorthand syntax is used almost exclusively (because results in less typing) and that is what we will be using throughout the course   // programmatically \u0026#34;select\u0026#34; all p tags on the page using jQuery() syntax  jQuery(\u0026#39;p\u0026#39;)  is the same as:\n// programmatically \u0026#34;select\u0026#34; all p tags on the page using the $() shorthand syntax; most widely used approach  $(\u0026#39;p\u0026#39;)  Example\nWe will be using the shorthand syntax throughout this course:\n// Use jQuery to \u0026#34;select\u0026#34; an element with an id of main and listen for a click event  $(\u0026#34;#main\u0026#34;).click(doSomething)  "
+},
+{
+	"uri": "/01-command-line-js-and-git/github/",
+	"title": "Github",
+	"tags": [],
+	"description": "",
+	"content": " What is Github?  Web-based Git repository hosting service\n Built on top of git\n Serves as the remote repository for a developer\u0026rsquo;s git projects\n Home to +90% of all open source projects\n Has become a \u0026ldquo;social network\u0026rdquo; for developers share, discuss and collaborate on software projects\n Many companies also use GitHub internally to privately collaborate on software projects with the other software engineers within their organization\n  "
+},
+{
+	"uri": "/02-javascript-basics/arithmetic-operators/",
+	"title": "Arithmetic Operators",
+	"tags": [],
+	"description": "",
+	"content": " Arithmetic Operators  Mathematical symbol that can act on two values (or variables) and produce a result\n JavaScript adheres to the PEDMAS approach when determining the order of operations\n     Description Operator Example     Addition + 7 + 8   Subtraction - 34 - 12   Multiplication * 3 * 5   Division / 42 / 6   Modulus (Remainder) % 13 % 6 (returns 1, as 6 goes into 13 twice, leaving 1 as the remainder )   Exponential ** 4 ** 2 (returns 16 or 4 * 4)   Increment ++ 9++ (returns 10)   Decrement -- 37-- (returns 36)    Examples JS Bin on jsbin.com\nExercise Add the following expressions in the jsbin below and evaluate the result; use console.log() to print the result. Don\u0026rsquo;t forget to press \u0026ldquo;run\u0026rdquo; after adding your code.\n 45 % 3\n 8 / 2 * (2 * 2)\n 8**3\n  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/05-arrays-objects/",
+	"title": "Arrays &amp; Objects",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 05 Arrays \u0026amp; Objects "
+},
+{
+	"uri": "/01-command-line-js-and-git/git-vocabulary/",
+	"title": "Git Vocabulary",
+	"tags": [],
+	"description": "",
+	"content": " Git Vocabulary Repository  Most basic element of GitHub\n A repository can be referred to as a project\n contains all of a project\u0026rsquo;s files\n Stores each file\u0026rsquo;s revision history\n Repositories can have multiple collaborators and can be either public or private.\n  Commit  A \u0026ldquo;revision\u0026rdquo;, is an individual change to a file (or set of files)\n Git\u0026rsquo;s version of saving\n Commits save a \u0026ldquo;snapshot\u0026rdquo; of all of the project\u0026rsquo;s files at that point in time\n Using commits you can \u0026ldquo;time travel\u0026rdquo; and navigate back to any previous commit that was made throughout the history of the project\n Commits usually contain a commit message which is a brief description of what changes were made\n  Branch  Parallel version of a repository\n Branches allow developers to work on new features without affecting the \u0026ldquo;master\u0026rdquo; branch and disrupting the \u0026ldquo;live\u0026rdquo; version\n The process of creating a separate branch to work on a feature is referred to as \u0026ldquo;creating a feature branch\u0026ldquo;\n After developers have added their new feature (on their feature branch) they will then make a Pull Request (which is a request for comments and a request to Merge their changes back into the main branch (master branch))\n  Master Branch  The default branch found in every Git respository\n For most companies, the master branch reflects that latest version of production code (i.e. working code available to customers)\n  Merge  Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another\n This often happens as a Pull Request (which can be thought of as a request for comments and a request to merge into the another branch * usually the master branch)\n  Push  Refers to sending your committed changes to a remote repository such as GitHub.com\n For instance, if you change something locally, you\u0026rsquo;d want to then push those changes so that others may access them\n  Pull  Pulls code from a remote repository and merges it with code in your local repository (on your computer)  Fork  A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project\n Most commonly, forks are used to either propose changes to someone else\u0026rsquo;s project or to use someone else\u0026rsquo;s project as a starting point for your own idea\n  Clone  Copies a remote repository (i.e. repository in the cloud on a platform like Github.com) and creates a local copy of the repository on your computer\n Cloning creates a link between the the remote and local copy of a repository, allowing you to your code in sync between the two\n  Pull Request  Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository\u0026rsquo;s collaborators (i.e. team members).\n Pull requests can be thought of as a developer asking for permission to merge their changes into the master branch\n Pull requests each have their own discussion forum, where developer can discuss the changes requested and suggest further revisions.\n This discussion as also referred to as Code Reviews\n  Great resource for all things git can be found here\n "
+},
+{
+	"uri": "/04-functions-and-scope/returning-values-from-functions/",
+	"title": "Returning Values from Functions",
+	"tags": [],
+	"description": "",
+	"content": "  Many times you will write a function and expect a value to be returned - this is called a return value\n To have your function return a value you must use the return keyword in the last line of the body of your function\n We use the return keyword when we want our function to \u0026ldquo;give us back\u0026rdquo; a value\n You can store the returned value in a variable and use it later in your program\n  Example // declare a function called bark // that *returns* a string respreseting \u0026#39;woof woof\u0026#39; function bark() { return \u0026#39;woof woof!\u0026#39; } // call the bark function and store result in a variable let sound = bark() // print out result to the console console.log(`a dog makes the following sound ${sound}`)  JS Bin on jsbin.com\n If you don\u0026rsquo;t use the return keyword, then no value will be returned  // declare a function called meow // that generates a string representing \u0026#39;meow\u0026#39; but // does not use the return keyword  function meow() { \u0026#39;meow\u0026#39; } // call the meow function and store result in a variable let sound = meow() // print out result to the console console.log(`a cat makes the following sound ${sound}`)  JS Bin on jsbin.com\nExercise  Create a function called sayMoo that returns the string mooooooo!. Next, call the function and store the result into a variable named cowSound  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-overview/jquery-selectors/",
+	"title": "jQuery Selectors",
+	"tags": [],
+	"description": "",
+	"content": " Selecting Elements  A most common usage pattern for jQuery is to:\n Programmatically select (or grab) an element, then\n Add an event listener to it or manipulate (change) it in some way\n  jQuery allows us to use css selectors to select elements:\n   // We can use css selectors to programmatically select elements $('p') // Type (Tag) selector $('.feature') // Class selector $('#checkout') // ID selector $('li strong') // Descendant selector $('em, i') // Multiple selector $('a[target=\u0026quot;_blank\u0026quot;]') // Attribute selector $('p:nth-child(2)') // Pseudo-class selector   ID, Class, Type and Descendant selectors are the selectors we\u0026rsquo;ll be using the most during this course  A complete list of CSS Selectors can be found here\n  Dynamically changing your page using JavaScript is commonly referred to as manipulating the DOM  Example #1\nJS Bin on jsbin.com\nIn the example above jQuery is used to listen for a .click() event on the #button element and then execute the callback function when that element is clicked\nInside the callback function, $(\u0026quot;p\u0026quot;) selects the p element and uses the .toggleClass() method to dynamically toggle the class of .red-background\nExample #2\nJS Bin on jsbin.com\nIn the example above jQuery is used to listen for a .click() event on the #mark-complete element and then call the callback function when the element is clicked\nInside the callback function, $(\u0026quot;p.last-of-type\u0026quot;) selects the last p element and uses the .addClass() method to dynamically add a class to the element\n"
+},
+{
+	"uri": "/02-javascript-basics/variables/let-vs-var/",
+	"title": "let vs var",
+	"tags": [],
+	"description": "",
+	"content": " let vs var  In recent past var was the only way to declare variables\n While var worked it a lot of confusing issues that came along with it\n let was introduced in the latest release of JavaScript, ES6 to address these issues\n While var is still in use for legacy codebases, it is a recommended best practice to use let instead of var going forward\n  // declaring a variable using var var name = \u0026#34;Jen\u0026#34; // declaring a variable using let (best practice) let name = \u0026#34;Jen\u0026#34;  Click here for more information on the differences between let and var\n "
+},
+{
+	"uri": "/01-command-line-js-and-git/git-basics/",
+	"title": "Git Basics",
+	"tags": [],
+	"description": "",
+	"content": " Git Basics  Before we can understand how git saves files, we need to cover some concepts about how git works  Three States of a Git file  Git has three main states that your files can reside in: committed, modified, and staged\n committed: files that have been saved / recorded to the repository\u0026rsquo;s history\n staged: files that have been modified\n modified: files that has been modified but have not yet been staged and committed to project\u0026rsquo;s history\n   Git Projects have three main sections  Git projects are broken up into three main sections:   Working Directory - where all the recent “unstaged” changes (since your last commit) reside\n modified files reside in the Working Directory  Staging Area where all your staged changes live ; stores information about what will go into your next commit (i.e. changes to be committed)\n staged files reside in the staging area  Git directory (repository) where all the changes throughout history of a git project are permanently stored; changes are recorded to the Git directory through the use of commits\n committed files reside in the git directory / repository   Typical Git Workflow  The basic Git workflow goes something like this:\n You modify files in your working directory\n You stage the files, adding snapshots of them to your staging area\n You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory\n   "
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-overview/jquery-objects/",
+	"title": "jQuery Objects",
+	"tags": [],
+	"description": "",
+	"content": " jQuery Objects  Whenever we use $() or jQuery() to target an element, a jQuery object is created\n For example $('p') creates a jQuery object that targets all \u0026lt;p\u0026gt; elements on a page  jQuery objects can be stored in variables in the same way we are already familiar with\n It is a best practice to prepend a $ to the name of any variable that holds a jQuery Object:   // store jQuery object into a variable named \u0026#34;$mainMenu\u0026#34;  $mainMenu = $(\u0026#39;#main-menu\u0026#39;) // call a jQuery methods `.hide()` on jQuery object to hide the targeted element  $mainMenu.hide()  "
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/before/",
+	"title": ".before()",
+	"tags": [],
+	"description": "",
+	"content": " .before() Method  Method is used to insert content before the selected elements  Example $(() =\u0026gt; { $(\u0026#39;#addHeader\u0026#39;).click(() =\u0026gt; { // Add header \u0026#34;before\u0026#34; .numbers div  const header = \u0026#34;\u0026lt;h2\u0026gt;Numbers\u0026lt;/h2\u0026gt;\u0026#34; $(\u0026#39;.numbers\u0026#39;).before(header) }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/05-arrays-objects/array-iterators/find/",
+	"title": ".find()",
+	"tags": [],
+	"description": "",
+	"content": " .find()  Returns the value of the first element in the array that satisfies the provided testing function\n undefined is returned if no element satisfies testing function\n The callback function for .find() accepts the following parameters:\n element: (required) current element being processed in the array.\n index: (optional) index of the current element being processed in the array\n array: (optional) the array map was called upon\n  .find() only returns a single value and does not return an array\n  Syntax Using traditional (ES5) function syntax\nlet result = arr.find(function(item, index, array) { // if true is returned, item is returned and iteration is stopped  // for falsy scenario returns undefined })  Using arrow syntax (ES6)\nlet result = arr.find((item, index, array) =\u0026gt; { // if true is returned, item is returned and iteration is stopped  // for falsy scenario returns undefined })  Example let numbers = [5, 3, 13, 4, 11 ] let greaterThan5 = numbers.find( number =\u0026gt; number \u0026gt; 5 ) console.log(greaterThan5) // 13  JS Bin on jsbin.com\nExercise  Use .find() to return the first word that has more than 6 characters in the words array. Save the returned values to a variable declared with const called longWord  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-events/mouse-events/hover/",
+	"title": ".hover() Event",
+	"tags": [],
+	"description": "",
+	"content": " .hover() Event  Attaches an event handler function to an element that is triggered when users hover over the element with their mouse\n with .hover() you can specify two handlers functions to the matched elements, where the first handler is executed when the mouse pointer enters initially hovers over the element and the 2nd handler is executed when the most is no longer hovered over the targeted elements\n  Example $(() =\u0026gt; { // listen for .hover() event on .box  $(\u0026#39;.box\u0026#39;).hover( (event) =\u0026gt; { // 1st handler function  // add .red class on hover  $(event.currentTarget).addClass(\u0026#39;red\u0026#39;) }, (event) =\u0026gt; { // 2nd handler function  // remove .red class when hover is exited  $(event.currentTarget).removeClass(\u0026#39;red\u0026#39;) }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/remove-class/",
+	"title": ".removeClass()",
+	"tags": [],
+	"description": "",
+	"content": " .removeClass() Method  Method removes one or more classes from selected elements  Example $(() =\u0026gt; { $(\u0026#34;#removeBorderClass\u0026#34;).click(() =\u0026gt; { // remove .strongBorder to box  $(\u0026#34;.box\u0026#34;).removeClass(\u0026#34;strongBorder\u0026#34;) }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/05-arrays-objects/array-review/adding-removing-items/shift/",
+	"title": ".shift()",
+	"tags": [],
+	"description": "",
+	"content": " .shift()  Removes the first element from an array and returns that removed element\n This method is a mutating method because it changes the original array\n  Example let fruits = [\u0026#34;Apple\u0026#34;, \u0026#34;Orange\u0026#34;, \u0026#34;Grapes\u0026#34;] fruits.shift() console.log(fruits) // Orange, Grapes  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-effects/slide-toggle/",
+	"title": ".slideToggle()",
+	"tags": [],
+	"description": "",
+	"content": " .slideToggle() Method  Method that toggles between the slideUp() and slideDown() methods  Example $(() =\u0026gt; { $(\u0026#34;button\u0026#34;).click(() =\u0026gt; { // slide toggle #box element  $(\u0026#34;#box\u0026#34;).slideToggle() }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-manipulation/getting-setting-content/val/",
+	"title": ".val()",
+	"tags": [],
+	"description": "",
+	"content": " .val() Method  Method is mainly used to get or set the current value of the HTML form elements such as \u0026lt;input\u0026gt;, \u0026lt;select\u0026gt; and \u0026lt;textarea\u0026gt;  Example of Getting (Reading) values from form elements  To Get (Read) text of an element use .val() with nothing inside the parentheses  $(() =\u0026gt; { $(\u0026#34;#getName\u0026#34;).click(() =\u0026gt; { // read value of text field  const $name = $(\u0026#34;#name\u0026#34;).val() alert($name) }) $(\u0026#34;#getComment\u0026#34;).click(() =\u0026gt; { // read value of the text area  const $comment = $(\u0026#34;#comment\u0026#34;).val() alert($comment) }) $(\u0026#34;#getCity\u0026#34;).click(() =\u0026gt; { // read value from select dropdown  const $city = $(\u0026#34;#city\u0026#34;).val() alert($city) }) })  JS Bin on jsbin.com\nExample of Setting (writing) values to form elements  To Set (Write) text of an element use .val(newVal) with the new value inside the parentheses  $(() =\u0026gt; { $(\u0026#34;#setName\u0026#34;).click(() =\u0026gt; { // set value of text field  $(\u0026#34;#name\u0026#34;).val(\u0026#34;Jill Scott\u0026#34;) }) $(\u0026#34;#setComment\u0026#34;).click(() =\u0026gt; { // set value of the text area  $(\u0026#34;#comment\u0026#34;).val(\u0026#34;She\u0026#39;s awesome!\u0026#34;) }) $(\u0026#34;#setCity\u0026#34;).click(() =\u0026gt; { // set value of select dropdown  $(\u0026#34;#city\u0026#34;).val(\u0026#34;Philadelphia\u0026#34;) }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/",
+	"title": "CSS &amp; Style Manipulation",
+	"tags": [],
+	"description": "",
+	"content": " CSS \u0026amp; Style Manipulation  .css()   .addClass()   .removeClass()   .toggleClass()   "
+},
+{
+	"uri": "/00-course-intro-and-tools/class-logistics-materials/",
+	"title": "Class Logistics &amp; Materials",
+	"tags": [],
+	"description": "",
+	"content": " Class Logistics  Class Schedule: Mondays \u0026amp; Wednesdays, 8:00pm - 11:00pm, from Jul 30th through Oct 3rd\n Break: 15 minute break during the middle of class from 9:15pm to 9:30pm (subject to change depending on flow of the class, but you\u0026rsquo;ll always get a 15 min break)\n Class Materials: Most lessons will include a set of files that you\u0026rsquo;ll work with during that lesson, we\u0026rsquo;ll refer to these files as the \u0026ldquo;lesson files\u0026rdquo;\n Homework: Homework assignments will be assigned at the end of class on Thursdays and assignments will be due the following Thursdays\n Reading Assignment / Tutorials: Reading Assignments and Tutorials may be assigned after a class. They are usual short in nature and are meant to help increase your understanding of upcoming or past concepts. If assigned, you will be expected to complete them before the next class.\n Labs: Labs are in-class assignments completed at the end of class; they can be done completed individually or in groups.\n Code Alongs: Small projects or exercises that the instructor and the class complete together\n Exercises: Short in-class exercises that are completed by students (either individually or in teams)\n Office Hours: Weekly Office Hours - Schedule TBD\n Final Project: Pick something your passionate about; Single Page Application (SPA) that incorporates concepts covered throughout the class (more detail will be provided later in the course)\n  "
+},
+{
+	"uri": "/01-command-line-js-and-git/code-along-basic-git-workflow/",
+	"title": "Code Along: Basic Git Workflow",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: Basic Git Workflow  There\u0026rsquo;s a learning curve when working with Git\n The best way to learn how Git works is to see it in action\n Along the way, we\u0026rsquo;re going introduce important concepts and Git Commands\n This tutorial is meant to be interactive, so please follow along\n The tutorial will involve heavy use of the command line\n  Step 0: Navigate to your class folder on your command line  From your command line, navigate to your class folder (i.e. the folder named jsd)  This tutorial assumes that you already have Git installed. Git installation instructions can be found here\n Step 1: Set up your project directory  Navigate into the lesson_01_files directory (this assumes you are currently in your jsd directory)\n$ cd lesson_01_files  Create a new directory named git_intro\n$ mkdir git_intro  Navigate into the git_intro directory using the cd command\n$ cd git_intro  git_intro is where all the files for this project will reside\n  Step 2: Create git repository for our project  In order to use git to track all the changes within this project we need to create a repository  Repositories (or often, \u0026lsquo;repos\u0026rsquo;, for short) represent the entire collection of files and folders associated with a project, along with each file’s revision history\n  One way to create a repository is to use the git init command\n Let\u0026rsquo;s create a new git repository to track all the changes inside your git_intro project\n Initialize a new repository by running the following command:\n$ git init  Confirm that you received output in your terminal that looks similar to the following:\n Initialized empty Git repository in /jsd/lesson_01_files/git_intro/.git/  Congrats! Git is now set up to track all changes to this project\n  Step 3: Add a new file to the repository  Create a new file using the touch command\n$ touch homer_simpson_quote.txt  Next, open up your text editor and add the following content to homer_simpson_quote.txt and save the file\nTo start, press any key. Where’s the ANY key?  After creating the new file, you can use the git status command to see which files git knows exist\n$ git status  Your output should look similar to the following:\n On branch master No commits yet Untracked files: (use \u0026quot;git add \u0026lt;file\u0026gt;...\u0026quot; to include in what will be committed) homer_simpson_quote.txt nothing added to commit but untracked files present (use \u0026quot;git add\u0026quot; to track)   Git is telling us that they acknowledge that we\u0026rsquo;ve created a new file called homer_simpson_quote.txt but will not do anything with it until we use the git add command\n Our changes to homer_simpson_quote.txt are in the \u0026ldquo;Working Directory\u0026rdquo; and in order to eventually commit those changes to our repository\u0026rsquo;s history, we first need to stage our changes using git add\n   Step 4: Add a file to the staging environment  Let\u0026rsquo;s use the git add command to add our newly updated file to the staging area, after which run git status\n$ git add homer_simpson_quote.txt $ git status  git status should now result in the following output:\nOn branch master No commits yet Changes to be committed: (use \u0026quot;git rm --cached \u0026lt;file\u0026gt;...\u0026quot; to unstage) new file: homer_simpson_quote.txt  Git has added the file to the staging area (notice the \u0026ldquo;Changes to be committed\u0026rdquo; line)\n  Step 5: Create a commit  Let\u0026rsquo;s create our first commit\n Committing in git will move any updates that are currently in the \u0026ldquo;staging area\u0026rdquo; to our \u0026ldquo;git directory (repository)\u0026rdquo;\n We commit files using the git commit -m \u0026quot;[your short message goes here]\u0026quot; command\n  git commit -m \u0026quot;Add homer simpson quote\u0026quot;   The command should result in an output similar to the following:   [master (root-commit) fdd3af7] add homer simpson quote 1 file changed, 1 insertion(+) create mode 100644 homer_simpson_quote.txt   Standard conventions for commit messages:\n Must be in quotation marks\n Written in the present tense\n Should be brief (50 characters or less) when using -m\n   Step 6: Edit an existing file  We\u0026rsquo;ve seen what its like to create a new file with git, now let\u0026rsquo;s see how everything works when we edit an existing file\n Open homer_simpson_quote.txt in your text editor and change the word \u0026ldquo;start\u0026rdquo; to \u0026ldquo;begin\u0026rdquo;; save the file\n Let\u0026rsquo;s take a look how git handles this scenario, first lets run git status\n Your output should look like the following:\nOn branch master Changes not staged for commit: (use \u0026quot;git add \u0026lt;file\u0026gt;...\u0026quot; to update what will be committed) (use \u0026quot;git checkout -- \u0026lt;file\u0026gt;...\u0026quot; to discard changes in working directory) modified: homer_simpson_quote.txt no changes added to commit (use \u0026quot;git add\u0026quot; and/or \u0026quot;git commit -a\u0026quot;)  Git was smart enough to recognize that our homer_simpson_quote.txt file changed, but what if we wanted to see detailed change at a \u0026lsquo;line-level\u0026rsquo;?\n Let\u0026rsquo;s run the git diff command to accomplish this\n$ git diff  Here\u0026rsquo;s the output:\ndiff --git a/homer_simpson_quote.txt b/homer_simpson_quote.txt index 46b008a..bd6f49a 100644 --- a/homer_simpson_quote.txt +++ b/homer_simpson_quote.txt @@ -1 +1 @@ -To start, press any key. Where’s the ANY key? +To begin, press any key. Where’s the ANY key? (END)  Press the q key to escape from the git diff output in your terminal\n  Notice that git diff gives us a granular view of the recent changes that have occurred on a line by line level\n  Step 7: Stage and Commit your recent changes  Let\u0026rsquo;s stage the file so the changes can be moved from the \u0026ldquo;working directory\u0026rdquo; to the \u0026ldquo;staging area\u0026rdquo;\n$ git add homer_simpson_quote.txt  Next, let\u0026rsquo;s commit the changes\n$ git commit -m \u0026quot;update homer simpson quote\u0026quot;   Step 8: View a log of your commits  Git makes it easy for you to see a summarized history of your commits using the git log command\n$ git log  Here\u0026rsquo;s what the output should look like:\nOn branch master nothing to commit, working tree clean commit 4842dd2b97adfbfd6daaa7cfeb575c7ed1d2f44b (HEAD -\u0026gt; master) Author: Kareem Grant \u0026lt;kareem@getuserwise.com\u0026gt; Date: Thu Aug 1 17:52:49 2019 -0400 update homer simpson quote commit fdd3af7e7064dea063b625306c75adf0d04794c0 Author: Kareem Grant \u0026lt;kareem@getuserwise.com\u0026gt; Date: Thu Aug 1 17:21:10 2019 -0400 add homer simpson quote   Press the q key to escape from the git log output in your terminal\n Student Exercise: Make additional updates  Now it\u0026rsquo;s your turn to try your hand at using git\n Use your knowledge of the command line \u0026amp; git command accomplish the following (all of the following should occur within the git_intro project):\n Create a new file called marge_simpson_quote.txt\n Add the following text to marge_simpson_quote.txt\n   The only thing I'm high on is love.   Add another file called bart_simpson_quote.txt\n Add the following text to bart_simpson_quote.txt\n   Eat my shorts!   Stage and commit both files; use the following commit message: \u0026ldquo;add marge and bart simpson quotes\u0026rdquo;\n Use one of the introduced git commands to visual confirm that you now have three commits\n Edit the bart_simpson_quote.txt file and change \u0026ldquo;shorts\u0026rdquo; to \u0026ldquo;sneakers\u0026rdquo;\n Stage and commit your changes; use the following commit message: \u0026ldquo;update bart simpson quote\u0026rdquo;\n   Step 9: Create a new repository on GitHub  Now let\u0026rsquo;s create a remote repository on GitHub so it can be synced in the cloud\n To create a new repo on GitHub, log in and go to the GitHub home page. You should see a + sign that will allow you to create a new repository:\n After clicking the button, GitHub will ask you to name your repo and provide a brief description\n Name the repository git_intro and provide a short description:\n When you\u0026rsquo;re done filling out the information, press the Create repository button to make your new repo\n GitHub will ask if you want to create a new repo from scratch or if you want to add a repo you have created locally. In this case, since we\u0026rsquo;ve already created a new repo locally, we want to push that onto GitHub so follow the \u0026hellip;.or push an existing repository from the command line\u0026rsquo; section\n Copy the first line (starting with git remote add\u0026hellip;) and paste it into the command line (please ensure you are still in your project folder)\n$ git remote add origin git@github.com:{your-git-username}/git_intro.git  The git remote add command creates link between the remote repository on Github and the local repository on your computer\n Now run git remote -v to confirm that the remote repository was added\n$ git remote -v  The output should look similar to the following:\norigin git@github.com:kareemgrant/git_intro.git (fetch) origin git@github.com:kareemgrant/git_intro.git (push)   origin is a default alias (i.e. nickname) used for remote repositories; developers can specify their own alias by providing additional option to the git remote add command (see docs)\n  Next we\u0026rsquo;ll use the git push command to push our changes to the remote repository on Github so the repositories will be in sync\n$ git push -u origin master  The output of the command should look similar to the following:\nEnumerating objects: 6, done. Counting objects: 100% (6/6), done. Delta compression using up to 8 threads Compressing objects: 100% (4/4), done. Writing objects: 100% (6/6), 568 bytes | 568.00 KiB/s, done. Total 6 (delta 0), reused 0 (delta 0) To github.com:kareemgrant/git_intro.git '* [new branch] master -\u0026gt; master Branch 'master' set up to track remote branch 'master' from 'origin'.  Login to your Github account and navigate to the remote repository https://{your_git_username}/git_intro\n A link between our remote and local repositories has been established\n It\u0026rsquo;s important to point out that keeping the remote and local repositories in sync does not happen automatically; it will be the responsibility of developer (using commands such as git push and others)\n  "
+},
+{
+	"uri": "/07-dom-and-jquery-continued/code-along-color-scheme-switcher-jquery/",
+	"title": "Code Along: Color Scheme Switcher",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: Color Scheme Switcher  The starter code for this code along is hosted on Github, see the url below:\n Code Along: Color Scheme Switcher  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
+	"uri": "/06-dom-and-jquery/",
+	"title": "DOM &amp; jQuery",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 06 Intro to DOM \u0026amp; jQuery "
+},
+{
+	"uri": "/homework-assignments/hw-assignment-03/",
+	"title": "HW Assignment #3",
+	"tags": [],
+	"description": "",
+	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Friday, August 30th\nComplete Homework #3 - Rock, Paper, Scissors Application  You are tasked with finishing the partially built Rock, Paper, Scissors application. The code is hosted on Github, see the url below:\n Github Repo for Homework #3 - Rock, Paper, Scissors Application  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
+	"uri": "/03-control-flow-and-loops/lab-js-basics-control-flow-loops/",
+	"title": "Lab: JS Basics, Control Flow &amp; Loops",
+	"tags": [],
+	"description": "",
+	"content": " Lab: JavaScript Basics, Control Flow \u0026amp; Loops  You are tasked with completing the problem set which is hosted on Github, see the url below:\n Github Repo for JS Basics, Control Flow \u0026amp; Loops Lab  Use the \u0026ldquo;Assignment Submission Git Workflow\u0026rdquo; (instructions) to access the lab files and submit your completed assignment\n  Tips  Be resourceful, leverage the class notes, google, MDN or any other means at your disposal to solve these problems (a core developer skill is being able to look things up and find the answers)\n Follow the instructions and use the test cases to confirm that your programs successfully meet the requirements\n  "
+},
+{
+	"uri": "/class-resources/node-git-installation/linux/",
+	"title": "Linux Installation Instructions",
+	"tags": [],
+	"description": "",
+	"content": " Linux Installation Instructions 1) Find and Open your Terminal / Command Prompt application  All of the following commands (below) that start with $ should be copied and pasted in your terminal / command prompt (also referred to as the \u0026ldquo;command line\u0026rdquo;)\n DO NOT include the \u0026lsquo;$\u0026rsquo; when copying and pasting the commands below; \u0026lsquo;$\u0026rsquo; is a universal symbol for the terminal / command line\n Press the enter / return key on your keyboard after pasting the command\n  2) Install Git  Git is a tool used to track the state of your code over time. GitHub is a company that has made a business on top of the Git technology. We will be using both Git and GitHub in this class to distribute code, submit assignments and offer feedback.\n Git can be installed by running the following command:\n   $ sudo apt-get install build-essential git-core curl  3) Configure Git  Copy and paste the following two commands (separately) into your Terminal. Replace the name and email address values with your own   $ git config --global user.name \u0026quot;Steve Jobs\u0026quot; $ git config --global user.email \u0026quot;steve@apple.com\u0026quot;   Follow these instructions to create a new SSH Key (a special, very secure, key which allows your laptop access to your github account without having to remember your github password)\n Add your new SSH Key to GitHub following these instructions\n Verify your key works by running the following:\n  $ ssh git@github.com   You should see output similar to:   Hi \u0026lt;you\u0026gt;! You've successfully authenticated, but GitHub does not provide shell access. Connection to github.com closed.  4) Install Node.js  $ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash - sudo apt-get install -y nodejs $ apt-get install --yes build-essential  "
+},
+{
+	"uri": "/05-arrays-objects/objects/methods/",
+	"title": "Methods",
+	"tags": [],
+	"description": "",
+	"content": " Object Methods  Methods are functions of an object\n Methods specify the actions of an object (i.e. what the action can do)\n Methods are called in the same way we call all other functions\n  Example let superHero = { \u0026#39;secret identity\u0026#39;: \u0026#39;Peter Parker\u0026#39;, name: \u0026#39;Spiderman\u0026#39;, powers: [\u0026#39;super strength\u0026#39;, \u0026#39;hyper awareness\u0026#39;, \u0026#39;agility\u0026#39;, \u0026#39;genius intellect\u0026#39;], age: 17, sayTagline: function() { // \u0026lt;- method  console.log(\u0026#34;Hey everyone it\u0026#39;s your friendly neighborhood Spiderman\u0026#34;) } } // call the the method, just as you would call any function  superHero.sayTagline()  JS Bin on jsbin.com\nExercise Create add a method to our superVillain object with the key named sayCatchPhrase, the method should print out the following message to the console \u0026ldquo;I am inevitable\u0026rdquo;\nJS Bin on jsbin.com\n"
+},
+{
+	"uri": "/05-arrays-objects/objects/",
+	"title": "Objects",
+	"tags": [],
+	"description": "",
+	"content": " Objects  Objects are used to represent real world objects in programming\n Within an object, variables are known as properties and functions are known as methods\n Curly braces are a means of identifying if a variable is an object\n// create an object that represents a dog  let myDog = { name: \u0026#34;Fido\u0026#34;, age: 4, speak: function() { console.log(\u0026#39;Woof woof\u0026#39;) } }  Objects are organized in Key / Value pairs, in the example above: name is a key and \u0026quot;Fido\u0026quot; is the value, the pair together is referred to as the property\n  Details  Creating Objects   Accessing Properties   Assigning Properties   Methods   Nested Objects   "
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-events/other-events/",
+	"title": "Other Events",
+	"tags": [],
+	"description": "",
+	"content": " Other Events There are many other events available, click here to see a complete list of jQuery Events\n"
+},
+{
+	"uri": "/05-arrays-objects/array-review/updating-array-values/",
+	"title": "Updating Array Values",
+	"tags": [],
+	"description": "",
+	"content": " Updating Arrays Values  You can change a value in an array by referencing the value and then changing the value using an = (equal sign)  Example // declare a variable called newEditionMembers and use it to store // an array of names  let newEditionMembers = [\u0026#34;Ricky Bell\u0026#34;, \u0026#34;Michael Bivins\u0026#34;, \u0026#34;Bobby Brown\u0026#34;, \u0026#34;Ronnie DeVoe\u0026#34;, \u0026#34;Ralph Tresvant\u0026#34;] // We are going replace Bobby Brown with Johnny Gill // by referencing the 3rd element of the array by using index 2 // and then use assignment (just an equal sign) to change // the value to Johnny Gill  newEditionMembers[2] = \u0026#34;Johnny Gill\u0026#34;;  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/04-functions-and-scope/working-with-parameters/",
+	"title": "Working with Parameters",
+	"tags": [],
+	"description": "",
+	"content": " Declaring Functions that need information  Some functions need additional information in order to perform a specific task\n This additional information is referred to as “parameters”\n To provide parameters to a function, you specify them inside the parentheses after the parameter name\n The parameters are used like variables within the function body\n We use the return keyword when we want our function to \u0026ldquo;give us back\u0026rdquo; a value\n In the case of the example we want the function to return the result of the multiplying the width times the height   Example // define a function called getArea() // that accepts two parameters width \u0026amp; height // we MUST use the return keyword if we // want the function to give us back a value  function getArea(width, height) { return width * height } // Calling the getArea() function with values getArea(7, 5) // returns 35  // Calling the getArea() function again but this time with variables let doorWidth = 2 let doorHeight = 8 getArea(doorWidth, doorHeight) // returns 16  JS Bin on jsbin.com\nExercise  Create a function calculateAge that accepts yearOfBirth (number) as a parameter and returns the current age of the associated with the provided yearOfBirth  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/02-javascript-basics/variables/const/",
+	"title": "const",
+	"tags": [],
+	"description": "",
+	"content": " const  Stands for constant\n These are variables for which its value does not change after it has been assigned an initial value\n This help make your code easier to debug and protects certain values from accidentally being overridden in your codebase\n  Declaring a constant const are the same as let but with one key difference, values can only be assigned once to a const variable\n// declare a constant named \u0026#39;school\u0026#39;  const school = \u0026#34;General Assembly\u0026#34;  An error will occur if you try to update the value of a const\n// correctly declare a constant using \u0026#34;const\u0026#34; keyword const greeting = \u0026#34;Hello\u0026#34; // const values cannot be updated, if you attempt to do so // an error will occur  greeting = \u0026#34;Good Morning\u0026#34; // this will throw an error  "
+},
+{
+	"uri": "/03-control-flow-and-loops/loops-and-iteration/for-loop/",
+	"title": "for Loop",
+	"tags": [],
+	"description": "",
+	"content": " for Loop  The for loop consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement (usually a block statement) to be executed in the loop.\n The three expression help determine how many times the loop will iterate before it terminates\n The statements involve an iterator variable (usually depicted as an \u0026ldquo;i\u0026rdquo;)\n  for (statement 1; statement 2; statement 3) { // code block to be executed }   statement 1 is executed (one time) before the execution of the code block\n statement 2 defines the condition for executing the code block\n statement 3 is executed (every time) after the code block has been executed\n  Example for (let i = 0; i \u0026lt; 5; i++) { console.log(`${i}fish`) }  JS Bin on jsbin.com\nExercise Write a program that uses a for loop to print (using console.log()) a countdown from 10 to 1\nJS Bin on jsbin.com\n"
+},
+{
+	"uri": "/03-control-flow-and-loops/conditionals/if-else-if/",
+	"title": "if..else if Statement",
+	"tags": [],
+	"description": "",
+	"content": " if..else if Statement  Used when evaluation among more than two choices, use if/else if\n You must specify a condition for every else if clause\n You can use as many else if clauses as is needed\n  // if..else if statement  if (condition) { code to run if this condition is true } else if (another condition) { code to run if this condition is true } else { code to run if NONE of the above conditions are true } // run some other code  Example let yourGrade = 84 if (yourGrade \u0026gt;= 90) { console.log(\u0026#34;Congrats your score is 90 or above, that\u0026#39;s an A!\u0026#34;) } else if (yourGrade \u0026gt;= 80) { console.log(\u0026#34;Congrats your score is 80 or above, you earned a B\u0026#34;) } else { console.log(\u0026#34;Your score is less than 80, no bueno\u0026#34;) }  JS Bin on jsbin.com\nExercise  Update the program below to test for these additional conditions:\n If student has scored greater than or equal to 70, then print \u0026ldquo;You earned a C\u0026rdquo;\n If student has scored greater than or equal to 60, then print \u0026ldquo;You earned a D, do better next time\u0026rdquo;\n If the student scored below 60, then print \u0026ldquo;Unfortunately, you have failed that course will need to retake it next semester\u0026rdquo;\n   JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/01-command-line-js-and-git/code-along-git-branching-merging/",
+	"title": "Code Along: Git Branching &amp; Merging",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: Git Branching \u0026amp; Merging Step 0: Navigate to your class folder on your command line  From your command line, navigate to your class folder (i.e. the folder named jsd)  Step 1: Set up your project directory  Navigate into the lesson_01_files directory (this assumes you are currently in your jsd directory)\n$ cd lesson_01_files  Create a new directory named nursery_rhymes\n$ mkdir nursery_rhymes  Navigate into the nursery_rhymes directory using the cd command\n$ cd nursery_rhymes  nursery_rhymes is where all the files for this project will reside\n  Step 2: Create git repository for our project  Let\u0026rsquo;s create a new git repository to track all the changes inside your nursery_rhymes project\n Initialize a new repository by running the following command:\n$ git init   Step 3: Add a new files to the repository  Create two new files using the touch command\n$ touch humpty_dumpty.txt jack_be_nimble.txt  Open up your text editor and add the following content to humpty_dumpty.txt and save the file\nHumpty Dumpty sat on a wall, Humpty Dumpty had a great fall. All the king's horses and all the king's men Couldn't put Humpty together again.  Next, add the following text to jack_be_nimble.txt and save the file\nJack be nimble, Jack be quick, Jack jump over The candlestick.   Step 4: Stage and Commit your recent changes  Let\u0026rsquo;s stage the file so the changes can be moved from the \u0026ldquo;working directory\u0026rdquo; to the \u0026ldquo;staging area\u0026rdquo;\n$ git add .   git add . will add all files in the working directory to the staging area\n  Next, let\u0026rsquo;s commit the changes\n$ git commit -m \u0026quot;add initial nursery rhymes\u0026quot;   Step 5: Create a new branch  Branches allow developers work on a new feature without making any disruptive to changes to the main project (i.e. master branch) during the development of the feature\n Git branches are created using the git branch {branch-name} command\n Let\u0026rsquo;s create a new branch that will allow us to experiment with \u0026ldquo;remixes\u0026rdquo; to the Humpty Dumpty nursery rhyme\n First let\u0026rsquo;s create a new branch named \u0026ldquo;humpty_dumpty_remix\u0026rdquo;\n$ git branch humpty_dumpty_remix  Confirm that the new branch was successfully created by running git branch (without the \u0026ldquo;name\u0026rdquo; option)\n$ git branch  You should receive the following output:\nhumpty_dumpty_remix `* master  Note that you should have two (2) branches listed: master and humpty_dumpty_remix\n Also note that the asterisk (*) denotes which is currently active; we are currently \u0026ldquo;on the master branch\u0026rdquo;\n  Press the q key to escape from the git branch output in your terminal\n  In order to actually make changes on your new branch, we need to check it out so that it will be our \u0026ldquo;active branch\u0026rdquo;; otherwise, any changes we make now will be associated with our master branch\n Run the following command to check out our humpty_dumpty_remix branch\n$ git checkout humpty_dumpty_remix   git checkout {branch_name} allows developers to switch between branches in their local repository\n  Output should look similar to the following:\nSwitched to branch 'humpty_dumpty_remix'  You are now \u0026ldquo;on the humpty_dumpty_remix branch\u0026rdquo;\n  Step 6: Make changes on the feature branch  Open humpty_dumpty.txt in your text editor and change replace the last two lines of the nursery rhyme with the following lines; save the file:\nHe didn't get bruised he didn't get bumped Humpty Dumpty bungee jumped!  Run git diff to observe the line-by-line differences; your output should look like the following:\ndiff --git a/humpty_dumpty.txt b/humpty_dumpty.txt index 9516671..b5eeca0 100644 --- a/humpty_dumpty.txt +++ b/humpty_dumpty.txt @@ -1,4 +1,4 @@ Humpty Dumpty sat on a wall, Humpty Dumpty had a great fall. -All the king's horses and all the king's men -Couldn't put Humpty together again. +He didn't get bruised he didn't get bumped +Humpty Dumpty bungee jumped!   Step 7: Stage and Commit your recent changes  Let\u0026rsquo;s stage the file so the changes can be moved from the \u0026ldquo;working directory\u0026rdquo; to the \u0026ldquo;staging area\u0026rdquo;\n$ git add humpty_dumpty.txt  Next, let\u0026rsquo;s commit the changes\n$ git commit -m \u0026quot;remix humpty dumpty nursery rhyme\u0026quot;  Run git log to review the latest commit history\ncommit c6e54274bb0d6984e21622cb58274f48a80dc7d9 (HEAD -\u0026gt; humpty_dumpty_remix) Author: Kareem Grant \u0026lt;kareem@getuserwise.com\u0026gt; Date: Mon Aug 5 18:58:02 2019 -0400 remix humpty dumpty nursery rhyme commit 7edef5f21ddf4b42afb72c079cd03f3e2267e32c (origin/master, master) Author: Kareem Grant \u0026lt;kareem@getuserwise.com\u0026gt; Date: Mon Aug 5 16:36:50 2019 -0400 Add initial nursery rhymes  Note that our recent commit lives on the humpty_dumpty_remix branch\n  Step 8: Merge the changes into the master branch  We\u0026rsquo;re happy with our changes and now we\u0026rsquo;re ready to merge the changes into the master branch\n First, we need to move back to the master branch (we are currently on the humpty_dumpty_remix branch)\n We accomplish this by using the git checkout {branch_name} command\n$ git checkout master  The output should confirm that you successfully switched back to the master branch\nSwitched to branch 'master'  Now let\u0026rsquo;s merge the recent changes from our humpty_dumpty_remix branch into the master branch\n Merges in git are accomplished using the git merge command\n$ git merge humpty_dumpty_remix  The output should be similar to the following:\nUpdating 7edef5f..c6e5427 Fast-forward humpty_dumpty.txt | 4 ++-- 1 file changed, 2 insertions(+), 2 deletions(-)  The \u0026ldquo;fast-forward\u0026rdquo; reference means that Git was able to do an expedited merge because no conflicts were found (reference)\n Run git log to review the latest commit history\ncommit c6e54274bb0d6984e21622cb58274f48a80dc7d9 (HEAD -\u0026gt; master, humpty_dumpty_remix) Author: Kareem Grant \u0026lt;kareem@getuserwise.com\u0026gt; Date: Mon Aug 5 18:58:02 2019 -0400 remix humpty dumpty nursery rhyme commit 7edef5f21ddf4b42afb72c079cd03f3e2267e32c (origin/master) Author: Kareem Grant \u0026lt;kareem@getuserwise.com\u0026gt; Date: Mon Aug 5 16:36:50 2019 -0400 Add initial nursery rhymes  Notice that the HEAD (pointer which usually points to the most recent commit) is now on the master \u0026amp; the humpty_dumpty_remix branch; this means that our latest commit are up-to-date on both branches\n  Step 9: Delete the feature branch  Next, we\u0026rsquo;ll delete the feature branch because it\u0026rsquo;s no longer needed (the feature has been merged to master)\n To delete a branch we\u0026rsquo;ll use the git branch -d {name_of_branch}\n$ git branch -d humpty_dumpty_remix  The expected output should look similar to the following:\nDeleted branch humpty_dumpty_remix (was c6e5427).   Step 10: Create and checkout a new branch  Let\u0026rsquo;s create and check out a new branch that we\u0026rsquo;ll use to experiment with additional changes to jack_be_nimble.txt`\n Enter the following command to create a new branch and check it out at the same time\n$ git checkout -b update_jack_be_nimble  Here\u0026rsquo;s what the output should look like\nSwitched to a new branch 'update_jack_be_nimble'   git checkout -b {new_branch_name} uses the -b flag to checkout the newly created branch immediately after creating the branch\n Step 11: Make additional changes  Let\u0026rsquo;s makes some updates to our other nursery rhyme\n Run git branch to confirm that you are currently on the update_jack_be_nimble branch\n Open jack_be_nimble.txt in your text editor and replace all references to \u0026ldquo;Jack\u0026rdquo; with \u0026ldquo;Jill\u0026rdquo;; save the file\n  Step 12: Stage and Commit your recent changes  Stage the file so the changes can be moved from the \u0026ldquo;working directory\u0026rdquo; to the \u0026ldquo;staging area\u0026rdquo;\n$ git add jack_be_nimble.txt  Next, let\u0026rsquo;s commit the changes\n$ git commit -m \u0026quot;change references from jack to jill in 'jack be nimble'\u0026quot;   Step 13: Change back to the master branch and make a \u0026lsquo;conflicting\u0026rsquo; change  Next, we\u0026rsquo;re going to create a merge conflict on purpose and learn how to properly handle those conflicts\n Run git branch to confirm that you are currently on the master branch\n Open jack_be_nimble.txt in your text editor and change all references to \u0026ldquo;Jack\u0026rdquo; to \u0026ldquo;Jennifer\u0026rdquo;; save the file\n  Step 14: Stage and Commit your recent changes  Stage the file so the changes can be moved from the \u0026ldquo;working directory\u0026rdquo; to the \u0026ldquo;staging area\u0026rdquo;\n$ git add jack_be_nimble.txt  Next, let\u0026rsquo;s commit the changes\n$ git commit -m \u0026quot;change references from jack to jennifer in 'jack be nimble'\u0026quot;   Step 15: Attempt to merge \u0026ldquo;update_jack_be_nimble\u0026rdquo; into \u0026ldquo;master\u0026rdquo;  Let\u0026rsquo;s see what happens when we attempt to merge the update_jack_be_nimble branch into the master branch\n Ensure you are currently on the master branch and run the following command:\n$ git merge update_jack_be_nimble  You should receive output that resembles the following:\nAuto-merging jack_be_nimble.txt CONFLICT (content): Merge conflict in jack_be_nimble.txt Automatic merge failed; fix conflicts and then commit the result.  Git is informing us that it was not able to automatically merge the two branches due to a merge conflict\n  Step 16: View the merge conflict  Open jack_be_nimble.txt in your text editor; you should see the following:\n \u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt; HEAD Jennifer be nimble, Jennifer be quick, Jennifer jump over ======= Jill be nimble, Jill be quick, Jill jump over \u0026gt;\u0026gt;\u0026gt;\u0026gt;\u0026gt;\u0026gt;\u0026gt; update_jack_be_nimble The candlestick.  Note that some additional text has been added to our file:\n \u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt; HEAD\n =======\n `\u0026gt;\u0026gt;\u0026gt;\u0026gt;\u0026gt;\u0026gt;\u0026gt; update_jack_be_nimble\n  Think of these new lines as \u0026ldquo;conflict dividers\u0026rdquo;\n The ======= line is the \u0026ldquo;center\u0026rdquo; of the conflict.\n All the content between the center and the \u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt; HEAD line is content that exists in the current branch master which the HEAD ref is pointing to\n Alternatively all content between the center and \u0026gt;\u0026gt;\u0026gt;\u0026gt;\u0026gt;\u0026gt;\u0026gt; update_jack_be_nimble is content that is present in our merging branch\n   Step 16: Resolve the merge conflict  We\u0026rsquo;re going to fix the merge conflict by directly editing the file and removing the conflict dividers and any changes that we\u0026rsquo;ve determined (after discussing with our team) should be updated and/or deleted\n It\u0026rsquo;s been determined that the new name of our nursery rhyme subject should be \u0026ldquo;Jill\u0026rdquo;\n Remove all the conflict lines and the lines that start with \u0026ldquo;Jennifer\u0026rdquo;; save the file\n jack_be_nimble.txt should look like the following after the changes:\nJill be nimble, Jill be quick, Jill jump over The candlestick.  Next, run git add jack_be_nimble.txt to stage our changes\n Then commit the changes using git commit\n$ git commit -m \u0026quot;merged and resolved conflict in jack_be_nimble.txt\u0026quot;  Run a git log to view the updated commit history; the output should look similar to the following:\nOn branch master commit fd13059a4f83b0746ab95bb9aaf34c74ce8f74f6 (HEAD -\u0026gt; master) Merge: e82c6db 8fddf9d Author: Kareem Grant \u0026lt;kareem@getuserwise.com\u0026gt; Date: Tue Aug 6 09:57:34 2019 -0400 merged and resolved conflict in jack_be_nimble.txt commit e82c6db31408abfbe34a9917c75fa3e7be4e6053 Author: Kareem Grant \u0026lt;kareem@getuserwise.com\u0026gt; Date: Tue Aug 6 09:35:06 2019 -0400 change references from jack to jennifer in 'jack be nimble' commit 8fddf9dd40a77f94b10cab353f56e1fabddeeefb (update_jack_be_nimble) Author: Kareem Grant \u0026lt;kareem@getuserwise.com\u0026gt; Date: Tue Aug 6 09:32:59 2019 -0400 change references from jack to jill in 'jack be nimble' commit 7f102fe037156f74aa891e05c7779edddcb27531 Author: Kareem Grant \u0026lt;kareem@getuserwise.com\u0026gt; Date: Tue Aug 6 09:27:56 2019 -0400 remix humpty dumpty nursery rhyme commit 8409ae16180d09e67187330718c86310600bbb70 Author: Kareem Grant \u0026lt;kareem@getuserwise.com\u0026gt; Date: Tue Aug 6 09:26:30 2019 -0400 add initial nursery rhymes  Congrats! You\u0026rsquo;ve successfully resolved our merge conflict\n  "
+},
+{
+	"uri": "/05-arrays-objects/array-review/adding-removing-items/unshift/",
+	"title": ".unshift()",
+	"tags": [],
+	"description": "",
+	"content": " .unshift()  Adds one or more elements to the beginning of an array and returns the new length of the array\n This method is a mutating method because it changes the original array\n  Example let fruits = [\u0026#34;Apple\u0026#34;, \u0026#34;Orange\u0026#34;, \u0026#34;Grapes\u0026#34;] fruits.unshift(\u0026#34;Peach\u0026#34;, \u0026#34;Mango\u0026#34;) console.log(fruits) // Peach, Mango, Apple, Orange, Grapes  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/02-javascript-basics/comparison-operators/",
+	"title": "Comparison Operators",
+	"tags": [],
+	"description": "",
+	"content": " Comparison Operators  Compares operands (the things on either side of the operator) and returns true or false (boolean) based one the comparison     Operator Description Example (all return true)     Equal (==) Returns true if the operands are equal 3 == \u0026ldquo;3\u0026rdquo; (uhmm yes this is actually true)   Not equal (!=) Returns true if the operands are not equal. (4 + 1) != 10   Strict equal (===) Returns true if the operands are equal and of the same type (8 * 1) === 8   Strict not equal (!==) Returns true if the operands are of the same type but not equal, or are of different type 3 !== \u0026ldquo;3\u0026rdquo;   Greater than (\u0026gt;) Returns true if the left operand is greater than the right operand 10 \u0026gt; (3 * 3)   Greater than or equal (\u0026gt;=) Returns true if the left operand is greater than or equal to the right operand 10 \u0026gt;= (3 * 3) + 1   Less than (\u0026lt;) Returns true if the left operand is less than the right operand 7 \u0026lt; (3 * 3)   Less than or equal (\u0026lt;=) Returns true if the left operand is less than or equal to the right operand 18 \u0026lt;= 6 * 3    Examples JS Bin on jsbin.com\nExercise Add the following expressions in the jsbin below and evaluate the result; use console.log() to print the result. Don\u0026rsquo;t forget to press \u0026ldquo;run\u0026rdquo; after adding your code.\n \u0026quot;JavaScript\u0026quot; === \u0026quot;Java\u0026quot;\n \u0026quot;17\u0026quot; == parseInt(\u0026quot;17\u0026quot;)\n 10 \u0026gt;= (3 * 3) + 1\n  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/00-course-intro-and-tools/course-structure/",
+	"title": "Course Structure",
+	"tags": [],
+	"description": "",
+	"content": " Overview  The course has 20 classes\n What you\u0026rsquo;ll learn:\n Fundamentals of JavaScript: including programming concepts such as data types, variables, and loops—the core concepts of programming\n Object Oriented JavaScript (OOP) and APIs: Learn how JavaScript can be used to exchange information and functionality within our programs\n Practical applications of JavaScript: Learn how to JavaScript can be used to manipulate websites and applications\n  3 Projects\n Slackbot\n Todo Application\n Final Project\n   "
+},
+{
+	"uri": "/07-dom-and-jquery-continued/",
+	"title": "DOM &amp; jQuery, Continued",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 07 Intro to DOM \u0026amp; jQuery, Continued "
+},
+{
+	"uri": "/04-functions-and-scope/functions-calling-other-functions/",
+	"title": "Functions Calling Other Functions",
+	"tags": [],
+	"description": "",
+	"content": " Functions can call other functions  Function reusability is key results in cleaner code\n Reusing functions leverages key programming principle - Don\u0026rsquo;t Repeat Yourself (DRY)\n  Example  In the example of below, the surfaceAreaOfCube function calls another function (areaOfSquare) instead of duplicating work that was already done  // Function that calculates area of a square  function areaOfSquare(side){ return side * side } areaOfSquare(3) // returns 9  // This is a function that calculates the // surface area of a cube that *reuses* the areaOfSquare function  function surfaceAreaOfCube(side){ return 6 * areaOfSquare(side) } surfaceAreaOfCube(7) // returns 294  JS Bin on jsbin.com\nExercise  Create a function named surfaceAreaOfSphere that calculates the surface area of the Sphere using the following formula: 4 * PI * r**2; the function MUST reuse the provided areaOfCircle function  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/04-functions-and-scope/function-expressions-anonymous-functions/",
+	"title": "Function Expressions &amp; Anonymous Functions",
+	"tags": [],
+	"description": "",
+	"content": " Function Expressions \u0026amp; Anonymous Functions  Another way to define a function is to use a function expression\n To define a function inside an expression, we can use the function keyword with the function name omitted\n function with no name is called anonymous functions\n  Example let getArea = function(width, height) { return width * height } // Calling the getArea() function with values getArea(7, 5) // returns 35  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/00-course-intro-and-tools/tools/",
+	"title": "Course Tools",
+	"tags": [],
+	"description": "",
+	"content": " Text Editor:\n Why?: Text editor is a program that developers use to create and edit a range of programming language files. We\u0026rsquo;ll be using Atom, because it\u0026rsquo;s open source (free) and really good.\n Download Atom\n  Browser:\n Why?: Google chrome is a robust browser with a variety of tools that are helpful to developers.\n Install Google Chrome\n  Github:\n Why?: Github (and Git) are tools/applications used to by developers to manage their code and work collaboratively with each other. You\u0026rsquo;ll be using Github/Git to submit our homework assignments. kj\n Create a Github Account\n    Slack:\n Why?: Is a popular chat application that we\u0026rsquo;ll be using as our primary method of communication both during and outside of class\n Join the GA NYC Part Time Students Slack Community slack channel\n You should have received an emailed invitation to join GA’s slack team\n Don’t see an invitation in your inbox? Check your spam folder - many of Slack’s invitation emails tend to end up there. Let me know if you weren’t sent an invite and we’ll get you sorted out.\n  Add yourself to the dedicated Slack Channel for our class named #jsr-826 (see instructions on how to join a Slack Channel here)\n  Wireframes:\n Why?: Wireframes are a planning tools that helps you visualize the layout and other aspects of your web projects before writing any code.\n Multiple options:\n Whimsical - free wireframing software\n Google Drawing\n Pen \u0026amp; Paper\n  Example of a wireframe:\n   "
+},
+{
+	"uri": "/04-functions-and-scope/arrow-functions/",
+	"title": "Arrow Functions",
+	"tags": [],
+	"description": "",
+	"content": " Arrow Functions  ES6 introduced/arrow function syntax/, a shorter way to write functions by using the special \u0026ldquo;fat arrow\u0026rdquo; (=\u0026gt;)\n Instead, you first include the parameters inside the () and then add an arrow =\u0026gt; that points to the function body surrounded in { } like this:\nconst getArea = (width, height) =\u0026gt; { let area = width * height return area }   Parameter syntax rules for Arrow functions  Functions that take only a single parameter do not need that parameter to be enclosed in parentheses.\n However, if a function takes zero or multiple parameters, parentheses are required\n Zero parameters  const functionName = () =\u0026gt; {}   One parameter  const functionName = param =\u0026gt; {}   Two parameters  const functionName = (paramOne, paramTwo) =\u0026gt; {}   Function body syntax rules for Arrow functions  A function body composed of a single-line block does not need curly braces or a return keyword\n Without the curly braces, whatever that line evaluates will be automatically returned\n This is referred to as implicit return\n Examples\n Single line block  const functionName = number =\u0026gt; number + number   Multi-line block  const functionName = number =\u0026gt; { const sum = number + number return sum }   Exercise  Convert the following function to an arrow function\n Store the arrow function in a variable named areaOfCircle using const\n  function areaOfCircle(radius){ return Math.PI * (radius**2) }  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/after/",
+	"title": ".after()",
+	"tags": [],
+	"description": "",
+	"content": " .after() Method  Method is used to insert content after the selected elements  Example $(() =\u0026gt; { $(\u0026#39;#addFooter\u0026#39;).click(() =\u0026gt; { // Add footer \u0026#34;after\u0026#34; .numbers div  const footer = \u0026#34;\u0026lt;h2\u0026gt;Footer\u0026lt;/h2\u0026gt;\u0026#34; $(\u0026#39;.numbers\u0026#39;).after(footer) }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-manipulation/getting-setting-content/attr/",
+	"title": ".attr()",
+	"tags": [],
+	"description": "",
+	"content": " .attr() Method  Method to either get the value of an element\u0026rsquo;s attribute or set one or more attributes for the selected element  Example of Getting (Reading) attributes from elements  To Get (Read) text of an element use .attr(attrName) with name of the attribute you want to receive a value for  $(() =\u0026gt; { $(\u0026#34;#getIdName\u0026#34;).click(() =\u0026gt; { // read class name of .box  const $idName = $(\u0026#34;.box\u0026#34;).attr(\u0026#34;id\u0026#34;) alert($idName) }) $(\u0026#34;#getUrl\u0026#34;).click(() =\u0026gt; { // read href of a tag  const $url = $(\u0026#34;a\u0026#34;).attr(\u0026#34;href\u0026#34;) alert($url) }) })  JS Bin on jsbin.com\nExample of Setting (writing) attributes to elements  To Set (Write) text of an element use .attr(attrName, attrValue) with the new attribute name and value inside the parentheses  $(() =\u0026gt; { $(\u0026#34;#setClassName\u0026#34;).click(() =\u0026gt; { // set class name of #box to .green  $(\u0026#34;#box\u0026#34;).attr(\u0026#34;class\u0026#34;, \u0026#34;green\u0026#34;) }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-effects/fade-in-fade-out/",
+	"title": ".fadeIn() &amp; .fadeOut()",
+	"tags": [],
+	"description": "",
+	"content": " .fadeIn() \u0026amp; .fadeOut() Methods  Methods used to display or hide the HTML elements by gradually increasing or decreasing their opacity  .fadeIn() Example $(() =\u0026gt; { $(\u0026#34;button\u0026#34;).click(() =\u0026gt; { // fade in #box element; duration 1 sec  $(\u0026#34;#box\u0026#34;).fadeIn(1000) }) })  JS Bin on jsbin.com\n.fadeOut() Example $(() =\u0026gt; { $(\u0026#34;button\u0026#34;).click(() =\u0026gt; { // fade out #box element; duration 3 sec  $(\u0026#34;#box\u0026#34;).fadeOut(3000) }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/05-arrays-objects/array-iterators/filter/",
+	"title": ".filter()",
+	"tags": [],
+	"description": "",
+	"content": " .filter()  Returns the value of the first element in the array that satisfies the provided testing function\n undefined is returned if no element satisfies testing function\n The callback function for .find() accepts the following parameters:\n element: (required) current element being processed in the array.\n index: (optional) index of the current element being processed in the array\n array: (optional) the array map was called upon\n  .filter() returns a new array containing all elements that match the testing function\n  Syntax Using traditional (ES5) function syntax\nlet result = arr.filter(function(item, index, array) { // if true is returned, item is returned and iteration is stopped  // for falsy scenario returns undefined })  Using arrow syntax (ES6)\nlet result = arr.filter((item, index, array) =\u0026gt; { // if true is returned, item is returned and iteration is stopped  // for falsy scenario returns undefined })  Example let numbers = [5, 3, 13, 4, 11 ] let greaterThan5 = numbers.filter(number =\u0026gt; { return number \u0026gt; 5 }) console.log(greaterThan5) // [13, 11]  JS Bin on jsbin.com\nExercise Use .filter() to return all words that have more than 6 characters in the words array.\nSave the returned values to a variable declared with const called longWords\nJS Bin on jsbin.com\n"
+},
+{
+	"uri": "/05-arrays-objects/array-review/adding-removing-items/slice/",
+	"title": ".slice()",
+	"tags": [],
+	"description": "",
+	"content": " .slice()  Returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included) where begin and end represent the index of items in that array\n This is method is NOT a mutating method because the original array is not modified\n  Example let fruits = [\u0026#34;Peach\u0026#34;, \u0026#34;Mango\u0026#34;, \u0026#34;Apple\u0026#34;, \u0026#34;Orange\u0026#34;, \u0026#34;Grapes\u0026#34;, \u0026#34;Strawberries\u0026#34;] let myFavoriteFruits = fruits.slice(1, 4) console.log(myFavoriteFruits) // Mango, Apple, Orange  // The original \u0026#39;fruits\u0026#39; array was NOT modified console.log(fruits) // Peach , Mango, Apple, Orange, Grapes, Strawberries  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/toggle-class/",
+	"title": ".toggleClass()",
+	"tags": [],
+	"description": "",
+	"content": " .toggleClass() Method  Method toggles one or more classes to / from selected elements  Example $(() =\u0026gt; { $(\u0026#34;#toggleBorderClass\u0026#34;).click(() =\u0026gt; { // toggle .strongBorder on box  $(\u0026#34;.box\u0026#34;).toggleClass(\u0026#34;strongBorder\u0026#34;) }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/05-arrays-objects/array-review/adding-removing-items/",
+	"title": "Adding &amp; Removing Items",
+	"tags": [],
+	"description": "",
+	"content": " Adding \u0026amp; Removing Items  Let\u0026rsquo;s review some of the most common ways to Add and Remove elements from an array:   .push()   .pop()   .shift()   .unshift()   .slice()   "
+},
+{
+	"uri": "/08-ajax-and-apis/",
+	"title": "Ajax and APIs",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 08 Ajax and APIs\u0026rdquo; "
+},
+{
+	"uri": "/07-dom-and-jquery-continued/code-along-traffic-light/",
+	"title": "Code Along: Traffic Light",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: Traffic Light  The starter code for this code along is hosted on Github, see the url below:\n Code Along: Traffic Light  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
+	"uri": "/02-javascript-basics/logical-operators/",
+	"title": "Logical Operators",
+	"tags": [],
+	"description": "",
+	"content": " Logical Operators  Evaluates between two conditions/expressions and returns true or false\n with \u0026amp;\u0026amp; (Logical And) operators, both conditions have to be true in order for the whole expression to be true\n with || (Logical Or) operators, any of the condition must be true for entire expression to be true; but if all conditions are false then the entire expression is false\n     Operator Description Example (all return true)     Logical AND (\u0026amp;\u0026amp;) expr1 \u0026amp;\u0026amp; expr2 (3 \u0026gt; 1) \u0026amp;\u0026amp; \u0026ldquo;cat\u0026rdquo;.length === 3   Logical OR (||) expr1 || expr2 (4 + 1) \u0026lt; 8 || 53 \u0026gt; (9 * 6)    Examples JS Bin on jsbin.com\nExercise Add the following expressions in the jsbin below and evaluate the result; use console.log() to print the result. Don\u0026rsquo;t forget to press \u0026ldquo;run\u0026rdquo; after adding your code.\n true \u0026amp;\u0026amp; false\n true \u0026amp;\u0026amp; 8 \u0026gt; (3 * 3) \u0026amp;\u0026amp; \u0026quot;hello\u0026quot;\n true \u0026amp;\u0026amp; (9 / 3 \u0026gt; 5) || \u0026quot;Yolo!\u0026quot;\n false || \u0026quot;Apple\u0026quot; === \u0026quot;apple\u0026quot; || parseInt(\u0026quot;12\u0026quot;) === 12\n  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/05-arrays-objects/objects/nested-objects/",
+	"title": "Nested Objects",
+	"tags": [],
+	"description": "",
+	"content": " Nested Methods  In non-trivial applications, data is often nested\n JavaScript allows use to traverse an nested object using either dot notation or bracket notation\n  Example let avengers = { headquarters: \u0026#34;Stark Tower\u0026#34;, members: [ { name: \u0026#39;Black Widow\u0026#39;, \u0026#39;secret identity\u0026#39;: \u0026#39;Natasha Romanov\u0026#39;, powers: [\u0026#34;elite martial artist\u0026#34;, \u0026#34;genius intellect\u0026#34;, \u0026#34;strategy\u0026#34;, \u0026#34;leadership\u0026#34;] }, { name: \u0026#39;Captain America\u0026#39;, \u0026#39;secret identity\u0026#39;: \u0026#39;Steve Rogers\u0026#39;, powers: [\u0026#34;super strength\u0026#34;, \u0026#34;leadership\u0026#34;] } ] } // access the first member of the Avengers  console.log(avengers.members[0].name) // access the 2nd member\u0026#39;s first listed power  console.log(avengers.members[1].powers[0])  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/04-functions-and-scope/scope/",
+	"title": "Scope",
+	"tags": [],
+	"description": "",
+	"content": " Scope Overview  Scope is the set of variables you have access to\n As we learned in the beginning of this class, JavaScript reads from top to bottom\n Sometimes, however, we declare variables inside functions (just like arguments), which aren\u0026rsquo;t accessible in other parts of our code; this is the concept of scope.\n  Types of Scope  A variables scope is determined primarily based on where is was declared\n Variables declared inside a function are in local scope\n Variables defined outside of a function are in the global scope\n Each function when invoked creates a new scope\n  Details  Global Scope   Local Scope   Scope in Block Statements   "
+},
+{
+	"uri": "/03-control-flow-and-loops/loops-and-iteration/for-each/",
+	"title": "forEach Loop",
+	"tags": [],
+	"description": "",
+	"content": " forEach Loop  forEach() is an Array method executes a provided function once for each item (or element) in the array\n The function used in forEach is called a callback function because it is being passed as a parameter into another function (we\u0026rsquo;ll cover these concepts in more detail in a later class)\n The callback function for forEach provides the following:\n element - this current element from the array that is being evaluated\n index - this represents the current element\u0026rsquo;s index (or position in the array)\n   callbacks are used extensively in JavaScript; we will discuss them more in detail when we do a deeper dive into functions later in the course\n someArray.forEach(function(element, index) { // code block to be executed for each element in the array })  Example let chipmunks = [\u0026#34;alvin\u0026#34;, \u0026#34;simon\u0026#34;, \u0026#34;theodore\u0026#34;] chipmunks.forEach(function(element, index) { console.log(`${element}is at index ${index}`) })  JS Bin on jsbin.com\nExercise Write a program that uses a forEach loop to print each of the fruit names (found in the provided fruits array) in all caps\nJS Bin on jsbin.com\n"
+},
+{
+	"uri": "/05-arrays-objects/array-review/length-property/",
+	"title": "length() Property",
+	"tags": [],
+	"description": "",
+	"content": " length() property  Property of an Array that returns the number of elements in that array  Example let fruits = [\u0026#34;Peach\u0026#34;, \u0026#34;Mango\u0026#34;, \u0026#34;Apple\u0026#34;, \u0026#34;Orange\u0026#34;, \u0026#34;Grapes\u0026#34;, \u0026#34;Strawberries\u0026#34;, \u0026#34;Plum\u0026#34;] let numberOfFruits = fruits.length console.log(numberOfFruits) // 7  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/03-control-flow-and-loops/conditionals/ternary-operator/",
+	"title": "ternary Operator",
+	"tags": [],
+	"description": "",
+	"content": " ternary Operator  Used as a shortcut for the if statement  condition ? expression that is run if condition is true : expression that is run if condition is false  Example let isLactoseIntolerant = true let milkType = isLactoseIntolerant ? \u0026#34;almond\u0026#34; : \u0026#34;dairy\u0026#34; console.log(milkType)  JS Bin on jsbin.com\nExercise Rewrite the following if..else statement using a ternary operator:\nlet yearOfBirth = 2001 if (yearOfBirth \u0026lt;= 2002) { console.log(\u0026#39;you will be old enough to vote in 2020\u0026#39;) } else { console.log(\u0026#39;Sorry, you will not be old enough to vote next year\u0026#39;) }  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/09-asynchronous-js-and-callbacks/",
+	"title": "Asynchronous JS and Callbacks",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 09 Asynchronous JS and Callbacks "
+},
+{
+	"uri": "/04-functions-and-scope/single-responsibility-principle/",
+	"title": "Single Responsibility Principle",
+	"tags": [],
+	"description": "",
+	"content": " Single Responsibility Principle (SRP)  SRP is a programming best practice that advocates modular code\n Put another way, your programs should be broken up in such a way where each part is responsible for only one \u0026ldquo;thing\u0026rdquo; or domain\n SRP is often applied to functions\n  Applying SRP to Functions  This concepts calls for your functions to only be \u0026ldquo;responsible\u0026rdquo; for one thing\n Often you\u0026rsquo;ll find that the logic in your functions are doing too much (for example: making calculations AND displaying the result to the screen)\n In these cases you should break out those multiple responsibilities into multiple functions\n This is what we did in the Geometry Calculator code along\n  "
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-events/",
+	"title": "jQuery Events",
+	"tags": [],
+	"description": "",
+	"content": " jQuery Events  The jQuery library provides a collection of methods that serve one of two purposes\n To listen for an event — an event (e.g. clicking a button) is something the user does to trigger an action\n To add a visual effect — a visual effect (e.g. a drop-down menu appearing when a user clicks a button) is something that changes the appearance of the web page\n  Events are often responsible for triggering a visual effect\n  "
+},
+{
+	"uri": "/07-dom-and-jquery-continued/code-along-score-keeper/",
+	"title": "Code Along: Score Keeper",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: Score Keeper  The starter code for this code along is hosted on Github, see the url below:\n Code Along: Score Keeper  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
+	"uri": "/00-course-intro-and-tools/folder-structure/",
+	"title": "Folder Organization",
+	"tags": [],
+	"description": "",
+	"content": " Recommended Folder Organization  Create a folder in your Documents folder (My Documents on Windows) called jsr\n At beginning of every class, you\u0026rsquo;ll use git (this process will be explained in the next class) to download any starter files to your jsr folder are available for that day\u0026rsquo;s lesson\n As the course progresses you\u0026rsquo;ll have a neatly organized listing of all of your work that looks similar to this:\n  "
+},
+{
+	"uri": "/class-resources/node-git-installation/",
+	"title": "Node &amp; Git Installation",
+	"tags": [],
+	"description": "",
+	"content": " Node \u0026amp; Git Installation  You will need to install certain tools that will be used throughout the course. The installation instructions vary depending on whether you have a Mac, Windows, or Linux machine.\n Choose the installation instructions specific to your OS below and follow the step-by-step instructions:\n Mac OS X\n Windows\n Linux\n   Helpful Debugging Tips Error installing due to permissions\nPermissions issues are common when installing programs on the terminal. In order to install command line utilities, you need to be signed into a user account on your computer with administrator-level rights. If you have trouble with this, please ask a member of the instructional team for help.\nGoogle is your friend\nEven experienced programmers occasionally need to look up error messages on Google. If you experience an error, it’s likely that someone else has experienced the error, as well. To find the fix, copy and paste the error message into Google, but remove content specific to your computer to ensure the accuracy of your search. You will most likely find a reference to your specific error. StackOverflow is a trustworthy reference.\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-effects/other-effects/",
+	"title": "Other Effects",
+	"tags": [],
+	"description": "",
+	"content": " Other Effects There are many other effects available, click here to see a complete list of jQuery Effects\n"
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-traversing/other-traversal-methods/",
+	"title": "Other Traversal Methods",
+	"tags": [],
+	"description": "",
+	"content": " Other Traversal Methods There are many other traversal methods available click here to see a complete list\n"
+},
+{
+	"uri": "/10-project-build-a-slackbot/",
+	"title": "Project: Build a Slackbot",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 10 Project: Build a Slackbot "
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-manipulation/",
+	"title": "jQuery Manipulation",
+	"tags": [],
+	"description": "",
+	"content": " jQuery Manipulation During this section we\u0026rsquo;ll cover:\n Getting \u0026amp; Setting Content   Inserting \u0026amp; Removing Content   CSS \u0026amp; Style Manipulation   "
+},
+{
+	"uri": "/11-advanced-apis/",
+	"title": "Advanced APIs",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 11 Advanced APIs "
+},
+{
+	"uri": "/00-course-intro-and-tools/confirm-node-git-installation/",
+	"title": "Confirm Node &amp; Git Installation",
+	"tags": [],
+	"description": "",
+	"content": " Confirm Node \u0026amp; Git Installation 1) Ensure that you followed the installation instructions for your Operation System found here: Node and Git Installation\n2) Open up your console / terminal\n For Mac OS X users:\n Open the \u0026ldquo;Terminal\u0026rdquo; app (Applications \u0026gt; Utilities \u0026gt; Terminal)  For Windows:\n Open the \u0026ldquo;Command Prompt\u0026rdquo; application.   3) In the terminal type the following command to confirm git was successfully installed:\n $ git  4) In the terminal type the following command to confirm node was successfully installed:\n $ node  Note: type control-c to exit out of node\n"
+},
+{
+	"uri": "/07-dom-and-jquery-continued/code-along-hilo/",
+	"title": "Code Along: HiLo",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: HiLo  The starter code for this code along is hosted on Github, see the url below:\n Code Along: HiLo  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
+	"uri": "/04-functions-and-scope/code-along-rolling-dice/",
+	"title": "Code Along: Rolling Dice",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: Rolling Dice  We\u0026rsquo;ll walk through the process using functions to create a program that simulates rolling dice\n The starter code for this code along is hosted on Github, see the url below:\n Code Along: Rolling Dice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
+	"uri": "/12-prototypal-inheritance/",
+	"title": "Prototypal Inheritance",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 12 Prototypal Inheritance "
+},
+{
+	"uri": "/00-course-intro-and-tools/what-is-programming/",
+	"title": "What is Programming?",
+	"tags": [],
+	"description": "",
+	"content": " What is Programming?  List of instructions that a computer needs in order to complete a task\n Instructions are provided in a programming language that the computer understands\n These set of instructions are commonly referred as source code or a program\n There are many programming languages available, during this course we will be learning JavaScript\n  "
+},
+{
+	"uri": "/13-closures-and-this/",
+	"title": "Closures &amp; this",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 13 Closures \u0026amp; this "
+},
+{
+	"uri": "/class-resources/keys-to-success/",
+	"title": "Keys to Success",
+	"tags": [],
+	"description": "",
+	"content": " Do your homework: More you practice the concepts learned in class, the faster you\u0026rsquo;ll pick them up\n Don\u0026rsquo;t try to memorize anything: You\u0026rsquo;ll memorize things naturally through the act of doing things over and over again. Besides, if you don\u0026rsquo;t remember something just look it up (i.e. google).\n Work smarter not harder: In additional to looking things up, developers are really good at referencing past code that they\u0026rsquo;ve used in the past to solve problems they encounter in the present. So keep your past code organized so you easily reference it later. You don\u0026rsquo;t get points for memorizing anything, but you do get points for being resourceful and using past work to help you move a litter faster today.\n Ask Questions: Don\u0026rsquo;t be afraid to ask questions, everyone learns differently, it\u0026rsquo;s the instructor\u0026rsquo;s responsibility to ensure you grasp the concepts. Your questions helps me (your instructor) understand what\u0026rsquo;s working and what\u0026rsquo;s not.\n Change your perspective of failure: Expects things to not work. That\u0026rsquo;s where the fun part and truly where the learning begins. It\u0026rsquo;s during the troubleshooting phase where\u0026rsquo;s you\u0026rsquo;ll gained a deep understanding of concepts taught in class. If everything worked the first time, you\u0026rsquo;d never learn anything :)\n Get comfortable with the fact that there are multiple ways to do things: If I gave a 10 experienced developers a coding homework assignment chances are that I will receive 10 different approaches and they\u0026rsquo;ll all be \u0026ldquo;correct\u0026rdquo; (meaning each approach will accomplish the stated goals of the assignment). There is no 1 right answers when it comes to coding. There are \u0026ldquo;best practices\u0026rdquo; some of which we will push in this course, others best practices will be learned through continued practice. Instead of focusing on what you think may be the \u0026ldquo;best\u0026rdquo; approach, just focus on ensuring that your program / assignments is the goals or requirements (\u0026ldquo;just get it things working first\u0026rdquo;).\n Perfection is the enemy of good enough: When you go through your homework assignments and labs your # 1 goal is to \u0026ldquo;just get things working\u0026rdquo; and not to make it perfect the first time. Get things working first (no matter how janky it may seem) and only after you\u0026rsquo;ve got it working should you go through the process developers call refactoring, optimizing the code without changing the behavior (i.e. making it look nice).\n Use names that make sense: As a developer you are going to be frequently tasked with naming things. Naming things is hard, but my advice is to be as explicit as possible. You should always write your code as if someone else is going to read it and you want them to be able to quickly understand what’s going on. One of the best ways to accomplish that is to use names that highly contextual. For example, if you have a variable that is supposed to represent a person’s first name, then be as explicit as possible:\n  // very bad - you don't get points for making names super short let n = \u0026quot;Kiara\u0026quot; // ok but not great let name = \u0026quot;Kiara\u0026quot; // best - explicit, there's no doubt what this variable should represent let firstName = \u0026quot;Kiara\u0026quot;  "
+},
+{
+	"uri": "/05-arrays-objects/array-iterators/reduce/",
+	"title": ".reduce()",
+	"tags": [],
+	"description": "",
+	"content": " .reduce()  .reduce() is used calculate a single value based on the array\n A reducer function (that you provide) is called on each element of the array and results in a single output value\n Often used to perform a calculation that accepts all the elements of an array (usually numbers) as inputs\n For example: Calculating the sum of all the items in an array  .reduce() accepts the following parameters\n The callback function (also referred to the reducer function in this case) for .reduce() accepts the following parameters:\n accumulator: (required) the accumulated value previously returned in from the last iteration;\n currentValue: (required) current element being processed in the array.\n index: (optional) index of the current element being processed in the array\n array: (optional) the array map was called upon\n  initialValue: (optional) the value to use as the first argument to for the first iteration of reduce(); If no initialValue is supplied, the first element in the array will be used\n  Syntax Using traditional (ES5) function syntax\nlet value = arr.reduce(function(previousValue, item, index, array) { // ... }, [initial]);  Using arrow syntax (ES6)\nlet value = arr.reduce((previousValue, item, index, array) =\u0026gt; { // ... }, [initial]);  Example  Example where no initialValue is supplied  let numbers = [1, 2, 3, 4, 5] let result = numbers.reduce((sum, currentNumber) =\u0026gt; sum + currentNumber) console.log(result) // 15  JS Bin on jsbin.com\n Example where we set the initialValue to 10  let numbers = [1, 2, 3, 4, 5] let result = numbers.reduce((sum, currentNumber) =\u0026gt; sum + currentNumber, 10) console.log(result) // 25  JS Bin on jsbin.com\nExercise Use .reduce() to calculate the sum of the numbers found in the amounts array; Save the result in a variable declared with const called total\nJS Bin on jsbin.com\n"
+},
+{
+	"uri": "/14-intro-to-crud-and-firebase/",
+	"title": "Intro to CRUD and Firebase",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 14 Intro to CRUD and Firebase "
+},
+{
+	"uri": "/07-dom-and-jquery-continued/lab-citipix/",
+	"title": "Lab: CitiPix",
+	"tags": [],
+	"description": "",
+	"content": " Lab: CitiPix  The starter code for this lab is hosted on Github, see the url below:\n Lab: CitiPix  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
+	"uri": "/00-course-intro-and-tools/what-is-javascript/",
+	"title": "What is JavaScript?",
+	"tags": [],
+	"description": "",
+	"content": " What is JavaScript?  programming language created in 1995 by Netscape (now Mozilla)\n It was created in 10 days\n Not the same as Java\n  What does JavaScript do?  Adds interactivity to your websites\n Makes web based software feel more like desktop software\n Can be used to save data to a database or to create desktop applications\n Improves overall user experience of web-based applications\n  Advantages of JavaScript  JavaScript is the only programming language that all web browsers understand\n JavaScript is a programming language that is essential for web development\n JavaScript can be run in the browser (i.e. front-end) and on the server (i.e. backend through the use of Node.js)\n  This makes JavaScript the only programming language that is truly \u0026ldquo;full-stack\u0026rdquo; (i.e. supports both front-end and backend development)\n Documentation  Best resource of JavaScript documentation on the web can be found here: Mozilla Development Network - JavaScript Documentation  "
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-effects/",
+	"title": "jQuery Effects",
+	"tags": [],
+	"description": "",
+	"content": " jQuery Effects  jQuery provides several techniques for adding animation to a web page\n Here some commonly used jQuery Effect methods:\n .show() \u0026amp; .hide()   .toggle()   .slideUp() \u0026amp; .slideDown()   .slideToggle()   .fadeIn() \u0026amp; .fadeOut()   Other Effects     "
+},
+{
+	"uri": "/15-deploying-your-app/",
+	"title": "Deploying Your App",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 15 Deploying Your App "
+},
+{
+	"uri": "/class-resources/learning-html-css/",
+	"title": "Learning HTML &amp; CSS",
+	"tags": [],
+	"description": "",
+	"content": " Here are some great (FREE) resources for learning HTML \u0026amp; CSS\nHTML \u0026amp; CSS  Codecademy - HTML \u0026amp; CSS course\n Shay Howe - Learn to Code HTML \u0026amp; CSS\n FreeCodeCamp Responsive Web Design Certification (300 hours)\n Udacity - Intro to HTML and CSS\n Khan Academy - Intro to HTML/CSS\n  Flexbox  MDN - Flexbox\n Flexbox - Flexbox Froggy\n Flexbox - Flexbox Zombies\n  CSS Selectors  MDN - CSS Selectors\n CSS Diner\n  CSS Grid  MDN - CSS Grid\n CSS Grid Garden\n  "
+},
+{
+	"uri": "/05-arrays-objects/array-iterators/other-iterators/",
+	"title": "Other Iterators",
+	"tags": [],
+	"description": "",
+	"content": " Other Iterators  There are many other built-in iterator methods, a complete list can be found on MDN’s Array iteration methods list\n As developer, you will be working with arrays of data on a constant basis; which means you\u0026rsquo;ll be visiting the documentation often to look up array methods you may not have used before\n Let\u0026rsquo;s get some practice \u0026ldquo;looking things up\u0026rdquo;\n  Exercise Visit the MDN Array Documenation and find the appropriate iterator method that will allow you to sort the list of words found in the words array in descending alphabetical order\nJS Bin on jsbin.com\n"
+},
+{
+	"uri": "/00-course-intro-and-tools/pseudocode/",
+	"title": "Pseudocode",
+	"tags": [],
+	"description": "",
+	"content": " Pseudocode  Process of writing a program without using the syntax of a programming language\n Mixture of natural language and high-level programming concepts\n There is no standard way to write pseudocode, use langauge that can be understood by technical and non-technical people\n Use pseudocode as an \u0026ldquo;outline\u0026rdquo; for your real code\n  "
+},
+{
+	"uri": "/06-dom-and-jquery/jquery-traversing/",
+	"title": "jQuery Traversing",
+	"tags": [],
+	"description": "",
+	"content": " jQuery Traversing  Traversal methods allows us to select elements up and down the DOM tree very easily\n DOM traversing is one of the prominent features of the jQuery\n   Notice how DOM elements are structured in a parent-child relationship\n The \u0026lt;body\u0026gt; element is the parent of the \u0026lt;div\u0026gt; element, and an ancestor of everything inside of it. The enclosed \u0026lt;div\u0026gt; element is the parent of \u0026lt;h1\u0026gt;, \u0026lt;p\u0026gt; and \u0026lt;ul\u0026gt; elements, and a child of the \u0026lt;body\u0026gt; element.\n The elements \u0026lt;h1\u0026gt;, \u0026lt;p\u0026gt; and \u0026lt;ul\u0026gt; are siblings, since they share the same parent.\n The \u0026lt;h1\u0026gt; element is a child of the \u0026lt;div\u0026gt; element and a descendant of the \u0026lt;body\u0026gt; element. This element does not have any children.\n The \u0026lt;p\u0026gt; element is the parent of \u0026lt;em\u0026gt; element, child of the \u0026lt;div\u0026gt; element and a descendant of the \u0026lt;body\u0026gt; element. The containing \u0026lt;em\u0026gt; element is a child of this \u0026lt;p\u0026gt; element and a descendant of the \u0026lt;div\u0026gt; and \u0026lt;body\u0026gt; element.\n Similarly, the \u0026lt;ul\u0026gt; element is the parent of the \u0026lt;li\u0026gt; elements, child of the \u0026lt;div\u0026gt; element and a descendant of the \u0026lt;body\u0026gt; element. The containing \u0026lt;li\u0026gt; elements are the child of this \u0026lt;ul\u0026gt; element and a descendant of the \u0026lt;div\u0026gt; and \u0026lt;body\u0026gt; element. Also, both the \u0026lt;li\u0026gt; elements are siblings.\n  Here some commonly used jQuery traversal methods used to programatically nagivate the DOM\n ancestors   descendants   Other Traversal Methods     "
+},
+{
+	"uri": "/00-course-intro-and-tools/class-exercise-smart-thermostat-pseudocode/",
+	"title": "Class Exercise - Smart Thermostat Pseudocode",
+	"tags": [],
+	"description": "",
+	"content": " Class Exercise: Thermostat logic in pseudocode We\u0026rsquo;re going to use pseudocode to describe the basic functionality of a smart thermostat\n As as class we are going to write some pseudocode for a program for a smart thermostat\n We’ll focus on coming up with the logic that will help the thermostat know when to turn the heat on and off\n  "
+},
+{
+	"uri": "/00-course-intro-and-tools/group-exercise-rock-paper-scissors/",
+	"title": "Group Exercise - Rock, Paper, Scissors",
+	"tags": [],
+	"description": "",
+	"content": " Group Exercise: Rock, Paper and Scissors Form groups (of 2 or 3) and write pseudocode describing a game of Rock, Paper, Scissors\n"
+},
+{
+	"uri": "/class-resources/",
+	"title": "Class Resources",
+	"tags": [],
+	"description": "",
+	"content": " Class Resources "
+},
+{
+	"uri": "/homework-assignments/",
+	"title": "Homework Assignments",
+	"tags": [],
+	"description": "",
+	"content": " Homework Assignments "
+},
+{
+	"uri": "/final-projects/",
+	"title": "Final Projects",
+	"tags": [],
+	"description": "",
+	"content": " Final Projects "
+},
+{
+	"uri": "/02-javascript-basics/truthy-falsey/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/",
+	"title": "JSR",
+	"tags": [],
+	"description": "",
+	"content": " JSR - JavaScript Development "
+},
+{
+	"uri": "/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

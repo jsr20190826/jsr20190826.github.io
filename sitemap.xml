@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/00-course-intro-and-tools/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-command-line-js-and-git/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/what-is-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/add-jquery/via-download/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-command-line-js-and-git/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/objects/creating-objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/dom-intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/documentation/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/event-handlers/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/function-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/scope/global-scope/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/data-types/strings/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/variables/what-are-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/git-commands/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-command-line-js-and-git/intro-to-the-command-line/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-command-line-js-and-git/code-along-command-line-intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/git-workflow-submitting-assignments/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/keyboard-shortcuts/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/07-dom-and-jquery-continued/jquery-this/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/append/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/form-events/change/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/mouse-events/click/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/css/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-iterators/for-each/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/adding-removing-items/push/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-effects/show-hide/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/text/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/objects/accessing-properties/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/add-jquery/via-cdn/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/benefits-of-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/conditionals/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/creating-arrays/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/declaring-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/variables/declaring-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/document-ready/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/objects/accessing-properties/dot-notation/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/</loc>
+  </url>
+  
+  <url>
+    <loc>/homework-assignments/hw-assignment-01/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/scope/local-scope/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/node-git-installation/mac-os-x/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/mouse-events/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/data-types/numbers/</loc>
+  </url>
+  
+  <url>
+    <loc>/00-course-intro-and-tools/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/scope/block-statements/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-traversing/ancestors/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/conditionals/if-statement/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/loops-and-iteration/while-loops/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-effects/toggle/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/add-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/data-types/booleans/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/calling-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/atom-editor-settings/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/switch-statement/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/variables/updating-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/variables/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/add-class/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/html/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-iterators/map/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/adding-removing-items/pop/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/prepend/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-effects/slide-up-slide-down/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/form-events/submit/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/accessing-array-values/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-iterators/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/data-types/arrays/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/objects/assigning-properties/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/objects/accessing-properties/bracket-notation/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/data-types/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/form-events/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-command-line-js-and-git/git-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/homework-assignments/hw-assignment-02/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/hoisting/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/loops-and-iteration/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/variables/naming-rules/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/data-types/objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/opening-atom-from-command-line/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/node-git-installation/windows/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/atom-themes/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-traversing/descendants/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/loops-and-iteration/do-while-loops/</loc>
+  </url>
+  
+  <url>
+    <loc>/07-dom-and-jquery-continued/event-current-target/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/conditionals/if-else/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/jquery-syntax/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-command-line-js-and-git/github/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/arithmetic-operators/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-command-line-js-and-git/git-vocabulary/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/returning-values-from-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/jquery-selectors/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/variables/let-vs-var/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-command-line-js-and-git/git-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/jquery-objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/before/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-iterators/find/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/mouse-events/hover/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/remove-class/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/adding-removing-items/shift/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-effects/slide-toggle/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/val/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/</loc>
+  </url>
+  
+  <url>
+    <loc>/00-course-intro-and-tools/class-logistics-materials/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-command-line-js-and-git/code-along-basic-git-workflow/</loc>
+  </url>
+  
+  <url>
+    <loc>/07-dom-and-jquery-continued/code-along-color-scheme-switcher-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/homework-assignments/hw-assignment-03/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/lab-js-basics-control-flow-loops/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/node-git-installation/linux/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/objects/methods/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/other-events/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/updating-array-values/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/working-with-parameters/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/variables/const/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/loops-and-iteration/for-loop/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/conditionals/if-else-if/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-command-line-js-and-git/code-along-git-branching-merging/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/adding-removing-items/unshift/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/comparison-operators/</loc>
+  </url>
+  
+  <url>
+    <loc>/00-course-intro-and-tools/course-structure/</loc>
+  </url>
+  
+  <url>
+    <loc>/07-dom-and-jquery-continued/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/functions-calling-other-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/function-expressions-anonymous-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/00-course-intro-and-tools/tools/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/arrow-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/after/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/attr/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-effects/fade-in-fade-out/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-iterators/filter/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/adding-removing-items/slice/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/toggle-class/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/adding-removing-items/</loc>
+  </url>
+  
+  <url>
+    <loc>/08-ajax-and-apis/</loc>
+  </url>
+  
+  <url>
+    <loc>/07-dom-and-jquery-continued/code-along-traffic-light/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/logical-operators/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/objects/nested-objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/scope/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/loops-and-iteration/for-each/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/length-property/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/conditionals/ternary-operator/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-asynchronous-js-and-callbacks/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/single-responsibility-principle/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/</loc>
+  </url>
+  
+  <url>
+    <loc>/07-dom-and-jquery-continued/code-along-score-keeper/</loc>
+  </url>
+  
+  <url>
+    <loc>/00-course-intro-and-tools/folder-structure/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/node-git-installation/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-effects/other-effects/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-traversing/other-traversal-methods/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-project-build-a-slackbot/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/</loc>
+  </url>
+  
+  <url>
+    <loc>/11-advanced-apis/</loc>
+  </url>
+  
+  <url>
+    <loc>/00-course-intro-and-tools/confirm-node-git-installation/</loc>
+  </url>
+  
+  <url>
+    <loc>/07-dom-and-jquery-continued/code-along-hilo/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/code-along-rolling-dice/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-prototypal-inheritance/</loc>
+  </url>
+  
+  <url>
+    <loc>/00-course-intro-and-tools/what-is-programming/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-closures-and-this/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/keys-to-success/</loc>
+    <lastmod>2019-03-16T17:11:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-iterators/reduce/</loc>
+  </url>
+  
+  <url>
+    <loc>/14-intro-to-crud-and-firebase/</loc>
+  </url>
+  
+  <url>
+    <loc>/07-dom-and-jquery-continued/lab-citipix/</loc>
+  </url>
+  
+  <url>
+    <loc>/00-course-intro-and-tools/what-is-javascript/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-effects/</loc>
+  </url>
+  
+  <url>
+    <loc>/15-deploying-your-app/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/learning-html-css/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-iterators/other-iterators/</loc>
+  </url>
+  
+  <url>
+    <loc>/00-course-intro-and-tools/pseudocode/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-traversing/</loc>
+  </url>
+  
+  <url>
+    <loc>/00-course-intro-and-tools/class-exercise-smart-thermostat-pseudocode/</loc>
+  </url>
+  
+  <url>
+    <loc>/00-course-intro-and-tools/group-exercise-rock-paper-scissors/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/homework-assignments/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/truthy-falsey/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

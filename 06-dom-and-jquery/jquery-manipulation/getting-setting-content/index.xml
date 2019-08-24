@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting &amp; Setting Content on JavaScript</title>
+    <link>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/</link>
+    <description>Recent content in Getting &amp; Setting Content on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/06-dom-and-jquery/jquery-manipulation/getting-setting-content/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.text()</title>
+      <link>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/text/</guid>
+      <description>.text() Method  Method is either used to get (read) the combined text contents of the selected elements, including their descendants, or set (write) the text contents of the selected elements  Example of Getting (Reading) text  To Get (Read) text of an element use .text() with nothing inside the parentheses  $(() =&amp;gt; { $(&amp;#39;#readAll&amp;#39;).click(() =&amp;gt; { // read text from all p elements  const $allParagraphs = $(&amp;#34;p&amp;#34;).</description>
+    </item>
+    
+    <item>
+      <title>.html()</title>
+      <link>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/html/</guid>
+      <description>.html() Method  Method is used to get or set the HTML contents of the elements  Example of Getting (Reading) Html  To Get (Read) text of an element use .html() with nothing inside the parentheses
+ When using .html() to get html contents, the html contents of the only the first matched element will be returned; see the docs for more info
+  $(() =&amp;gt; { $(&amp;#39;#readHtmlOfParagraph&amp;#39;).</description>
+    </item>
+    
+    <item>
+      <title>.val()</title>
+      <link>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/val/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/val/</guid>
+      <description>.val() Method  Method is mainly used to get or set the current value of the HTML form elements such as &amp;lt;input&amp;gt;, &amp;lt;select&amp;gt; and &amp;lt;textarea&amp;gt;  Example of Getting (Reading) values from form elements  To Get (Read) text of an element use .val() with nothing inside the parentheses  $(() =&amp;gt; { $(&amp;#34;#getName&amp;#34;).click(() =&amp;gt; { // read value of text field  const $name = $(&amp;#34;#name&amp;#34;).val() alert($name) }) $(&amp;#34;#getComment&amp;#34;).</description>
+    </item>
+    
+    <item>
+      <title>.attr()</title>
+      <link>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/attr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/attr/</guid>
+      <description>.attr() Method  Method to either get the value of an element&amp;rsquo;s attribute or set one or more attributes for the selected element  Example of Getting (Reading) attributes from elements  To Get (Read) text of an element use .attr(attrName) with name of the attribute you want to receive a value for  $(() =&amp;gt; { $(&amp;#34;#getIdName&amp;#34;).click(() =&amp;gt; { // read class name of .box  const $idName = $(&amp;#34;.</description>
+    </item>
+    
+  </channel>
+</rss>

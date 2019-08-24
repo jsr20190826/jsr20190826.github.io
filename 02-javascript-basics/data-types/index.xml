@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Types on JavaScript</title>
+    <link>/02-javascript-basics/data-types/</link>
+    <description>Recent content in Data Types on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/02-javascript-basics/data-types/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Strings</title>
+      <link>/02-javascript-basics/data-types/strings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/data-types/strings/</guid>
+      <description>Strings  Strings can consist of letters and other characters
+ They are surrounded by either double quotes or single quotes (this is how you recognize you are working with a string)
+ Concatenation allows you to combine strings
+  // declare a variable called color and store a string  let color = &amp;#34;green&amp;#34;  Single or double quotes can be used for strings, but the opening quote must match the closing quote</description>
+    </item>
+    
+    <item>
+      <title>Numbers</title>
+      <link>/02-javascript-basics/data-types/numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/data-types/numbers/</guid>
+      <description>Numbers  Used for tasks involving counting or calculating sums
+ Whole numbers (integers) or decimals (floats)
+ Numbers can be negative or positive
+ Numbers do not have quotes around them
+  There are no commas used when expressing numbers, for example the number 1,750 is expressed as 1750 in JavaScript
+ JS Bin on jsbin.com
+Converting Strings to Numbers  Sometimes you will find yourself in a position where you need to convert a string to a number</description>
+    </item>
+    
+    <item>
+      <title>Booleans</title>
+      <link>/02-javascript-basics/data-types/booleans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/data-types/booleans/</guid>
+      <description>Booleans  Can only have a value of true or false
+ true/false are special keywords in JavaScript and do not have quotes around them
+  // declare a variable called isOn and assign a value of true let isOn = true // declare a variable called isWarm let isWarm // assign a value of false to isWarm isWarm = false   Booleans are useful for helping our programs make decisions (when used with conditionals, comparison &amp;amp; logical operators)</description>
+    </item>
+    
+    <item>
+      <title>Arrays</title>
+      <link>/02-javascript-basics/data-types/arrays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/data-types/arrays/</guid>
+      <description>Arrays  Used to when you are working with a list of values that are related to each other
+ Use square brackets to create an array (this is also how you quickly recognize arrays)
+ Values in an array are separated by commas
+  Creating an Array  We can store variables just like any other data type
+ You can create that doesn&amp;rsquo;t initially contain any values, this is called an empty array</description>
+    </item>
+    
+    <item>
+      <title>Objects</title>
+      <link>/02-javascript-basics/data-types/objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/data-types/objects/</guid>
+      <description>Objects  Objects are used to represent real world objects in programming
+ Within an object, variables are known as properties and functions are known as methods
+ Curly braces are a means of identifying if a variable is an object
+  // create an object that represents a dog  let myDog = { name: &amp;#34;Fido&amp;#34;, age: 4, speak: function() { console.log(&amp;#39;Woof woof&amp;#39;) } }   In the example above, we created an object and stored it in a variable called myDog</description>
+    </item>
+    
+  </channel>
+</rss>

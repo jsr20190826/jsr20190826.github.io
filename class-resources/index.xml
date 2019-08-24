@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Class Resources on JavaScript</title>
+    <link>/class-resources/</link>
+    <description>Recent content in Class Resources on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:05:18 -0500</lastBuildDate>
+    
+	<atom:link href="/class-resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Documentation</title>
+      <link>/class-resources/documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/class-resources/documentation/</guid>
+      <description>Referencing documentation is a core task for developers.
+ Documentation communicates how something (in our case programming languages, software libraries) works.
+ Good documentation reduces implementation time and increases predictability of our software programs.
+  We will be referring to the following list of the documentation resources frequently throughout the course:
+HTML MDN&amp;rsquo;s HTML Reference
+CSS MDN&amp;rsquo;s CSS Reference
+JavaScript MDN&amp;rsquo;s JavaScript Reference
+jQuery jQuery Documentation</description>
+    </item>
+    
+    <item>
+      <title>Git Commands</title>
+      <link>/class-resources/git-commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/class-resources/git-commands/</guid>
+      <description>The following is a summary of the most commonly used git commands
+Create Repositories Start a new repository or obtain one from an existing URL
+   Command Description     git init Creates a new local repository in the current directory   git init [project-name] Creates a new local repository with the specified name   git clone [url] Downloads a project and its entire version history    Making Changes    Command Description     git status Lists all new or modified files to be committed   git add [file] Snapshots the file in preparation for versioning   git commit -m &amp;quot;[descriptive message]&amp;quot; Records file snapshots permanently in version history   git diff Shows file differences not yet staged   git diff --staged Shows file differences between staging and the last file version   git reset [file] Unstages the file, but preserve its contents    Working with Branches    Command Description     git branch Lists all local branches in the current repository   git branch [branch-name] Creates a new branch   git checkout [branch-name] Switches to the specified branch and updates the working directory   git merge [branch] Combines the specified branch’s history into the current branch   git branch -d [branch-name] Deletes the specified branch    Review History    Command Description     git log Lists version history for the current branch   git log --follow [file] Lists version history for a file, including renames   git show [commit] Outputs metadata and content changes of the specified commit   git diff [first-branch].</description>
+    </item>
+    
+    <item>
+      <title>Git Workflow for Submitting Assignments</title>
+      <link>/class-resources/git-workflow-submitting-assignments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/class-resources/git-workflow-submitting-assignments/</guid>
+      <description>Step 0: Fork the Assignment Repository  This step is only done once per project
+ Every assignment will be accompanied by repository url on GitHub
+ Click on the provided url and then fork the repository
+   Step 1: Clone the project down to your computer  This step is only done once per project
+ While on the repository page of the forked repository, click on the &amp;ldquo;Clone or Download&amp;rdquo; button</description>
+    </item>
+    
+    <item>
+      <title>Keyboard Shortcuts</title>
+      <link>/class-resources/keyboard-shortcuts/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/class-resources/keyboard-shortcuts/</guid>
+      <description>General Window Management &amp;amp; Browser Shortcuts    Action Mac Windows     Open Chrome Developer Tools cmd+option + i F2 or ctrl + shift + i   Refresh page cmd + R ctrl + R   Switch between applications cmd + tab alt + tab   Switch between windows in the same application cmd + ~     Atom Shortcuts Files, Windows, Tabs Management    Command macOS Windows Linux Description     Open Settings Menu cmd+, ctrl+, ctrl+, Opens the Atom&amp;rsquo;s settings menu   Open File (Fuzzy) cmd+p or cmd+t ctrl+p or ctrl+t ctrl+p or ctrl+t Opens the Fuzzy Finder   Browse Open Files cmd+b ctrl+b ctrl+b Browse tabs within the window   Previous Tab alt+cmd+left ctrl+pageup ctrl+pageup Cycles left through open tabs (in the active pane)   Next Tab alt+cmd+right ctrl+pagedown ctrl+pagedown Cycles right through open tabs (in the active page)   Toggle Tree View cmd+\ ctrl+\ ctrl+\ Toggles Atom&amp;rsquo;s file Tree View   Show Available Snippets alt+shift+s alt+shift+s alt+shift+s Shows the snippets available to Atom   Save cmd+s ctrl+s ctrl+s Saves the currently active file   Save As shift+cmd+s ctrl+shift+s ctrl+shift+s Saves the currently active file under a different name   Save All alt+cmd+s   Saves all changed files   Close Tab cmd+w ctrl+w ctrl+w Closes the currently active tab   Close Window shift+cmd+w ctrl+shift+w ctrl+shift+w Closes the currently active editor window   Split Window cmd+k up/down/left/right ctrl+k up/down/left/right ctrl+k up/down/left/right Split the currently active tab in one of the four directions   Focus Pane cmd+k cmd+up/down/left/right ctrl+k ctrl+up/down/left/right ctrl+k ctrl+up/down/left/right Move the focus to the pane in one of the four directions   Toggle full screen ctrl+cmd+f F11 F11 Toggle full screen window    Editing    Command macOS Windows Linux Description     Duplicate Lines shift+cmd+d ctrl+shift+d ctrl+shift+d Duplicates the line of the current cursor position and creates a new line under it with the same contents   Delete Line ctrl+shift+k ctrl+shift+k ctrl+shift+k Deletes the current line   Move Line Up ctrl+cmd+up ctrl+up ctrl+up Moves the contents of the current cursor position up one line.</description>
+    </item>
+    
+    <item>
+      <title>Recommended Atom Editor Settings</title>
+      <link>/class-resources/atom-editor-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/class-resources/atom-editor-settings/</guid>
+      <description>All of the settings below can be accessed using the following steps:
+ Mac: cmd + , -&amp;gt; Editor PC: ctrl + , -&amp;gt; Editor  Setting indentation levels / default tab-size During our course we will be using a set indentation level of 2 spaces (1 indentation level = 2 spaces). Atom makes it easy conform to this approach by setting our tab to a set level of indentation.</description>
+    </item>
+    
+    <item>
+      <title>Opening Atom from Command Line</title>
+      <link>/class-resources/opening-atom-from-command-line/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/class-resources/opening-atom-from-command-line/</guid>
+      <description>Atom allows you to open files from the command line
+If you have Atom installed you can run the atom command with one or more file paths to open up those files in Atom.
+Check if Atom is already configured to run on your computer&amp;rsquo;s Command Line Open up your terminal and run the following command
+$ atom --help  You should receive output similar to the following
+Atom Editor v1.</description>
+    </item>
+    
+    <item>
+      <title>Working with Atom Themes</title>
+      <link>/class-resources/atom-themes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/class-resources/atom-themes/</guid>
+      <description>Changing Themes Atom allows you to easily switch between your installed themes by doing the following:
+ Opening Atom Settings (mac: cmd + , | pc: ctrl + ,) Select Themes in the left-hand menu Select the dropdown menu labeled Syntax Themes Choose one of the installed themes listed in the dropdown menu  Atom comes pre-installed with a set of themes. See that section below to add new themes to Atom</description>
+    </item>
+    
+    <item>
+      <title>Keys to Success</title>
+      <link>/class-resources/keys-to-success/</link>
+      <pubDate>Sat, 16 Mar 2019 17:11:17 -0400</pubDate>
+      
+      <guid>/class-resources/keys-to-success/</guid>
+      <description>Do your homework: More you practice the concepts learned in class, the faster you&amp;rsquo;ll pick them up
+ Don&amp;rsquo;t try to memorize anything: You&amp;rsquo;ll memorize things naturally through the act of doing things over and over again. Besides, if you don&amp;rsquo;t remember something just look it up (i.e. google).
+ Work smarter not harder: In additional to looking things up, developers are really good at referencing past code that they&amp;rsquo;ve used in the past to solve problems they encounter in the present.</description>
+    </item>
+    
+    <item>
+      <title>Learning HTML &amp; CSS</title>
+      <link>/class-resources/learning-html-css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/class-resources/learning-html-css/</guid>
+      <description>Here are some great (FREE) resources for learning HTML &amp;amp; CSS
+HTML &amp;amp; CSS  Codecademy - HTML &amp;amp; CSS course
+ Shay Howe - Learn to Code HTML &amp;amp; CSS
+ FreeCodeCamp Responsive Web Design Certification (300 hours)
+ Udacity - Intro to HTML and CSS
+ Khan Academy - Intro to HTML/CSS
+  Flexbox  MDN - Flexbox
+ Flexbox - Flexbox Froggy
+ Flexbox - Flexbox Zombies</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Variables on JavaScript</title>
+    <link>/02-javascript-basics/variables/</link>
+    <description>Recent content in Variables on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/02-javascript-basics/variables/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What are Variables?</title>
+      <link>/02-javascript-basics/variables/what-are-variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/variables/what-are-variables/</guid>
+      <description>What are variables?  Allows us to store values and so our programs can keep track of Data
+ Similar to algebra
+ Helps you represent data or values
+ Used to help your program “remember” values
+ Can be thought of as a “box” that we put values in
+ In programming, you store values in variables if you plan on referencing that value at a later time</description>
+    </item>
+    
+    <item>
+      <title>Declaring Variables</title>
+      <link>/02-javascript-basics/variables/declaring-variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/variables/declaring-variables/</guid>
+      <description> Declaring Variables  Variables are created by declaring them
+ Use the let keyword to declare a variable
+ If you declare a variable without assigning it an initial value, the value of that variable will be undefined
+  // declaring a variable  let firstName  Variables only need to be declared once
+ </description>
+    </item>
+    
+    <item>
+      <title>Updating Variables</title>
+      <link>/02-javascript-basics/variables/updating-variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/variables/updating-variables/</guid>
+      <description>Updating Variables  We can provide variables with a value by updating a value to the variable
+ An = (equal sign) is used to assign a value to variable
+ This process of updating/changing variable&amp;rsquo;s value is also referred to as assigning a value to a variable
+  let firstName // assigning a value to the variable firstName = &amp;#34;Cletus&amp;#34;  Declaring &amp;amp; Assigning Variables in one step  We can both declare and assign variables in one step</description>
+    </item>
+    
+    <item>
+      <title>Naming Rules for Variables</title>
+      <link>/02-javascript-basics/variables/naming-rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/variables/naming-rules/</guid>
+      <description>Naming Rules for Variables    Do Don&amp;rsquo;t     Use variable names that start with a letter, $, or _ Use variable names that start with a number   Use variable names that include letters, numbers, $ or _ Create variable names that include a &amp;ldquo;-&amp;rdquo;, &amp;ldquo;.&amp;rdquo; or space   Use &amp;ldquo;lower camel case&amp;rdquo; when creating variable names made up of more than one word, for example: firstName Create variable names that use reserved JavaScript keywords such as let, var, function or switch    Variables names should describe the kind of information the variable stores</description>
+    </item>
+    
+    <item>
+      <title>let vs var</title>
+      <link>/02-javascript-basics/variables/let-vs-var/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/variables/let-vs-var/</guid>
+      <description>let vs var  In recent past var was the only way to declare variables
+ While var worked it a lot of confusing issues that came along with it
+ let was introduced in the latest release of JavaScript, ES6 to address these issues
+ While var is still in use for legacy codebases, it is a recommended best practice to use let instead of var going forward</description>
+    </item>
+    
+    <item>
+      <title>const</title>
+      <link>/02-javascript-basics/variables/const/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/variables/const/</guid>
+      <description>const  Stands for constant
+ These are variables for which its value does not change after it has been assigned an initial value
+ This help make your code easier to debug and protects certain values from accidentally being overridden in your codebase
+  Declaring a constant const are the same as let but with one key difference, values can only be assigned once to a const variable</description>
+    </item>
+    
+  </channel>
+</rss>

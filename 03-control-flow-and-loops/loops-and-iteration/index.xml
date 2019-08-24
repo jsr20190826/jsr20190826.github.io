@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Loops &amp; Iteration on JavaScript</title>
+    <link>/03-control-flow-and-loops/loops-and-iteration/</link>
+    <description>Recent content in Loops &amp; Iteration on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/03-control-flow-and-loops/loops-and-iteration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>while Loop</title>
+      <link>/03-control-flow-and-loops/loops-and-iteration/while-loops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-control-flow-and-loops/loops-and-iteration/while-loops/</guid>
+      <description>while Loop  While loops run its statements as long as a specified condition evaluates to true  while (condition) { statement } // run some other code   If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop  Example let n = 0 while (n &amp;lt; 5) { console.log(n) n++ }  JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>do..while Loop</title>
+      <link>/03-control-flow-and-loops/loops-and-iteration/do-while-loops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-control-flow-and-loops/loops-and-iteration/do-while-loops/</guid>
+      <description>do..while Loop  A do&amp;hellip;while loop repeats until a specified condition evaluates to false  do { statement } while (condition)   statement is always executed once before the condition is checked (and then again until the while condition returns false)
+ With do&amp;hellip;while loops, everything in-between the curly braces (i.e. statement(s)) will run at least once
+  Example let n = 0 do { console.log(n) n++ } while (n &amp;lt; 0)   the loop will run at least once and then terminate because 0 is NOT &amp;lt; 0  JS Bin on jsbin.</description>
+    </item>
+    
+    <item>
+      <title>for Loop</title>
+      <link>/03-control-flow-and-loops/loops-and-iteration/for-loop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-control-flow-and-loops/loops-and-iteration/for-loop/</guid>
+      <description>for Loop  The for loop consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement (usually a block statement) to be executed in the loop.
+ The three expression help determine how many times the loop will iterate before it terminates
+ The statements involve an iterator variable (usually depicted as an &amp;ldquo;i&amp;rdquo;)
+  for (statement 1; statement 2; statement 3) { // code block to be executed }   statement 1 is executed (one time) before the execution of the code block</description>
+    </item>
+    
+    <item>
+      <title>forEach Loop</title>
+      <link>/03-control-flow-and-loops/loops-and-iteration/for-each/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-control-flow-and-loops/loops-and-iteration/for-each/</guid>
+      <description>forEach Loop  forEach() is an Array method executes a provided function once for each item (or element) in the array
+ The function used in forEach is called a callback function because it is being passed as a parameter into another function (we&amp;rsquo;ll cover these concepts in more detail in a later class)
+ The callback function for forEach provides the following:
+ element - this current element from the array that is being evaluated</description>
+    </item>
+    
+  </channel>
+</rss>

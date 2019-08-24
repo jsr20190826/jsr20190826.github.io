@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Functions and Scope on JavaScript</title>
+    <link>/04-functions-and-scope/</link>
+    <description>Recent content in Functions and Scope on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/04-functions-and-scope/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Function Overview</title>
+      <link>/04-functions-and-scope/function-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-functions-and-scope/function-overview/</guid>
+      <description> What are Functions?  Functions are the main “building blocks” of the program; they allow the code to be called many times without repetition
+ One of the main advantages of functions is code reuse
+ You can control when functions are executed, for example - you can write functions that only get executed (or called) when a user clicks a specific button
+  // a simple function that greets you with a &amp;#39;Good Morning&amp;#39; alert  // 1) Declare a function named greeting  function greeting(){ console(&amp;#39;Good Morning&amp;#39;) } // 2) Call (or run) the function  greeting()  </description>
+    </item>
+    
+    <item>
+      <title>Declaring Functions</title>
+      <link>/04-functions-and-scope/declaring-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-functions-and-scope/declaring-functions/</guid>
+      <description>Declaring a Function  A function declaration is code that stipulates what the function can do
+ Use the function keyword to define a function
+ Functions can be given a name
+ The name must be followed by parentheses
+ The opening and closing curly braces indicate a “code block”
+ The statements for your function goes within the code block
+ Also referred to as &amp;ldquo;defining a function&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Calling Functions</title>
+      <link>/04-functions-and-scope/calling-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-functions-and-scope/calling-functions/</guid>
+      <description>Calling a Function  Calling a function means you are using the function (as opposed to defining a function which only tells us what the function can do)
+ To call a function you simply write function name followed by parentheses (don’t forget the parentheses!)
+ Now you can call this function as many times as you want
+  /** define / declare a function named shout() by itself this doesn&amp;#39;t do anything, we must &amp;#34;Call&amp;#34; it in order to use it **/ function shout() { console.</description>
+    </item>
+    
+    <item>
+      <title>Hoisting</title>
+      <link>/04-functions-and-scope/hoisting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-functions-and-scope/hoisting/</guid>
+      <description>Hoisting  Hoisting is a feature in JavaScript which allows access to function declarations before they’re defined
+ This means that we can place a function call before our function declaration and everything will still work as expected
+  Example // Calling greetWorld() BEFORE it&amp;#39;s function declararion greetWorld() // declaration of greetWorld() function greetWorld() { console.log(&amp;#39;Hello, World!&amp;#39;) }  JS Bin on jsbin.com
+ Notice how hoisting allowed greetWorld() to be called before the greetWorld() function was defined</description>
+    </item>
+    
+    <item>
+      <title>Returning Values from Functions</title>
+      <link>/04-functions-and-scope/returning-values-from-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-functions-and-scope/returning-values-from-functions/</guid>
+      <description>Many times you will write a function and expect a value to be returned - this is called a return value
+ To have your function return a value you must use the return keyword in the last line of the body of your function
+ We use the return keyword when we want our function to &amp;ldquo;give us back&amp;rdquo; a value
+ You can store the returned value in a variable and use it later in your program</description>
+    </item>
+    
+    <item>
+      <title>Working with Parameters</title>
+      <link>/04-functions-and-scope/working-with-parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-functions-and-scope/working-with-parameters/</guid>
+      <description>Declaring Functions that need information  Some functions need additional information in order to perform a specific task
+ This additional information is referred to as “parameters”
+ To provide parameters to a function, you specify them inside the parentheses after the parameter name
+ The parameters are used like variables within the function body
+ We use the return keyword when we want our function to &amp;ldquo;give us back&amp;rdquo; a value</description>
+    </item>
+    
+    <item>
+      <title>Functions Calling Other Functions</title>
+      <link>/04-functions-and-scope/functions-calling-other-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-functions-and-scope/functions-calling-other-functions/</guid>
+      <description>Functions can call other functions  Function reusability is key results in cleaner code
+ Reusing functions leverages key programming principle - Don&amp;rsquo;t Repeat Yourself (DRY)
+  Example  In the example of below, the surfaceAreaOfCube function calls another function (areaOfSquare) instead of duplicating work that was already done  // Function that calculates area of a square  function areaOfSquare(side){ return side * side } areaOfSquare(3) // returns 9  // This is a function that calculates the // surface area of a cube that *reuses* the areaOfSquare function  function surfaceAreaOfCube(side){ return 6 * areaOfSquare(side) } surfaceAreaOfCube(7) // returns 294  JS Bin on jsbin.</description>
+    </item>
+    
+    <item>
+      <title>Function Expressions &amp; Anonymous Functions</title>
+      <link>/04-functions-and-scope/function-expressions-anonymous-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-functions-and-scope/function-expressions-anonymous-functions/</guid>
+      <description>Function Expressions &amp;amp; Anonymous Functions  Another way to define a function is to use a function expression
+ To define a function inside an expression, we can use the function keyword with the function name omitted
+ function with no name is called anonymous functions
+  Example let getArea = function(width, height) { return width * height } // Calling the getArea() function with values getArea(7, 5) // returns 35  JS Bin on jsbin.</description>
+    </item>
+    
+    <item>
+      <title>Arrow Functions</title>
+      <link>/04-functions-and-scope/arrow-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-functions-and-scope/arrow-functions/</guid>
+      <description>Arrow Functions  ES6 introduced/arrow function syntax/, a shorter way to write functions by using the special &amp;ldquo;fat arrow&amp;rdquo; (=&amp;gt;)
+ Instead, you first include the parameters inside the () and then add an arrow =&amp;gt; that points to the function body surrounded in { } like this:
+const getArea = (width, height) =&amp;gt; { let area = width * height return area }   Parameter syntax rules for Arrow functions  Functions that take only a single parameter do not need that parameter to be enclosed in parentheses.</description>
+    </item>
+    
+    <item>
+      <title>Single Responsibility Principle</title>
+      <link>/04-functions-and-scope/single-responsibility-principle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-functions-and-scope/single-responsibility-principle/</guid>
+      <description>Single Responsibility Principle (SRP)  SRP is a programming best practice that advocates modular code
+ Put another way, your programs should be broken up in such a way where each part is responsible for only one &amp;ldquo;thing&amp;rdquo; or domain
+ SRP is often applied to functions
+  Applying SRP to Functions  This concepts calls for your functions to only be &amp;ldquo;responsible&amp;rdquo; for one thing
+ Often you&amp;rsquo;ll find that the logic in your functions are doing too much (for example: making calculations AND displaying the result to the screen)</description>
+    </item>
+    
+    <item>
+      <title>Code Along: Rolling Dice</title>
+      <link>/04-functions-and-scope/code-along-rolling-dice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-functions-and-scope/code-along-rolling-dice/</guid>
+      <description> Code Along: Rolling Dice  We&amp;rsquo;ll walk through the process using functions to create a program that simulates rolling dice
+ The starter code for this code along is hosted on Github, see the url below:
+ Code Along: Rolling Dice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+  </channel>
+</rss>

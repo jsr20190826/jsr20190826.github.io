@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inserting &amp; Removing Content on JavaScript</title>
+    <link>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/</link>
+    <description>Recent content in Inserting &amp; Removing Content on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.append()</title>
+      <link>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/append/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/append/</guid>
+      <description>.append() Method  Method used to insert content to the end of selected elements (as the last child)  Example $(() =&amp;gt; { $(&amp;#39;#appendParagraph&amp;#39;).click(() =&amp;gt; { // append a new paragraph to list of paragraphs  const newParagraph = &amp;#34;&amp;lt;p class=&amp;#39;four&amp;#39;&amp;gt;Four&amp;lt;/p&amp;gt;&amp;#34; $(&amp;#39;.numbers&amp;#39;).append(newParagraph) }) })  JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>.prepend()</title>
+      <link>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/prepend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/prepend/</guid>
+      <description>.prepend() Method  Method used to insert content to the beginning of the selected elements (as the first child)  Example $(() =&amp;gt; { $(&amp;#39;#prependParagraph&amp;#39;).click(() =&amp;gt; { // prepend a new paragraph to list of paragraphs  const newParagraph = &amp;#34;&amp;lt;p class=&amp;#39;one&amp;#39;&amp;gt;One&amp;lt;/p&amp;gt;&amp;#34; $(&amp;#39;.numbers&amp;#39;).prepend(newParagraph) }) })  JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>.before()</title>
+      <link>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/before/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/before/</guid>
+      <description>.before() Method  Method is used to insert content before the selected elements  Example $(() =&amp;gt; { $(&amp;#39;#addHeader&amp;#39;).click(() =&amp;gt; { // Add header &amp;#34;before&amp;#34; .numbers div  const header = &amp;#34;&amp;lt;h2&amp;gt;Numbers&amp;lt;/h2&amp;gt;&amp;#34; $(&amp;#39;.numbers&amp;#39;).before(header) }) })  JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>.after()</title>
+      <link>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/after/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/after/</guid>
+      <description>.after() Method  Method is used to insert content after the selected elements  Example $(() =&amp;gt; { $(&amp;#39;#addFooter&amp;#39;).click(() =&amp;gt; { // Add footer &amp;#34;after&amp;#34; .numbers div  const footer = &amp;#34;&amp;lt;h2&amp;gt;Footer&amp;lt;/h2&amp;gt;&amp;#34; $(&amp;#39;.numbers&amp;#39;).after(footer) }) })  JS Bin on jsbin.com</description>
+    </item>
+    
+  </channel>
+</rss>
