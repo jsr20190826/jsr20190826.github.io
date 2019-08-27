@@ -55,6 +55,10 @@
   </url>
   
   <url>
+    <loc>/lesson-recordings/recordings/</loc>
+  </url>
+  
+  <url>
     <loc>/02-javascript-basics/data-types/strings/</loc>
   </url>
   
@@ -723,6 +727,10 @@
   
   <url>
     <loc>/final-projects/</loc>
+  </url>
+  
+  <url>
+    <loc>/lesson-recordings/</loc>
   </url>
   
   <url>

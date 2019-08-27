@@ -91,6 +91,13 @@
 	"content": " Global Scope  Variables defined outside of a function are in in the Global Scope  Example // Global function because it was declared outside of a function let name = \u0026#39;Simone Biles\u0026#39; console.log(name) function bestGymnastEver() { // \u0026#39;name\u0026#39; variable is accessible here and everywhere else because it is global  console.log(name) } logName() // logs \u0026#39;Simone Biles\u0026#39;  JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/lesson-recordings/recordings/",
+	"title": "Recordings",
+	"tags": [],
+	"description": "",
+	"content": " Lesson Recordings    Lesson Date Link Notes     00 8/26/2019 lesson 00 recording     "
+},
+{
 	"uri": "/02-javascript-basics/data-types/strings/",
 	"title": "Strings",
 	"tags": [],
@@ -1258,6 +1265,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Final Projects "
+},
+{
+	"uri": "/lesson-recordings/",
+	"title": "Lesson Recordings",
+	"tags": [],
+	"description": "",
+	"content": " Lesson Recordings "
 },
 {
 	"uri": "/02-javascript-basics/truthy-falsey/",
