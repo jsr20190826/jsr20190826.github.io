@@ -158,7 +158,21 @@ jQuery jQuery Documentation</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lesson-recordings/recordings/</guid>
-      <description> Lesson Recordings    Lesson Date Link Notes     00 8/26/2019 lesson 00 recording     </description>
+      <description> Lesson Recordings    Lesson Date Link Notes     00 8/26/2019 lesson 00 recording    01 8/28/2019 lesson 01 recording     </description>
+    </item>
+    
+    <item>
+      <title>Repository</title>
+      <link>/01-command-line-js-and-git/git-vocabulary/repository/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/git-vocabulary/repository/</guid>
+      <description> Repository  Most basic element of GitHub
+ A repository can be referred to as a project
+ contains all of a project&amp;rsquo;s files
+ Stores each file&amp;rsquo;s revision history
+ Repositories can have multiple collaborators and can be either public or private.
+  </description>
     </item>
     
     <item>
@@ -359,6 +373,19 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
     </item>
     
     <item>
+      <title>Commit</title>
+      <link>/01-command-line-js-and-git/git-vocabulary/commit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/git-vocabulary/commit/</guid>
+      <description>Commit  A &amp;ldquo;revision&amp;rdquo;, is an individual change to a file (or set of files)
+ Git&amp;rsquo;s version of saving
+ Commits save a &amp;ldquo;snapshot&amp;rdquo; of all of the project&amp;rsquo;s files at that point in time
+ Using commits you can &amp;ldquo;time travel&amp;rdquo; and navigate back to any previous commit that was made throughout the history of the project
+ Commits usually contain a commit message which is a brief description of what changes were made</description>
+    </item>
+    
+    <item>
       <title>Creating Arrays</title>
       <link>/05-arrays-objects/array-review/creating-arrays/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -536,6 +563,18 @@ Converting Strings to Numbers  Sometimes you will find yourself in a position wh
       <description>Booleans  Can only have a value of true or false
  true/false are special keywords in JavaScript and do not have quotes around them
   // declare a variable called isOn and assign a value of true let isOn = true // declare a variable called isWarm let isWarm // assign a value of false to isWarm isWarm = false   Booleans are useful for helping our programs make decisions (when used with conditionals, comparison &amp;amp; logical operators)</description>
+    </item>
+    
+    <item>
+      <title>Branch</title>
+      <link>/01-command-line-js-and-git/git-vocabulary/branch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/git-vocabulary/branch/</guid>
+      <description>Branch  Parallel version of a repository
+ Branches allow developers to work on new features without affecting the &amp;ldquo;master&amp;rdquo; branch and disrupting the &amp;ldquo;live&amp;rdquo; version
+ The process of creating a separate branch to work on a feature is referred to as &amp;ldquo;creating a feature branch&amp;ldquo;
+ After developers have added their new feature (on their feature branch) they will then make a Pull Request (which is a request for comments and a request to Merge their changes back into the main branch (master branch))</description>
     </item>
     
     <item>
@@ -746,6 +785,17 @@ Complete Homework #2 - Functions and Iterators  You are tasked with completing t
     </item>
     
     <item>
+      <title>Master Branch</title>
+      <link>/01-command-line-js-and-git/git-vocabulary/master-branch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/git-vocabulary/master-branch/</guid>
+      <description> Master Branch  The default branch found in every Git respository
+ For most companies, the master branch reflects that latest version of production code (i.e. working code available to customers)
+  </description>
+    </item>
+    
+    <item>
       <title>Naming Rules for Variables</title>
       <link>/02-javascript-basics/variables/naming-rules/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -883,19 +933,14 @@ Atom Editor v1.</description>
     </item>
     
     <item>
-      <title>Git Vocabulary</title>
-      <link>/01-command-line-js-and-git/git-vocabulary/</link>
+      <title>Merge</title>
+      <link>/01-command-line-js-and-git/git-vocabulary/merge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/01-command-line-js-and-git/git-vocabulary/</guid>
-      <description>Git Vocabulary Repository  Most basic element of GitHub
- A repository can be referred to as a project
- contains all of a project&amp;rsquo;s files
- Stores each file&amp;rsquo;s revision history
- Repositories can have multiple collaborators and can be either public or private.
-  Commit  A &amp;ldquo;revision&amp;rdquo;, is an individual change to a file (or set of files)
- Git&amp;rsquo;s version of saving
- Commits save a &amp;ldquo;snapshot&amp;rdquo; of all of the project&amp;rsquo;s files at that point in time</description>
+      <guid>/01-command-line-js-and-git/git-vocabulary/merge/</guid>
+      <description> Merge  Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another
+ This often happens as a Pull Request (which can be thought of as a request for comments and a request to merge into the another branch * usually the master branch)
+  </description>
     </item>
     
     <item>
@@ -1121,6 +1166,17 @@ Complete Homework #3 - Rock, Paper, Scissors Application  You are tasked with fi
     </item>
     
     <item>
+      <title>Push</title>
+      <link>/01-command-line-js-and-git/git-vocabulary/push/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/git-vocabulary/push/</guid>
+      <description> Push  Refers to sending your committed changes to a remote repository such as GitHub.com
+ For instance, if you change something locally, you&amp;rsquo;d want to then push those changes so that others may access them
+  </description>
+    </item>
+    
+    <item>
       <title>Updating Array Values</title>
       <link>/05-arrays-objects/array-review/updating-array-values/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1232,6 +1288,15 @@ $ mkdir nursery_rhymes  Navigate into the nursery_rhymes directory using the cd 
       <description>Functions can call other functions  Function reusability is key results in cleaner code
  Reusing functions leverages key programming principle - Don&amp;rsquo;t Repeat Yourself (DRY)
   Example  In the example of below, the surfaceAreaOfCube function calls another function (areaOfSquare) instead of duplicating work that was already done  // Function that calculates area of a square  function areaOfSquare(side){ return side * side } areaOfSquare(3) // returns 9  // This is a function that calculates the // surface area of a cube that *reuses* the areaOfSquare function  function surfaceAreaOfCube(side){ return 6 * areaOfSquare(side) } surfaceAreaOfCube(7) // returns 294  JS Bin on jsbin.</description>
+    </item>
+    
+    <item>
+      <title>Pull</title>
+      <link>/01-command-line-js-and-git/git-vocabulary/pull/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/git-vocabulary/pull/</guid>
+      <description> Pull  Pulls code from a remote repository and merges it with code in your local repository (on your computer)  </description>
     </item>
     
     <item>
@@ -1402,6 +1467,17 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
     </item>
     
     <item>
+      <title>Fork</title>
+      <link>/01-command-line-js-and-git/git-vocabulary/fork/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/git-vocabulary/fork/</guid>
+      <description> Fork  A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project
+ Most commonly, forks are used to either propose changes to someone else&amp;rsquo;s project or to use someone else&amp;rsquo;s project as a starting point for your own idea
+  </description>
+    </item>
+    
+    <item>
       <title>Single Responsibility Principle</title>
       <link>/04-functions-and-scope/single-responsibility-principle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1412,6 +1488,17 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
  SRP is often applied to functions
   Applying SRP to Functions  This concepts calls for your functions to only be &amp;ldquo;responsible&amp;rdquo; for one thing
  Often you&amp;rsquo;ll find that the logic in your functions are doing too much (for example: making calculations AND displaying the result to the screen)</description>
+    </item>
+    
+    <item>
+      <title>Clone</title>
+      <link>/01-command-line-js-and-git/git-vocabulary/clone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/git-vocabulary/clone/</guid>
+      <description> Clone  Copies a remote repository (i.e. repository in the cloud on a platform like Github.com) and creates a local copy of the repository on your computer
+ Cloning creates a link between the the remote and local copy of a repository, allowing you to your code in sync between the two
+  </description>
     </item>
     
     <item>
@@ -1465,6 +1552,18 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
  For Mac OS X users:
  Open the &amp;ldquo;Terminal&amp;rdquo; app (Applications &amp;gt; Utilities &amp;gt; Terminal)  For Windows:
  Open the &amp;ldquo;Command Prompt&amp;rdquo; application.   3) In the terminal type the following command to confirm git was successfully installed:</description>
+    </item>
+    
+    <item>
+      <title>Pull Request</title>
+      <link>/01-command-line-js-and-git/git-vocabulary/pull-request/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-command-line-js-and-git/git-vocabulary/pull-request/</guid>
+      <description>Pull Request  Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository&amp;rsquo;s collaborators (i.e. team members).
+ Pull requests can be thought of as a developer asking for permission to merge their changes into the master branch
+ Pull requests each have their own discussion forum, where developer can discuss the changes requested and suggest further revisions.
+ This discussion as also referred to as Code Reviews</description>
     </item>
     
     <item>

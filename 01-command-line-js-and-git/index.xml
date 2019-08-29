@@ -78,22 +78,6 @@ When copying the following code snippets, DO NOT include the $ this is a univers
     </item>
     
     <item>
-      <title>Git Vocabulary</title>
-      <link>/01-command-line-js-and-git/git-vocabulary/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/01-command-line-js-and-git/git-vocabulary/</guid>
-      <description>Git Vocabulary Repository  Most basic element of GitHub
- A repository can be referred to as a project
- contains all of a project&amp;rsquo;s files
- Stores each file&amp;rsquo;s revision history
- Repositories can have multiple collaborators and can be either public or private.
-  Commit  A &amp;ldquo;revision&amp;rdquo;, is an individual change to a file (or set of files)
- Git&amp;rsquo;s version of saving
- Commits save a &amp;ldquo;snapshot&amp;rdquo; of all of the project&amp;rsquo;s files at that point in time</description>
-    </item>
-    
-    <item>
       <title>Git Basics</title>
       <link>/01-command-line-js-and-git/git-basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

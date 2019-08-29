@@ -95,7 +95,14 @@
 	"title": "Recordings",
 	"tags": [],
 	"description": "",
-	"content": " Lesson Recordings    Lesson Date Link Notes     00 8/26/2019 lesson 00 recording     "
+	"content": " Lesson Recordings    Lesson Date Link Notes     00 8/26/2019 lesson 00 recording    01 8/28/2019 lesson 01 recording     "
+},
+{
+	"uri": "/01-command-line-js-and-git/git-vocabulary/repository/",
+	"title": "Repository",
+	"tags": [],
+	"description": "",
+	"content": " Repository  Most basic element of GitHub\n A repository can be referred to as a project\n contains all of a project\u0026rsquo;s files\n Stores each file\u0026rsquo;s revision history\n Repositories can have multiple collaborators and can be either public or private.\n  "
 },
 {
 	"uri": "/02-javascript-basics/data-types/strings/",
@@ -130,7 +137,7 @@
 	"title": "Code Along: Command Line Intro",
 	"tags": [],
 	"description": "",
-	"content": " Code Along: Command Line Intro For Macs: * Open the \u0026ldquo;Terminal\u0026rdquo; app (Applications \u0026gt; Utilities \u0026gt; Terminal) * Optionally, download and install iTerm 2, which is a replacement for the terminal app that is more configurable.\nFor Windows: * Open the \u0026ldquo;Command Prompt\u0026rdquo; application. * For a better experience, try Console.\nGet familiar with the basic commands on the terminal!\nWhen copying the following code snippets, DO NOT include the $ this is a universal symbol to indicate that the anything following the \u0026lsquo;$\u0026rsquo; should be entered into the command line\n Step 0: Navigate to your class folder on your command line  From your command line, navigate to your class folder (i.e. the folder named jsd)\n Navigate to your jsd from your Root Directory. cd ~ and then cd Documents/jsd (assuming your class folder is named \u0026lsquo;jsd\u0026rsquo; and located in your Documents folder)\n  Step 1: Make a new directory and \u0026ldquo;change\u0026rdquo; into it  Create a directory named command_line_tutorial\n$ mkdir command_line_tutorial  Change into this directory\n$ cd command_line_tutorial   Step 2: Create some files from the command line  Create a file named \u0026ldquo;index.html\u0026rdquo; using the touch command.\n$ touch index.html   Step 3: Open your your text editor from the command line $ atom .   Use subl if you are using sublime  Step 4: Create an empty folder and remove it  Create a folder named test_folder\n$ mkdir test_folder  Now remove it\n$ rmdir test_folder   Student Exercise - Part I : More Independent Practice Complete the following instructions below in the Terminal application.\n Create a folder in your jsd/lesson_01_files directory named my_site\n Once inside that folder, create three empty files:\n goals.html\n worries.html\n index.html\n  Open the my_site folder with in your text editor\n  In the respective files (goals.html and worries.html), write your top three goals and top three worries for this course.\n Paste the following contents into index.html:  \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;title\u0026gt;My Site \u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;a href=\u0026quot;goals.html\u0026quot;\u0026gt;\u0026lt;img src=\u0026quot;http://i.imgur.com/dosK05U.gif\u0026quot; /\u0026gt;\u0026lt;/a\u0026gt; \u0026lt;br\u0026gt; \u0026lt;a href=\u0026quot;worries.html\u0026quot;\u0026gt;\u0026lt;img src=\u0026quot;http://i.imgur.com/2s0HwpM.gif\u0026quot; /\u0026gt;\u0026lt;/a\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt;   Open index.html with your browser and make sure you see your goals and worries.  Student Exercise - Part II: More Independent Practice  Use your new knowledge of the command line to create a lesson folder for each of the remaining lessons in the course inside your jsd folder\n There are 20 lessons in the course and the lesson names should use the following format: lesson_02_files, lesson_03_files, etc\n The last class should be named lesson_19_files (we started counting at 00)\n  "
+	"content": " Code Along: Command Line Intro For Macs: * Open the \u0026ldquo;Terminal\u0026rdquo; app (Applications \u0026gt; Utilities \u0026gt; Terminal) * Optionally, download and install iTerm 2, which is a replacement for the terminal app that is more configurable.\nFor Windows: * Open the \u0026ldquo;Command Prompt\u0026rdquo; application. * For a better experience, try Console.\nGet familiar with the basic commands on the terminal!\nWhen copying the following code snippets, DO NOT include the $ this is a universal symbol to indicate that the anything following the \u0026lsquo;$\u0026rsquo; should be entered into the command line\n Step 0: Navigate to your class folder on your command line  From your command line, navigate to your class folder (i.e. the folder named jsd)\n Navigate to your jsd from your Root Directory. cd ~ and then cd Documents/jsd (assuming your class folder is named \u0026lsquo;jsd\u0026rsquo; and located in your Documents folder)\n  Step 1: Make a new directory and \u0026ldquo;change\u0026rdquo; into it  Create a directory named command_line_tutorial\n$ mkdir command_line_tutorial  Change into this directory\n$ cd command_line_tutorial   Step 2: Create some files from the command line  Create a file named \u0026ldquo;index.html\u0026rdquo; using the touch command.\n$ touch text1.txt text2.txt   Step 3: Open your your text editor from the command line $ atom .   Use subl if you are using sublime  Step 4: Create an empty folder and remove it  Create a folder named test_folder\n$ mkdir test_folder  Now remove it\n$ rmdir test_folder   Student Exercise - Part I : More Independent Practice Complete the following instructions below in the Terminal application.\n Create a folder in your jsd/lesson_01_files directory named my_site\n Once inside that folder, create three empty files:\n goals.html\n worries.html\n index.html\n  Open the my_site folder with in your text editor\n  In the respective files (goals.html and worries.html), write your top three goals and top three worries for this course.\n Paste the following contents into index.html:  \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;title\u0026gt;My Site \u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;a href=\u0026quot;goals.html\u0026quot;\u0026gt;\u0026lt;img src=\u0026quot;http://i.imgur.com/dosK05U.gif\u0026quot; /\u0026gt;\u0026lt;/a\u0026gt; \u0026lt;br\u0026gt; \u0026lt;a href=\u0026quot;worries.html\u0026quot;\u0026gt;\u0026lt;img src=\u0026quot;http://i.imgur.com/2s0HwpM.gif\u0026quot; /\u0026gt;\u0026lt;/a\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt;   Open index.html with your browser and make sure you see your goals and worries.  Student Exercise - Part II: More Independent Practice  Use your new knowledge of the command line to create a lesson folder for each of the remaining lessons in the course inside your jsd folder\n There are 20 lessons in the course and the lesson names should use the following format: lesson_02_files, lesson_03_files, etc\n The last class should be named lesson_19_files (we started counting at 00)\n  "
 },
 {
 	"uri": "/class-resources/git-workflow-submitting-assignments/",
@@ -236,6 +243,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Benefits of jQuery?  Uses CSS selectors to help us grab or select elements programmatically (i.e. in our code)\n Accomplishes more with less code vs using native JavaScript\n  CSS selectors means less code Here\u0026rsquo;s how we would programmatically select an element with an id of \u0026ldquo;flavors\u0026rdquo; using native JavaScript\n// selecting an element using native JavaScript document.getElementById(\u0026#39;flavors\u0026#39;).onClick = doSomething()  Here\u0026rsquo;s how we would programmatically select an element with an id of \u0026ldquo;flavors\u0026rdquo; using jQuery\n// using jQuery (same as above but with much more intuitive syntax) $(\u0026#39;#flavors\u0026#39;).click(doSomething)  In this code snippet above you can see jQuery allows us to use CSS selectors to programmatically select elements on our page\nThe ability to use CSS selectors to programmatically select elements is the main reason jQuery is so popular today\n Another Example Here\u0026rsquo;s another example of how jQuery results in much more clear and readable DOM manipulation logic\nIn this code snippet, we are using native JavaScript to programmatically select the \u0026lt;body\u0026gt; element and then change the background color to white\n// selecting an element using native JavaScript  document.getElementsByTagName(\u0026#39;body\u0026#39;)[0].style.backgroundColor = \u0026#39;white\u0026#39;  Compare the snippet above with the following snippet that accomplishes the same result using jQuery\n// using jQuery (same as above but with much more intuitive syntax)  $(\u0026#39;body\u0026#39;).css(\u0026#39;backgroundColor\u0026#39;, \u0026#39;white\u0026#39;)  Note: best practice is to use camel case when referencing css properties that have multiple words i.e. \u0026lsquo;backgroundColor\u0026rsquo; instead of \u0026lsquo;background-color\u0026rsquo;\n "
+},
+{
+	"uri": "/01-command-line-js-and-git/git-vocabulary/commit/",
+	"title": "Commit",
+	"tags": [],
+	"description": "",
+	"content": " Commit  A \u0026ldquo;revision\u0026rdquo;, is an individual change to a file (or set of files)\n Git\u0026rsquo;s version of saving\n Commits save a \u0026ldquo;snapshot\u0026rdquo; of all of the project\u0026rsquo;s files at that point in time\n Using commits you can \u0026ldquo;time travel\u0026rdquo; and navigate back to any previous commit that was made throughout the history of the project\n Commits usually contain a commit message which is a brief description of what changes were made\n  "
 },
 {
 	"uri": "/03-control-flow-and-loops/conditionals/",
@@ -390,6 +404,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Booleans  Can only have a value of true or false\n true/false are special keywords in JavaScript and do not have quotes around them\n  // declare a variable called isOn and assign a value of true let isOn = true // declare a variable called isWarm let isWarm // assign a value of false to isWarm isWarm = false   Booleans are useful for helping our programs make decisions (when used with conditionals, comparison \u0026amp; logical operators)\n Booleans also helps a program known when it should stop/start looping\n  "
+},
+{
+	"uri": "/01-command-line-js-and-git/git-vocabulary/branch/",
+	"title": "Branch",
+	"tags": [],
+	"description": "",
+	"content": " Branch  Parallel version of a repository\n Branches allow developers to work on new features without affecting the \u0026ldquo;master\u0026rdquo; branch and disrupting the \u0026ldquo;live\u0026rdquo; version\n The process of creating a separate branch to work on a feature is referred to as \u0026ldquo;creating a feature branch\u0026ldquo;\n After developers have added their new feature (on their feature branch) they will then make a Pull Request (which is a request for comments and a request to Merge their changes back into the main branch (master branch))\n  "
 },
 {
 	"uri": "/04-functions-and-scope/calling-functions/",
@@ -574,6 +595,13 @@
 	"content": " Loops \u0026amp; Iteration  Loops offer a quick and easy way to do something repeatedly\n Loops must terminate or they will run forever; these are referred to as \u0026ldquo;infinite loops\u0026rdquo;\n Some loops use conditions to determine when it should start and stop\n There are many different kinds of loops, but they all essentially do the same thing: they repeat an action some number of times (and it\u0026rsquo;s actually possible that number could be zero)\n while loops\n do..while loops\n for loops\n forEach loops\n   "
 },
 {
+	"uri": "/01-command-line-js-and-git/git-vocabulary/master-branch/",
+	"title": "Master Branch",
+	"tags": [],
+	"description": "",
+	"content": " Master Branch  The default branch found in every Git respository\n For most companies, the master branch reflects that latest version of production code (i.e. working code available to customers)\n  "
+},
+{
 	"uri": "/02-javascript-basics/variables/naming-rules/",
 	"title": "Naming Rules for Variables",
 	"tags": [],
@@ -669,7 +697,14 @@
 	"title": "Git Vocabulary",
 	"tags": [],
 	"description": "",
-	"content": " Git Vocabulary Repository  Most basic element of GitHub\n A repository can be referred to as a project\n contains all of a project\u0026rsquo;s files\n Stores each file\u0026rsquo;s revision history\n Repositories can have multiple collaborators and can be either public or private.\n  Commit  A \u0026ldquo;revision\u0026rdquo;, is an individual change to a file (or set of files)\n Git\u0026rsquo;s version of saving\n Commits save a \u0026ldquo;snapshot\u0026rdquo; of all of the project\u0026rsquo;s files at that point in time\n Using commits you can \u0026ldquo;time travel\u0026rdquo; and navigate back to any previous commit that was made throughout the history of the project\n Commits usually contain a commit message which is a brief description of what changes were made\n  Branch  Parallel version of a repository\n Branches allow developers to work on new features without affecting the \u0026ldquo;master\u0026rdquo; branch and disrupting the \u0026ldquo;live\u0026rdquo; version\n The process of creating a separate branch to work on a feature is referred to as \u0026ldquo;creating a feature branch\u0026ldquo;\n After developers have added their new feature (on their feature branch) they will then make a Pull Request (which is a request for comments and a request to Merge their changes back into the main branch (master branch))\n  Master Branch  The default branch found in every Git respository\n For most companies, the master branch reflects that latest version of production code (i.e. working code available to customers)\n  Merge  Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another\n This often happens as a Pull Request (which can be thought of as a request for comments and a request to merge into the another branch * usually the master branch)\n  Push  Refers to sending your committed changes to a remote repository such as GitHub.com\n For instance, if you change something locally, you\u0026rsquo;d want to then push those changes so that others may access them\n  Pull  Pulls code from a remote repository and merges it with code in your local repository (on your computer)  Fork  A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project\n Most commonly, forks are used to either propose changes to someone else\u0026rsquo;s project or to use someone else\u0026rsquo;s project as a starting point for your own idea\n  Clone  Copies a remote repository (i.e. repository in the cloud on a platform like Github.com) and creates a local copy of the repository on your computer\n Cloning creates a link between the the remote and local copy of a repository, allowing you to your code in sync between the two\n  Pull Request  Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository\u0026rsquo;s collaborators (i.e. team members).\n Pull requests can be thought of as a developer asking for permission to merge their changes into the master branch\n Pull requests each have their own discussion forum, where developer can discuss the changes requested and suggest further revisions.\n This discussion as also referred to as Code Reviews\n  Great resource for all things git can be found here\n "
+	"content": " Git Vocabulary  Repository   Commit   Branch   Master Branch   Merge   Push   Pull   Fork   Clone   Pull Request   "
+},
+{
+	"uri": "/01-command-line-js-and-git/git-vocabulary/merge/",
+	"title": "Merge",
+	"tags": [],
+	"description": "",
+	"content": " Merge  Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another\n This often happens as a Pull Request (which can be thought of as a request for comments and a request to merge into the another branch * usually the master branch)\n  "
 },
 {
 	"uri": "/04-functions-and-scope/returning-values-from-functions/",
@@ -833,6 +868,13 @@
 	"content": " Other Events There are many other events available, click here to see a complete list of jQuery Events\n"
 },
 {
+	"uri": "/01-command-line-js-and-git/git-vocabulary/push/",
+	"title": "Push",
+	"tags": [],
+	"description": "",
+	"content": " Push  Refers to sending your committed changes to a remote repository such as GitHub.com\n For instance, if you change something locally, you\u0026rsquo;d want to then push those changes so that others may access them\n  "
+},
+{
 	"uri": "/05-arrays-objects/array-review/updating-array-values/",
 	"title": "Updating Array Values",
 	"tags": [],
@@ -908,6 +950,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Functions can call other functions  Function reusability is key results in cleaner code\n Reusing functions leverages key programming principle - Don\u0026rsquo;t Repeat Yourself (DRY)\n  Example  In the example of below, the surfaceAreaOfCube function calls another function (areaOfSquare) instead of duplicating work that was already done  // Function that calculates area of a square  function areaOfSquare(side){ return side * side } areaOfSquare(3) // returns 9  // This is a function that calculates the // surface area of a cube that *reuses* the areaOfSquare function  function surfaceAreaOfCube(side){ return 6 * areaOfSquare(side) } surfaceAreaOfCube(7) // returns 294  JS Bin on jsbin.com\nExercise  Create a function named surfaceAreaOfSphere that calculates the surface area of the Sphere using the following formula: 4 * PI * r**2; the function MUST reuse the provided areaOfCircle function  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/01-command-line-js-and-git/git-vocabulary/pull/",
+	"title": "Pull",
+	"tags": [],
+	"description": "",
+	"content": " Pull  Pulls code from a remote repository and merges it with code in your local repository (on your computer)  "
 },
 {
 	"uri": "/04-functions-and-scope/function-expressions-anonymous-functions/",
@@ -1043,6 +1092,13 @@
 	"content": " Lesson 09 Asynchronous JS and Callbacks "
 },
 {
+	"uri": "/01-command-line-js-and-git/git-vocabulary/fork/",
+	"title": "Fork",
+	"tags": [],
+	"description": "",
+	"content": " Fork  A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project\n Most commonly, forks are used to either propose changes to someone else\u0026rsquo;s project or to use someone else\u0026rsquo;s project as a starting point for your own idea\n  "
+},
+{
 	"uri": "/04-functions-and-scope/single-responsibility-principle/",
 	"title": "Single Responsibility Principle",
 	"tags": [],
@@ -1055,6 +1111,13 @@
 	"tags": [],
 	"description": "",
 	"content": " jQuery Events  The jQuery library provides a collection of methods that serve one of two purposes\n To listen for an event — an event (e.g. clicking a button) is something the user does to trigger an action\n To add a visual effect — a visual effect (e.g. a drop-down menu appearing when a user clicks a button) is something that changes the appearance of the web page\n  Events are often responsible for triggering a visual effect\n  "
+},
+{
+	"uri": "/01-command-line-js-and-git/git-vocabulary/clone/",
+	"title": "Clone",
+	"tags": [],
+	"description": "",
+	"content": " Clone  Copies a remote repository (i.e. repository in the cloud on a platform like Github.com) and creates a local copy of the repository on your computer\n Cloning creates a link between the the remote and local copy of a repository, allowing you to your code in sync between the two\n  "
 },
 {
 	"uri": "/07-dom-and-jquery-continued/code-along-score-keeper/",
@@ -1118,6 +1181,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Confirm Node \u0026amp; Git Installation 1) Ensure that you followed the installation instructions for your Operation System found here: Node and Git Installation\n2) Open up your console / terminal\n For Mac OS X users:\n Open the \u0026ldquo;Terminal\u0026rdquo; app (Applications \u0026gt; Utilities \u0026gt; Terminal)  For Windows:\n Open the \u0026ldquo;Command Prompt\u0026rdquo; application.   3) In the terminal type the following command to confirm git was successfully installed:\n $ git  4) In the terminal type the following command to confirm node was successfully installed:\n $ node  Note: type control-c to exit out of node\n"
+},
+{
+	"uri": "/01-command-line-js-and-git/git-vocabulary/pull-request/",
+	"title": "Pull Request",
+	"tags": [],
+	"description": "",
+	"content": " Pull Request  Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository\u0026rsquo;s collaborators (i.e. team members).\n Pull requests can be thought of as a developer asking for permission to merge their changes into the master branch\n Pull requests each have their own discussion forum, where developer can discuss the changes requested and suggest further revisions.\n This discussion as also referred to as Code Reviews\n  "
 },
 {
 	"uri": "/07-dom-and-jquery-continued/code-along-hilo/",

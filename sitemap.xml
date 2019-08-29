@@ -59,6 +59,10 @@
   </url>
   
   <url>
+    <loc>/01-command-line-js-and-git/git-vocabulary/repository/</loc>
+  </url>
+  
+  <url>
     <loc>/02-javascript-basics/data-types/strings/</loc>
   </url>
   
@@ -137,6 +141,10 @@
   
   <url>
     <loc>/06-dom-and-jquery/jquery-overview/benefits-of-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-command-line-js-and-git/git-vocabulary/commit/</loc>
   </url>
   
   <url>
@@ -225,6 +233,10 @@
   
   <url>
     <loc>/02-javascript-basics/data-types/booleans/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-command-line-js-and-git/git-vocabulary/branch/</loc>
   </url>
   
   <url>
@@ -332,6 +344,10 @@
   </url>
   
   <url>
+    <loc>/01-command-line-js-and-git/git-vocabulary/master-branch/</loc>
+  </url>
+  
+  <url>
     <loc>/02-javascript-basics/variables/naming-rules/</loc>
   </url>
   
@@ -385,6 +401,10 @@
   
   <url>
     <loc>/01-command-line-js-and-git/git-vocabulary/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-command-line-js-and-git/git-vocabulary/merge/</loc>
   </url>
   
   <url>
@@ -480,6 +500,10 @@
   </url>
   
   <url>
+    <loc>/01-command-line-js-and-git/git-vocabulary/push/</loc>
+  </url>
+  
+  <url>
     <loc>/05-arrays-objects/array-review/updating-array-values/</loc>
   </url>
   
@@ -521,6 +545,10 @@
   
   <url>
     <loc>/04-functions-and-scope/functions-calling-other-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-command-line-js-and-git/git-vocabulary/pull/</loc>
   </url>
   
   <url>
@@ -600,11 +628,19 @@
   </url>
   
   <url>
+    <loc>/01-command-line-js-and-git/git-vocabulary/fork/</loc>
+  </url>
+  
+  <url>
     <loc>/04-functions-and-scope/single-responsibility-principle/</loc>
   </url>
   
   <url>
     <loc>/06-dom-and-jquery/jquery-events/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-command-line-js-and-git/git-vocabulary/clone/</loc>
   </url>
   
   <url>
@@ -641,6 +677,10 @@
   
   <url>
     <loc>/00-course-intro-and-tools/confirm-node-git-installation/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-command-line-js-and-git/git-vocabulary/pull-request/</loc>
   </url>
   
   <url>
