@@ -45,7 +45,7 @@ Converting Strings to Numbers  Sometimes you will find yourself in a position wh
       <guid>/02-javascript-basics/data-types/booleans/</guid>
       <description>Booleans  Can only have a value of true or false
  true/false are special keywords in JavaScript and do not have quotes around them
-  // declare a variable called isOn and assign a value of true let isOn = true // declare a variable called isWarm let isWarm // assign a value of false to isWarm isWarm = false   Booleans are useful for helping our programs make decisions (when used with conditionals, comparison &amp;amp; logical operators)</description>
+  // declare a variable called isOn and assign a value of true const isOn = true // declare a variable called isWarm let isWarm // assign a value of false to isWarm isWarm = false   Booleans are useful for helping our programs make decisions (when used with conditionals, comparison &amp;amp; logical operators)</description>
     </item>
     
     <item>
@@ -70,7 +70,7 @@ Converting Strings to Numbers  Sometimes you will find yourself in a position wh
       <description>Objects  Objects are used to represent real world objects in programming
  Within an object, variables are known as properties and functions are known as methods
  Curly braces are a means of identifying if a variable is an object
-  // create an object that represents a dog  let myDog = { name: &amp;#34;Fido&amp;#34;, age: 4, speak: function() { console.log(&amp;#39;Woof woof&amp;#39;) } }   In the example above, we created an object and stored it in a variable called myDog</description>
+  // create an object that represents a dog  const myDog = { name: &amp;#34;Fido&amp;#34;, age: 4, speak: function() { console.log(&amp;#39;Woof woof&amp;#39;) } }   In the example above, we created an object and stored it in a variable called myDog</description>
     </item>
     
   </channel>

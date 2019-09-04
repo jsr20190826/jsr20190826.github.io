@@ -106,7 +106,7 @@
       <description>Function Expressions &amp;amp; Anonymous Functions  Another way to define a function is to use a function expression
  To define a function inside an expression, we can use the function keyword with the function name omitted
  function with no name is called anonymous functions
-  Example let getArea = function(width, height) { return width * height } // Calling the getArea() function with values getArea(7, 5) // returns 35  JS Bin on jsbin.</description>
+  Example const getArea = function(width, height) { return width * height } // Calling the getArea() function with values getArea(7, 5) // returns 35  JS Bin on jsbin.</description>
     </item>
     
     <item>
@@ -117,7 +117,7 @@
       <guid>/04-functions-and-scope/arrow-functions/</guid>
       <description>Arrow Functions  ES6 introduced/arrow function syntax/, a shorter way to write functions by using the special &amp;ldquo;fat arrow&amp;rdquo; (=&amp;gt;)
  Instead, you first include the parameters inside the () and then add an arrow =&amp;gt; that points to the function body surrounded in { } like this:
-const getArea = (width, height) =&amp;gt; { let area = width * height return area }   Parameter syntax rules for Arrow functions  Functions that take only a single parameter do not need that parameter to be enclosed in parentheses.</description>
+const getArea = (width, height) =&amp;gt; { const area = width * height return area } console.log(getArea(9, 8))  JS Bin on jsbin.</description>
     </item>
     
     <item>

@@ -149,7 +149,7 @@ jQuery jQuery Documentation</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/04-functions-and-scope/scope/global-scope/</guid>
-      <description>Global Scope  Variables defined outside of a function are in in the Global Scope  Example // Global function because it was declared outside of a function let name = &amp;#39;Simone Biles&amp;#39; console.log(name) function bestGymnastEver() { // &amp;#39;name&amp;#39; variable is accessible here and everywhere else because it is global  console.log(name) } logName() // logs &amp;#39;Simone Biles&amp;#39;  JS Bin on jsbin.com</description>
+      <description>Global Scope  Variables defined outside of a function are in in the Global Scope  Example // Global function because it was declared outside of a function const name = &amp;#39;Simone Biles&amp;#39; console.log(name) function bestGymnastEver() { // &amp;#39;name&amp;#39; variable is accessible here and everywhere else because it is global  console.log(name) } logName() // logs &amp;#39;Simone Biles&amp;#39;  JS Bin on jsbin.com</description>
     </item>
     
     <item>
@@ -419,7 +419,7 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
       
       <guid>/02-javascript-basics/variables/declaring-variables/</guid>
       <description> Declaring Variables  Variables are created by declaring them
- Use the let keyword to declare a variable
+ Use the let or const keyword to declare a variable
  If you declare a variable without assigning it an initial value, the value of that variable will be undefined
   // declaring a variable  let firstName  Variables only need to be declared once
  </description>
@@ -465,7 +465,7 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
       <description>Local Scope  Variables defined inside a function are in the local scope
  A variable with local scope cannot be referenced outside of that function
  Functions create their own private scope that prevents code from outside directly accessing it&amp;rsquo;s variables
-  Example function showInspirationalMessage() { // &amp;#34;message&amp;#34; variable is declared **inside** a function which means it is LOCAL to this function  let message = &amp;#34;Don&amp;#39;t give up, you can do it!</description>
+  Example function showInspirationalMessage() { // &amp;#34;message&amp;#34; variable is declared **inside** a function which means it is LOCAL to this function  const message = &amp;#34;Don&amp;#39;t give up, you can do it!</description>
     </item>
     
     <item>
@@ -514,7 +514,7 @@ Converting Strings to Numbers  Sometimes you will find yourself in a position wh
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/04-functions-and-scope/scope/block-statements/</guid>
-      <description>Scope in Block Statements  Block statements like if and switch conditions or for and while loops, unlike functions, will create a new scope if you use let or const but NOT when you use var  Example  Declaring a variable within a Block statement using let creates local scope  if (true) { // this &amp;#39;if&amp;#39; conditional block creates a new scope because we use &amp;#39;let&amp;#39;  let name = &amp;#39;Prince&amp;#39; // name is local to the if block  console.</description>
+      <description>Scope in Block Statements  Block statements like if and switch conditions or for and while loops, unlike functions, will create a new scope if you use let or const but NOT when you use var  Example  Declaring a variable within a Block statement using let creates local scope  if (true) { // this &amp;#39;if&amp;#39; conditional block creates a new scope because we use &amp;#39;let&amp;#39;  const name = &amp;#39;Prince&amp;#39; // name is local to the if block  console.</description>
     </item>
     
     <item>
@@ -533,7 +533,7 @@ Converting Strings to Numbers  Sometimes you will find yourself in a position wh
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/03-control-flow-and-loops/conditionals/if-statement/</guid>
-      <description>if Statement  Used when you want to have some sort of single branching logic  if (condition) { code to run if condition is true } // run some other code  Example let isRewardsMember = true let totalPrice = 100 if (isRewardsMember) { totalPrice = totalPrice * 0.80 } console.log(totalPrice)  JS Bin on jsbin.com</description>
+      <description>if Statement  Used when you want to have some sort of single branching logic  if (condition) { code to run if condition is true } // run some other code  Example const isRewardsMember = true let totalPrice = 100 if (isRewardsMember) { totalPrice = totalPrice * 0.80 } console.log(totalPrice)  JS Bin on jsbin.com</description>
     </item>
     
     <item>
@@ -562,7 +562,7 @@ Converting Strings to Numbers  Sometimes you will find yourself in a position wh
       <guid>/02-javascript-basics/data-types/booleans/</guid>
       <description>Booleans  Can only have a value of true or false
  true/false are special keywords in JavaScript and do not have quotes around them
-  // declare a variable called isOn and assign a value of true let isOn = true // declare a variable called isWarm let isWarm // assign a value of false to isWarm isWarm = false   Booleans are useful for helping our programs make decisions (when used with conditionals, comparison &amp;amp; logical operators)</description>
+  // declare a variable called isOn and assign a value of true const isOn = true // declare a variable called isWarm let isWarm // assign a value of false to isWarm isWarm = false   Booleans are useful for helping our programs make decisions (when used with conditionals, comparison &amp;amp; logical operators)</description>
     </item>
     
     <item>
@@ -609,7 +609,7 @@ Converting Strings to Numbers  Sometimes you will find yourself in a position wh
  Evaluates an expression, and matches that expression against each of the case clauses
  if there&amp;rsquo;s a match, the statements associated with that case clause will be executed
  The break keyword must be used to exit the Switch statement after a match is found
-  switch(expression) { case x: // execute code block when expression === x  break // &amp;lt;- break must be called to exit the switch statement after the match  case y: // execute code block when expression === y  break // &amp;lt;- break must be called to exit the switch statement after the match  default: // execute code block when expression === when none of the above cases match }  Example let food = &amp;#34;apple&amp;#34; switch(food) { case &amp;#39;pear&amp;#39;: console.</description>
+  switch(expression) { case x: // execute code block when expression === x  break // &amp;lt;- break must be called to exit the switch statement after the match  case y: // execute code block when expression === y  break // &amp;lt;- break must be called to exit the switch statement after the match  default: // execute code block when expression === when none of the above cases match }  Example const food = &amp;#34;apple&amp;#34; switch(food) { case &amp;#39;pear&amp;#39;: console.</description>
     </item>
     
     <item>
@@ -813,7 +813,7 @@ Complete Homework #2 - Functions and Iterators  You are tasked with completing t
       <description>Objects  Objects are used to represent real world objects in programming
  Within an object, variables are known as properties and functions are known as methods
  Curly braces are a means of identifying if a variable is an object
-  // create an object that represents a dog  let myDog = { name: &amp;#34;Fido&amp;#34;, age: 4, speak: function() { console.log(&amp;#39;Woof woof&amp;#39;) } }   In the example above, we created an object and stored it in a variable called myDog</description>
+  // create an object that represents a dog  const myDog = { name: &amp;#34;Fido&amp;#34;, age: 4, speak: function() { console.log(&amp;#39;Woof woof&amp;#39;) } }   In the example above, we created an object and stored it in a variable called myDog</description>
     </item>
     
     <item>
@@ -893,7 +893,7 @@ Atom Editor v1.</description>
       <description>if..else Statement  Used when evaluating between just two choices
  These are great for “either or” situations
  You do not specify a condition for the “else” clause
-  // if..else statement  if (condition) { code to run if condition is true } else { code to run if the above condition is NOT true } // run some other code  Example let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
+  // if..else statement  if (condition) { code to run if condition is true } else { code to run if the above condition is NOT true } // run some other code  Example const yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
     </item>
     
     <item>
@@ -978,6 +978,18 @@ Atom Editor v1.</description>
  While var worked it a lot of confusing issues that came along with it
  let was introduced in the latest release of JavaScript, ES6 to address these issues
  While var is still in use for legacy codebases, it is a recommended best practice to use let instead of var going forward</description>
+    </item>
+    
+    <item>
+      <title>var keyword</title>
+      <link>/02-javascript-basics/variables/var-keyword/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/variables/var-keyword/</guid>
+      <description>var  In recent past var was the only way to declare variables
+ While var worked it presented some annoying issues (related to scope) for developers
+ let and const were introduced in the latest release of JavaScript, ES6 to address these issues
+ While var is still in use for legacy codebases, it is a recommended best practice to use let or const(we&amp;rsquo;ll discuss const shortly) instead of var going forward</description>
     </item>
     
     <item>
@@ -1205,9 +1217,9 @@ Complete Homework #3 - Rock, Paper, Scissors Application  You are tasked with fi
       
       <guid>/02-javascript-basics/variables/const/</guid>
       <description>const  Stands for constant
- These are variables for which its value does not change after it has been assigned an initial value
+ The values of these variables can not be changed through reassignment (i.e. have it&amp;rsquo;s value changed using =)
  This help make your code easier to debug and protects certain values from accidentally being overridden in your codebase
-  Declaring a constant const are the same as let but with one key difference, values can only be assigned once to a const variable</description>
+  Declaring a variable using const const are the same as let but with one key difference, values can only be assigned once to a const variable</description>
     </item>
     
     <item>
@@ -1231,7 +1243,7 @@ Complete Homework #3 - Rock, Paper, Scissors Application  You are tasked with fi
       <description>if..else if Statement  Used when evaluation among more than two choices, use if/else if
  You must specify a condition for every else if clause
  You can use as many else if clauses as is needed
-  // if..else if statement  if (condition) { code to run if this condition is true } else if (another condition) { code to run if this condition is true } else { code to run if NONE of the above conditions are true } // run some other code  Example let yourGrade = 84 if (yourGrade &amp;gt;= 90) { console.</description>
+  // if..else if statement  if (condition) { code to run if this condition is true } else if (another condition) { code to run if this condition is true } else { code to run if NONE of the above conditions are true } // run some other code  Example const yourGrade = 84 if (yourGrade &amp;gt;= 90) { console.</description>
     </item>
     
     <item>
@@ -1300,6 +1312,17 @@ $ mkdir nursery_rhymes  Navigate into the nursery_rhymes directory using the cd 
     </item>
     
     <item>
+      <title>When to use let vs const</title>
+      <link>/02-javascript-basics/variables/when-to-use-let-vs-const/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/variables/when-to-use-let-vs-const/</guid>
+      <description> When to use let vs const  Use let when you create a variable where you want to have the option of directly reassigning its value (using =) somewhere in your code
+let message if (loginSuccessful) { message = &amp;#34;welcome back!&amp;#34; } else { message = &amp;#34;Invalid email or password, please try again&amp;#34; }  Use const in all other occasions
+  </description>
+    </item>
+    
+    <item>
       <title>Function Expressions &amp; Anonymous Functions</title>
       <link>/04-functions-and-scope/function-expressions-anonymous-functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1308,7 +1331,7 @@ $ mkdir nursery_rhymes  Navigate into the nursery_rhymes directory using the cd 
       <description>Function Expressions &amp;amp; Anonymous Functions  Another way to define a function is to use a function expression
  To define a function inside an expression, we can use the function keyword with the function name omitted
  function with no name is called anonymous functions
-  Example let getArea = function(width, height) { return width * height } // Calling the getArea() function with values getArea(7, 5) // returns 35  JS Bin on jsbin.</description>
+  Example const getArea = function(width, height) { return width * height } // Calling the getArea() function with values getArea(7, 5) // returns 35  JS Bin on jsbin.</description>
     </item>
     
     <item>
@@ -1335,7 +1358,7 @@ $ mkdir nursery_rhymes  Navigate into the nursery_rhymes directory using the cd 
       <guid>/04-functions-and-scope/arrow-functions/</guid>
       <description>Arrow Functions  ES6 introduced/arrow function syntax/, a shorter way to write functions by using the special &amp;ldquo;fat arrow&amp;rdquo; (=&amp;gt;)
  Instead, you first include the parameters inside the () and then add an arrow =&amp;gt; that points to the function body surrounded in { } like this:
-const getArea = (width, height) =&amp;gt; { let area = width * height return area }   Parameter syntax rules for Arrow functions  Functions that take only a single parameter do not need that parameter to be enclosed in parentheses.</description>
+const getArea = (width, height) =&amp;gt; { const area = width * height return area } console.log(getArea(9, 8))  JS Bin on jsbin.</description>
     </item>
     
     <item>
@@ -1461,7 +1484,7 @@ const getArea = (width, height) =&amp;gt; { let area = width * height return are
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/03-control-flow-and-loops/conditionals/ternary-operator/</guid>
-      <description>ternary Operator  Used as a shortcut for the if statement  condition ? expression that is run if condition is true : expression that is run if condition is false  Example let isLactoseIntolerant = true let milkType = isLactoseIntolerant ? &amp;#34;almond&amp;#34; : &amp;#34;dairy&amp;#34; console.log(milkType)  JS Bin on jsbin.com
+      <description>ternary Operator  Used as a shortcut for the if statement  condition ? expression that is run if condition is true : expression that is run if condition is false  Example const isLactoseIntolerant = true const milkType = isLactoseIntolerant ? &amp;#34;almond&amp;#34; : &amp;#34;dairy&amp;#34; console.log(milkType)  JS Bin on jsbin.com
 Exercise Rewrite the following if..else statement using a ternary operator:
 let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
     </item>

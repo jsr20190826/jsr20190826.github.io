@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/03-control-flow-and-loops/conditionals/if-statement/</guid>
-      <description>if Statement  Used when you want to have some sort of single branching logic  if (condition) { code to run if condition is true } // run some other code  Example let isRewardsMember = true let totalPrice = 100 if (isRewardsMember) { totalPrice = totalPrice * 0.80 } console.log(totalPrice)  JS Bin on jsbin.com</description>
+      <description>if Statement  Used when you want to have some sort of single branching logic  if (condition) { code to run if condition is true } // run some other code  Example const isRewardsMember = true let totalPrice = 100 if (isRewardsMember) { totalPrice = totalPrice * 0.80 } console.log(totalPrice)  JS Bin on jsbin.com</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <description>if..else Statement  Used when evaluating between just two choices
  These are great for “either or” situations
  You do not specify a condition for the “else” clause
-  // if..else statement  if (condition) { code to run if condition is true } else { code to run if the above condition is NOT true } // run some other code  Example let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
+  // if..else statement  if (condition) { code to run if condition is true } else { code to run if the above condition is NOT true } // run some other code  Example const yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@
       <description>if..else if Statement  Used when evaluation among more than two choices, use if/else if
  You must specify a condition for every else if clause
  You can use as many else if clauses as is needed
-  // if..else if statement  if (condition) { code to run if this condition is true } else if (another condition) { code to run if this condition is true } else { code to run if NONE of the above conditions are true } // run some other code  Example let yourGrade = 84 if (yourGrade &amp;gt;= 90) { console.</description>
+  // if..else if statement  if (condition) { code to run if this condition is true } else if (another condition) { code to run if this condition is true } else { code to run if NONE of the above conditions are true } // run some other code  Example const yourGrade = 84 if (yourGrade &amp;gt;= 90) { console.</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/03-control-flow-and-loops/conditionals/ternary-operator/</guid>
-      <description>ternary Operator  Used as a shortcut for the if statement  condition ? expression that is run if condition is true : expression that is run if condition is false  Example let isLactoseIntolerant = true let milkType = isLactoseIntolerant ? &amp;#34;almond&amp;#34; : &amp;#34;dairy&amp;#34; console.log(milkType)  JS Bin on jsbin.com
+      <description>ternary Operator  Used as a shortcut for the if statement  condition ? expression that is run if condition is true : expression that is run if condition is false  Example const isLactoseIntolerant = true const milkType = isLactoseIntolerant ? &amp;#34;almond&amp;#34; : &amp;#34;dairy&amp;#34; console.log(milkType)  JS Bin on jsbin.com
 Exercise Rewrite the following if..else statement using a ternary operator:
 let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
     </item>

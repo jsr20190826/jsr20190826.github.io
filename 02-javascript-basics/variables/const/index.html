@@ -12,21 +12,21 @@
     <title>const :: JavaScript</title>
 
     
-    <link href="/css/nucleus.css?1567089012" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1567089012" rel="stylesheet">
-    <link href="/css/hybrid.css?1567089012" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1567089012" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1567089012" rel="stylesheet">
-    <link href="/css/auto-complete.css?1567089012" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1567089012" rel="stylesheet">
-    <link href="/css/theme.css?1567089012" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1567089012" rel="stylesheet">
-    <link href="/css/syntax.css?1567089012" rel="stylesheet">
+    <link href="/css/nucleus.css?1567632792" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1567632792" rel="stylesheet">
+    <link href="/css/hybrid.css?1567632792" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1567632792" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1567632792" rel="stylesheet">
+    <link href="/css/auto-complete.css?1567632792" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1567632792" rel="stylesheet">
+    <link href="/css/theme.css?1567632792" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1567632792" rel="stylesheet">
+    <link href="/css/syntax.css?1567632792" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1567089012" rel="stylesheet">
+      <link href="/css/theme-blue.css?1567632792" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1567089012"></script>
+    <script src="/js/jquery-3.3.1.min.js?1567632792"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -89,14 +89,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1567089012"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1567089012"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1567632792"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1567632792"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1567089012"></script>
+<script type="text/javascript" src="/js/search.js?1567632792"></script>
 
     
   </div>
@@ -929,9 +929,47 @@
  
   
     
+      <li data-nav-id="/02-javascript-basics/variables/var-keyword/" title="var keyword" class="dd-item ">
+        <a href="/02-javascript-basics/variables/var-keyword/">
+        var keyword
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
       <li data-nav-id="/02-javascript-basics/variables/const/" title="const" class="dd-item active">
         <a href="/02-javascript-basics/variables/const/">
         const
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/02-javascript-basics/variables/when-to-use-let-vs-const/" title="When to use let vs const" class="dd-item ">
+        <a href="/02-javascript-basics/variables/when-to-use-let-vs-const/">
+        When to use let vs const
         
         </a>
     </li>
@@ -4384,7 +4422,8 @@
 <li>
 <ul>
 <li><a href="#const"><code>const</code></a></li>
-<li><a href="#declaring-a-constant">Declaring a constant</a></li>
+<li><a href="#declaring-a-variable-using-const">Declaring a variable using const</a></li>
+<li><a href="#variables-declared-with-const-can-still-be-mutated">Variables declared with const can still be mutated</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -4418,14 +4457,14 @@
 <ul>
 <li><p>Stands for <strong>constant</strong></p></li>
 
-<li><p>These are variables for which its value <strong>does not change</strong> after it has been assigned an initial value</p></li>
+<li><p>The values of these variables <strong>can not be changed through reassignment</strong> (i.e. have it&rsquo;s value changed using <code>=</code>)</p></li>
 
 <li><p>This help make your code easier to debug and protects certain values from accidentally being overridden in your codebase</p></li>
 </ul>
 
 <hr />
 
-<h3 id="declaring-a-constant">Declaring a constant</h3>
+<h3 id="declaring-a-variable-using-const">Declaring a variable using const</h3>
 
 <p><code>const</code> are the same as <code>let</code> but with one key difference, values can only be assigned once to a <code>const</code> variable</p>
 
@@ -4447,6 +4486,63 @@
 </span></code></pre></div>
 
 <p><img src="/images/11/const_error.png" alt="inline" /></p>
+
+<hr />
+
+<h3 id="variables-declared-with-const-can-still-be-mutated">Variables declared with const can still be mutated</h3>
+
+<p>When dealing with arrays and objects you will find that you are still able to mutate their respective values because updating their values <strong>does not require reassignment</strong></p>
+
+<p>Here&rsquo;s an example of working with arrays declared with <code>const</code>:</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// declare an array using const
+</span><span class="c1"></span><span class="k">const</span> <span class="nx">myNumbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+
+<span class="cm">/*
+</span><span class="cm">add a new number to the array
+</span><span class="cm">and no error will occur, because we did not
+</span><span class="cm">&#34;reassign&#34; new values directly to the
+</span><span class="cm">myNumbers variables using `=`
+</span><span class="cm">*/</span>
+<span class="nx">myNnumbers</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myNumbers</span><span class="p">)</span> <span class="c1">// [1, 2, 3, 4]
+</span><span class="c1"></span>
+<span class="cm">/*
+</span><span class="cm">However, uncomment the line below and observe
+</span><span class="cm">the error when we attempt to &#34;reassign&#34; myNumbers
+</span><span class="cm">*/</span>
+<span class="c1">// myNumbers = [4, 5] // an error will occur
+</span></code></pre></div>
+
+<p><a class="jsbin-embed" href="https://jsbin.com/digaqoy/embed?js,console">JS Bin on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?4.1.7"></script></p>
+
+<p>Objects declared with const can have their properties changes without any issues:</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// declare an object using const
+</span><span class="c1"></span><span class="k">const</span> <span class="nx">myObject</span> <span class="o">=</span> <span class="p">{</span><span class="nx">a</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span> <span class="nx">b</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span> <span class="nx">c</span><span class="o">:</span> <span class="mi">3</span><span class="p">}</span>
+
+<span class="cm">/*
+</span><span class="cm">add update an existing property
+</span><span class="cm">and add a new property to myObject
+</span><span class="cm">and no error will occur, because
+</span><span class="cm">we did not &#34;reassign&#34; new values
+</span><span class="cm">directly to the myObject variable using `=`
+</span><span class="cm">*/</span>
+<span class="nx">myObject</span><span class="p">.</span><span class="nx">c</span> <span class="o">=</span> <span class="mi">30</span>
+<span class="nx">myObject</span><span class="p">.</span><span class="nx">d</span> <span class="o">=</span> <span class="mi">4</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myObject</span><span class="p">)</span> <span class="c1">// { a: 1, b: 2, c: 30, d: 4}
+</span><span class="c1"></span>
+<span class="cm">/*
+</span><span class="cm">However, uncomment the line below and observe
+</span><span class="cm">the error when we attempt to &#34;reassign&#34; values
+</span><span class="cm">directly to myObject
+</span><span class="cm">*/</span>
+<span class="c1">// myObject = {e: 5, g: 6} // an error will occur
+</span></code></pre></div>
+
+<p><a class="jsbin-embed" href="https://jsbin.com/wicegok/embed?js,console">JS Bin on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?4.1.7"></script></p>
 
 
 <footer class=" footline" >
@@ -5134,6 +5230,41 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -5153,9 +5284,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -7616,10 +7744,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/02-javascript-basics/variables/let-vs-var/" title="let vs var"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/02-javascript-basics/variables/var-keyword/" title="var keyword"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/02-javascript-basics/data-types/" title="Data Types" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/02-javascript-basics/variables/when-to-use-let-vs-const/" title="When to use let vs const" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -7629,19 +7757,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1567089012"></script>
-    <script src="/js/perfect-scrollbar.min.js?1567089012"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1567089012"></script>
-    <script src="/js/jquery.sticky.js?1567089012"></script>
-    <script src="/js/featherlight.min.js?1567089012"></script>
-    <script src="/js/highlight.pack.js?1567089012"></script>
+    <script src="/js/clipboard.min.js?1567632792"></script>
+    <script src="/js/perfect-scrollbar.min.js?1567632792"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1567632792"></script>
+    <script src="/js/jquery.sticky.js?1567632792"></script>
+    <script src="/js/featherlight.min.js?1567632792"></script>
+    <script src="/js/highlight.pack.js?1567632792"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1567089012"></script>
-    <script src="/js/learn.js?1567089012"></script>
-    <script src="/js/hugo-learn.js?1567089012"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1567632792"></script>
+    <script src="/js/learn.js?1567632792"></script>
+    <script src="/js/hugo-learn.js?1567632792"></script>
 
-    <link href="/mermaid/mermaid.css?1567089012" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1567089012"></script>
+    <link href="/mermaid/mermaid.css?1567632792" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1567632792"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

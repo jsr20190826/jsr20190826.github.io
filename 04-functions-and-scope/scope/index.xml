@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/04-functions-and-scope/scope/global-scope/</guid>
-      <description>Global Scope  Variables defined outside of a function are in in the Global Scope  Example // Global function because it was declared outside of a function let name = &amp;#39;Simone Biles&amp;#39; console.log(name) function bestGymnastEver() { // &amp;#39;name&amp;#39; variable is accessible here and everywhere else because it is global  console.log(name) } logName() // logs &amp;#39;Simone Biles&amp;#39;  JS Bin on jsbin.com</description>
+      <description>Global Scope  Variables defined outside of a function are in in the Global Scope  Example // Global function because it was declared outside of a function const name = &amp;#39;Simone Biles&amp;#39; console.log(name) function bestGymnastEver() { // &amp;#39;name&amp;#39; variable is accessible here and everywhere else because it is global  console.log(name) } logName() // logs &amp;#39;Simone Biles&amp;#39;  JS Bin on jsbin.com</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <description>Local Scope  Variables defined inside a function are in the local scope
  A variable with local scope cannot be referenced outside of that function
  Functions create their own private scope that prevents code from outside directly accessing it&amp;rsquo;s variables
-  Example function showInspirationalMessage() { // &amp;#34;message&amp;#34; variable is declared **inside** a function which means it is LOCAL to this function  let message = &amp;#34;Don&amp;#39;t give up, you can do it!</description>
+  Example function showInspirationalMessage() { // &amp;#34;message&amp;#34; variable is declared **inside** a function which means it is LOCAL to this function  const message = &amp;#34;Don&amp;#39;t give up, you can do it!</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/04-functions-and-scope/scope/block-statements/</guid>
-      <description>Scope in Block Statements  Block statements like if and switch conditions or for and while loops, unlike functions, will create a new scope if you use let or const but NOT when you use var  Example  Declaring a variable within a Block statement using let creates local scope  if (true) { // this &amp;#39;if&amp;#39; conditional block creates a new scope because we use &amp;#39;let&amp;#39;  let name = &amp;#39;Prince&amp;#39; // name is local to the if block  console.</description>
+      <description>Scope in Block Statements  Block statements like if and switch conditions or for and while loops, unlike functions, will create a new scope if you use let or const but NOT when you use var  Example  Declaring a variable within a Block statement using let creates local scope  if (true) { // this &amp;#39;if&amp;#39; conditional block creates a new scope because we use &amp;#39;let&amp;#39;  const name = &amp;#39;Prince&amp;#39; // name is local to the if block  console.</description>
     </item>
     
   </channel>

@@ -12,21 +12,21 @@
     <title>Arrays :: JavaScript</title>
 
     
-    <link href="/css/nucleus.css?1567089012" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1567089012" rel="stylesheet">
-    <link href="/css/hybrid.css?1567089012" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1567089012" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1567089012" rel="stylesheet">
-    <link href="/css/auto-complete.css?1567089012" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1567089012" rel="stylesheet">
-    <link href="/css/theme.css?1567089012" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1567089012" rel="stylesheet">
-    <link href="/css/syntax.css?1567089012" rel="stylesheet">
+    <link href="/css/nucleus.css?1567632791" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1567632791" rel="stylesheet">
+    <link href="/css/hybrid.css?1567632791" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1567632791" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1567632791" rel="stylesheet">
+    <link href="/css/auto-complete.css?1567632791" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1567632791" rel="stylesheet">
+    <link href="/css/theme.css?1567632791" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1567632791" rel="stylesheet">
+    <link href="/css/syntax.css?1567632791" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1567089012" rel="stylesheet">
+      <link href="/css/theme-blue.css?1567632791" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1567089012"></script>
+    <script src="/js/jquery-3.3.1.min.js?1567632791"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -89,14 +89,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1567089012"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1567089012"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1567632791"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1567632791"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1567089012"></script>
+<script type="text/javascript" src="/js/search.js?1567632791"></script>
 
     
   </div>
@@ -929,9 +929,47 @@
  
   
     
+      <li data-nav-id="/02-javascript-basics/variables/var-keyword/" title="var keyword" class="dd-item ">
+        <a href="/02-javascript-basics/variables/var-keyword/">
+        var keyword
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
       <li data-nav-id="/02-javascript-basics/variables/const/" title="const" class="dd-item ">
         <a href="/02-javascript-basics/variables/const/">
         const
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/02-javascript-basics/variables/when-to-use-let-vs-const/" title="When to use let vs const" class="dd-item ">
+        <a href="/02-javascript-basics/variables/when-to-use-let-vs-const/">
+        When to use let vs const
         
         </a>
     </li>
@@ -4442,10 +4480,10 @@
 </ul>
 
 <div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// declare a variable as an empty array
-</span><span class="c1"></span><span class="kd">let</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[]</span>
+</span><span class="c1"></span><span class="k">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[]</span>
 
 <span class="c1">// or you can declare an array with initial values
-</span><span class="c1"></span><span class="kd">let</span> <span class="nx">streets</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Broadway&#39;</span><span class="p">,</span> <span class="s1">&#39;Houston&#39;</span><span class="p">,</span> <span class="s1">&#39;Grand&#39;</span><span class="p">]</span>
+</span><span class="c1"></span><span class="k">const</span> <span class="nx">streets</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Broadway&#39;</span><span class="p">,</span> <span class="s1">&#39;Houston&#39;</span><span class="p">,</span> <span class="s1">&#39;Grand&#39;</span><span class="p">]</span>
 </code></pre></div>
 
 <hr />
@@ -4460,10 +4498,10 @@
 <li><p>You access the value of an element in the array by passing the index of the item in square brackets</p></li>
 </ul>
 
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">let</span> <span class="nx">streets</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Broadway&#39;</span><span class="p">,</span> <span class="s1">&#39;Houston&#39;</span><span class="p">,</span> <span class="s1">&#39;Grand&#39;</span><span class="p">]</span>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="k">const</span> <span class="nx">streets</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Broadway&#39;</span><span class="p">,</span> <span class="s1">&#39;Houston&#39;</span><span class="p">,</span> <span class="s1">&#39;Grand&#39;</span><span class="p">]</span>
 
 <span class="c1">// access the 2nd street listed in the array which is at index 1
-</span><span class="c1"></span><span class="kd">let</span> <span class="nx">streetTwo</span> <span class="o">=</span> <span class="nx">streets</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+</span><span class="c1"></span><span class="k">const</span> <span class="nx">streetTwo</span> <span class="o">=</span> <span class="nx">streets</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
 </code></pre></div>
 
 <hr />
@@ -4476,13 +4514,13 @@
 
 <div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// declare a variable called chipmunks and use it to store
 </span><span class="c1">// an array of names
-</span><span class="c1"></span><span class="kd">let</span> <span class="nx">chipmunks</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&#34;Alvin&#34;</span><span class="p">,</span> <span class="s2">&#34;Simon&#34;</span><span class="p">,</span> <span class="s2">&#34;Theodore&#34;</span><span class="p">];</span>
+</span><span class="c1"></span><span class="k">const</span> <span class="nx">chipmunks</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&#34;Alvin&#34;</span><span class="p">,</span> <span class="s2">&#34;Simon&#34;</span><span class="p">,</span> <span class="s2">&#34;Theodore&#34;</span><span class="p">]</span>
 
 <span class="c1">// reference the first value in the array
 </span><span class="c1">// here we pass in a zero, since that represents the first
 </span><span class="c1">// element (value) in an array
 </span><span class="c1"></span>
-<span class="kd">let</span> <span class="nx">bandMember</span> <span class="o">=</span> <span class="nx">chipmunks</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="c1">//&gt; the value stored in bandMember is &#34;Alvin&#34;
+<span class="k">const</span> <span class="nx">bandMember</span> <span class="o">=</span> <span class="nx">chipmunks</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="c1">//&gt; the value stored in bandMember is &#34;Alvin&#34;
 </span></code></pre></div>
 
 <hr />
@@ -4496,14 +4534,14 @@
 <div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// declare a variable called newEditionMembers and use it to store
 </span><span class="c1">// an array of names
 </span><span class="c1"></span>
-<span class="kd">let</span> <span class="nx">newEditionMembers</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&#34;Ricky Bell&#34;</span><span class="p">,</span> <span class="s2">&#34;Michael Bivins&#34;</span><span class="p">,</span> <span class="s2">&#34;Bobby Brown&#34;</span><span class="p">,</span> <span class="s2">&#34;Ronnie DeVoe&#34;</span><span class="p">,</span> <span class="s2">&#34;Ralph Tresvant&#34;</span><span class="p">]</span>
+<span class="k">const</span> <span class="nx">newEditionMembers</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&#34;Ricky Bell&#34;</span><span class="p">,</span> <span class="s2">&#34;Michael Bivins&#34;</span><span class="p">,</span> <span class="s2">&#34;Bobby Brown&#34;</span><span class="p">,</span> <span class="s2">&#34;Ronnie DeVoe&#34;</span><span class="p">,</span> <span class="s2">&#34;Ralph Tresvant&#34;</span><span class="p">]</span>
 
 <span class="c1">// We are going replace Bobby Brown with Johnny Gill
 </span><span class="c1">// by referencing the 3rd element of the array by using index 2
 </span><span class="c1">// and then use assignment (just an equal sign) to change
 </span><span class="c1">// the value to Johnny Gill
 </span><span class="c1"></span>
-<span class="nx">newEditionMembers</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&#34;Johnny Gill&#34;</span><span class="p">;</span>
+<span class="nx">newEditionMembers</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&#34;Johnny Gill&#34;</span>
 </code></pre></div>
 
 <hr />
@@ -5113,6 +5151,38 @@
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
                         
             
@@ -7698,19 +7768,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1567089012"></script>
-    <script src="/js/perfect-scrollbar.min.js?1567089012"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1567089012"></script>
-    <script src="/js/jquery.sticky.js?1567089012"></script>
-    <script src="/js/featherlight.min.js?1567089012"></script>
-    <script src="/js/highlight.pack.js?1567089012"></script>
+    <script src="/js/clipboard.min.js?1567632791"></script>
+    <script src="/js/perfect-scrollbar.min.js?1567632791"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1567632791"></script>
+    <script src="/js/jquery.sticky.js?1567632791"></script>
+    <script src="/js/featherlight.min.js?1567632791"></script>
+    <script src="/js/highlight.pack.js?1567632791"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1567089012"></script>
-    <script src="/js/learn.js?1567089012"></script>
-    <script src="/js/hugo-learn.js?1567089012"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1567632791"></script>
+    <script src="/js/learn.js?1567632791"></script>
+    <script src="/js/hugo-learn.js?1567632791"></script>
 
-    <link href="/mermaid/mermaid.css?1567089012" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1567089012"></script>
+    <link href="/mermaid/mermaid.css?1567632791" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1567632791"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

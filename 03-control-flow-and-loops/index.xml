@@ -34,7 +34,7 @@
  Evaluates an expression, and matches that expression against each of the case clauses
  if there&amp;rsquo;s a match, the statements associated with that case clause will be executed
  The break keyword must be used to exit the Switch statement after a match is found
-  switch(expression) { case x: // execute code block when expression === x  break // &amp;lt;- break must be called to exit the switch statement after the match  case y: // execute code block when expression === y  break // &amp;lt;- break must be called to exit the switch statement after the match  default: // execute code block when expression === when none of the above cases match }  Example let food = &amp;#34;apple&amp;#34; switch(food) { case &amp;#39;pear&amp;#39;: console.</description>
+  switch(expression) { case x: // execute code block when expression === x  break // &amp;lt;- break must be called to exit the switch statement after the match  case y: // execute code block when expression === y  break // &amp;lt;- break must be called to exit the switch statement after the match  default: // execute code block when expression === when none of the above cases match }  Example const food = &amp;#34;apple&amp;#34; switch(food) { case &amp;#39;pear&amp;#39;: console.</description>
     </item>
     
     <item>

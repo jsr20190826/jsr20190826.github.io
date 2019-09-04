@@ -31,7 +31,7 @@
       
       <guid>/02-javascript-basics/variables/declaring-variables/</guid>
       <description> Declaring Variables  Variables are created by declaring them
- Use the let keyword to declare a variable
+ Use the let or const keyword to declare a variable
  If you declare a variable without assigning it an initial value, the value of that variable will be undefined
   // declaring a variable  let firstName  Variables only need to be declared once
  </description>
@@ -71,15 +71,38 @@
     </item>
     
     <item>
+      <title>var keyword</title>
+      <link>/02-javascript-basics/variables/var-keyword/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/variables/var-keyword/</guid>
+      <description>var  In recent past var was the only way to declare variables
+ While var worked it presented some annoying issues (related to scope) for developers
+ let and const were introduced in the latest release of JavaScript, ES6 to address these issues
+ While var is still in use for legacy codebases, it is a recommended best practice to use let or const(we&amp;rsquo;ll discuss const shortly) instead of var going forward</description>
+    </item>
+    
+    <item>
       <title>const</title>
       <link>/02-javascript-basics/variables/const/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/02-javascript-basics/variables/const/</guid>
       <description>const  Stands for constant
- These are variables for which its value does not change after it has been assigned an initial value
+ The values of these variables can not be changed through reassignment (i.e. have it&amp;rsquo;s value changed using =)
  This help make your code easier to debug and protects certain values from accidentally being overridden in your codebase
-  Declaring a constant const are the same as let but with one key difference, values can only be assigned once to a const variable</description>
+  Declaring a variable using const const are the same as let but with one key difference, values can only be assigned once to a const variable</description>
+    </item>
+    
+    <item>
+      <title>When to use let vs const</title>
+      <link>/02-javascript-basics/variables/when-to-use-let-vs-const/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/variables/when-to-use-let-vs-const/</guid>
+      <description> When to use let vs const  Use let when you create a variable where you want to have the option of directly reassigning its value (using =) somewhere in your code
+let message if (loginSuccessful) { message = &amp;#34;welcome back!&amp;#34; } else { message = &amp;#34;Invalid email or password, please try again&amp;#34; }  Use const in all other occasions
+  </description>
     </item>
     
   </channel>

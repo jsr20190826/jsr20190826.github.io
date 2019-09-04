@@ -420,6 +420,10 @@
   </url>
   
   <url>
+    <loc>/02-javascript-basics/variables/var-keyword/</loc>
+  </url>
+  
+  <url>
     <loc>/01-command-line-js-and-git/git-basics/</loc>
   </url>
   
@@ -549,6 +553,10 @@
   
   <url>
     <loc>/01-command-line-js-and-git/git-vocabulary/pull/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/variables/when-to-use-let-vs-const/</loc>
   </url>
   
   <url>

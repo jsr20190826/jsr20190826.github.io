@@ -12,21 +12,21 @@
     <title>Local Scope :: JavaScript</title>
 
     
-    <link href="/css/nucleus.css?1567089012" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1567089012" rel="stylesheet">
-    <link href="/css/hybrid.css?1567089012" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1567089012" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1567089012" rel="stylesheet">
-    <link href="/css/auto-complete.css?1567089012" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1567089012" rel="stylesheet">
-    <link href="/css/theme.css?1567089012" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1567089012" rel="stylesheet">
-    <link href="/css/syntax.css?1567089012" rel="stylesheet">
+    <link href="/css/nucleus.css?1567632791" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1567632791" rel="stylesheet">
+    <link href="/css/hybrid.css?1567632791" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1567632791" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1567632791" rel="stylesheet">
+    <link href="/css/auto-complete.css?1567632791" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1567632791" rel="stylesheet">
+    <link href="/css/theme.css?1567632791" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1567632791" rel="stylesheet">
+    <link href="/css/syntax.css?1567632791" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1567089012" rel="stylesheet">
+      <link href="/css/theme-blue.css?1567632791" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1567089012"></script>
+    <script src="/js/jquery-3.3.1.min.js?1567632791"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -89,14 +89,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1567089012"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1567089012"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1567632791"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1567632791"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1567089012"></script>
+<script type="text/javascript" src="/js/search.js?1567632791"></script>
 
     
   </div>
@@ -929,9 +929,47 @@
  
   
     
+      <li data-nav-id="/02-javascript-basics/variables/var-keyword/" title="var keyword" class="dd-item ">
+        <a href="/02-javascript-basics/variables/var-keyword/">
+        var keyword
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
       <li data-nav-id="/02-javascript-basics/variables/const/" title="const" class="dd-item ">
         <a href="/02-javascript-basics/variables/const/">
         const
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/02-javascript-basics/variables/when-to-use-let-vs-const/" title="When to use let vs const" class="dd-item ">
+        <a href="/02-javascript-basics/variables/when-to-use-let-vs-const/">
+        When to use let vs const
         
         </a>
     </li>
@@ -4432,7 +4470,7 @@
 <div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">function</span> <span class="nx">showInspirationalMessage</span><span class="p">()</span> <span class="p">{</span>
   <span class="c1">// &#34;message&#34; variable is declared **inside** a function which means it is LOCAL to this function
 </span><span class="c1"></span>
-  <span class="kd">let</span> <span class="nx">message</span> <span class="o">=</span> <span class="s2">&#34;Don&#39;t give up, you can do it!!&#34;</span>
+  <span class="k">const</span> <span class="nx">message</span> <span class="o">=</span> <span class="s2">&#34;Don&#39;t give up, you can do it!!&#34;</span>
   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">message</span><span class="p">)</span>
 <span class="p">}</span>
 
@@ -4469,7 +4507,7 @@
   <span class="k">return</span> <span class="nx">number</span><span class="o">**</span><span class="mi">2</span>
 <span class="p">}</span>
 
-<span class="kd">let</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">squareMe</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
+<span class="k">const</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">squareMe</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result</span><span class="p">)</span>
 
 <span class="cm">/*
@@ -4492,15 +4530,15 @@
 <h3 id="example-2">Example</h3>
 
 <div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// declare a variable named &#39;actor&#39; in the Global Scope
-</span><span class="c1"></span><span class="kd">let</span> <span class="nx">actor</span> <span class="o">=</span> <span class="s2">&#34;Daniel Craig&#34;</span>
+</span><span class="c1"></span><span class="k">const</span> <span class="nx">actor</span> <span class="o">=</span> <span class="s2">&#34;Daniel Craig&#34;</span>
 
 <span class="kd">function</span> <span class="nx">bestBondActor</span><span class="p">()</span> <span class="p">{</span>
   <span class="c1">// declare a variable named &#39;actor&#39; within a function (Local Scope)
-</span><span class="c1"></span>  <span class="kd">let</span> <span class="nx">actor</span>  <span class="o">=</span> <span class="s2">&#34;Sean Connery&#34;</span>
+</span><span class="c1"></span>  <span class="k">const</span> <span class="nx">actor</span>  <span class="o">=</span> <span class="s2">&#34;Sean Connery&#34;</span>
   <span class="k">return</span> <span class="nx">actor</span>
 <span class="p">}</span>
 
-<span class="kd">let</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">bestBondActor</span><span class="p">()</span>
+<span class="k">const</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">bestBondActor</span><span class="p">()</span>
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result</span><span class="p">)</span> <span class="c1">// &lt;-- prints Sean Connery
 </span><span class="c1"></span>
 <span class="cm">/*
@@ -5104,6 +5142,38 @@
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
                         
             
@@ -7693,19 +7763,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1567089012"></script>
-    <script src="/js/perfect-scrollbar.min.js?1567089012"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1567089012"></script>
-    <script src="/js/jquery.sticky.js?1567089012"></script>
-    <script src="/js/featherlight.min.js?1567089012"></script>
-    <script src="/js/highlight.pack.js?1567089012"></script>
+    <script src="/js/clipboard.min.js?1567632791"></script>
+    <script src="/js/perfect-scrollbar.min.js?1567632791"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1567632791"></script>
+    <script src="/js/jquery.sticky.js?1567632791"></script>
+    <script src="/js/featherlight.min.js?1567632791"></script>
+    <script src="/js/highlight.pack.js?1567632791"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1567089012"></script>
-    <script src="/js/learn.js?1567089012"></script>
-    <script src="/js/hugo-learn.js?1567089012"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1567632791"></script>
+    <script src="/js/learn.js?1567632791"></script>
+    <script src="/js/hugo-learn.js?1567632791"></script>
 
-    <link href="/mermaid/mermaid.css?1567089012" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1567089012"></script>
+    <link href="/mermaid/mermaid.css?1567632791" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1567632791"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
