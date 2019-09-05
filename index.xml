@@ -969,18 +969,6 @@ Atom Editor v1.</description>
     </item>
     
     <item>
-      <title>let vs var</title>
-      <link>/02-javascript-basics/variables/let-vs-var/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/02-javascript-basics/variables/let-vs-var/</guid>
-      <description>let vs var  In recent past var was the only way to declare variables
- While var worked it a lot of confusing issues that came along with it
- let was introduced in the latest release of JavaScript, ES6 to address these issues
- While var is still in use for legacy codebases, it is a recommended best practice to use let instead of var going forward</description>
-    </item>
-    
-    <item>
       <title>var keyword</title>
       <link>/02-javascript-basics/variables/var-keyword/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

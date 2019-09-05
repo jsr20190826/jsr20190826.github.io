@@ -721,13 +721,6 @@
 	"content": " Selecting Elements  A most common usage pattern for jQuery is to:\n Programmatically select (or grab) an element, then\n Add an event listener to it or manipulate (change) it in some way\n  jQuery allows us to use css selectors to select elements:\n   // We can use css selectors to programmatically select elements $('p') // Type (Tag) selector $('.feature') // Class selector $('#checkout') // ID selector $('li strong') // Descendant selector $('em, i') // Multiple selector $('a[target=\u0026quot;_blank\u0026quot;]') // Attribute selector $('p:nth-child(2)') // Pseudo-class selector   ID, Class, Type and Descendant selectors are the selectors we\u0026rsquo;ll be using the most during this course  A complete list of CSS Selectors can be found here\n  Dynamically changing your page using JavaScript is commonly referred to as manipulating the DOM  Example #1\nJS Bin on jsbin.com\nIn the example above jQuery is used to listen for a .click() event on the #button element and then execute the callback function when that element is clicked\nInside the callback function, $(\u0026quot;p\u0026quot;) selects the p element and uses the .toggleClass() method to dynamically toggle the class of .red-background\nExample #2\nJS Bin on jsbin.com\nIn the example above jQuery is used to listen for a .click() event on the #mark-complete element and then call the callback function when the element is clicked\nInside the callback function, $(\u0026quot;p.last-of-type\u0026quot;) selects the last p element and uses the .addClass() method to dynamically add a class to the element\n"
 },
 {
-	"uri": "/02-javascript-basics/variables/let-vs-var/",
-	"title": "let vs var",
-	"tags": [],
-	"description": "",
-	"content": " let vs var  In recent past var was the only way to declare variables\n While var worked it a lot of confusing issues that came along with it\n let was introduced in the latest release of JavaScript, ES6 to address these issues\n While var is still in use for legacy codebases, it is a recommended best practice to use let instead of var going forward\n  // declaring a variable using var var name = \u0026#34;Jen\u0026#34; // declaring a variable using let (best practice) let name = \u0026#34;Jen\u0026#34;  Click here for more information on the differences between let and var\n "
-},
-{
 	"uri": "/02-javascript-basics/variables/var-keyword/",
 	"title": "var keyword",
 	"tags": [],
