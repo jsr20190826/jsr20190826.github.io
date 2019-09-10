@@ -1211,7 +1211,7 @@
 	"content": " Code Along: Rolling Dice  We\u0026rsquo;ll walk through the process using functions to create a program that simulates rolling dice\n The starter code for this code along is hosted on Github, see the url below:\n Code Along: Rolling Dice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
-	"uri": "/12-prototypal-inheritance/",
+	"uri": "/12-object-oriented-js/",
 	"title": "Prototypal Inheritance",
 	"tags": [],
 	"description": "",
