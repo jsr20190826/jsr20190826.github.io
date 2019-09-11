@@ -627,10 +627,10 @@ code, kbd, pre, samp {
 code {
     border-radius: 2px;
     white-space: nowrap;
-    color: #5e5e5e;
-    background: #FFF7DD;
-    border: 1px solid #fbf0cb;
-    padding: 0px 2px;
+    color: #000;
+    background: rgba(27,31,35,.05);
+    border: 1px solid rgba(27,31,35,.05);
+    padding: 0.2rem 0.4rem;
 }
 /* code + .copy-to-clipboard {
     margin-left: -1px;
