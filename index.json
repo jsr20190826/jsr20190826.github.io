@@ -28,6 +28,13 @@
 	"content": "After this lesson, students will be able to:\n Use if/else conditionals to control program flow based on Boolean (true or false) tests\n Use switch/case conditionals to control program flow based on matching explicit values\n Use while and do/while loops\n Understand how loop iteration using for and forEach works\n  "
 },
 {
+	"uri": "/04-functions-and-scope/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": "After this lesson, students will be able to:\n Declare and call named functions\n Create functions in a way that promotes code reuse\n Create functions that accept parameters and / or return data\n Understand scope impacts visibility of variables in your program\n Create arrow functions introduced by ES6\n  "
+},
+{
 	"uri": "/06-dom-and-jquery/jquery-overview/what-is-jquery/",
 	"title": "What is jQuery?",
 	"tags": [],

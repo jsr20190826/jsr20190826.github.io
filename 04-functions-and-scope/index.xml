@@ -11,6 +11,21 @@
     
     
     <item>
+      <title>Objectives</title>
+      <link>/04-functions-and-scope/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-functions-and-scope/objectives/</guid>
+      <description>After this lesson, students will be able to:
+ Declare and call named functions
+ Create functions in a way that promotes code reuse
+ Create functions that accept parameters and / or return data
+ Understand scope impacts visibility of variables in your program
+ Create arrow functions introduced by ES6
+  </description>
+    </item>
+    
+    <item>
       <title>Function Overview</title>
       <link>/04-functions-and-scope/function-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
