@@ -450,10 +450,10 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/homework-assignments/hw-assignment-01/</guid>
-      <description>Summary of this week&amp;rsquo;s homework assignment: Due Date: Thursday, August 15th
-1. Complete Homework #1 - JS Basics, Control Flow &amp;amp; Loops  You are tasked with completing the problem set which is hosted on Github, see the url below:
+      <description> Summary of this week&amp;rsquo;s homework assignment: Due Date: Wednesday, September 18th
+Complete Homework #1 - JS Basics, Control Flow &amp;amp; Loops  You are tasked with completing the problem set which is hosted on Github, see the url below:
  Github Repo for Homework #1 - JS Basics, Control Flow &amp;amp; Loops  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
-  2.</description>
+  </description>
     </item>
     
     <item>
@@ -758,18 +758,6 @@ superHero[&#39;secret identity&#39;]`
  When were the changes made?
  Why were changes needed?
    What is Git?  Git is VCS that is distributed - meaning developers don&amp;rsquo;t need a constant connection to be able to collaborate with other developers (unlike other VCSs)</description>
-    </item>
-    
-    <item>
-      <title>HW Assignment #2</title>
-      <link>/homework-assignments/hw-assignment-02/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/homework-assignments/hw-assignment-02/</guid>
-      <description> Summary of this week&amp;rsquo;s homework assignment: Due Date: Thursday, August 22nd
-Complete Homework #2 - Functions and Iterators  You are tasked with completing the problem set which is hosted on Github, see the url below:
- Github Repo for Homework #2 - Functions &amp;amp; Iterators  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
-  </description>
     </item>
     
     <item>
@@ -1107,18 +1095,6 @@ Atom Editor v1.</description>
       <guid>/07-dom-and-jquery-continued/code-along-color-scheme-switcher-jquery/</guid>
       <description> Code Along: Color Scheme Switcher  The starter code for this code along is hosted on Github, see the url below:
  Code Along: Color Scheme Switcher  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
-  </description>
-    </item>
-    
-    <item>
-      <title>HW Assignment #3</title>
-      <link>/homework-assignments/hw-assignment-03/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/homework-assignments/hw-assignment-03/</guid>
-      <description> Summary of this week&amp;rsquo;s homework assignment: Due Date: Friday, August 30th
-Complete Homework #3 - Rock, Paper, Scissors Application  You are tasked with finishing the partially built Rock, Paper, Scissors application. The code is hosted on Github, see the url below:
- Github Repo for Homework #3 - Rock, Paper, Scissors Application  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
   </description>
     </item>
     
