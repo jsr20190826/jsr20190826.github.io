@@ -35,6 +35,13 @@
 	"content": "After this lesson, students will be able to:\n Declare and call named functions\n Create functions in a way that promotes code reuse\n Create functions that accept parameters and / or return data\n Understand scope impacts visibility of variables in your program\n Create arrow functions introduced by ES6\n  "
 },
 {
+	"uri": "/class-resources/office-hours/",
+	"title": "Office Hours",
+	"tags": [],
+	"description": "",
+	"content": " Weekly Office Hours Weekly, the instructional team will hold office online\n Day / Time:\n Thursdays, 8:30 PM ET to 10:30 PM ET\n Mondays, 7:00 PM ET to 8:00 PM ET\n Wednesdays, 7:00 PM ET to 8:00 PM ET\n  Location: Online via Zoom (link will be provided in Slack prior the start of office hours)\n Policy: No prior sign up required, just log drop in if you have questions\n  "
+},
+{
 	"uri": "/06-dom-and-jquery/jquery-overview/what-is-jquery/",
 	"title": "What is jQuery?",
 	"tags": [],
@@ -102,7 +109,7 @@
 	"title": "Recordings",
 	"tags": [],
 	"description": "",
-	"content": " Lesson Recordings    Lesson Date Link Notes     00 8/26/2019 lesson 00 recording    01 8/28/2019 lesson 01 recording    02 9/4/2019 lesson 02 recording The 1st half of Lesson 03 was also covered   03 9/9/2019 lesson 03 recording We also covered some of lesson 04 up through (Returning values from functions)    "
+	"content": " Lesson Recordings    Lesson Date Link Notes     00 8/26/2019 lesson 00 recording    01 8/28/2019 lesson 01 recording    02 9/4/2019 lesson 02 recording The 1st half of Lesson 03 was also covered   03 9/9/2019 lesson 03 recording We also covered some of lesson 04 up through (Returning values from functions)   04 9/11/2019 lesson 04 recording     "
 },
 {
 	"uri": "/01-command-line-js-and-git/git-vocabulary/repository/",
