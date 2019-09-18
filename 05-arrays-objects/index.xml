@@ -10,5 +10,29 @@
 	<atom:link href="/05-arrays-objects/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Objectives</title>
+      <link>/05-arrays-objects/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-arrays-objects/objectives/</guid>
+      <description> Gain deeper understanding of arrays and objects
+ Understand the difference between loops and iterators
+ Leverage the most commonly used iterators to efficiently access data
+  </description>
+    </item>
+    
+    <item>
+      <title>Warm Up: Functions Practice</title>
+      <link>/05-arrays-objects/warm-up-functions-practice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-arrays-objects/warm-up-functions-practice/</guid>
+      <description> Warm Up: Functions Practice  Work in groups of 2-3 to solve problems using functions
+ The problem set for this warm up is hosted on Github, see the url below:
+ Warm Up: Functions Practice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
   </channel>
 </rss>

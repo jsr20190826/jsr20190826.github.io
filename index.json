@@ -35,6 +35,13 @@
 	"content": "After this lesson, students will be able to:\n Declare and call named functions\n Create functions in a way that promotes code reuse\n Create functions that accept parameters and / or return data\n Understand scope impacts visibility of variables in your program\n Create arrow functions introduced by ES6\n  "
 },
 {
+	"uri": "/05-arrays-objects/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Gain deeper understanding of arrays and objects\n Understand the difference between loops and iterators\n Leverage the most commonly used iterators to efficiently access data\n  "
+},
+{
 	"uri": "/class-resources/office-hours/",
 	"title": "Office Hours",
 	"tags": [],
@@ -124,6 +131,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Strings  Strings can consist of letters and other characters\n They are surrounded by either double quotes or single quotes (this is how you recognize you are working with a string)\n Concatenation allows you to combine strings\n  // declare a variable called color and store a string  let color = \u0026#34;green\u0026#34;  Single or double quotes can be used for strings, but the opening quote must match the closing quote\n String Methods  JavaScript has some built-in methods that allow developers to work with strings\n For example: if you wanted to know how many characters were in a string, you would use the .length method\n Here are some example of other methods you can use on strings\n  JS Bin on jsbin.com\nString Template Literals  Template literals were introduced with ES6 (the newest version of JavaScript)\n Template literals provides are much cleaner syntax for mixing variables with strings\n Template literals are enclosed by the back-tick (` `) character instead of double or single quotes\n Template literals can contain placeholders. These are indicated by the dollar sign and curly braces (${expression})\n  let name = \u0026#34;Tristan\u0026#34; console.log(`Hello ${name}`)  JS Bin on jsbin.com\nClick here for complete list of all the String methods\n "
+},
+{
+	"uri": "/05-arrays-objects/warm-up-functions-practice/",
+	"title": "Warm Up: Functions Practice",
+	"tags": [],
+	"description": "",
+	"content": " Warm Up: Functions Practice  Work in groups of 2-3 to solve problems using functions\n The problem set for this warm up is hosted on Github, see the url below:\n Warm Up: Functions Practice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
 	"uri": "/02-javascript-basics/variables/what-are-variables/",
