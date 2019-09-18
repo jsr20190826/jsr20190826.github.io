@@ -40,7 +40,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/05-arrays-objects/array-review/updating-array-values/</guid>
-      <description>Updating Arrays Values  You can change a value in an array by referencing the value and then changing the value using an = (equal sign)  Example // declare a variable called newEditionMembers and use it to store // an array of names  let newEditionMembers = [&amp;#34;Ricky Bell&amp;#34;, &amp;#34;Michael Bivins&amp;#34;, &amp;#34;Bobby Brown&amp;#34;, &amp;#34;Ronnie DeVoe&amp;#34;, &amp;#34;Ralph Tresvant&amp;#34;] // We are going replace Bobby Brown with Johnny Gill // by referencing the 3rd element of the array by using index 2 // and then use assignment (just an equal sign) to change // the value to Johnny Gill  newEditionMembers[2] = &amp;#34;Johnny Gill&amp;#34;;  JS Bin on jsbin.</description>
+      <description>Updating Arrays Values  You can change a value in an array by referencing the value and then changing the value using an = (equal sign)  Example // declare a variable called newEditionMembers and use it to store // an array of names  let newEditionMembers = [&amp;#34;Ricky Bell&amp;#34;, &amp;#34;Michael Bivins&amp;#34;, &amp;#34;Bobby Brown&amp;#34;, &amp;#34;Ronnie DeVoe&amp;#34;, &amp;#34;Ralph Tresvant&amp;#34;] // We are going replace Bobby Brown with Johnny Gill // by referencing the 3rd element of the array by using index 2 // and then use assignment (just an equal sign) to change // the value to Johnny Gill  newEditionMembers[2] = &amp;#34;Johnny Gill&amp;#34;  JS Bin on jsbin.</description>
     </item>
     
     <item>

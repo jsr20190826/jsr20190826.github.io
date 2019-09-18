@@ -522,7 +522,7 @@
 	"title": "Accessing Array Values",
 	"tags": [],
 	"description": "",
-	"content": " Accessing Arrays Values  Values in an array are accessed as if they are in a numbered list\n Arrays are zero based meaning the 1st “value” in an array is at position (index) 0, the 2nd element is at position 1, and so on\n You access the value of an element in the array by passing the index of the item in square brackets\n  Example  You can access a value of an array by referencing its index (i.e. its order within the array)  // declare a variable called chipmunks and use it to store // an array of names let chipmunks = [\u0026#34;Alvin\u0026#34;, \u0026#34;Simon\u0026#34;, \u0026#34;Theodore\u0026#34;]; // reference the first value in the array // here we pass in a zero, since that represents the first // element (value) in an array  let bandMember = chipmunks[0] //\u0026gt; the value stored in bandMember is \u0026#34;Alvin\u0026#34;  JS Bin on jsbin.com\n"
+	"content": " Accessing Arrays Values  Values in an array are accessed as if they are in a numbered list\n Arrays are zero based meaning the 1st “value” in an array is at position (index) 0, the 2nd element is at position 1, and so on\n You access the value of an element in the array by passing the index of the item in square brackets\n  Example  You can access a value of an array by referencing its index (i.e. its order within the array)  // declare a variable called chipmunks and use it to store // an array of names let chipmunks = [\u0026#34;Alvin\u0026#34;, \u0026#34;Simon\u0026#34;, \u0026#34;Theodore\u0026#34;] // reference the first value in the array // here we pass in a zero, since that represents the first // element (value) in an array  let bandMember = chipmunks[0] //\u0026gt; the value stored in bandMember is \u0026#34;Alvin\u0026#34;  JS Bin on jsbin.com\n"
 },
 {
 	"uri": "/05-arrays-objects/array-iterators/",
@@ -879,7 +879,7 @@
 	"title": "Updating Array Values",
 	"tags": [],
 	"description": "",
-	"content": " Updating Arrays Values  You can change a value in an array by referencing the value and then changing the value using an = (equal sign)  Example // declare a variable called newEditionMembers and use it to store // an array of names  let newEditionMembers = [\u0026#34;Ricky Bell\u0026#34;, \u0026#34;Michael Bivins\u0026#34;, \u0026#34;Bobby Brown\u0026#34;, \u0026#34;Ronnie DeVoe\u0026#34;, \u0026#34;Ralph Tresvant\u0026#34;] // We are going replace Bobby Brown with Johnny Gill // by referencing the 3rd element of the array by using index 2 // and then use assignment (just an equal sign) to change // the value to Johnny Gill  newEditionMembers[2] = \u0026#34;Johnny Gill\u0026#34;;  JS Bin on jsbin.com\n"
+	"content": " Updating Arrays Values  You can change a value in an array by referencing the value and then changing the value using an = (equal sign)  Example // declare a variable called newEditionMembers and use it to store // an array of names  let newEditionMembers = [\u0026#34;Ricky Bell\u0026#34;, \u0026#34;Michael Bivins\u0026#34;, \u0026#34;Bobby Brown\u0026#34;, \u0026#34;Ronnie DeVoe\u0026#34;, \u0026#34;Ralph Tresvant\u0026#34;] // We are going replace Bobby Brown with Johnny Gill // by referencing the 3rd element of the array by using index 2 // and then use assignment (just an equal sign) to change // the value to Johnny Gill  newEditionMembers[2] = \u0026#34;Johnny Gill\u0026#34;  JS Bin on jsbin.com\n"
 },
 {
 	"uri": "/04-functions-and-scope/working-with-parameters/",
