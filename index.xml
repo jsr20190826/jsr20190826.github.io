@@ -1500,12 +1500,12 @@ const getArea = (width, height) =&amp;gt; { const area = width * height return a
     </item>
     
     <item>
-      <title>length() Property</title>
+      <title>length Property</title>
       <link>/05-arrays-objects/array-review/length-property/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/05-arrays-objects/array-review/length-property/</guid>
-      <description>length() property  Property of an Array that returns the number of elements in that array  Example let fruits = [&amp;#34;Peach&amp;#34;, &amp;#34;Mango&amp;#34;, &amp;#34;Apple&amp;#34;, &amp;#34;Orange&amp;#34;, &amp;#34;Grapes&amp;#34;, &amp;#34;Strawberries&amp;#34;, &amp;#34;Plum&amp;#34;] let numberOfFruits = fruits.length console.log(numberOfFruits) // 7  JS Bin on jsbin.com</description>
+      <description>length property  Property of an Array that returns the number of elements in that array  Example let fruits = [&amp;#34;Peach&amp;#34;, &amp;#34;Mango&amp;#34;, &amp;#34;Apple&amp;#34;, &amp;#34;Orange&amp;#34;, &amp;#34;Grapes&amp;#34;, &amp;#34;Strawberries&amp;#34;, &amp;#34;Plum&amp;#34;] let numberOfFruits = fruits.length console.log(numberOfFruits) // 7  JS Bin on jsbin.com</description>
     </item>
     
     <item>

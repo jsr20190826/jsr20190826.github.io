@@ -263,7 +263,7 @@
 	"title": "Array Review",
 	"tags": [],
 	"description": "",
-	"content": " Array Review  Creating Arrays   Accessing Array Values   Updating Array Values   Adding \u0026amp; Removing Items   length() Property   "
+	"content": " Array Review  Creating Arrays   Accessing Array Values   Updating Array Values   Adding \u0026amp; Removing Items   length Property   "
 },
 {
 	"uri": "/06-dom-and-jquery/jquery-overview/benefits-of-jquery/",
@@ -1100,10 +1100,10 @@
 },
 {
 	"uri": "/05-arrays-objects/array-review/length-property/",
-	"title": "length() Property",
+	"title": "length Property",
 	"tags": [],
 	"description": "",
-	"content": " length() property  Property of an Array that returns the number of elements in that array  Example let fruits = [\u0026#34;Peach\u0026#34;, \u0026#34;Mango\u0026#34;, \u0026#34;Apple\u0026#34;, \u0026#34;Orange\u0026#34;, \u0026#34;Grapes\u0026#34;, \u0026#34;Strawberries\u0026#34;, \u0026#34;Plum\u0026#34;] let numberOfFruits = fruits.length console.log(numberOfFruits) // 7  JS Bin on jsbin.com\n"
+	"content": " length property  Property of an Array that returns the number of elements in that array  Example let fruits = [\u0026#34;Peach\u0026#34;, \u0026#34;Mango\u0026#34;, \u0026#34;Apple\u0026#34;, \u0026#34;Orange\u0026#34;, \u0026#34;Grapes\u0026#34;, \u0026#34;Strawberries\u0026#34;, \u0026#34;Plum\u0026#34;] let numberOfFruits = fruits.length console.log(numberOfFruits) // 7  JS Bin on jsbin.com\n"
 },
 {
 	"uri": "/03-control-flow-and-loops/conditionals/ternary-operator/",
