@@ -815,6 +815,18 @@ superHero[&#39;secret identity&#39;]`
     </item>
     
     <item>
+      <title>HW Assignment #2</title>
+      <link>/homework-assignments/hw-assignment-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/homework-assignments/hw-assignment-02/</guid>
+      <description> Summary of this week&amp;rsquo;s homework assignment: Due Date: Wednesday, September 25th
+Complete Homework #2 - Functions  You are tasked with completing the problem set which is hosted on Github, see the url below:
+ Github Repo for Homework #2 - Functions  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+    <item>
       <title>Hoisting</title>
       <link>/04-functions-and-scope/hoisting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -595,6 +595,13 @@
 	"content": " Version Control System (VCS)  Tracks the history of changes as people and teams collaborate on projects together (think \u0026ldquo;track changes feature available for MS Word or Google Docs\u0026rdquo;)\n Developers can review project history to find out:\n Which changes were made?\n Who made the changes?\n When were the changes made?\n Why were changes needed?\n   What is Git?  Git is VCS that is distributed - meaning developers don\u0026rsquo;t need a constant connection to be able to collaborate with other developers (unlike other VCSs)\n Allows developers to work anywhere and collaborate asynchronously from any time zone\n Git is the most popular VCS, used by over 70% of developers across the world\n Git operates a robust filesystem that keeps track every change to every file in your project by taking snapshots of a projects files every time changes are committed\n Git and GitHub are not the same\n  "
 },
 {
+	"uri": "/homework-assignments/hw-assignment-02/",
+	"title": "HW Assignment #2",
+	"tags": [],
+	"description": "",
+	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Wednesday, September 25th\nComplete Homework #2 - Functions  You are tasked with completing the problem set which is hosted on Github, see the url below:\n Github Repo for Homework #2 - Functions  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
 	"uri": "/04-functions-and-scope/hoisting/",
 	"title": "Hoisting",
 	"tags": [],
