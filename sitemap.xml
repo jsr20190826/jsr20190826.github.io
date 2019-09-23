@@ -27,6 +27,10 @@
   </url>
   
   <url>
+    <loc>/06-dom-and-jquery/objectives/</loc>
+  </url>
+  
+  <url>
     <loc>/class-resources/office-hours/</loc>
   </url>
   
@@ -105,10 +109,6 @@
   <url>
     <loc>/class-resources/keyboard-shortcuts/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/07-dom-and-jquery-continued/jquery-this/</loc>
   </url>
   
   <url>
@@ -392,10 +392,6 @@
   </url>
   
   <url>
-    <loc>/07-dom-and-jquery-continued/event-current-target/</loc>
-  </url>
-  
-  <url>
     <loc>/03-control-flow-and-loops/conditionals/if-else/</loc>
   </url>
   
@@ -425,6 +421,10 @@
   
   <url>
     <loc>/04-functions-and-scope/returning-values-from-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/atom-show-git-ignored-files/</loc>
   </url>
   
   <url>
@@ -481,10 +481,6 @@
   
   <url>
     <loc>/01-command-line-js-and-git/code-along-basic-git-workflow/</loc>
-  </url>
-  
-  <url>
-    <loc>/07-dom-and-jquery-continued/code-along-color-scheme-switcher-jquery/</loc>
   </url>
   
   <url>
@@ -552,7 +548,7 @@
   </url>
   
   <url>
-    <loc>/07-dom-and-jquery-continued/</loc>
+    <loc>/07-dom-and-jquery-ii/</loc>
   </url>
   
   <url>
@@ -565,6 +561,10 @@
   
   <url>
     <loc>/02-javascript-basics/variables/when-to-use-let-vs-const/</loc>
+  </url>
+  
+  <url>
+    <loc>/08-dom-jquery-iii/</loc>
   </url>
   
   <url>
@@ -608,11 +608,7 @@
   </url>
   
   <url>
-    <loc>/08-ajax-and-apis/</loc>
-  </url>
-  
-  <url>
-    <loc>/07-dom-and-jquery-continued/code-along-traffic-light/</loc>
+    <loc>/09-http-and-apis/</loc>
   </url>
   
   <url>
@@ -640,7 +636,11 @@
   </url>
   
   <url>
-    <loc>/09-asynchronous-js-and-callbacks/</loc>
+    <loc>/06-dom-and-jquery/code-along-rolling-dice-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/</loc>
   </url>
   
   <url>
@@ -660,11 +660,11 @@
   </url>
   
   <url>
-    <loc>/07-dom-and-jquery-continued/code-along-score-keeper/</loc>
+    <loc>/00-course-intro-and-tools/folder-structure/</loc>
   </url>
   
   <url>
-    <loc>/00-course-intro-and-tools/folder-structure/</loc>
+    <loc>/11-lab-giphy-weather-app/</loc>
   </url>
   
   <url>
@@ -680,15 +680,7 @@
   </url>
   
   <url>
-    <loc>/10-project-build-a-slackbot/</loc>
-  </url>
-  
-  <url>
     <loc>/06-dom-and-jquery/jquery-manipulation/</loc>
-  </url>
-  
-  <url>
-    <loc>/11-advanced-apis/</loc>
   </url>
   
   <url>
@@ -696,11 +688,11 @@
   </url>
   
   <url>
-    <loc>/01-command-line-js-and-git/git-vocabulary/pull-request/</loc>
+    <loc>/12-project-build-a-slackbot/</loc>
   </url>
   
   <url>
-    <loc>/07-dom-and-jquery-continued/code-along-hilo/</loc>
+    <loc>/01-command-line-js-and-git/git-vocabulary/pull-request/</loc>
   </url>
   
   <url>
@@ -708,15 +700,11 @@
   </url>
   
   <url>
-    <loc>/12-object-oriented-js/</loc>
+    <loc>/13-object-oriented-js/</loc>
   </url>
   
   <url>
     <loc>/00-course-intro-and-tools/what-is-programming/</loc>
-  </url>
-  
-  <url>
-    <loc>/13-closures-and-this/</loc>
   </url>
   
   <url>
@@ -733,10 +721,6 @@
   </url>
   
   <url>
-    <loc>/07-dom-and-jquery-continued/lab-citipix/</loc>
-  </url>
-  
-  <url>
     <loc>/00-course-intro-and-tools/what-is-javascript/</loc>
   </url>
   
@@ -745,7 +729,11 @@
   </url>
   
   <url>
-    <loc>/15-deploying-your-app/</loc>
+    <loc>/15-project-firebase-todo-app/</loc>
+  </url>
+  
+  <url>
+    <loc>/16-deploying-your-app/</loc>
   </url>
   
   <url>
@@ -762,6 +750,10 @@
   
   <url>
     <loc>/06-dom-and-jquery/jquery-traversing/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/cors/</loc>
   </url>
   
   <url>

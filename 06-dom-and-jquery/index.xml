@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>Objectives</title>
+      <link>/06-dom-and-jquery/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/objectives/</guid>
+      <description> Understand the key differences between using Native JavaScript and jQuery for DOM manipulation
+ Learn the most commonly used jQuery methods to manipulate the DOM
+  </description>
+    </item>
+    
+    <item>
       <title>Document Object Model</title>
       <link>/06-dom-and-jquery/dom-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -21,6 +32,18 @@
  The DOM allows us to use a programming language (JavaScript) to make dynamic changes to our web pages  Using JavaScript to dynamically change our web pages is also referred to as manipulating the DOM
   Example: Visual representation of the DOM
 In the image above, we have a html document on the left and a visual representation of this page&amp;rsquo;s DOM on the right</description>
+    </item>
+    
+    <item>
+      <title>Code Along: Rolling Dice jQuery</title>
+      <link>/06-dom-and-jquery/code-along-rolling-dice-jquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/code-along-rolling-dice-jquery/</guid>
+      <description> Code Along: Rolling Dice jQuery  During this code along, we&amp;rsquo;ll convert the DOM manipulation logic in the Rolling Dice application from native JavaScript to jQuery
+ The starter code for this code along is hosted on Github, see the url below:
+ Code Along: Rolling Dice jQuery  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
     </item>
     
   </channel>

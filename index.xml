@@ -83,6 +83,17 @@
     </item>
     
     <item>
+      <title>Objectives</title>
+      <link>/06-dom-and-jquery/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/objectives/</guid>
+      <description> Understand the key differences between using Native JavaScript and jQuery for DOM manipulation
+ Learn the most commonly used jQuery methods to manipulate the DOM
+  </description>
+    </item>
+    
+    <item>
       <title>Office Hours</title>
       <link>/class-resources/office-hours/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -310,19 +321,6 @@ When copying the following code snippets, DO NOT include the $ this is a univers
       
       <guid>/class-resources/keyboard-shortcuts/</guid>
       <description>General Window Management &amp;amp; Browser Shortcuts    Action Mac Windows     Open Chrome Developer Tools cmd+option + i F2 or ctrl + shift + i   Refresh page cmd + R ctrl + R   Switch between applications cmd + tab alt + tab   Switch between windows in the same application cmd + ~     Atom Shortcuts Files, Windows, Tabs Management    Command macOS Windows Linux Description     Open Settings Menu cmd+, ctrl+, ctrl+, Opens the Atom&amp;rsquo;s settings menu   Open File (Fuzzy) cmd+p or cmd+t ctrl+p or ctrl+t ctrl+p or ctrl+t Opens the Fuzzy Finder   Browse Open Files cmd+b ctrl+b ctrl+b Browse tabs within the window   Previous Tab alt+cmd+left ctrl+pageup ctrl+pageup Cycles left through open tabs (in the active pane)   Next Tab alt+cmd+right ctrl+pagedown ctrl+pagedown Cycles right through open tabs (in the active page)   Toggle Tree View cmd+\ ctrl+\ ctrl+\ Toggles Atom&amp;rsquo;s file Tree View   Show Available Snippets alt+shift+s alt+shift+s alt+shift+s Shows the snippets available to Atom   Save cmd+s ctrl+s ctrl+s Saves the currently active file   Save As shift+cmd+s ctrl+shift+s ctrl+shift+s Saves the currently active file under a different name   Save All alt+cmd+s   Saves all changed files   Close Tab cmd+w ctrl+w ctrl+w Closes the currently active tab   Close Window shift+cmd+w ctrl+shift+w ctrl+shift+w Closes the currently active editor window   Split Window cmd+k up/down/left/right ctrl+k up/down/left/right ctrl+k up/down/left/right Split the currently active tab in one of the four directions   Focus Pane cmd+k cmd+up/down/left/right ctrl+k ctrl+up/down/left/right ctrl+k ctrl+up/down/left/right Move the focus to the pane in one of the four directions   Toggle full screen ctrl+cmd+f F11 F11 Toggle full screen window    Editing    Command macOS Windows Linux Description     Duplicate Lines shift+cmd+d ctrl+shift+d ctrl+shift+d Duplicates the line of the current cursor position and creates a new line under it with the same contents   Delete Line ctrl+shift+k ctrl+shift+k ctrl+shift+k Deletes the current line   Move Line Up ctrl+cmd+up ctrl+up ctrl+up Moves the contents of the current cursor position up one line.</description>
-    </item>
-    
-    <item>
-      <title>$(this)</title>
-      <link>/07-dom-and-jquery-continued/jquery-this/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/07-dom-and-jquery-continued/jquery-this/</guid>
-      <description>$(this)  this one of the most misunderstood concepts in JavaScript
- this (native JavaScript) refers to the owner of a function
- $(this) (jquery) gives you reference to uses jQuery to select the current element
-  We&amp;rsquo;ll cover the this (native JavaScript) in later in the course
- Example $(() =&amp;gt; { $(&amp;#34;#box&amp;#34;).click(function() { // use $(this) with with regular function syntax  // to reference the element that is being &amp;#34;acted on&amp;#34;  $(this).</description>
     </item>
     
     <item>
@@ -926,19 +924,6 @@ Atom Editor v1.</description>
     </item>
     
     <item>
-      <title>event.currentTarget</title>
-      <link>/07-dom-and-jquery-continued/event-current-target/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/07-dom-and-jquery-continued/event-current-target/</guid>
-      <description>event.currentTarget  JavaScript property (not specific to jQuery) that identifies the current target for the event
- It always refers to the element to which the event handler has been attached, as opposed
- Similar to $(this), with the added benefit that it works with arrow functions
- When using event.currentTarget in the context of jQuery, it should be wrapped in a jQuery object: $(event.currentTarget)
-  Example $(() =&amp;gt; { $(&amp;#34;#box&amp;#34;).</description>
-    </item>
-    
-    <item>
       <title>if..else Statement</title>
       <link>/03-control-flow-and-loops/conditionals/if-else/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1007,6 +992,17 @@ Atom Editor v1.</description>
  To have your function return a value you must use the return keyword in the last line of the body of your function
  We use the return keyword when we want our function to &amp;ldquo;give us back&amp;rdquo; a value
  You can store the returned value in a variable and use it later in your program</description>
+    </item>
+    
+    <item>
+      <title>Show Git-Ignored Files in Atom</title>
+      <link>/class-resources/atom-show-git-ignored-files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/class-resources/atom-show-git-ignored-files/</guid>
+      <description> Show Git-Ignored Files in Atom Atom, by default, will not show files in its file pane (file tree view) if those files have been added to .gitignore.
+An easy approach to fixing this issue is to do the following:
+ Click anywhere in the Tree View (left hand pane with files and folders) Press i (this will toggle the visibility of hidden files)  </description>
     </item>
     
     <item>
@@ -1151,17 +1147,6 @@ Atom Editor v1.</description>
  This tutorial is meant to be interactive, so please follow along
  The tutorial will involve heavy use of the command line
   Step 0: Navigate to your class folder on your command line  From your command line, navigate to your class folder (i.</description>
-    </item>
-    
-    <item>
-      <title>Code Along: Color Scheme Switcher</title>
-      <link>/07-dom-and-jquery-continued/code-along-color-scheme-switcher-jquery/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/07-dom-and-jquery-continued/code-along-color-scheme-switcher-jquery/</guid>
-      <description> Code Along: Color Scheme Switcher  The starter code for this code along is hosted on Github, see the url below:
- Code Along: Color Scheme Switcher  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
-  </description>
     </item>
     
     <item>
@@ -1454,17 +1439,6 @@ const getArea = (width, height) =&amp;gt; { const area = width * height return a
     </item>
     
     <item>
-      <title>Code Along: Traffic Light</title>
-      <link>/07-dom-and-jquery-continued/code-along-traffic-light/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/07-dom-and-jquery-continued/code-along-traffic-light/</guid>
-      <description> Code Along: Traffic Light  The starter code for this code along is hosted on Github, see the url below:
- Code Along: Traffic Light  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
-  </description>
-    </item>
-    
-    <item>
       <title>Logical Operators</title>
       <link>/02-javascript-basics/logical-operators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1520,6 +1494,18 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
     </item>
     
     <item>
+      <title>Code Along: Rolling Dice jQuery</title>
+      <link>/06-dom-and-jquery/code-along-rolling-dice-jquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/code-along-rolling-dice-jquery/</guid>
+      <description> Code Along: Rolling Dice jQuery  During this code along, we&amp;rsquo;ll convert the DOM manipulation logic in the Rolling Dice application from native JavaScript to jQuery
+ The starter code for this code along is hosted on Github, see the url below:
+ Code Along: Rolling Dice jQuery  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+    <item>
       <title>Fork</title>
       <link>/01-command-line-js-and-git/git-vocabulary/fork/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1551,17 +1537,6 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
       <guid>/01-command-line-js-and-git/git-vocabulary/clone/</guid>
       <description> Clone  Copies a remote repository (i.e. repository in the cloud on a platform like Github.com) and creates a local copy of the repository on your computer
  Cloning creates a link between the the remote and local copy of a repository, allowing you to your code in sync between the two
-  </description>
-    </item>
-    
-    <item>
-      <title>Code Along: Score Keeper</title>
-      <link>/07-dom-and-jquery-continued/code-along-score-keeper/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/07-dom-and-jquery-continued/code-along-score-keeper/</guid>
-      <description> Code Along: Score Keeper  The starter code for this code along is hosted on Github, see the url below:
- Code Along: Score Keeper  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
   </description>
     </item>
     
@@ -1620,17 +1595,6 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
     </item>
     
     <item>
-      <title>Code Along: HiLo</title>
-      <link>/07-dom-and-jquery-continued/code-along-hilo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/07-dom-and-jquery-continued/code-along-hilo/</guid>
-      <description> Code Along: HiLo  The starter code for this code along is hosted on Github, see the url below:
- Code Along: HiLo  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
-  </description>
-    </item>
-    
-    <item>
       <title>Code Along: Rolling Dice</title>
       <link>/04-functions-and-scope/code-along-rolling-dice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1676,17 +1640,6 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
  A reducer function (that you provide) is called on each element of the array and results in a single output value
  Often used to perform a calculation that accepts all the elements of an array (usually numbers) as inputs
  For example: Calculating the sum of all the items in an array  .reduce() accepts the following parameters</description>
-    </item>
-    
-    <item>
-      <title>Lab: CitiPix</title>
-      <link>/07-dom-and-jquery-continued/lab-citipix/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/07-dom-and-jquery-continued/lab-citipix/</guid>
-      <description> Lab: CitiPix  The starter code for this lab is hosted on Github, see the url below:
- Lab: CitiPix  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
-  </description>
     </item>
     
     <item>
@@ -1744,6 +1697,19 @@ HTML &amp;amp; CSS  Codecademy - HTML &amp;amp; CSS course
  There is no standard way to write pseudocode, use langauge that can be understood by technical and non-technical people
  Use pseudocode as an &amp;ldquo;outline&amp;rdquo; for your real code
   </description>
+    </item>
+    
+    <item>
+      <title>CORS</title>
+      <link>/class-resources/cors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/class-resources/cors/</guid>
+      <description> CORS  CORS is the policy that defines this, an acronym that stands for &amp;ldquo;Cross-Origin Resource Sharing&amp;rdquo;
+ You cannot normally make an AJAX request across different domains
+ Some domains don&amp;rsquo;t allow you to ping them from other domains and some do
+  Click here for more information about CORS
+ </description>
     </item>
     
     <item>
