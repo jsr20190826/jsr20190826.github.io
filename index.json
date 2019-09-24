@@ -70,6 +70,13 @@
 	"content": " Add jQuery via Download This approach assumes you downloaded the jQuery file and stored it on your js folder\n\u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;title\u0026gt;Add jQuery by downloading jQuery file(s)\u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;script src=\u0026quot;js/jquery-3.4.1.js\u0026quot;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;script src=\u0026quot;js/app.js\u0026quot;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt;  "
 },
 {
+	"uri": "/solutions/classwork-lab-solutions/",
+	"title": "Classwork &amp; Lab Solutions",
+	"tags": [],
+	"description": "",
+	"content": " Solutions Disclaimer: These files are not meant to be viewed as the \u0026ldquo;right answer, instead view them as a way to learn how another developer approached the same problem.\n Lesson 03: Control Flow \u0026amp; Loops  JS Basics, Control Flow \u0026amp; Loops Lab Solution  Lesson 05: Arrays \u0026amp; Objects  Warmup Functions Practice Solution  Lesson 04: Functions \u0026amp; Scope  Rolling Dice (native JavaScript) Solution  Lesson 06: DOM \u0026amp; jQuery  Rolling Dice (jQuery) Solution  "
+},
+{
 	"uri": "/01-command-line-js-and-git/",
 	"title": "Command Line JS &amp; Git",
 	"tags": [],
@@ -341,6 +348,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Wednesday, September 18th\nComplete Homework #1 - JS Basics, Control Flow \u0026amp; Loops  You are tasked with completing the problem set which is hosted on Github, see the url below:\n Github Repo for Homework #1 - JS Basics, Control Flow \u0026amp; Loops  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
+	"uri": "/solutions/homework-solutions/",
+	"title": "Homework Solutions",
+	"tags": [],
+	"description": "",
+	"content": " Homework Solutions Disclaimer: These files are not meant to be viewed as the \u0026ldquo;right answer, instead view them as a way to learn how another developer approached the same problem.\n Homework #1:  Homework #1: JS Basics, Control Flow Loops Solution  Homework #2:  Homework #2: Functions \u0026amp; Iterators Solution: Pending  "
 },
 {
 	"uri": "/02-javascript-basics/",
@@ -1405,6 +1419,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Lesson Recordings "
+},
+{
+	"uri": "/solutions/",
+	"title": "Solutions",
+	"tags": [],
+	"description": "",
+	"content": " Solutions "
 },
 {
 	"uri": "/02-javascript-basics/truthy-falsey/",

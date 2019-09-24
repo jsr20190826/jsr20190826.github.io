@@ -43,6 +43,10 @@
   </url>
   
   <url>
+    <loc>/solutions/classwork-lab-solutions/</loc>
+  </url>
+  
+  <url>
     <loc>/01-command-line-js-and-git/</loc>
   </url>
   
@@ -197,6 +201,10 @@
   
   <url>
     <loc>/homework-assignments/hw-assignment-01/</loc>
+  </url>
+  
+  <url>
+    <loc>/solutions/homework-solutions/</loc>
   </url>
   
   <url>
@@ -807,6 +815,10 @@
   
   <url>
     <loc>/lesson-recordings/</loc>
+  </url>
+  
+  <url>
+    <loc>/solutions/</loc>
   </url>
   
   <url>
