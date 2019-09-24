@@ -112,6 +112,10 @@
   </url>
   
   <url>
+    <loc>/07-dom-and-jquery-ii/jquery-this/</loc>
+  </url>
+  
+  <url>
     <loc>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/append/</loc>
   </url>
   
@@ -392,6 +396,10 @@
   </url>
   
   <url>
+    <loc>/07-dom-and-jquery-ii/event-current-target/</loc>
+  </url>
+  
+  <url>
     <loc>/03-control-flow-and-loops/conditionals/if-else/</loc>
   </url>
   
@@ -481,6 +489,10 @@
   
   <url>
     <loc>/01-command-line-js-and-git/code-along-basic-git-workflow/</loc>
+  </url>
+  
+  <url>
+    <loc>/07-dom-and-jquery-ii/code-along-color-scheme-switcher-jquery/</loc>
   </url>
   
   <url>
@@ -608,6 +620,10 @@
   </url>
   
   <url>
+    <loc>/07-dom-and-jquery-ii/code-along-traffic-light/</loc>
+  </url>
+  
+  <url>
     <loc>/09-http-and-apis/</loc>
   </url>
   
@@ -660,6 +676,10 @@
   </url>
   
   <url>
+    <loc>/07-dom-and-jquery-ii/code-along-score-keeper/</loc>
+  </url>
+  
+  <url>
     <loc>/00-course-intro-and-tools/folder-structure/</loc>
   </url>
   
@@ -696,6 +716,10 @@
   </url>
   
   <url>
+    <loc>/08-dom-jquery-iii/code-along-hilo/</loc>
+  </url>
+  
+  <url>
     <loc>/04-functions-and-scope/code-along-rolling-dice/</loc>
   </url>
   
@@ -718,6 +742,10 @@
   
   <url>
     <loc>/14-intro-to-crud-and-firebase/</loc>
+  </url>
+  
+  <url>
+    <loc>/08-dom-jquery-iii/lab-citipix/</loc>
   </url>
   
   <url>
