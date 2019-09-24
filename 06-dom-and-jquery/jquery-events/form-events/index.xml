@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/06-dom-and-jquery/jquery-events/form-events/change/</guid>
-      <description>.change() Event  Attaches an event handler function to the &amp;lt;input&amp;gt;, &amp;lt;textarea&amp;gt; and &amp;lt;select&amp;gt; elements that is executed when its value changes  Example  The following example will display an alert message when you select any option in dropdown select box  $(&amp;#39;select&amp;#39;).change((event) =&amp;gt; { const $selectedOption = $(event.currentTarget).find(&amp;#39;:selected&amp;#39;).val() alert(`You have selected ${$selectedOption}`) })  JS Bin on jsbin.com
+      <description>.change() Event  Attaches an event handler function to the &amp;lt;input&amp;gt;, &amp;lt;textarea&amp;gt; and &amp;lt;select&amp;gt; elements that is executed when its value changes  Example  The following example will display an alert message when you select any option in dropdown select box  $(&amp;#39;select&amp;#39;).change((event) =&amp;gt; { const selectedOption = $(event.currentTarget).find(&amp;#39;:selected&amp;#39;).val() alert(`You have selected ${$selectedOption}`) })  JS Bin on jsbin.com
 We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course</description>
     </item>
     
@@ -26,7 +26,7 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/06-dom-and-jquery/jquery-events/form-events/submit/</guid>
-      <description>.submit() Event  Attaches an event handler function to &amp;lt;form&amp;gt; elements that is executed when the user is attempts to submit a form  Example $(() =&amp;gt; { // listen for a .submit() event on this form  $(&amp;#39;form&amp;#39;).submit((event) =&amp;gt; { // prevent default behavior of forms  event.preventDefault() // read data from text field  const $name = $(&amp;#39;input&amp;#39;).val() if ($name === &amp;#39;&amp;#39;) { alert(&amp;#39;Please enter a name&amp;#39;) } else { alert(`Hello ${$name}!</description>
+      <description>.submit() Event  Attaches an event handler function to &amp;lt;form&amp;gt; elements that is executed when the user is attempts to submit a form  Example $(() =&amp;gt; { // listen for a .submit() event on this form  $(&amp;#39;form&amp;#39;).submit((event) =&amp;gt; { // prevent default behavior of forms  event.preventDefault() // read data from text field  const name = $(&amp;#39;input&amp;#39;).val() if (name === &amp;#39;&amp;#39;) { alert(&amp;#39;Please enter a name&amp;#39;) } else { alert(`Hello ${name}!</description>
     </item>
     
   </channel>

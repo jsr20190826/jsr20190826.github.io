@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/css/</guid>
-      <description>.css() Method  Method that provides a quick way to apply the styles directly to the HTML elements (i.e. inline styles) that haven&amp;rsquo;t been or can&amp;rsquo;t easily be defined in a stylesheet  Example of Getting (Reading) a css property from an element  To Get (Read) css properties of an element use css(cssPropertyName) with nothing inside the parentheses  $(() =&amp;gt; { $(&amp;#34;#readBorderProperties&amp;#34;).click(() =&amp;gt; { // read &amp;#34;border&amp;#34; css properties of box  const $borderProperties = $(&amp;#34;.</description>
+      <description>.css() Method  Method that provides a quick way to apply the styles directly to the HTML elements (i.e. inline styles) that haven&amp;rsquo;t been or can&amp;rsquo;t easily be defined in a stylesheet  Example of Getting (Reading) a css property from an element  To Get (Read) css properties of an element use css(cssPropertyName) with nothing inside the parentheses  $(() =&amp;gt; { $(&amp;#34;#readBorderProperties&amp;#34;).click(() =&amp;gt; { // read &amp;#34;border&amp;#34; css properties of box  const borderProperties = $(&amp;#34;.</description>
     </item>
     
     <item>

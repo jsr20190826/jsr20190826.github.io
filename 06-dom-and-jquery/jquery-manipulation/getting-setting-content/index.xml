@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/text/</guid>
-      <description>.text() Method  Method is either used to get (read) the combined text contents of the selected elements, including their descendants, or set (write) the text contents of the selected elements  Example of Getting (Reading) text  To Get (Read) text of an element use .text() with nothing inside the parentheses  $(() =&amp;gt; { $(&amp;#39;#readAll&amp;#39;).click(() =&amp;gt; { // read text from all p elements  const $allParagraphs = $(&amp;#34;p&amp;#34;).</description>
+      <description>.text() Method  Method is either used to get (read) the combined text contents of the selected elements, including their descendants, or set (write) the text contents of the selected elements  Example of Getting (Reading) text  To Get (Read) text of an element use .text() with nothing inside the parentheses  $(() =&amp;gt; { $(&amp;#39;#readAll&amp;#39;).click(() =&amp;gt; { // read text from all p elements  const allParagraphs = $(&amp;#34;p&amp;#34;).</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/val/</guid>
-      <description>.val() Method  Method is mainly used to get or set the current value of the HTML form elements such as &amp;lt;input&amp;gt;, &amp;lt;select&amp;gt; and &amp;lt;textarea&amp;gt;  Example of Getting (Reading) values from form elements  To Get (Read) text of an element use .val() with nothing inside the parentheses  $(() =&amp;gt; { $(&amp;#34;#getName&amp;#34;).click(() =&amp;gt; { // read value of text field  const $name = $(&amp;#34;#name&amp;#34;).val() alert($name) }) $(&amp;#34;#getComment&amp;#34;).</description>
+      <description>.val() Method  Method is mainly used to get or set the current value of the HTML form elements such as &amp;lt;input&amp;gt;, &amp;lt;select&amp;gt; and &amp;lt;textarea&amp;gt;  Example of Getting (Reading) values from form elements  To Get (Read) text of an element use .val() with nothing inside the parentheses  $(() =&amp;gt; { $(&amp;#34;#getName&amp;#34;).click(() =&amp;gt; { // read value of text field  const name = $(&amp;#34;#name&amp;#34;).val() alert(name) }) $(&amp;#34;#getComment&amp;#34;).</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/attr/</guid>
-      <description>.attr() Method  Method to either get the value of an element&amp;rsquo;s attribute or set one or more attributes for the selected element  Example of Getting (Reading) attributes from elements  To Get (Read) text of an element use .attr(attrName) with name of the attribute you want to receive a value for  $(() =&amp;gt; { $(&amp;#34;#getIdName&amp;#34;).click(() =&amp;gt; { // read class name of .box  const $idName = $(&amp;#34;.</description>
+      <description>.attr() Method  Method to either get the value of an element&amp;rsquo;s attribute or set one or more attributes for the selected element  Example of Getting (Reading) attributes from elements  To Get (Read) text of an element use .attr(attrName) with name of the attribute you want to receive a value for  $(() =&amp;gt; { $(&amp;#34;#getIdName&amp;#34;).click(() =&amp;gt; { // read class name of .box  const idName = $(&amp;#34;.</description>
     </item>
     
   </channel>
