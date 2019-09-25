@@ -19,7 +19,7 @@
       <description>Creating Arrays  You can create that doesn&amp;rsquo;t initially contain any values, this is called an empty array
  An array can also be created with initial values
  Square brackets are a means of identifying if a variable is an array
-  Example // declare a variable as an empty array let numbers = [] // or you can declare an array with initial values let streets = [&amp;#39;Broadway&amp;#39;, &amp;#39;Houston&amp;#39;, &amp;#39;Grand&amp;#39;]  JS Bin on jsbin.</description>
+  Example // declare a variable as an empty array const numbers = [] // or you can declare an array with initial values const streets = [&amp;#39;Broadway&amp;#39;, &amp;#39;Houston&amp;#39;, &amp;#39;Grand&amp;#39;]  JS Bin on jsbin.</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/05-arrays-objects/array-review/updating-array-values/</guid>
-      <description>Updating Arrays Values  You can change a value in an array by referencing the value and then changing the value using an = (equal sign)  Example // declare a variable called newEditionMembers and use it to store // an array of names  let newEditionMembers = [&amp;#34;Ricky Bell&amp;#34;, &amp;#34;Michael Bivins&amp;#34;, &amp;#34;Bobby Brown&amp;#34;, &amp;#34;Ronnie DeVoe&amp;#34;, &amp;#34;Ralph Tresvant&amp;#34;] // We are going replace Bobby Brown with Johnny Gill // by referencing the 3rd element of the array by using index 2 // and then use assignment (just an equal sign) to change // the value to Johnny Gill  newEditionMembers[2] = &amp;#34;Johnny Gill&amp;#34;  JS Bin on jsbin.</description>
+      <description>Updating Arrays Values  You can change a value in an array by referencing the value and then changing the value using an = (equal sign)  Example // declare a variable called newEditionMembers and use it to store // an array of names  const newEditionMembers = [&amp;#34;Ricky Bell&amp;#34;, &amp;#34;Michael Bivins&amp;#34;, &amp;#34;Bobby Brown&amp;#34;, &amp;#34;Ronnie DeVoe&amp;#34;, &amp;#34;Ralph Tresvant&amp;#34;] // We are going replace Bobby Brown with Johnny Gill // by referencing the 3rd element of the array by using index 2 // and then use assignment (just an equal sign) to change // the value to Johnny Gill  newEditionMembers[2] = &amp;#34;Johnny Gill&amp;#34;  JS Bin on jsbin.</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/05-arrays-objects/array-review/length-property/</guid>
-      <description>length property  Property of an Array that returns the number of elements in that array  Example let fruits = [&amp;#34;Peach&amp;#34;, &amp;#34;Mango&amp;#34;, &amp;#34;Apple&amp;#34;, &amp;#34;Orange&amp;#34;, &amp;#34;Grapes&amp;#34;, &amp;#34;Strawberries&amp;#34;, &amp;#34;Plum&amp;#34;] let numberOfFruits = fruits.length console.log(numberOfFruits) // 7  JS Bin on jsbin.com</description>
+      <description>length property  Property of an Array that returns the number of elements in that array  Example const fruits = [&amp;#34;Peach&amp;#34;, &amp;#34;Mango&amp;#34;, &amp;#34;Apple&amp;#34;, &amp;#34;Orange&amp;#34;, &amp;#34;Grapes&amp;#34;, &amp;#34;Strawberries&amp;#34;, &amp;#34;Plum&amp;#34;] const numberOfFruits = fruits.length console.log(numberOfFruits) // 7  JS Bin on jsbin.com</description>
     </item>
     
   </channel>

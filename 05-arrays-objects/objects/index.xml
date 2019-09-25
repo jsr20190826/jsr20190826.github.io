@@ -19,7 +19,7 @@
       <description>Creating Objects  Data in an object is organized into key-value pairs
  A key is like a variable name that points to a location in memory that holds a value
  keys are strings, but when we have a key that does not have any special characters in it, JavaScript allows us to omit the quotation marks:
-let superHero = { &amp;#39;secret identity&amp;#39;: &amp;#39;Peter Parker&amp;#39;, name: &amp;#39;Spiderman&amp;#39;, powers: [&amp;#39;super strength&amp;#39;, &amp;#39;hyper awareness&amp;#39;, &amp;#39;agility&amp;#39;, &amp;#39;genius intellect&amp;#39;], age: 17 }  values can be of any data type</description>
+const superHero = { &amp;#39;secret identity&amp;#39;: &amp;#39;Peter Parker&amp;#39;, name: &amp;#39;Spiderman&amp;#39;, powers: [&amp;#39;super strength&amp;#39;, &amp;#39;hyper awareness&amp;#39;, &amp;#39;agility&amp;#39;, &amp;#39;genius intellect&amp;#39;], age: 17 }  values can be of any data type</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@ let superHero = { &amp;#39;secret identity&amp;#39;: &amp;#39;Peter Parker&amp;#
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/05-arrays-objects/objects/assigning-properties/</guid>
-      <description>Assigning Properties  We can use either dot notation, or bracket notation and the assignment operator, = to add new key-value pairs to an object or change an existing property  Example let superHero = { &amp;#39;secret identity&amp;#39;: &amp;#39;Peter Parker&amp;#39;, name: &amp;#39;Spiderman&amp;#39;, powers: [&amp;#39;super strength&amp;#39;, &amp;#39;hyper awareness&amp;#39;, &amp;#39;agility&amp;#39;, &amp;#39;genius intellect&amp;#39;], age: 17 } // update existing properties  superHero.powers.push(&amp;#39;endurance&amp;#39;) superHero.age = 18 // add a new property  superHero.homeCity = &amp;#39;New York City&amp;#39; console.</description>
+      <description>Assigning Properties  We can use either dot notation, or bracket notation and the assignment operator, = to add new key-value pairs to an object or change an existing property  Example const superHero = { &amp;#39;secret identity&amp;#39;: &amp;#39;Peter Parker&amp;#39;, name: &amp;#39;Spiderman&amp;#39;, powers: [&amp;#39;super strength&amp;#39;, &amp;#39;hyper awareness&amp;#39;, &amp;#39;agility&amp;#39;, &amp;#39;genius intellect&amp;#39;], age: 17 } // update existing properties superHero.powers.push(&amp;#39;endurance&amp;#39;) superHero.age = 18 // add a new property superHero.homeCity = &amp;#39;New York City&amp;#39; console.</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@ let superHero = { &amp;#39;secret identity&amp;#39;: &amp;#39;Peter Parker&amp;#
       <description>Object Methods  Methods are functions of an object
  Methods specify the actions of an object (i.e. what the action can do)
  Methods are called in the same way we call all other functions
-  Example let superHero = { &amp;#39;secret identity&amp;#39;: &amp;#39;Peter Parker&amp;#39;, name: &amp;#39;Spiderman&amp;#39;, powers: [&amp;#39;super strength&amp;#39;, &amp;#39;hyper awareness&amp;#39;, &amp;#39;agility&amp;#39;, &amp;#39;genius intellect&amp;#39;], age: 17, sayTagline: function() { // &amp;lt;- method  console.log(&amp;#34;Hey everyone it&amp;#39;s your friendly neighborhood Spiderman&amp;#34;) } } // call the the method, just as you would call any function  superHero.</description>
+  Example const superHero = { &amp;#39;secret identity&amp;#39;: &amp;#39;Peter Parker&amp;#39;, name: &amp;#39;Spiderman&amp;#39;, powers: [&amp;#39;super strength&amp;#39;, &amp;#39;hyper awareness&amp;#39;, &amp;#39;agility&amp;#39;, &amp;#39;genius intellect&amp;#39;], age: 17, sayTagline: function() { // &amp;lt;- method  console.log(&amp;#34;Hey everyone it&amp;#39;s your friendly neighborhood Spiderman&amp;#34;) } } // call the the method, just as you would call any function superHero.</description>
     </item>
     
     <item>
@@ -51,7 +51,7 @@ let superHero = { &amp;#39;secret identity&amp;#39;: &amp;#39;Peter Parker&amp;#
       <guid>/05-arrays-objects/objects/nested-objects/</guid>
       <description>Nested Methods  In non-trivial applications, data is often nested
  JavaScript allows use to traverse an nested object using either dot notation or bracket notation
-  Example let avengers = { headquarters: &amp;#34;Stark Tower&amp;#34;, members: [ { name: &amp;#39;Black Widow&amp;#39;, &amp;#39;secret identity&amp;#39;: &amp;#39;Natasha Romanov&amp;#39;, powers: [&amp;#34;elite martial artist&amp;#34;, &amp;#34;genius intellect&amp;#34;, &amp;#34;strategy&amp;#34;, &amp;#34;leadership&amp;#34;] }, { name: &amp;#39;Captain America&amp;#39;, &amp;#39;secret identity&amp;#39;: &amp;#39;Steve Rogers&amp;#39;, powers: [&amp;#34;super strength&amp;#34;, &amp;#34;leadership&amp;#34;] } ] } // access the first member of the Avengers  console.</description>
+  Example const avengers = { headquarters: &amp;#34;Stark Tower&amp;#34;, members: [ { name: &amp;#39;Black Widow&amp;#39;, &amp;#39;secret identity&amp;#39;: &amp;#39;Natasha Romanov&amp;#39;, powers: [&amp;#34;elite martial artist&amp;#34;, &amp;#34;genius intellect&amp;#34;, &amp;#34;strategy&amp;#34;, &amp;#34;leadership&amp;#34;] }, { name: &amp;#39;Captain America&amp;#39;, &amp;#39;secret identity&amp;#39;: &amp;#39;Steve Rogers&amp;#39;, powers: [&amp;#34;super strength&amp;#34;, &amp;#34;leadership&amp;#34;] } ] } // access the first member of the Avengers console.</description>
     </item>
     
   </channel>

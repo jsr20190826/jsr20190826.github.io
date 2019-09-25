@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/05-arrays-objects/array-review/adding-removing-items/push/</guid>
-      <description>.push()  Appends the element to the end of the array  Example let fruits = [&amp;#34;Apple&amp;#34;, &amp;#34;Orange&amp;#34;] fruits.push(&amp;#34;Pear&amp;#34;) console.log( fruits ) // Apple, Orange, Pear   Note that our fruits array has been changed by push(); this means that the push() method is a mutating method  JS Bin on jsbin.com</description>
+      <description>.push()  Appends the element to the end of the array  Example const fruits = [&amp;#34;Apple&amp;#34;, &amp;#34;Orange&amp;#34;] fruits.push(&amp;#34;Pear&amp;#34;) console.log( fruits ) // Apple, Orange, Pear   Note that our fruits array has been changed by push(); this means that the push() method is a mutating method  JS Bin on jsbin.com</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <guid>/05-arrays-objects/array-review/adding-removing-items/pop/</guid>
       <description>.pop()  Extracts the last element of the array and returns it
  Like pop(), push() is also a mutating method because it changes the value of the original array
-  Example let fruits = [&amp;#34;Apple&amp;#34;, &amp;#34;Orange&amp;#34;, &amp;#34;Grapes&amp;#34;] fruits.pop() console.log(fruits) // Apple, Orange  JS Bin on jsbin.com</description>
+  Example const fruits = [&amp;#34;Apple&amp;#34;, &amp;#34;Orange&amp;#34;, &amp;#34;Grapes&amp;#34;] fruits.pop() console.log(fruits) // Apple, Orange  JS Bin on jsbin.com</description>
     </item>
     
     <item>
@@ -38,7 +38,7 @@
       <guid>/05-arrays-objects/array-review/adding-removing-items/shift/</guid>
       <description>.shift()  Removes the first element from an array and returns that removed element
  This method is a mutating method because it changes the original array
-  Example let fruits = [&amp;#34;Apple&amp;#34;, &amp;#34;Orange&amp;#34;, &amp;#34;Grapes&amp;#34;] fruits.shift() console.log(fruits) // Orange, Grapes  JS Bin on jsbin.com</description>
+  Example const fruits = [&amp;#34;Apple&amp;#34;, &amp;#34;Orange&amp;#34;, &amp;#34;Grapes&amp;#34;] fruits.shift() console.log(fruits) // Orange, Grapes  JS Bin on jsbin.com</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@
       <guid>/05-arrays-objects/array-review/adding-removing-items/unshift/</guid>
       <description>.unshift()  Adds one or more elements to the beginning of an array and returns the new length of the array
  This method is a mutating method because it changes the original array
-  Example let fruits = [&amp;#34;Apple&amp;#34;, &amp;#34;Orange&amp;#34;, &amp;#34;Grapes&amp;#34;] fruits.unshift(&amp;#34;Peach&amp;#34;, &amp;#34;Mango&amp;#34;) console.log(fruits) // Peach, Mango, Apple, Orange, Grapes  JS Bin on jsbin.com</description>
+  Example const fruits = [&amp;#34;Apple&amp;#34;, &amp;#34;Orange&amp;#34;, &amp;#34;Grapes&amp;#34;] fruits.unshift(&amp;#34;Peach&amp;#34;, &amp;#34;Mango&amp;#34;) console.log(fruits) // Peach, Mango, Apple, Orange, Grapes  JS Bin on jsbin.com</description>
     </item>
     
     <item>
@@ -60,7 +60,7 @@
       <guid>/05-arrays-objects/array-review/adding-removing-items/slice/</guid>
       <description>.slice()  Returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included) where begin and end represent the index of items in that array
  This is method is NOT a mutating method because the original array is not modified
-  Example let fruits = [&amp;#34;Peach&amp;#34;, &amp;#34;Mango&amp;#34;, &amp;#34;Apple&amp;#34;, &amp;#34;Orange&amp;#34;, &amp;#34;Grapes&amp;#34;, &amp;#34;Strawberries&amp;#34;] let myFavoriteFruits = fruits.slice(1, 4) console.</description>
+  Example const fruits = [&amp;#34;Peach&amp;#34;, &amp;#34;Mango&amp;#34;, &amp;#34;Apple&amp;#34;, &amp;#34;Orange&amp;#34;, &amp;#34;Grapes&amp;#34;, &amp;#34;Strawberries&amp;#34;] let myFavoriteFruits = fruits.slice(1, 4) console.</description>
     </item>
     
   </channel>

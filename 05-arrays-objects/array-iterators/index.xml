@@ -20,7 +20,7 @@
  The callback function for forEach provides the following:
  element - this current element from the array that is being evaluated
  index - this represents the current element&amp;rsquo;s index (or position in the array)
-   Example let chipmunks = [&amp;#34;alvin&amp;#34;, &amp;#34;simon&amp;#34;, &amp;#34;theodore&amp;#34;] chipmunks.forEach(function(element, index) { console.log(`${element}is at index ${index}`) })  JS Bin on jsbin.</description>
+   Example const chipmunks = [&amp;#34;alvin&amp;#34;, &amp;#34;simon&amp;#34;, &amp;#34;theodore&amp;#34;] chipmunks.forEach(function(element, index) { console.log(`${element}is at index ${index}`) })  JS Bin on jsbin.</description>
     </item>
     
     <item>
@@ -86,7 +86,7 @@
       <description>Other Iterators  There are many other built-in iterator methods, a complete list can be found on MDN’s Array iteration methods list
  As developer, you will be working with arrays of data on a constant basis; which means you&amp;rsquo;ll be visiting the documentation often to look up array methods you may not have used before
  Let&amp;rsquo;s get some practice &amp;ldquo;looking things up&amp;rdquo;
-  Exercise Visit the MDN Array Documenation and find the appropriate iterator method that will allow you to sort the list of words found in the words array in descending alphabetical order</description>
+  Exercise Visit the MDN Array Documentation and find the appropriate iterator method that will allow you to sort the list of words found in the words array in descending alphabetical order</description>
     </item>
     
   </channel>
