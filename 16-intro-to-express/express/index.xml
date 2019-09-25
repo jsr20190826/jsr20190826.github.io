@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Express on JavaScript</title>
+    <link>/16-intro-to-express/express/</link>
+    <description>Recent content in Express on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/16-intro-to-express/express/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>/16-intro-to-express/express/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/16-intro-to-express/express/overview/</guid>
+      <description> What is Express?  Express is a popular Node web framework that enables developers to build web servers (backend) that can respond to http requests and return data
+ Outside of providing built-in support for routing, Express has minimal functionality of its own
+ Functionality is added to an Express application through the use of Middleware
+  </description>
+    </item>
+    
+    <item>
+      <title>Middleware</title>
+      <link>/16-intro-to-express/express/middleware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/16-intro-to-express/express/middleware/</guid>
+      <description>Middleware  Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle
+ Middleware functions can perform the following tasks:
+ Execute any code.
+ Make changes to the request and the response objects.
+ End the request-response cycle.
+ Call the next middleware function in the stack
+  An Express application is essentially a series of middleware function calls</description>
+    </item>
+    
+    <item>
+      <title>Routing</title>
+      <link>/16-intro-to-express/express/routing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/16-intro-to-express/express/routing/</guid>
+      <description>Routing  Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on)
+ Each route can have one or more handler functions, which are executed when the route is matched
+ Route definition takes the following structure:
+  app.METHOD(PATH, HANDLER)   app is an instance of express.</description>
+    </item>
+    
+    <item>
+      <title>Route Parameters</title>
+      <link>/16-intro-to-express/express/route-parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/16-intro-to-express/express/route-parameters/</guid>
+      <description>Route Parameters  Route parameters are named URL segments that are used to capture the values specified at their position in the URL
+ The captured values are populated in the req.params object, with the name of the route parameter specified in the path as their respective keys
+ Route parameters are similar to function parameters
+ Given the following route handler:
+app.get(&#39;/users/:userId/books/:bookId&#39;, function (req, res) { res.send(req.params) })   If the client makes a request to the following url: GET http://localhost:3000/users/34/books/8989</description>
+    </item>
+    
+  </channel>
+</rss>

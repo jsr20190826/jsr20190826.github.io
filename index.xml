@@ -109,6 +109,58 @@
     </item>
     
     <item>
+      <title>Overview</title>
+      <link>/09-http-and-apis/ajax/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/ajax/overview/</guid>
+      <description>What is AJAX?  AJAX stands for Asynchronous JavaScript And XML
+ The meaning: Web clients can send or receive data to/from the server without requesting an entire page - instead, clients can just request or send an arbitrary amount of data
+ In front-end development, AJAX is often used to make API requests that will fetch data from another service without having to refresh the web page
+  Click here for more information about AJAX</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>/09-http-and-apis/apis/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/apis/overview/</guid>
+      <description>What is an API?  Stands for &amp;ldquo;Application Programing Interface&amp;rdquo;
+ A way to exchange data between servers / services (i.e. software to software communication)
+ Set of programming instructions and standards for accessing a service, tool or application
+ For example, Amazon.com released its API so that Web site developers could more easily access Amazon&amp;rsquo;s product information
+ In a nutshell, if you want to leverage information from another website or application your first choice should be to use an API (if they offer one)</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>/09-http-and-apis/http/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/http/overview/</guid>
+      <description>What is HTTP  HTTP stands for &amp;ldquo;HyperText Transfer Protocol
+ HTTP is a protocol which allows the fetching of resources, such as HTML documents
+ It is the foundation of any data exchange on the Web and it is a client-server
+ Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses
+  Example  A client (a browser) sends an HTTP request to the web</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>/09-http-and-apis/json/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/json/overview/</guid>
+      <description>What is JSON?  Stands for JavaScript Object Notation
+ A way to store information in an organized, easy-to-access manner
+ A popular way to send data from on web server (service) to another
+ Most data between services are sent as objects
+ JSON objects resemble a normal Javascript Object (it contains properties and values) but does not contain methods
+  { &amp;#34;id&amp;#34;: 1, &amp;#34;name&amp;#34;: &amp;#34;Scoobie Doo&amp;#34;, &amp;#34;favoriteFood&amp;#34;: &amp;#34;Scoobie Snacks&amp;#34; }  JSON Guidelines  Property names must be double-quoted strings in order to be considered compliant JSON</description>
+    </item>
+    
+    <item>
       <title>What is jQuery?</title>
       <link>/06-dom-and-jquery/jquery-overview/what-is-jquery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -119,6 +171,17 @@
  Consistent across all browsers
  Does not do anything native / vanilla JavaScript cannot do, just does it with a more intuitive syntax
   It&amp;rsquo;s important to note that jQuery is NOT another programming language it is a library or tool built on top of JavaScript</description>
+    </item>
+    
+    <item>
+      <title>AJAX Requests using Native JS</title>
+      <link>/09-http-and-apis/ajax/ajax-request-native-js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/ajax/ajax-request-native-js/</guid>
+      <description>Making AJAX Requests using Native JavaScript  JavaScript has a built-in object called XMLHttpRequest that can be used to make AJAX requests (i.e. Client-side HTTP requests made in the background which do not require a page refresh)
+ XMLHttpRequest is not normally used due to large amount to code needed to make requests; libraries jQuery (using $.ajax(), $.get(), etc) and others are often used in place of XMLHttpRequest
+  Example  Here&amp;rsquo;s an example of what an AJAX request using XMLHttpRequest looks like:  function logResponse(data) { console.</description>
     </item>
     
     <item>
@@ -185,6 +248,17 @@ jQuery jQuery Documentation</description>
     </item>
     
     <item>
+      <title>Finding APIs</title>
+      <link>/09-http-and-apis/apis/finding-apis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/apis/finding-apis/</guid>
+      <description>Where Do We Find APIs? APIs are published everywhere. Chances are good that most major content sources you follow online publish their data in some type of serialized format. Heck, even Marvel publishes an API. Look around for a &amp;ldquo;Developers&amp;rdquo; section on major websites.
+List Of Commonly Used APIs Here is a short list of commonly used APIs for testing purposes.
+   API Sample URL     This for That http://itsthisforthat.</description>
+    </item>
+    
+    <item>
       <title>Function Overview</title>
       <link>/04-functions-and-scope/function-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -197,12 +271,209 @@ jQuery jQuery Documentation</description>
     </item>
     
     <item>
+      <title>GET</title>
+      <link>/09-http-and-apis/http/http-request/http-methods/get/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/http/http-request/http-methods/get/</guid>
+      <description> GET  A GET request retrieves data at the provided URL
+ The most common HTTP method, as it&amp;rsquo;s the default when we enter a URL into our browser
+ For example, making the request GET https://restaurant-reviews.com/restaurants/353 returns the HTML content for Maysville restaurant.
+ GET requests are idempotent. We can make the same request again and again and get the same result.
+  </description>
+    </item>
+    
+    <item>
       <title>Global Scope</title>
       <link>/04-functions-and-scope/scope/global-scope/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/04-functions-and-scope/scope/global-scope/</guid>
       <description>Global Scope  Variables defined outside of a function are in in the Global Scope  Example // Global function because it was declared outside of a function const name = &amp;#39;Simone Biles&amp;#39; console.log(name) function bestGymnastEver() { // &amp;#39;name&amp;#39; variable is accessible here and everywhere else because it is global  console.log(name) } logName() // logs &amp;#39;Simone Biles&amp;#39;  JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>JSON.stringify()</title>
+      <link>/09-http-and-apis/json/json-stringify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/json/json-stringify/</guid>
+      <description>JSON.stringify()  When JSON is used to send data from one service to the next &amp;ldquo;over the wire&amp;rdquo; (i.e. via cloud) it is transmitted as a string which makes it lightweight and fast
+ JSON.stringify() allows developers to easily transform objects / arrays (or any value) into a JSON string which makes it compatible to be transmitted along with an HTTP Request
+ &amp;ldquo;Stringify-ing&amp;rdquo; data is a common step developers take before sending data to another service</description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>/09-http-and-apis/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/objectives/</guid>
+      <description> Learn about APIs and understand how they are used
+ Understand APIs and why they are used
+ Explore a real use case of API usage
+  </description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>/10-asynchronous-js-and-promises/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/objectives/</guid>
+      <description> Understand the differences between synchronous and asynchronous programming
+ Explain the different ways developers address issues presented with asynchronous programming
+ Create and Consume Promises
+ Handle errors generated from promises
+ Use Async / Await to improve readability of asynchronous code
+  </description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>/11-lab-giphy-weather-app/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-lab-giphy-weather-app/objectives/</guid>
+      <description> Leverage knowledge of Promises to build an application that makes asynchronous requests to multiple APIs  </description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>/12-project-build-a-slackbot/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/objectives/</guid>
+      <description> Leverage Slack&amp;rsquo;s API and OpenWeather&amp;rsquo;s API to build a slackbot that delivers a city&amp;rsquo;s current weather directly in Slack  </description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>/13-object-oriented-js/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/objectives/</guid>
+      <description> Understand the benefits of using Classes
+ Create Classes with a public and private interface
+ Create Classes that inherit properties and methods from another Class
+  </description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>/14-intro-to-crud-and-firebase/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-intro-to-crud-and-firebase/objectives/</guid>
+      <description> Explain what CRUD means
+ Learn about Firebase and its benefits
+ Use Firebase&amp;rsquo;s real-time database to provide data persistence to a front-end app
+  </description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>/15-project-firebase-todo-app/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/15-project-firebase-todo-app/objectives/</guid>
+      <description> Leverage knowledge of Firebase to add persistent data storage to a Todo Application  </description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>/16-intro-to-express/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/16-intro-to-express/objectives/</guid>
+      <description> Review the HTTP request / response flow
+ Explain the role of a web server in a full-stack application
+ Write a route handler for a GET request with Express
+ Pass information with query and route parameters
+  </description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>/10-asynchronous-js-and-promises/async-await/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/async-await/overview/</guid>
+      <description>Async / Await  Async / Await is special that makes working with promises easy to use and understand
+ The syntax and structure of Async / Await is makes our asynchronous handling look like synchronous code
+ Async / Await is alternative way of consuming promises a
+  async  In order for you to use Async / Await, you must declare a function with the async keyword   async function someFunction() { return &amp;quot;something&amp;quot; }   Prepending async to a function declaration means that function always returns a promise  await  The keyword await makes JavaScript wait until that promise settles and returns its result</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>/10-asynchronous-js-and-promises/promises/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/promises/overview/</guid>
+      <description>What are Promises?  Promises are objects that represent the eventual outcome of an asynchronous operation
+ A Promise object can be in one of three states:
+ Pending: The initial state the operation has not completed yet
+ Fulfilled: The operation has completed successfully and the promise now has a resolved value; for example, a request’s promise might resolve with a JSON object as its value.
+ Rejected: The operation has failed and the promise has a reason for the failure; This reason is usually an Error of some kind.</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>/13-object-oriented-js/classes/methods/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/classes/methods/overview/</guid>
+      <description>Methods  Methods in a Class function very similar to a method of an regular JavasScript object
+ Let&amp;rsquo;s recap, an method in an object is a property that has a function as a value, for example:
+  const superHero = { secretIdentity: &amp;#39;Peter Parker&amp;#39;, name: &amp;#39;Spiderman&amp;#39;, sayTagline: function() { // &amp;lt;- method  console.log(&amp;#34;Hey everyone it&amp;#39;s your friendly neighborhood Spiderman&amp;#34;) } }   If we were to rewrite this object as a Class, it may look something like this:  class superHero { constructor(secretIdentity, name) { this.</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>/13-object-oriented-js/classes/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/classes/overview/</guid>
+      <description>What are Classes?  As we have discussed earlier in the course, in JavaScript, objects are oftentimes used to represent (or model) real world items
+ Here&amp;rsquo;s an example of using an object to represent a car:
+  const myCar = { make: &amp;#39;Honda&amp;#39;, model: &amp;#39;Accord&amp;#39;, color: &amp;#39;blue&amp;#39;, year: 2015 } console.log(myHonda.make) console.log(myHonda.model) console.log(myHonda.color) // change color  myHonda.color = `blue` console.log(myHonda.color)   In practice, we often need to create many objects of the same kind, like cars, or users or whatever</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>/13-object-oriented-js/inheritance/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/inheritance/overview/</guid>
+      <description>What is Inheritance?  Often we find commonality between our classes — repeated code that we’d like to consolidate
+ Subclasses let us incorporate another class’s state and behavior into our own
+ This process is often called inheritance, and our subclass is said to “inherit” from a parent class, also called a superclass
+ Inheritance can avoid duplication and simplify the implementation of a class that needs the same data and functions as another class</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>/14-intro-to-crud-and-firebase/firebase/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-intro-to-crud-and-firebase/firebase/overview/</guid>
+      <description> What is Firebase?  Firebase is a mobile and web application platform for developers
+ Acquired by Google in 2014
+ Offers many other services but we&amp;rsquo;ll be covering the basics of Firebase&amp;rsquo;s real-time backend database and seeing how we can use this in our applications
+  </description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>/16-intro-to-express/express/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/16-intro-to-express/express/overview/</guid>
+      <description> What is Express?  Express is a popular Node web framework that enables developers to build web servers (backend) that can respond to http requests and return data
+ Outside of providing built-in support for routing, Express has minimal functionality of its own
+ Functionality is added to an Express application through the use of Middleware
+  </description>
     </item>
     
     <item>
@@ -226,6 +497,27 @@ jQuery jQuery Documentation</description>
  Stores each file&amp;rsquo;s revision history
  Repositories can have multiple collaborators and can be either public or private.
   </description>
+    </item>
+    
+    <item>
+      <title>Status Codes</title>
+      <link>/09-http-and-apis/http/http-response/status-codes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/http/http-response/status-codes/</guid>
+      <description>Status Codes  In the HTTP response that is sent to a client, the status code, which is a three-digit number, is accompanied by a reason phrase (also known as status text) that summarizes the meaning of the code
+ Along with the HTTP version of the response, these items are placed in the first line of the response, which is therefore known as the status line.
+ The status codes are classified by number range, with each class of codes having the same basic meaning</description>
+    </item>
+    
+    <item>
+      <title>Step 1: Create New Slack Workspace</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-1-new-slack-workspace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-1-new-slack-workspace/</guid>
+      <description>Step 1: Create New Slack Workspace We&amp;rsquo;re going to need a Slack workspace to test our bot. Click on the link below and follow the instructions to create a new Slack workspace
+Create a new workspace</description>
     </item>
     
     <item>
@@ -415,6 +707,17 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
     </item>
     
     <item>
+      <title>AJAX Requests with jQuery</title>
+      <link>/09-http-and-apis/ajax/ajax-request-jquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/ajax/ajax-request-jquery/</guid>
+      <description>Using $.ajax  jQuery offers an .ajax() method that can be used to make API calls
+ Example of an AJAX call using jQuery&amp;rsquo;s $.ajax method
+  $.ajax({ url: &amp;#39;some/url/specified/by/api&amp;#39;, type: &amp;#34;GET&amp;#34;, data: { name: &amp;#39;bob&amp;#39; } }) .done(() =&amp;gt; { // execute this function if request is successful  console.log(data) }) .fail(() =&amp;gt; { // execute this function if request fails  alert(&amp;#39;error occurred&amp;#39;) })  $.ajax() properties Here are some of the commonly used properties of the $.</description>
+    </item>
+    
+    <item>
       <title>Add jQuery via CDN</title>
       <link>/06-dom-and-jquery/jquery-overview/add-jquery/via-cdn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -423,6 +726,20 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
       <description>Add jQuery via CDN  This approach references the jQuery file that lives on a CDN (another server)
  The example below utilizes a jQuery-specific CDN found here
  The integrity and crossorigin properties in the example ensure the file is delivered without any third-party manipulation   &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Add jQuery using a CDN&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;script src=&amp;quot;https://code.jquery.com/jquery-3.4.1.min.js&amp;quot; integrity=&amp;quot;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=&amp;quot; crossorigin=&amp;quot;anonymous&amp;quot;&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;js/app.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   Using a CDN like jQuery or Google also helps with loading time, and potential caching benefits.</description>
+    </item>
+    
+    <item>
+      <title>Benefits</title>
+      <link>/14-intro-to-crud-and-firebase/firebase/benefits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-intro-to-crud-and-firebase/firebase/benefits/</guid>
+      <description> Firebase Benefits  Firebase provides a seamless way for front-end developers to add data persistence to their front-end applications
+ Relieves developers from having to build out backend to support their apps
+ Firebase platform offers a variety of products such as realtime database, authentication, file storage, analytics, hosting, etc
+ Generous free tier
+ Advanced features that developers can grow their applications into as their applications grow
+  </description>
     </item>
     
     <item>
@@ -435,6 +752,51 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
  Accomplishes more with less code vs using native JavaScript
   CSS selectors means less code Here&amp;rsquo;s how we would programmatically select an element with an id of &amp;ldquo;flavors&amp;rdquo; using native JavaScript
 // selecting an element using native JavaScript document.getElementById(&amp;#39;flavors&amp;#39;).onClick = doSomething()  Here&amp;rsquo;s how we would programmatically select an element with an id of &amp;ldquo;flavors&amp;rdquo; using jQuery</description>
+    </item>
+    
+    <item>
+      <title>CRUD</title>
+      <link>/14-intro-to-crud-and-firebase/crud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-intro-to-crud-and-firebase/crud/</guid>
+      <description> What is CRUD  Stands for Create, Read, Update and Delete
+ CRUD paradigm is common in constructing data-backed software applications
+ Helps developers plan how their application&amp;rsquo;s data should be structured
+ In the context of working with APIs, CRUD maps nicely to HTTP Verbs GET (read), Post (create), PUT (update) and DELETE (delete)
+     CRUD Operation HTTP VERB Description     CREATE POST Create new data or resource   READ GET Read / fetch data or resource   UPDATE PUT Update existing data or resource   DELETE DELETE Delete existing data or resource    </description>
+    </item>
+    
+    <item>
+      <title>Clients &amp; Servers</title>
+      <link>/09-http-and-apis/clients-servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/clients-servers/</guid>
+      <description>Client &amp;amp; Servers  Computers connected to the web are called clients and servers
+ Communication between the client and server are done through requests and responses
+ A simplified diagram of how they interact might look like this:
+  Clients  Typically user-facing devices connected to the internet:
+ Computers
+ Mobile devices
+ Smart Speakers (Amazon Echo, Google Home)
+ Smart Appliances (Ring Doorbell, Nest Thermostat, etc)</description>
+    </item>
+    
+    <item>
+      <title>Clients &amp; Servers</title>
+      <link>/16-intro-to-express/clients-servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/16-intro-to-express/clients-servers/</guid>
+      <description>Client &amp;amp; Servers  Computers connected to the web are called clients and servers
+ Communication between the client and server are done through requests and responses
+ A simplified diagram of how they interact might look like this:
+  Clients  Typically user-facing devices connected to the internet:
+ Computers
+ Mobile devices
+ Smart Speakers (Amazon Echo, Google Home)
+ Smart Appliances (Ring Doorbell, Nest Thermostat, etc)</description>
     </item>
     
     <item>
@@ -451,6 +813,16 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
     </item>
     
     <item>
+      <title>Constructor</title>
+      <link>/13-object-oriented-js/classes/constructor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/classes/constructor/</guid>
+      <description>Constructor  JavaScript calls the constructor() method every time it creates a new instance of a class (using the new keyword)  // define Car class  class Car { constructor(make, model) { this._make = make this._model = model } }   Car is the name of our class; by convention, we capitalize and CamelCase class names
+ JavaScript will invoke the constructor() method every time we create a new instance of our Car class</description>
+    </item>
+    
+    <item>
       <title>Creating Arrays</title>
       <link>/05-arrays-objects/array-review/creating-arrays/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -460,6 +832,29 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
  An array can also be created with initial values
  Square brackets are a means of identifying if a variable is an array
   Example // declare a variable as an empty array let numbers = [] // or you can declare an array with initial values let streets = [&amp;#39;Broadway&amp;#39;, &amp;#39;Houston&amp;#39;, &amp;#39;Grand&amp;#39;]  JS Bin on jsbin.</description>
+    </item>
+    
+    <item>
+      <title>Creating Promises</title>
+      <link>/10-asynchronous-js-and-promises/promises/creating-promises/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/promises/creating-promises/</guid>
+      <description>Creating Promise Objects  To create a new Promise object, we use the new keyword and the Promise constructor method:
+const executorFunction = (resolve, reject) =&amp;gt; { } const myPromise = new Promise(executorFunction)  The Promise constructor method takes a function parameter called the executor function which runs automatically when the constructor is called
+ The executor function generally starts an asynchronous operation and dictates how the promise should be settled</description>
+    </item>
+    
+    <item>
+      <title>Data Formats</title>
+      <link>/09-http-and-apis/apis/data-formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/apis/data-formats/</guid>
+      <description>What is Serialized Data?  All data sent via HTTP are strings
+ Unfortunately, what we really want to pass between web applications is structured data (i.e., arrays and hashes)
+ Thus, native data structures can be serialized into a string representation of the data
+ This string can be transmitted and then parsed back into data by another web agent.  There are two major serialized data formats&amp;hellip;</description>
     </item>
     
     <item>
@@ -510,6 +905,17 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
     </item>
     
     <item>
+      <title>Getters &amp; Setters</title>
+      <link>/13-object-oriented-js/classes/methods/getters-and-setters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/classes/methods/getters-and-setters/</guid>
+      <description>Getters &amp;amp; Setters  Getters and Setters allow developers to write methods that enable reading (get) and the writing (set) of properties of the instances (objects)
+ Getters and setters is a common pattern used in object oriented programming; ES6 classes introduced a new syntax for getters and setters on object properties
+  class Car { constructor(make, model) { this._make = make this._model = model } get make() { return this.</description>
+    </item>
+    
+    <item>
       <title>HW Assignment #1</title>
       <link>/homework-assignments/hw-assignment-01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -519,6 +925,52 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
 Complete Homework #1 - JS Basics, Control Flow &amp;amp; Loops  You are tasked with completing the problem set which is hosted on Github, see the url below:
  Github Repo for Homework #1 - JS Basics, Control Flow &amp;amp; Loops  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
   </description>
+    </item>
+    
+    <item>
+      <title>Handling Async Issues with Async / Await</title>
+      <link>/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/</guid>
+      <description>Handling Async Issues with Async / Await  Let&amp;rsquo;s see how we can apply Async / Await to your .printLetter() program  Example: Using Async / Await to control the execution order of async functions function printLetter(letter) { return new Promise((resolve, reject) =&amp;gt; { setTimeout(() =&amp;gt; { console.log(letter) resolve() }, Math.floor(Math.random() * 3000)) }) } /* convert .printAll() to an async / await function by prepending &amp;#39;await&amp;#39; before the function keyword */ async function printAll(){ await printLetter(&amp;#34;A&amp;#34;) await printLetter(&amp;#34;B&amp;#34;) await printLetter(&amp;#34;C&amp;#34;) await printLetter(&amp;#34;D&amp;#34;) } console.</description>
+    </item>
+    
+    <item>
+      <title>Instructions</title>
+      <link>/11-lab-giphy-weather-app/instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-lab-giphy-weather-app/instructions/</guid>
+      <description>Overview You are tasked with building an application that leverages different APIs to provide a city’s weather in a fun way
+Instructions 1) Download starter code
+ The starter code for this code along is hosted on Github, see the url below:
+ Lab: Giphy Weather App   2) Get API keys for OpenWeather and Giphy (if you haven’t done so already)</description>
+    </item>
+    
+    <item>
+      <title>Instructions</title>
+      <link>/15-project-firebase-todo-app/instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/15-project-firebase-todo-app/instructions/</guid>
+      <description>Overview You are tasked with adding persistent data storage to an unfinished todo application using Firebase&amp;rsquo;s Realtime Database product
+Instructions 1) Download starter code
+ The starter code for this code along is hosted on Github, see the url below:
+ Project: Firebase Todo App   2) Create a new Firebase project called doit-app
+3) Add a &amp;ldquo;Realtime Database&amp;rdquo; to the project and choose the &amp;ldquo;Start in test mode&amp;rdquo; option</description>
+    </item>
+    
+    <item>
+      <title>JSON.parse()</title>
+      <link>/09-http-and-apis/json/json-parse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/json/json-parse/</guid>
+      <description>JSON.parse()  When JSON is received from another service, it is in a string format
+ In order to effectively work with JSON data in our code, we need to covert it so an object, array or value
+ JSON.parse() is a method that converts an stringified JSON to native JavaScript datatypes (most commonly objects or arrays)
+  Example const jsonString = &amp;#39;{&amp;#34;members&amp;#34;:[{&amp;#34;name&amp;#34;:&amp;#34;Spider-Man&amp;#34;,&amp;#34;alias&amp;#34;:&amp;#34;Peter Parker&amp;#34;},{&amp;#34;name&amp;#34;:&amp;#34;Black Widow&amp;#34;,&amp;#34;alias&amp;#34;:&amp;#34;Natasha Romanova&amp;#34;}]}&amp;#39; const parsedJson = JSON.</description>
     </item>
     
     <item>
@@ -542,6 +994,21 @@ Complete Homework #1 - JS Basics, Control Flow &amp;amp; Loops  You are tasked w
       <description>Mac OS X Installation Instructions 1) Open your terminal application  Open your terminal (Applications &amp;gt; Utilities &amp;gt; Terminal)
  All of the following commands (below) that start with $ should be copied and pasted in your terminal / command prompt (also referred to as the &amp;ldquo;command line&amp;rdquo;)
  DO NOT include the &amp;lsquo;$&amp;rsquo; when copying and pasting the commands below; &amp;lsquo;$&amp;rsquo; is a universal symbol for the terminal / command line</description>
+    </item>
+    
+    <item>
+      <title>Middleware</title>
+      <link>/16-intro-to-express/express/middleware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/16-intro-to-express/express/middleware/</guid>
+      <description>Middleware  Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle
+ Middleware functions can perform the following tasks:
+ Execute any code.
+ Make changes to the request and the response objects.
+ End the request-response cycle.
+ Call the next middleware function in the stack
+  An Express application is essentially a series of middleware function calls</description>
     </item>
     
     <item>
@@ -574,12 +1041,69 @@ Converting Strings to Numbers  Sometimes you will find yourself in a position wh
     </item>
     
     <item>
+      <title>POST</title>
+      <link>/09-http-and-apis/http/http-request/http-methods/post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/http/http-request/http-methods/post/</guid>
+      <description>POST  A POST request creates a new item on the server
+ A request like POST https://restaurant-reviews.com/reviews could make a new review when we click the &amp;ldquo;Submit review&amp;rdquo; button on the webpage
+ POST requests are often accompanied by data passed along in the HTTP request body. e.g. when we write a review for Little Beet, we would include our username (eric), our review (The shrimp salad is so delightful), and a star rating (4 out of 5)</description>
+    </item>
+    
+    <item>
+      <title>Project Overview</title>
+      <link>/12-project-build-a-slackbot/project-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/project-overview/</guid>
+      <description>Project Overview OpenWeatherBot: We will be building a slackbot that allows users to get information about a city&amp;rsquo;s current weather directly in Slack.
+Here&amp;rsquo;s a diagram that provides a high-level view of how our slackbot will work:</description>
+    </item>
+    
+    <item>
       <title>Scope in Block Statements</title>
       <link>/04-functions-and-scope/scope/block-statements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/04-functions-and-scope/scope/block-statements/</guid>
       <description>Scope in Block Statements  Block statements like if and switch conditions or for and while loops, unlike functions, will create a new scope if you use let or const but NOT when you use var  Example  Declaring a variable within a Block statement using let creates local scope  if (true) { // this &amp;#39;if&amp;#39; conditional block creates a new scope because we use &amp;#39;let&amp;#39;  const name = &amp;#39;Prince&amp;#39; // name is local to the if block  console.</description>
+    </item>
+    
+    <item>
+      <title>Step 2: Create New Slack App</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-2-create-new-slack-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-2-create-new-slack-app/</guid>
+      <description> Step 2: Create New Slack App Slack bots are packaged as Slack apps. Slack apps allow you to add more functionality into your Slack workspace
+ To create your new Slack app, go to this page: https://api.slack.com/apps?new_app=1 and set your app name to OpenWeatherBot.
+ Set the &amp;ldquo;Development Slack Workspace&amp;rdquo; to the new workspace you created in Step 1.
+  </description>
+    </item>
+    
+    <item>
+      <title>Super &amp; Extends</title>
+      <link>/13-object-oriented-js/inheritance/super-and-extends/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/inheritance/super-and-extends/</guid>
+      <description>Super &amp;amp; Extends  super keyword is used to access and call functions on an object&amp;rsquo;s parent
+ The extends keyword is used in a Class to create a class which is a child of another class
+ super and extends are used together to create parent-child relationships between Classes
+  Example class Rectangle { constructor(height, width) { this._name = &amp;#39;Rectangle&amp;#39; this._height = height this._width = width } sayName() { console.</description>
+    </item>
+    
+    <item>
+      <title>Synchronous Programming</title>
+      <link>/10-asynchronous-js-and-promises/synchronous-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/synchronous-programming/</guid>
+      <description>What is Synchronous Programming?  In a synchronous programming model, things happen one at a time
+ This means that only one operation can be in progress at time
+ When you call a function that performs a long-running action, it returns only when the action has finished and it can return the result
+ Subsequent actions can only be run after the previous action has completed; this means that action #1 blocks action #2</description>
     </item>
     
     <item>
@@ -611,12 +1135,46 @@ Converting Strings to Numbers  Sometimes you will find yourself in a position wh
     </item>
     
     <item>
+      <title>Encapsulation</title>
+      <link>/13-object-oriented-js/classes/encapsulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/classes/encapsulation/</guid>
+      <description>What is Encapsulation?  A core concept in OOP
+ Refers to enclosing all the functionality of an object within that object so that the object’s internal workings (its methods and properties) are hidden from the rest of the application
+ This allows us to only we only expose data and functionality that is needed to accomplish such a task and nothing else; this makes your code less prone to errors</description>
+    </item>
+    
+    <item>
       <title>.toggle()</title>
       <link>/06-dom-and-jquery/jquery-effects/toggle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/06-dom-and-jquery/jquery-effects/toggle/</guid>
       <description>.toggle() Method  Method that shows or hides element in such a way that if the element is initially displayed, it will be hidden; if hidden, it will be displayed  Example $(() =&amp;gt; { $(&amp;#34;button&amp;#34;).click(() =&amp;gt; { // toggle #box element  $(&amp;#34;#box&amp;#34;).toggle() }) })  JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>API Keys</title>
+      <link>/09-http-and-apis/apis/api-keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/apis/api-keys/</guid>
+      <description>What Is An API Key?  While the majority of APIs are free to use, many of them require an API &amp;ldquo;key&amp;rdquo; that identifies the developer requesting data access
+ This is done to regulate usage and prevent abuse. Some APIs also rate-limit developers, meaning they have caps on the free data allowed during a given time period
+  Exercise A: Access the Giphy API Try hitting the Giphy API&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Asynchronous Programming</title>
+      <link>/10-asynchronous-js-and-promises/asynchronous-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/asynchronous-programming/</guid>
+      <description>What is Asynchronous Programming?  An asynchronous model allows multiple things to happen at the same time
+ An asynchronous operation is one that allows the computer to “move on” to other tasks while waiting for the asynchronous operation to complete
+ Asynchronous programming means that time-consuming operations don’t have to bring everything else in our programs to a halt
+ When you start an action, your program continues to run.</description>
     </item>
     
     <item>
@@ -655,6 +1213,82 @@ Converting Strings to Numbers  Sometimes you will find yourself in a position wh
     </item>
     
     <item>
+      <title>Consuming Promises</title>
+      <link>/10-asynchronous-js-and-promises/promises/consuming-promises/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/promises/consuming-promises/</guid>
+      <description>Consuming Promises  While knowing how to construct a promise is useful, most of your interactions with promises will be spent consuming (or using) Promises
+ Put another way, you’ll be handling Promise objects returned to you as the result of an asynchronous operation
+ These promises will start off pending but must settle eventually
+  Settling Promises  Promise objects offer a .then() function that allows us to dictate what should happen after the promise settles</description>
+    </item>
+    
+    <item>
+      <title>Documentation</title>
+      <link>/12-project-build-a-slackbot/documentaton/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/documentaton/</guid>
+      <description> Documentation Since we&amp;rsquo;ll be the APIs of both Slack and OpenWeather, you should have the API docs of both platforms open in your browser so you can quickly reference them when needed:
+ Slack API Docs
+ OpenWeather API Docs
+  </description>
+    </item>
+    
+    <item>
+      <title>General Methods</title>
+      <link>/13-object-oriented-js/classes/methods/general-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/classes/methods/general-methods/</guid>
+      <description>General Methods  You can specify &amp;ldquo;regular&amp;rdquo; methods that allow you do things other than simply getting and setting the property values  Example class Car { constructor(make, model) { this._make = make this._model = model this._miles = 30 } get make() { return this._make } get model() { return this._model } get miles() { return this._miles } set model(newModel) { this._model = newModel } drive(newMiles) { console.log(`driving ${newMiles}miles`) this.</description>
+    </item>
+    
+    <item>
+      <title>Instances</title>
+      <link>/13-object-oriented-js/classes/instances/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/classes/instances/</guid>
+      <description>Instances  An instance is an object that contains the property names and methods of a class, but with unique property values (i.e. instances of a Class have their own unique identities)  Example - Creating Instances // define Car class  class Car { constructor(make, model) { this._make = make this._model = model } } // create a new instance of the Car class  // and store it in a variable named myTesla  const myTesla = new Car(&amp;#34;Tesla&amp;#34;, &amp;#34;Model 3&amp;#34;) console.</description>
+    </item>
+    
+    <item>
+      <title>NoSQL Databases</title>
+      <link>/14-intro-to-crud-and-firebase/firebase/nosql-databases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-intro-to-crud-and-firebase/firebase/nosql-databases/</guid>
+      <description>What is a NoSQL Database  Firebase uses a NoSQL for it&amp;rsquo;s cloud-based databases
+ Like many NoSQL databases, Firebase&amp;rsquo;s Real-time database stores data as JSON objects
+ NoSQL databases don&amp;rsquo;t enforce strict data structure which results in much more flexibility than traditional SQL databases
+ Downsides: when dealing with &amp;ldquo;loosely structured&amp;rdquo; data, common use cases such as building out relationships (for example: a student has many courses, and courses contain many students) in your data can be non-intuitive and complex</description>
+    </item>
+    
+    <item>
+      <title>PUT</title>
+      <link>/09-http-and-apis/http/http-request/http-methods/put/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/http/http-request/http-methods/put/</guid>
+      <description> PUT  The PUT method updates an item at the specified resource
+ A request like PUT https://restaurant-reviews.com/restaurants/353 could update the information for Little Beet Restaurant after the owner edits the restaurant&amp;rsquo;s hours
+ Like POST requests, PUT requests come with data in the HTTP request body to specify the fields and new values to update
+ For example Hours: M-F 10a-10p, closed on Saturday and Sunday
+  </description>
+    </item>
+    
+    <item>
+      <title>Passing Values with Async / Await</title>
+      <link>/10-asynchronous-js-and-promises/async-await/passing-values-with-async-await/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/async-await/passing-values-with-async-await/</guid>
+      <description>Passing values with Async / Await  Similar to the original Promise syntax, we can easily pass values from one async function to other functions if needed  Example function getSuperheroes() { return new Promise(resolve =&amp;gt; { setTimeout(() =&amp;gt; { // send an array of heroes when  // promise is resolved  resolve([ { name: &amp;#34;Captain Marvel&amp;#34;, team: &amp;#34;Avengers&amp;#34; }, { name: &amp;#34;Batman&amp;#34;, team: &amp;#34;Justice League&amp;#34;}, { name: &amp;#34;Jean Grey&amp;#34;, team: &amp;#34;X-Men&amp;#34;}, { name: &amp;#34;Domino&amp;#34;, team: &amp;#34;X-Force&amp;#34;} ]) }, 3000) }); } function printHeroes(heroes) { heroes.</description>
+    </item>
+    
+    <item>
       <title>Recommended Atom Editor Settings</title>
       <link>/class-resources/atom-editor-settings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -662,6 +1296,53 @@ Converting Strings to Numbers  Sometimes you will find yourself in a position wh
       <guid>/class-resources/atom-editor-settings/</guid>
       <description>All of the settings below can be accessed using the following steps:
  Mac: cmd + , -&amp;gt; Editor PC: ctrl + , -&amp;gt; Editor  Setting indentation levels / default tab-size During our course we will be using a set indentation level of 2 spaces (1 indentation level = 2 spaces). Atom makes it easy conform to this approach by setting our tab to a set level of indentation.</description>
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>/11-lab-giphy-weather-app/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-lab-giphy-weather-app/requirements/</guid>
+      <description>Requirements Requirement #1: App UI: The user interface should contain a single form input and a submit button (the starter code already provides the UI)
+Requirement #2: Make Multiple API Requests When users enter a city name into the input field and press submit the following should happen:
+ API Request #1 - Fetch City’s Current Weather
+Your app should make an API request to OpenWeather and fetch the current weather associated with the city name entered into the form</description>
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>/15-project-firebase-todo-app/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/15-project-firebase-todo-app/requirements/</guid>
+      <description>Requirements Requirement #1: Add Create Functionality When users attempt to add a new task using the #addItem form, the task should be successfully saved in the app&amp;rsquo;s Firebase database. Within your Firebase database, the name of the new task should be stored as name and the completed value of every newly created task should be set to false
+Requirement #2: Add Read Functionality The Doit app should list all tasks stored in your Firebase database within the #taskList div.</description>
+    </item>
+    
+    <item>
+      <title>Routing</title>
+      <link>/16-intro-to-express/express/routing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/16-intro-to-express/express/routing/</guid>
+      <description>Routing  Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on)
+ Each route can have one or more handler functions, which are executed when the route is matched
+ Route definition takes the following structure:
+  app.METHOD(PATH, HANDLER)   app is an instance of express.</description>
+    </item>
+    
+    <item>
+      <title>Step 3: Set Up Node Application</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-3-set-up-node-application/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-3-set-up-node-application/</guid>
+      <description>Step 3: Set up Node Application In this step we&amp;rsquo;re going to create a node application that will function as our server
+1. Create project folder  Navigate to the appropriate lesson_0x_file in your class folder
+ Create a new folder named openweather-bot
+ Change directories into that folder
+  2. Run npm init to bootstrap the Node application  Run npm init from the command line (make sure you inside your newly created project folder)</description>
     </item>
     
     <item>
@@ -811,6 +1492,49 @@ superHero[&#39;secret identity&#39;]`
     </item>
     
     <item>
+      <title>Code Along: Express TMDB App</title>
+      <link>/16-intro-to-express/code-along-express-tmdb-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/16-intro-to-express/code-along-express-tmdb-app/</guid>
+      <description>Code Along: Express TMDB App  Together we&amp;rsquo;ll walk through creating a full stack (backend &amp;amp; front-end) application that provides movie and tv show data using the TMDb API  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:
+ Code Along: Express TMDb App
+ Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
+    </item>
+    
+    <item>
+      <title>Code Along: Firebase Playlist App</title>
+      <link>/14-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</guid>
+      <description>Code Along: Firebase Playlist App  Together we&amp;rsquo;ll walk through creating a playlist application that has its data persisted in Firebase&amp;rsquo;s Realtime Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:
+ Code Along: Firebase Playlist App (Updated)
+ Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
+    </item>
+    
+    <item>
+      <title>DELETE</title>
+      <link>/09-http-and-apis/http/http-request/http-methods/delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/http/http-request/http-methods/delete/</guid>
+      <description>DELETE  The DELETE method removes the resource at the URL.
+ For example, DELETE https://restaurant-reviews.com/restaurants/353 will delete the review with the ID of 353
+ DELETE requests are not idempotent. When we make one of these requests, the state of the server changes. Making the request again would probably result in an error since the item was already deleted
+ The DELETE method is similar to the DELETE FROM statement</description>
+    </item>
+    
+    <item>
+      <title>Error Handling with Async / Await</title>
+      <link>/10-asynchronous-js-and-promises/async-await/error-handling-with-async-await/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/async-await/error-handling-with-async-await/</guid>
+      <description>Error Handling with Async / Await  With Async / Await we can use try..catch block to easily catch errors  Example function yayOrNay() { return new Promise((resolve, reject) =&amp;gt; { const val = Math.round(Math.random() * 1) // 0 or 1, at random  val ? resolve(&amp;#39;Lucky!!&amp;#39;) : reject(&amp;#39;Nope 😠&amp;#39;) }) } async function msg() { // use try..catch to handle any potential errors  // when using &amp;#34;async / await&amp;#34;  try { const msg = await yayOrNay(); console.</description>
+    </item>
+    
+    <item>
       <title>Git Overview</title>
       <link>/01-command-line-js-and-git/git-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -835,6 +1559,17 @@ superHero[&#39;secret identity&#39;]`
 Complete Homework #2 - Functions  You are tasked with completing the problem set which is hosted on Github, see the url below:
  Github Repo for Homework #2 - Functions  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
   </description>
+    </item>
+    
+    <item>
+      <title>Handling Async Issues with Promises</title>
+      <link>/10-asynchronous-js-and-promises/promises/handling-async-issues-with-promises/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/promises/handling-async-issues-with-promises/</guid>
+      <description>Handling Async Issues with Promises  Let&amp;rsquo;s revisit our .printLetter() example and use promises
+ First let&amp;rsquo;s modify our .printLetter() function to return a Promise
+  function printLetter(letter) { return new Promise((resolve, reject) =&amp;gt; { setTimeout(() =&amp;gt; { console.log(letter) resolve() }, Math.floor(Math.random() * 3000)) }) } //... the rest of code below not shown for brevity  Example: Using Promises to control the execution order of async functions function printLetter(letter) { return new Promise((resolve, reject) =&amp;gt; { setTimeout(() =&amp;gt; { console.</description>
     </item>
     
     <item>
@@ -892,6 +1627,54 @@ If you have Atom installed you can run the atom command with one or more file pa
 Check if Atom is already configured to run on your computer&amp;rsquo;s Command Line Open up your terminal and run the following command
 $ atom --help  You should receive output similar to the following
 Atom Editor v1.</description>
+    </item>
+    
+    <item>
+      <title>Route Parameters</title>
+      <link>/16-intro-to-express/express/route-parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/16-intro-to-express/express/route-parameters/</guid>
+      <description>Route Parameters  Route parameters are named URL segments that are used to capture the values specified at their position in the URL
+ The captured values are populated in the req.params object, with the name of the route parameter specified in the path as their respective keys
+ Route parameters are similar to function parameters
+ Given the following route handler:
+app.get(&#39;/users/:userId/books/:bookId&#39;, function (req, res) { res.send(req.params) })   If the client makes a request to the following url: GET http://localhost:3000/users/34/books/8989</description>
+    </item>
+    
+    <item>
+      <title>Simulating Async Operations</title>
+      <link>/10-asynchronous-js-and-promises/simulating-async-operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/simulating-async-operations/</guid>
+      <description>setTimeout()  .setTimeout() function, available both in Node.js and in browsers, waits a given number of milliseconds (1 sec = 1000 ms) and then calls a function
+ .setTimeout() takes two parameters:
+ A callback function (remember callbacks are just functions passed in as parameters)
+ The number of seconds after which the method will be called
+  .setTimeout() is async by default; this is the primary reason it&amp;rsquo;s often used to simulate asynchronous operations</description>
+    </item>
+    
+    <item>
+      <title>Static Methods</title>
+      <link>/13-object-oriented-js/classes/methods/static-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/classes/methods/static-methods/</guid>
+      <description>Static Methods  Static method calls are made directly on the class and are not callable on instances of the class
+ Static methods are prepended with the static keyword
+  class Car { constructor(make, model, price) { this._make = make this._model = model this._price = price } // instance methods  get price() { return this._price } drive() { console.log(&amp;#39;calling &amp;#34;this&amp;#34; in an instance method&amp;#39;, this) console.log(`driving ${this.</description>
+    </item>
+    
+    <item>
+      <title>Step 4: Run ngrok</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-4-run-ngrok/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-4-run-ngrok/</guid>
+      <description>Run ngrok  Next we need to give our local server access to the internet so our slack app can communicate with it
+ ngrok is a tool that allows developers to create &amp;ldquo;tunnels&amp;rdquo; that connect the server running locally (i.e. on your computer) to the internet
+  1. Run ngrok command from within project folder  In a new command line tab run the following command (make sure you run this within the project folder)   $ ngrok http 3000   Here, we are are telling ngrok to create a local tunnel that connects our server running on port 3000 (i.</description>
     </item>
     
     <item>
@@ -998,6 +1781,16 @@ Atom Editor v1.</description>
     </item>
     
     <item>
+      <title>Challenges of Async Programming</title>
+      <link>/10-asynchronous-js-and-promises/challenges-of-async-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/challenges-of-async-programming/</guid>
+      <description>Challenges of Asynchronous Programming  Asynchronous programming presents a challenge when we want make multiple asynchronous requests and we want to control the order of the responses  Example Let&amp;rsquo;s see an example of this below:
+/* Modify printLetter() to make it an async function by using .setTimeout After the changes, the letter will be print at a random interval from 0 seconds to 3 seconds */ function printLetter(letter) { setTimeout(() =&amp;gt; { console.</description>
+    </item>
+    
+    <item>
       <title>Merge</title>
       <link>/01-command-line-js-and-git/git-vocabulary/merge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1006,6 +1799,17 @@ Atom Editor v1.</description>
       <description> Merge  Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another
  This often happens as a Pull Request (which can be thought of as a request for comments and a request to merge into the another branch * usually the master branch)
   </description>
+    </item>
+    
+    <item>
+      <title>Passing values with Promises</title>
+      <link>/10-asynchronous-js-and-promises/promises/passing-values-with-promises/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/promises/passing-values-with-promises/</guid>
+      <description>Passing values with Promises  A common use case when working with asynchronous code is to take the data received from one asynchronous call (output) and use that data as input for another function or action in your program
+ Promises allow developers to easily pass data (or values) between functions
+  Example function getSuperheroes() { return new Promise(resolve =&amp;gt; { setTimeout(() =&amp;gt; { // send an array of heroes when  // promise is resolved  resolve([ { name: &amp;#34;Captain Marvel&amp;#34;, team: &amp;#34;Avengers&amp;#34; }, { name: &amp;#34;Batman&amp;#34;, team: &amp;#34;Justice League&amp;#34;}, { name: &amp;#34;Jean Grey&amp;#34;, team: &amp;#34;X-Men&amp;#34;}, { name: &amp;#34;Domino&amp;#34;, team: &amp;#34;X-Force&amp;#34;} ]) }, 3000) }); } function printHeroes(heroes) { heroes.</description>
     </item>
     
     <item>
@@ -1029,6 +1833,17 @@ Atom Editor v1.</description>
       <description> Show Git-Ignored Files in Atom Atom, by default, will not show files in its file pane (file tree view) if those files have been added to .gitignore.
 An easy approach to fixing this issue is to do the following:
  Click anywhere in the Tree View (left hand pane with files and folders) Press i (this will toggle the visibility of hidden files)  </description>
+    </item>
+    
+    <item>
+      <title>Step 5: Create a test Slash command</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-5-create-a-test-slash-command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-5-create-a-test-slash-command/</guid>
+      <description> Step 5: Create a test Slash command 1. Go to your Slack developer page  Go to https://api.slack.com/apps and select your OpenWeatherBot app  2. Create a new slash command for OpenWeatherBot  Click on Slack Commands in the left side panel and then press the button labeled Create New Command
+ Next fill out the form with the following information and press the &amp;ldquo;Save&amp;rdquo; button:
+ Command: test Request URL: [YOUR NGROK HTTPS URL]/test Short Description: Test command Usage Hint: [name]   We are creating a slash command called test, when initiated in Slack, this command will make a POST request to our server using the ngrok https url for our app (remember the ngrok url is unique to your server)   </description>
     </item>
     
     <item>
@@ -1187,6 +2002,29 @@ An easy approach to fixing this issue is to do the following:
     </item>
     
     <item>
+      <title>Error Handling with .catch()</title>
+      <link>/10-asynchronous-js-and-promises/promises/error-handling-with-catch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/promises/error-handling-with-catch/</guid>
+      <description>Error Handling with .catch()  Promises chains are a great place to handle errors
+ The .catch() method provides us with an easy way to catch any errors that occur in a Promise chain
+  Example const myPromise = () =&amp;gt; { return new Promise((resolve, reject) =&amp;gt; { // return 1 after the promise is resolved  setTimeout(() =&amp;gt; resolve(1), 2000) }) } myPromise().then((result) =&amp;gt; { console.log(result) return result + 1 }).</description>
+    </item>
+    
+    <item>
+      <title>Handling Async Issues with Callbacks</title>
+      <link>/10-asynchronous-js-and-promises/handling-async-issue-with-callbacks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/handling-async-issue-with-callbacks/</guid>
+      <description>What is a Callback?  Callbacks are functions that are passed to another function
+ We can use callbacks to control the order in which our multiple asynchronous functions are executed
+ The code below modifies our .printLetter() function to accept a callback as a 2nd parameter
+  function printLetter(letter, callback) { //&amp;lt;- callback function param added  setTimeout(() =&amp;gt; { console.log(letter) callback() // &amp;lt;- execute (call) the callback param after printing letter  }, Math.</description>
+    </item>
+    
+    <item>
       <title>Lab: JS Basics, Control Flow &amp; Loops</title>
       <link>/03-control-flow-and-loops/lab-js-basics-control-flow-loops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1238,6 +2076,17 @@ An easy approach to fixing this issue is to do the following:
       <description> Push  Refers to sending your committed changes to a remote repository such as GitHub.com
  For instance, if you change something locally, you&amp;rsquo;d want to then push those changes so that others may access them
   </description>
+    </item>
+    
+    <item>
+      <title>Step 6: Install App to Workspace</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-6-install-app-to-workspace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-6-install-app-to-workspace/</guid>
+      <description>Step 6: Install App to your Workspace 1. Go to your Slack developer page  Go to https://api.slack.com/apps and select your OpenWeatherBot app  2. Install App to your workspace  Click on OAuth &amp;amp; Permissions in the left side panel and then press the button labeled Install App to Workspace
+ Confirm that your newly created workspace (from Step 1) is listed and press &amp;ldquo;Allow&amp;rdquo;
+  3. Confirm that your slash command is available in your workspace  Navigate to your slack workspace via the web: https://slack.</description>
     </item>
     
     <item>
@@ -1321,6 +2170,18 @@ $ mkdir nursery_rhymes  Navigate into the nursery_rhymes directory using the cd 
     </item>
     
     <item>
+      <title>Code Along: Giphy API</title>
+      <link>/09-http-and-apis/code-along-giphy-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/code-along-giphy-api/</guid>
+      <description> Code Along: Giphy Search API We&amp;rsquo;re going to build an application that uses Giphy&amp;rsquo;s API to display gifs based on search terms provided by users
+ The starter code for this code along is hosted on Github, see the url below:
+ Code Along: Giphy Search API  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+    <item>
       <title>Comparison Operators</title>
       <link>/02-javascript-basics/comparison-operators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1361,6 +2222,17 @@ $ mkdir nursery_rhymes  Navigate into the nursery_rhymes directory using the cd 
       
       <guid>/01-command-line-js-and-git/git-vocabulary/pull/</guid>
       <description> Pull  Pulls code from a remote repository and merges it with code in your local repository (on your computer)  </description>
+    </item>
+    
+    <item>
+      <title>Step 7: Responding to Slash Commands</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-7-responding-to-slash-commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-7-responding-to-slash-commands/</guid>
+      <description>Step 7: Responding to Slash Commands Next we&amp;rsquo;ll set up our server to respond to the Slash command, here&amp;rsquo;s how Slack describes the process in their documentation:
+ When a slash command is invoked, Slack sends an HTTP POST to the Request URL you specified above. This request contains a data payload describing the source command and who invoked it, like a really detailed knock at the door.
+ We are going to have our server send back an immediate response the process is detailed here</description>
     </item>
     
     <item>
@@ -1487,6 +2359,18 @@ const getArea = (width, height) =&amp;gt; { const area = width * height return a
     </item>
     
     <item>
+      <title>Code Along: Twilio SMS API</title>
+      <link>/09-http-and-apis/code-along-twilio-api-sms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/code-along-twilio-api-sms/</guid>
+      <description>Code Along: Twilio SMS API We&amp;rsquo;ll be using the Twilio API to build a small app that sends text messages.
+1) Sign up for a free Twilio account
+2) Verify your Personal Number - trial accounts are only allowed to send SMS messages to &amp;ldquo;verified numbers&amp;rdquo;, follow this process and add your mobile phone number as a &amp;ldquo;verified number&amp;rdquo;
+You can optionally set up a Google Voice number as an alternative to using your own mobile number</description>
+    </item>
+    
+    <item>
       <title>Logical Operators</title>
       <link>/02-javascript-basics/logical-operators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1507,6 +2391,29 @@ const getArea = (width, height) =&amp;gt; { const area = width * height return a
       <description>Nested Methods  In non-trivial applications, data is often nested
  JavaScript allows use to traverse an nested object using either dot notation or bracket notation
   Example let avengers = { headquarters: &amp;#34;Stark Tower&amp;#34;, members: [ { name: &amp;#39;Black Widow&amp;#39;, &amp;#39;secret identity&amp;#39;: &amp;#39;Natasha Romanov&amp;#39;, powers: [&amp;#34;elite martial artist&amp;#34;, &amp;#34;genius intellect&amp;#34;, &amp;#34;strategy&amp;#34;, &amp;#34;leadership&amp;#34;] }, { name: &amp;#39;Captain America&amp;#39;, &amp;#39;secret identity&amp;#39;: &amp;#39;Steve Rogers&amp;#39;, powers: [&amp;#34;super strength&amp;#34;, &amp;#34;leadership&amp;#34;] } ] } // access the first member of the Avengers  console.</description>
+    </item>
+    
+    <item>
+      <title>Step 8: Test your Slash Command</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-8-test-your-slash-command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-8-test-your-slash-command/</guid>
+      <description> Step 8: Test your Slash Command Now we&amp;rsquo;ll test our Slash command to see if our Server is able to successfully return a response
+1. Navigate back to your workspace  Navigate to your slack workspace via the web: https://slack.com/signin
+ Select your testing workspace from Step 1
+ Go to any channel and type /test and press enter
+   Congrat&amp;rsquo;s your server successfully responded to your Slash Command  </description>
+    </item>
+    
+    <item>
+      <title>Step 9: Access Slash Command Parameters</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-9-access-slash-command-parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-9-access-slash-command-parameters/</guid>
+      <description>Step 9: Access Slash Command Parameters Next we will take a look at the information that Slack sends us when we receive a request from a Slash command
+1. Update the app.post(/test..) function in index.js  Inside the our app.post(/test) function, change the console.log(req) to console.log(req.body)  app.post(&amp;#39;/test&amp;#39;, async (req, res) =&amp;gt; { try { console.log(req.body) // &amp;lt;-- update this line  const data = { &amp;#39;response_type&amp;#39;: &amp;#39;in_channel&amp;#39;, &amp;#39;text&amp;#39;: &amp;#39;Testing testing 123!</description>
     </item>
     
     <item>
@@ -1554,6 +2461,19 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
     </item>
     
     <item>
+      <title>Code Along: Giphy API with Async / Await</title>
+      <link>/10-asynchronous-js-and-promises/code-along-giphy-api-with-async-await/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/code-along-giphy-api-with-async-await/</guid>
+      <description>Code Along: Giphy Search API with Async / Await We&amp;rsquo;re going to modify our Giphy&amp;rsquo;s API application and use async / await to make our API request
+1) Sign up for a Giphy API Key here: https://developers.giphy.com/ (only for those students who don&amp;rsquo;t already have one)
+2) Get the starter code
+ The starter code for this code along is hosted on Github, see the url below:
+ Code Along: Giphy Search API with Async / Await</description>
+    </item>
+    
+    <item>
       <title>Fork</title>
       <link>/01-command-line-js-and-git/git-vocabulary/fork/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1562,6 +2482,15 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
       <description> Fork  A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project
  Most commonly, forks are used to either propose changes to someone else&amp;rsquo;s project or to use someone else&amp;rsquo;s project as a starting point for your own idea
   </description>
+    </item>
+    
+    <item>
+      <title>Lab: Send &amp; Receive with Twilio SMS API</title>
+      <link>/09-http-and-apis/lab-send-receive-sms-twilio-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/lab-send-receive-sms-twilio-api/</guid>
+      <description>Lab: Sending and Receiving with Twilio SMS API We&amp;rsquo;re going to build on the Twilio Code Along and follow this tutorial: https://www.twilio.com/docs/sms/quickstart/node#receive-and-reply-to-inbound-sms-messages-with-express</description>
     </item>
     
     <item>
@@ -1575,6 +2504,16 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
  SRP is often applied to functions
   Applying SRP to Functions  This concepts calls for your functions to only be &amp;ldquo;responsible&amp;rdquo; for one thing
  Often you&amp;rsquo;ll find that the logic in your functions are doing too much (for example: making calculations AND displaying the result to the screen)</description>
+    </item>
+    
+    <item>
+      <title>Step 10: Make API Request to OpenWeather</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-10-make-api-request-to-openweather/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-10-make-api-request-to-openweather/</guid>
+      <description>Step 10: Make API Request to OpenWeather Now it&amp;rsquo;s time to make an API request from our server to OpenWeather
+1. Add the following code to the bottom of index.js  Add the following code to the bottom of index.js and replace [YOUR_OPENWEATHER_API_KEY] with your api key from OpenWeather  async function openWeatherApi (query) { try { const url = &amp;#39;https://api.openweathermap.org/data/2.5/weather&amp;#39; const apiKey = &amp;#39;[YOUR_OPENWEATHER_API_KEY]&amp;#39; // make api request using axios  const response = await axios.</description>
     </item>
     
     <item>
@@ -1629,6 +2568,17 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
     </item>
     
     <item>
+      <title>Step 11: Respond to Slack with Current Weather</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-11-respond-to-slack-with-current-weather/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-11-respond-to-slack-with-current-weather/</guid>
+      <description>Step 11: Respond to Slack with Current Weather Now that we&amp;rsquo;ve confirmed that we can make an successful API call to OpenWeather, we need to send weather data back to Slack
+According to Slack&amp;rsquo;s API documentation, if we are going to make an API call on our server as a result of slash command then we should send data back to Slack as a &amp;ldquo;delayed response&amp;rdquo; (see docs)
+In order to send a delayed response to Slack we need to make a POST request back to Slack using the response_url that is sent with the initial request associated with the slash command (in req.</description>
+    </item>
+    
+    <item>
       <title>Confirm Node &amp; Git Installation</title>
       <link>/00-course-intro-and-tools/confirm-node-git-installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1677,6 +2627,15 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
     </item>
     
     <item>
+      <title>Step 12: Use Environment Variables to Protect Secure Credentials</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-12-use-environment-variables-to-protect-secure-credentials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-12-use-environment-variables-to-protect-secure-credentials/</guid>
+      <description>Step 12: Use Environment Variables to Protect Secure Credentials In our openWeatherApi() function we&amp;rsquo;ve hard coded our API key from OpenWeather. While this works, it is not a best practice because if we were to push our code to Github then anyone who had access to the code would be able to see and potential use our API key. This introduces security risk and can lead to some serious consequences in a real-world application.</description>
+    </item>
+    
+    <item>
       <title>What is Programming?</title>
       <link>/00-course-intro-and-tools/what-is-programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1687,6 +2646,17 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
  These set of instructions are commonly referred as source code or a program
  There are many programming languages available, during this course we will be learning JavaScript
   </description>
+    </item>
+    
+    <item>
+      <title>Step 13: Handle Errors Gracefully</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-13-handle-errors-gracefully/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-13-handle-errors-gracefully/</guid>
+      <description>Step 13: Handle Errors Gracefully If you try the pass an invalid city name to your /weather slash command, we&amp;rsquo;ll receive the following error in our server log:
+This is happening because we aren&amp;rsquo;t appropriately handling errors. In an ideal scenario, if a user was to pass an invalid city name to the /weather slash command our server should respond back a message informing users of the error
+1. Update openWeatherApi() in index.</description>
     </item>
     
     <item>
@@ -1721,6 +2691,17 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
       <description> Lab: CitiPix  The starter code for this lab is hosted on Github, see the url below:
  Lab: CitiPix  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
   </description>
+    </item>
+    
+    <item>
+      <title>Step 14: Enhance Weather Response with Emojis</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-14-enhance-weather-response-with-emojis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-14-enhance-weather-response-with-emojis/</guid>
+      <description>Step 14: Enhance Weather Response with Emojis As a final touch, let&amp;rsquo;s spruce up our forecasts with emojis. Slack has native support for emojies using codes such as 👍
+OpenWeather&amp;rsquo;s API provides &amp;ldquo;weather codes&amp;rdquo; that it uses to categorize the different types of weather conditions (see docs). For example, rain falls under codes in the 500&amp;rsquo;s (5xx) and snow falls under codes in the 600&amp;rsquo;s (6xx).
+Let&amp;rsquo;s map some emojis to the weather codes we receive from OpenWeather to help make our OpenWeatherBot even more informative.</description>
     </item>
     
     <item>

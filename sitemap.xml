@@ -35,7 +35,27 @@
   </url>
   
   <url>
+    <loc>/09-http-and-apis/ajax/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/apis/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/json/overview/</loc>
+  </url>
+  
+  <url>
     <loc>/06-dom-and-jquery/jquery-overview/what-is-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/ajax/ajax-request-native-js/</loc>
   </url>
   
   <url>
@@ -67,11 +87,87 @@
   </url>
   
   <url>
+    <loc>/09-http-and-apis/apis/finding-apis/</loc>
+  </url>
+  
+  <url>
     <loc>/04-functions-and-scope/function-overview/</loc>
   </url>
   
   <url>
+    <loc>/09-http-and-apis/http/http-request/http-methods/get/</loc>
+  </url>
+  
+  <url>
     <loc>/04-functions-and-scope/scope/global-scope/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/http-request/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/json/json-stringify/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/11-lab-giphy-weather-app/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-js/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/14-intro-to-crud-and-firebase/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/15-project-firebase-todo-app/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/16-intro-to-express/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/async-await/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/promises/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-js/classes/methods/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-js/classes/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-js/inheritance/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/14-intro-to-crud-and-firebase/firebase/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/16-intro-to-express/express/overview/</loc>
   </url>
   
   <url>
@@ -83,7 +179,19 @@
   </url>
   
   <url>
+    <loc>/09-http-and-apis/http/http-response/status-codes/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-1-new-slack-workspace/</loc>
+  </url>
+  
+  <url>
     <loc>/02-javascript-basics/data-types/strings/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/http-request/urls/</loc>
   </url>
   
   <url>
@@ -152,6 +260,10 @@
   </url>
   
   <url>
+    <loc>/09-http-and-apis/ajax/ajax-request-jquery/</loc>
+  </url>
+  
+  <url>
     <loc>/05-arrays-objects/objects/accessing-properties/</loc>
   </url>
   
@@ -164,7 +276,27 @@
   </url>
   
   <url>
+    <loc>/14-intro-to-crud-and-firebase/firebase/benefits/</loc>
+  </url>
+  
+  <url>
     <loc>/06-dom-and-jquery/jquery-overview/benefits-of-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/14-intro-to-crud-and-firebase/crud/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-js/classes/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/clients-servers/</loc>
+  </url>
+  
+  <url>
+    <loc>/16-intro-to-express/clients-servers/</loc>
   </url>
   
   <url>
@@ -176,7 +308,19 @@
   </url>
   
   <url>
+    <loc>/13-object-oriented-js/classes/constructor/</loc>
+  </url>
+  
+  <url>
     <loc>/05-arrays-objects/array-review/creating-arrays/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/promises/creating-promises/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/apis/data-formats/</loc>
   </url>
   
   <url>
@@ -196,7 +340,27 @@
   </url>
   
   <url>
+    <loc>/16-intro-to-express/express/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-js/classes/methods/getters-and-setters/</loc>
+  </url>
+  
+  <url>
     <loc>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/http-request/http-methods/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/http-response/</loc>
   </url>
   
   <url>
@@ -204,7 +368,23 @@
   </url>
   
   <url>
+    <loc>/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/</loc>
+  </url>
+  
+  <url>
     <loc>/solutions/homework-solutions/</loc>
+  </url>
+  
+  <url>
+    <loc>/11-lab-giphy-weather-app/instructions/</loc>
+  </url>
+  
+  <url>
+    <loc>/15-project-firebase-todo-app/instructions/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/json/json-parse/</loc>
   </url>
   
   <url>
@@ -220,6 +400,10 @@
   </url>
   
   <url>
+    <loc>/16-intro-to-express/express/middleware/</loc>
+  </url>
+  
+  <url>
     <loc>/06-dom-and-jquery/jquery-events/mouse-events/</loc>
   </url>
   
@@ -232,7 +416,27 @@
   </url>
   
   <url>
+    <loc>/09-http-and-apis/http/http-request/http-methods/post/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/project-overview/</loc>
+  </url>
+  
+  <url>
     <loc>/04-functions-and-scope/scope/block-statements/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-2-create-new-slack-app/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-js/inheritance/super-and-extends/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/synchronous-programming/</loc>
   </url>
   
   <url>
@@ -252,11 +456,27 @@
   </url>
   
   <url>
+    <loc>/09-http-and-apis/apis/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-js/classes/encapsulation/</loc>
+  </url>
+  
+  <url>
     <loc>/06-dom-and-jquery/jquery-effects/toggle/</loc>
   </url>
   
   <url>
+    <loc>/09-http-and-apis/apis/api-keys/</loc>
+  </url>
+  
+  <url>
     <loc>/06-dom-and-jquery/jquery-overview/add-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/asynchronous-programming/</loc>
   </url>
   
   <url>
@@ -272,11 +492,63 @@
   </url>
   
   <url>
+    <loc>/10-asynchronous-js-and-promises/promises/consuming-promises/</loc>
+  </url>
+  
+  <url>
     <loc>/03-control-flow-and-loops/</loc>
   </url>
   
   <url>
+    <loc>/12-project-build-a-slackbot/documentaton/</loc>
+  </url>
+  
+  <url>
+    <loc>/14-intro-to-crud-and-firebase/firebase/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-js/classes/methods/general-methods/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-js/classes/instances/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/json/</loc>
+  </url>
+  
+  <url>
+    <loc>/14-intro-to-crud-and-firebase/firebase/nosql-databases/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/http-request/http-methods/put/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/async-await/passing-values-with-async-await/</loc>
+  </url>
+  
+  <url>
     <loc>/class-resources/atom-editor-settings/</loc>
+  </url>
+  
+  <url>
+    <loc>/11-lab-giphy-weather-app/requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>/15-project-firebase-todo-app/requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>/16-intro-to-express/express/routing/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-3-set-up-node-application/</loc>
   </url>
   
   <url>
@@ -320,6 +592,10 @@
   </url>
   
   <url>
+    <loc>/09-http-and-apis/ajax/</loc>
+  </url>
+  
+  <url>
     <loc>/05-arrays-objects/array-review/accessing-array-values/</loc>
   </url>
   
@@ -340,7 +616,23 @@
   </url>
   
   <url>
+    <loc>/16-intro-to-express/code-along-express-tmdb-app/</loc>
+  </url>
+  
+  <url>
+    <loc>/14-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/http-request/http-methods/delete/</loc>
+  </url>
+  
+  <url>
     <loc>/02-javascript-basics/data-types/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/async-await/error-handling-with-async-await/</loc>
   </url>
   
   <url>
@@ -360,6 +652,10 @@
   </url>
   
   <url>
+    <loc>/10-asynchronous-js-and-promises/promises/handling-async-issues-with-promises/</loc>
+  </url>
+  
+  <url>
     <loc>/04-functions-and-scope/hoisting/</loc>
   </url>
   
@@ -376,6 +672,10 @@
   </url>
   
   <url>
+    <loc>/13-object-oriented-js/classes/methods/</loc>
+  </url>
+  
+  <url>
     <loc>/02-javascript-basics/variables/naming-rules/</loc>
   </url>
   
@@ -385,6 +685,26 @@
   
   <url>
     <loc>/class-resources/opening-atom-from-command-line/</loc>
+  </url>
+  
+  <url>
+    <loc>/16-intro-to-express/express/route-parameters/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/simulating-async-operations/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-js/classes/methods/static-methods/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-4-run-ngrok/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/</loc>
   </url>
   
   <url>
@@ -428,11 +748,23 @@
   </url>
   
   <url>
+    <loc>/10-asynchronous-js-and-promises/challenges-of-async-programming/</loc>
+  </url>
+  
+  <url>
     <loc>/01-command-line-js-and-git/git-vocabulary/</loc>
   </url>
   
   <url>
+    <loc>/13-object-oriented-js/inheritance/</loc>
+  </url>
+  
+  <url>
     <loc>/01-command-line-js-and-git/git-vocabulary/merge/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/promises/passing-values-with-promises/</loc>
   </url>
   
   <url>
@@ -441,6 +773,10 @@
   
   <url>
     <loc>/class-resources/atom-show-git-ignored-files/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-5-create-a-test-slash-command/</loc>
   </url>
   
   <url>
@@ -508,6 +844,14 @@
   </url>
   
   <url>
+    <loc>/10-asynchronous-js-and-promises/promises/error-handling-with-catch/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/handling-async-issue-with-callbacks/</loc>
+  </url>
+  
+  <url>
     <loc>/03-control-flow-and-loops/lab-js-basics-control-flow-loops/</loc>
   </url>
   
@@ -529,6 +873,10 @@
   
   <url>
     <loc>/01-command-line-js-and-git/git-vocabulary/push/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-6-install-app-to-workspace/</loc>
   </url>
   
   <url>
@@ -560,6 +908,10 @@
   </url>
   
   <url>
+    <loc>/09-http-and-apis/code-along-giphy-api/</loc>
+  </url>
+  
+  <url>
     <loc>/02-javascript-basics/comparison-operators/</loc>
   </url>
   
@@ -576,7 +928,15 @@
   </url>
   
   <url>
+    <loc>/10-asynchronous-js-and-promises/promises/</loc>
+  </url>
+  
+  <url>
     <loc>/01-command-line-js-and-git/git-vocabulary/pull/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-7-responding-to-slash-commands/</loc>
   </url>
   
   <url>
@@ -628,7 +988,15 @@
   </url>
   
   <url>
+    <loc>/10-asynchronous-js-and-promises/async-await/</loc>
+  </url>
+  
+  <url>
     <loc>/07-dom-and-jquery-ii/code-along-traffic-light/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/code-along-twilio-api-sms/</loc>
   </url>
   
   <url>
@@ -645,6 +1013,14 @@
   
   <url>
     <loc>/04-functions-and-scope/scope/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-8-test-your-slash-command/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-9-access-slash-command-parameters/</loc>
   </url>
   
   <url>
@@ -668,11 +1044,23 @@
   </url>
   
   <url>
+    <loc>/10-asynchronous-js-and-promises/code-along-giphy-api-with-async-await/</loc>
+  </url>
+  
+  <url>
     <loc>/01-command-line-js-and-git/git-vocabulary/fork/</loc>
   </url>
   
   <url>
+    <loc>/09-http-and-apis/lab-send-receive-sms-twilio-api/</loc>
+  </url>
+  
+  <url>
     <loc>/04-functions-and-scope/single-responsibility-principle/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-10-make-api-request-to-openweather/</loc>
   </url>
   
   <url>
@@ -708,6 +1096,10 @@
   </url>
   
   <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-11-respond-to-slack-with-current-weather/</loc>
+  </url>
+  
+  <url>
     <loc>/06-dom-and-jquery/jquery-manipulation/</loc>
   </url>
   
@@ -736,7 +1128,15 @@
   </url>
   
   <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-12-use-environment-variables-to-protect-secure-credentials/</loc>
+  </url>
+  
+  <url>
     <loc>/00-course-intro-and-tools/what-is-programming/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-13-handle-errors-gracefully/</loc>
   </url>
   
   <url>
@@ -757,6 +1157,10 @@
   </url>
   
   <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-14-enhance-weather-response-with-emojis/</loc>
+  </url>
+  
+  <url>
     <loc>/00-course-intro-and-tools/what-is-javascript/</loc>
   </url>
   
@@ -769,7 +1173,7 @@
   </url>
   
   <url>
-    <loc>/16-deploying-your-app/</loc>
+    <loc>/16-intro-to-express/</loc>
   </url>
   
   <url>
@@ -786,6 +1190,10 @@
   
   <url>
     <loc>/06-dom-and-jquery/jquery-traversing/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-your-app/</loc>
   </url>
   
   <url>

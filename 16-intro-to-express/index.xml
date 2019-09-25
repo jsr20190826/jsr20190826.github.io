@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intro to Express on JavaScript</title>
+    <link>/16-intro-to-express/</link>
+    <description>Recent content in Intro to Express on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/16-intro-to-express/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Objectives</title>
+      <link>/16-intro-to-express/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/16-intro-to-express/objectives/</guid>
+      <description> Review the HTTP request / response flow
+ Explain the role of a web server in a full-stack application
+ Write a route handler for a GET request with Express
+ Pass information with query and route parameters
+  </description>
+    </item>
+    
+    <item>
+      <title>Clients &amp; Servers</title>
+      <link>/16-intro-to-express/clients-servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/16-intro-to-express/clients-servers/</guid>
+      <description>Client &amp;amp; Servers  Computers connected to the web are called clients and servers
+ Communication between the client and server are done through requests and responses
+ A simplified diagram of how they interact might look like this:
+  Clients  Typically user-facing devices connected to the internet:
+ Computers
+ Mobile devices
+ Smart Speakers (Amazon Echo, Google Home)
+ Smart Appliances (Ring Doorbell, Nest Thermostat, etc)</description>
+    </item>
+    
+    <item>
+      <title>Code Along: Express TMDB App</title>
+      <link>/16-intro-to-express/code-along-express-tmdb-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/16-intro-to-express/code-along-express-tmdb-app/</guid>
+      <description>Code Along: Express TMDB App  Together we&amp;rsquo;ll walk through creating a full stack (backend &amp;amp; front-end) application that provides movie and tv show data using the TMDb API  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:
+ Code Along: Express TMDb App
+ Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
+    </item>
+    
+  </channel>
+</rss>

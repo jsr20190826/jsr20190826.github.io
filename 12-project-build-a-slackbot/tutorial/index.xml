@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on JavaScript</title>
+    <link>/12-project-build-a-slackbot/tutorial/</link>
+    <description>Recent content in Tutorial on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/12-project-build-a-slackbot/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Step 1: Create New Slack Workspace</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-1-new-slack-workspace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-1-new-slack-workspace/</guid>
+      <description>Step 1: Create New Slack Workspace We&amp;rsquo;re going to need a Slack workspace to test our bot. Click on the link below and follow the instructions to create a new Slack workspace
+Create a new workspace</description>
+    </item>
+    
+    <item>
+      <title>Step 2: Create New Slack App</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-2-create-new-slack-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-2-create-new-slack-app/</guid>
+      <description> Step 2: Create New Slack App Slack bots are packaged as Slack apps. Slack apps allow you to add more functionality into your Slack workspace
+ To create your new Slack app, go to this page: https://api.slack.com/apps?new_app=1 and set your app name to OpenWeatherBot.
+ Set the &amp;ldquo;Development Slack Workspace&amp;rdquo; to the new workspace you created in Step 1.
+  </description>
+    </item>
+    
+    <item>
+      <title>Step 3: Set Up Node Application</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-3-set-up-node-application/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-3-set-up-node-application/</guid>
+      <description>Step 3: Set up Node Application In this step we&amp;rsquo;re going to create a node application that will function as our server
+1. Create project folder  Navigate to the appropriate lesson_0x_file in your class folder
+ Create a new folder named openweather-bot
+ Change directories into that folder
+  2. Run npm init to bootstrap the Node application  Run npm init from the command line (make sure you inside your newly created project folder)</description>
+    </item>
+    
+    <item>
+      <title>Step 4: Run ngrok</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-4-run-ngrok/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-4-run-ngrok/</guid>
+      <description>Run ngrok  Next we need to give our local server access to the internet so our slack app can communicate with it
+ ngrok is a tool that allows developers to create &amp;ldquo;tunnels&amp;rdquo; that connect the server running locally (i.e. on your computer) to the internet
+  1. Run ngrok command from within project folder  In a new command line tab run the following command (make sure you run this within the project folder)   $ ngrok http 3000   Here, we are are telling ngrok to create a local tunnel that connects our server running on port 3000 (i.</description>
+    </item>
+    
+    <item>
+      <title>Step 5: Create a test Slash command</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-5-create-a-test-slash-command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-5-create-a-test-slash-command/</guid>
+      <description> Step 5: Create a test Slash command 1. Go to your Slack developer page  Go to https://api.slack.com/apps and select your OpenWeatherBot app  2. Create a new slash command for OpenWeatherBot  Click on Slack Commands in the left side panel and then press the button labeled Create New Command
+ Next fill out the form with the following information and press the &amp;ldquo;Save&amp;rdquo; button:
+ Command: test Request URL: [YOUR NGROK HTTPS URL]/test Short Description: Test command Usage Hint: [name]   We are creating a slash command called test, when initiated in Slack, this command will make a POST request to our server using the ngrok https url for our app (remember the ngrok url is unique to your server)   </description>
+    </item>
+    
+    <item>
+      <title>Step 6: Install App to Workspace</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-6-install-app-to-workspace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-6-install-app-to-workspace/</guid>
+      <description>Step 6: Install App to your Workspace 1. Go to your Slack developer page  Go to https://api.slack.com/apps and select your OpenWeatherBot app  2. Install App to your workspace  Click on OAuth &amp;amp; Permissions in the left side panel and then press the button labeled Install App to Workspace
+ Confirm that your newly created workspace (from Step 1) is listed and press &amp;ldquo;Allow&amp;rdquo;
+  3. Confirm that your slash command is available in your workspace  Navigate to your slack workspace via the web: https://slack.</description>
+    </item>
+    
+    <item>
+      <title>Step 7: Responding to Slash Commands</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-7-responding-to-slash-commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-7-responding-to-slash-commands/</guid>
+      <description>Step 7: Responding to Slash Commands Next we&amp;rsquo;ll set up our server to respond to the Slash command, here&amp;rsquo;s how Slack describes the process in their documentation:
+ When a slash command is invoked, Slack sends an HTTP POST to the Request URL you specified above. This request contains a data payload describing the source command and who invoked it, like a really detailed knock at the door.
+ We are going to have our server send back an immediate response the process is detailed here</description>
+    </item>
+    
+    <item>
+      <title>Step 8: Test your Slash Command</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-8-test-your-slash-command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-8-test-your-slash-command/</guid>
+      <description> Step 8: Test your Slash Command Now we&amp;rsquo;ll test our Slash command to see if our Server is able to successfully return a response
+1. Navigate back to your workspace  Navigate to your slack workspace via the web: https://slack.com/signin
+ Select your testing workspace from Step 1
+ Go to any channel and type /test and press enter
+   Congrat&amp;rsquo;s your server successfully responded to your Slash Command  </description>
+    </item>
+    
+    <item>
+      <title>Step 9: Access Slash Command Parameters</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-9-access-slash-command-parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-9-access-slash-command-parameters/</guid>
+      <description>Step 9: Access Slash Command Parameters Next we will take a look at the information that Slack sends us when we receive a request from a Slash command
+1. Update the app.post(/test..) function in index.js  Inside the our app.post(/test) function, change the console.log(req) to console.log(req.body)  app.post(&amp;#39;/test&amp;#39;, async (req, res) =&amp;gt; { try { console.log(req.body) // &amp;lt;-- update this line  const data = { &amp;#39;response_type&amp;#39;: &amp;#39;in_channel&amp;#39;, &amp;#39;text&amp;#39;: &amp;#39;Testing testing 123!</description>
+    </item>
+    
+    <item>
+      <title>Step 10: Make API Request to OpenWeather</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-10-make-api-request-to-openweather/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-10-make-api-request-to-openweather/</guid>
+      <description>Step 10: Make API Request to OpenWeather Now it&amp;rsquo;s time to make an API request from our server to OpenWeather
+1. Add the following code to the bottom of index.js  Add the following code to the bottom of index.js and replace [YOUR_OPENWEATHER_API_KEY] with your api key from OpenWeather  async function openWeatherApi (query) { try { const url = &amp;#39;https://api.openweathermap.org/data/2.5/weather&amp;#39; const apiKey = &amp;#39;[YOUR_OPENWEATHER_API_KEY]&amp;#39; // make api request using axios  const response = await axios.</description>
+    </item>
+    
+    <item>
+      <title>Step 11: Respond to Slack with Current Weather</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-11-respond-to-slack-with-current-weather/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-11-respond-to-slack-with-current-weather/</guid>
+      <description>Step 11: Respond to Slack with Current Weather Now that we&amp;rsquo;ve confirmed that we can make an successful API call to OpenWeather, we need to send weather data back to Slack
+According to Slack&amp;rsquo;s API documentation, if we are going to make an API call on our server as a result of slash command then we should send data back to Slack as a &amp;ldquo;delayed response&amp;rdquo; (see docs)
+In order to send a delayed response to Slack we need to make a POST request back to Slack using the response_url that is sent with the initial request associated with the slash command (in req.</description>
+    </item>
+    
+    <item>
+      <title>Step 12: Use Environment Variables to Protect Secure Credentials</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-12-use-environment-variables-to-protect-secure-credentials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-12-use-environment-variables-to-protect-secure-credentials/</guid>
+      <description>Step 12: Use Environment Variables to Protect Secure Credentials In our openWeatherApi() function we&amp;rsquo;ve hard coded our API key from OpenWeather. While this works, it is not a best practice because if we were to push our code to Github then anyone who had access to the code would be able to see and potential use our API key. This introduces security risk and can lead to some serious consequences in a real-world application.</description>
+    </item>
+    
+    <item>
+      <title>Step 13: Handle Errors Gracefully</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-13-handle-errors-gracefully/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-13-handle-errors-gracefully/</guid>
+      <description>Step 13: Handle Errors Gracefully If you try the pass an invalid city name to your /weather slash command, we&amp;rsquo;ll receive the following error in our server log:
+This is happening because we aren&amp;rsquo;t appropriately handling errors. In an ideal scenario, if a user was to pass an invalid city name to the /weather slash command our server should respond back a message informing users of the error
+1. Update openWeatherApi() in index.</description>
+    </item>
+    
+    <item>
+      <title>Step 14: Enhance Weather Response with Emojis</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-14-enhance-weather-response-with-emojis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-14-enhance-weather-response-with-emojis/</guid>
+      <description>Step 14: Enhance Weather Response with Emojis As a final touch, let&amp;rsquo;s spruce up our forecasts with emojis. Slack has native support for emojies using codes such as 👍
+OpenWeather&amp;rsquo;s API provides &amp;ldquo;weather codes&amp;rdquo; that it uses to categorize the different types of weather conditions (see docs). For example, rain falls under codes in the 500&amp;rsquo;s (5xx) and snow falls under codes in the 600&amp;rsquo;s (6xx).
+Let&amp;rsquo;s map some emojis to the weather codes we receive from OpenWeather to help make our OpenWeatherBot even more informative.</description>
+    </item>
+    
+  </channel>
+</rss>

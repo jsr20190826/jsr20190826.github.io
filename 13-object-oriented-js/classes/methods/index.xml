@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Methods on JavaScript</title>
+    <link>/13-object-oriented-js/classes/methods/</link>
+    <description>Recent content in Methods on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/13-object-oriented-js/classes/methods/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>/13-object-oriented-js/classes/methods/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/classes/methods/overview/</guid>
+      <description>Methods  Methods in a Class function very similar to a method of an regular JavasScript object
+ Let&amp;rsquo;s recap, an method in an object is a property that has a function as a value, for example:
+  const superHero = { secretIdentity: &amp;#39;Peter Parker&amp;#39;, name: &amp;#39;Spiderman&amp;#39;, sayTagline: function() { // &amp;lt;- method  console.log(&amp;#34;Hey everyone it&amp;#39;s your friendly neighborhood Spiderman&amp;#34;) } }   If we were to rewrite this object as a Class, it may look something like this:  class superHero { constructor(secretIdentity, name) { this.</description>
+    </item>
+    
+    <item>
+      <title>Getters &amp; Setters</title>
+      <link>/13-object-oriented-js/classes/methods/getters-and-setters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/classes/methods/getters-and-setters/</guid>
+      <description>Getters &amp;amp; Setters  Getters and Setters allow developers to write methods that enable reading (get) and the writing (set) of properties of the instances (objects)
+ Getters and setters is a common pattern used in object oriented programming; ES6 classes introduced a new syntax for getters and setters on object properties
+  class Car { constructor(make, model) { this._make = make this._model = model } get make() { return this.</description>
+    </item>
+    
+    <item>
+      <title>General Methods</title>
+      <link>/13-object-oriented-js/classes/methods/general-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/classes/methods/general-methods/</guid>
+      <description>General Methods  You can specify &amp;ldquo;regular&amp;rdquo; methods that allow you do things other than simply getting and setting the property values  Example class Car { constructor(make, model) { this._make = make this._model = model this._miles = 30 } get make() { return this._make } get model() { return this._model } get miles() { return this._miles } set model(newModel) { this._model = newModel } drive(newMiles) { console.log(`driving ${newMiles}miles`) this.</description>
+    </item>
+    
+    <item>
+      <title>Static Methods</title>
+      <link>/13-object-oriented-js/classes/methods/static-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/classes/methods/static-methods/</guid>
+      <description>Static Methods  Static method calls are made directly on the class and are not callable on instances of the class
+ Static methods are prepended with the static keyword
+  class Car { constructor(make, model, price) { this._make = make this._model = model this._price = price } // instance methods  get price() { return this._price } drive() { console.log(&amp;#39;calling &amp;#34;this&amp;#34; in an instance method&amp;#39;, this) console.log(`driving ${this.</description>
+    </item>
+    
+  </channel>
+</rss>

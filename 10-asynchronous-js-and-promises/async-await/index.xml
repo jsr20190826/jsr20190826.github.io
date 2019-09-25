@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Async / Await on JavaScript</title>
+    <link>/10-asynchronous-js-and-promises/async-await/</link>
+    <description>Recent content in Async / Await on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/10-asynchronous-js-and-promises/async-await/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>/10-asynchronous-js-and-promises/async-await/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/async-await/overview/</guid>
+      <description>Async / Await  Async / Await is special that makes working with promises easy to use and understand
+ The syntax and structure of Async / Await is makes our asynchronous handling look like synchronous code
+ Async / Await is alternative way of consuming promises a
+  async  In order for you to use Async / Await, you must declare a function with the async keyword   async function someFunction() { return &amp;quot;something&amp;quot; }   Prepending async to a function declaration means that function always returns a promise  await  The keyword await makes JavaScript wait until that promise settles and returns its result</description>
+    </item>
+    
+    <item>
+      <title>Handling Async Issues with Async / Await</title>
+      <link>/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/</guid>
+      <description>Handling Async Issues with Async / Await  Let&amp;rsquo;s see how we can apply Async / Await to your .printLetter() program  Example: Using Async / Await to control the execution order of async functions function printLetter(letter) { return new Promise((resolve, reject) =&amp;gt; { setTimeout(() =&amp;gt; { console.log(letter) resolve() }, Math.floor(Math.random() * 3000)) }) } /* convert .printAll() to an async / await function by prepending &amp;#39;await&amp;#39; before the function keyword */ async function printAll(){ await printLetter(&amp;#34;A&amp;#34;) await printLetter(&amp;#34;B&amp;#34;) await printLetter(&amp;#34;C&amp;#34;) await printLetter(&amp;#34;D&amp;#34;) } console.</description>
+    </item>
+    
+    <item>
+      <title>Passing Values with Async / Await</title>
+      <link>/10-asynchronous-js-and-promises/async-await/passing-values-with-async-await/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/async-await/passing-values-with-async-await/</guid>
+      <description>Passing values with Async / Await  Similar to the original Promise syntax, we can easily pass values from one async function to other functions if needed  Example function getSuperheroes() { return new Promise(resolve =&amp;gt; { setTimeout(() =&amp;gt; { // send an array of heroes when  // promise is resolved  resolve([ { name: &amp;#34;Captain Marvel&amp;#34;, team: &amp;#34;Avengers&amp;#34; }, { name: &amp;#34;Batman&amp;#34;, team: &amp;#34;Justice League&amp;#34;}, { name: &amp;#34;Jean Grey&amp;#34;, team: &amp;#34;X-Men&amp;#34;}, { name: &amp;#34;Domino&amp;#34;, team: &amp;#34;X-Force&amp;#34;} ]) }, 3000) }); } function printHeroes(heroes) { heroes.</description>
+    </item>
+    
+    <item>
+      <title>Error Handling with Async / Await</title>
+      <link>/10-asynchronous-js-and-promises/async-await/error-handling-with-async-await/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/async-await/error-handling-with-async-await/</guid>
+      <description>Error Handling with Async / Await  With Async / Await we can use try..catch block to easily catch errors  Example function yayOrNay() { return new Promise((resolve, reject) =&amp;gt; { const val = Math.round(Math.random() * 1) // 0 or 1, at random  val ? resolve(&amp;#39;Lucky!!&amp;#39;) : reject(&amp;#39;Nope 😠&amp;#39;) }) } async function msg() { // use try..catch to handle any potential errors  // when using &amp;#34;async / await&amp;#34;  try { const msg = await yayOrNay(); console.</description>
+    </item>
+    
+  </channel>
+</rss>

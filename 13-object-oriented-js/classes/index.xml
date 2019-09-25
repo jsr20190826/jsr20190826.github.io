@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Classes on JavaScript</title>
+    <link>/13-object-oriented-js/classes/</link>
+    <description>Recent content in Classes on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/13-object-oriented-js/classes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>/13-object-oriented-js/classes/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/classes/overview/</guid>
+      <description>What are Classes?  As we have discussed earlier in the course, in JavaScript, objects are oftentimes used to represent (or model) real world items
+ Here&amp;rsquo;s an example of using an object to represent a car:
+  const myCar = { make: &amp;#39;Honda&amp;#39;, model: &amp;#39;Accord&amp;#39;, color: &amp;#39;blue&amp;#39;, year: 2015 } console.log(myHonda.make) console.log(myHonda.model) console.log(myHonda.color) // change color  myHonda.color = `blue` console.log(myHonda.color)   In practice, we often need to create many objects of the same kind, like cars, or users or whatever</description>
+    </item>
+    
+    <item>
+      <title>Constructor</title>
+      <link>/13-object-oriented-js/classes/constructor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/classes/constructor/</guid>
+      <description>Constructor  JavaScript calls the constructor() method every time it creates a new instance of a class (using the new keyword)  // define Car class  class Car { constructor(make, model) { this._make = make this._model = model } }   Car is the name of our class; by convention, we capitalize and CamelCase class names
+ JavaScript will invoke the constructor() method every time we create a new instance of our Car class</description>
+    </item>
+    
+    <item>
+      <title>Encapsulation</title>
+      <link>/13-object-oriented-js/classes/encapsulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/classes/encapsulation/</guid>
+      <description>What is Encapsulation?  A core concept in OOP
+ Refers to enclosing all the functionality of an object within that object so that the object’s internal workings (its methods and properties) are hidden from the rest of the application
+ This allows us to only we only expose data and functionality that is needed to accomplish such a task and nothing else; this makes your code less prone to errors</description>
+    </item>
+    
+    <item>
+      <title>Instances</title>
+      <link>/13-object-oriented-js/classes/instances/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/classes/instances/</guid>
+      <description>Instances  An instance is an object that contains the property names and methods of a class, but with unique property values (i.e. instances of a Class have their own unique identities)  Example - Creating Instances // define Car class  class Car { constructor(make, model) { this._make = make this._model = model } } // create a new instance of the Car class  // and store it in a variable named myTesla  const myTesla = new Car(&amp;#34;Tesla&amp;#34;, &amp;#34;Model 3&amp;#34;) console.</description>
+    </item>
+    
+  </channel>
+</rss>

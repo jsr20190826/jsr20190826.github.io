@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inheritance on JavaScript</title>
+    <link>/13-object-oriented-js/inheritance/</link>
+    <description>Recent content in Inheritance on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/13-object-oriented-js/inheritance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>/13-object-oriented-js/inheritance/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/inheritance/overview/</guid>
+      <description>What is Inheritance?  Often we find commonality between our classes — repeated code that we’d like to consolidate
+ Subclasses let us incorporate another class’s state and behavior into our own
+ This process is often called inheritance, and our subclass is said to “inherit” from a parent class, also called a superclass
+ Inheritance can avoid duplication and simplify the implementation of a class that needs the same data and functions as another class</description>
+    </item>
+    
+    <item>
+      <title>Super &amp; Extends</title>
+      <link>/13-object-oriented-js/inheritance/super-and-extends/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/inheritance/super-and-extends/</guid>
+      <description>Super &amp;amp; Extends  super keyword is used to access and call functions on an object&amp;rsquo;s parent
+ The extends keyword is used in a Class to create a class which is a child of another class
+ super and extends are used together to create parent-child relationships between Classes
+  Example class Rectangle { constructor(height, width) { this._name = &amp;#39;Rectangle&amp;#39; this._height = height this._width = width } sayName() { console.</description>
+    </item>
+    
+  </channel>
+</rss>

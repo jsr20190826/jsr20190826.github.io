@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>APIs on JavaScript</title>
+    <link>/09-http-and-apis/apis/</link>
+    <description>Recent content in APIs on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/09-http-and-apis/apis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>/09-http-and-apis/apis/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/apis/overview/</guid>
+      <description>What is an API?  Stands for &amp;ldquo;Application Programing Interface&amp;rdquo;
+ A way to exchange data between servers / services (i.e. software to software communication)
+ Set of programming instructions and standards for accessing a service, tool or application
+ For example, Amazon.com released its API so that Web site developers could more easily access Amazon&amp;rsquo;s product information
+ In a nutshell, if you want to leverage information from another website or application your first choice should be to use an API (if they offer one)</description>
+    </item>
+    
+    <item>
+      <title>Finding APIs</title>
+      <link>/09-http-and-apis/apis/finding-apis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/apis/finding-apis/</guid>
+      <description>Where Do We Find APIs? APIs are published everywhere. Chances are good that most major content sources you follow online publish their data in some type of serialized format. Heck, even Marvel publishes an API. Look around for a &amp;ldquo;Developers&amp;rdquo; section on major websites.
+List Of Commonly Used APIs Here is a short list of commonly used APIs for testing purposes.
+   API Sample URL     This for That http://itsthisforthat.</description>
+    </item>
+    
+    <item>
+      <title>Data Formats</title>
+      <link>/09-http-and-apis/apis/data-formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/apis/data-formats/</guid>
+      <description>What is Serialized Data?  All data sent via HTTP are strings
+ Unfortunately, what we really want to pass between web applications is structured data (i.e., arrays and hashes)
+ Thus, native data structures can be serialized into a string representation of the data
+ This string can be transmitted and then parsed back into data by another web agent.  There are two major serialized data formats&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>API Keys</title>
+      <link>/09-http-and-apis/apis/api-keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/apis/api-keys/</guid>
+      <description>What Is An API Key?  While the majority of APIs are free to use, many of them require an API &amp;ldquo;key&amp;rdquo; that identifies the developer requesting data access
+ This is done to regulate usage and prevent abuse. Some APIs also rate-limit developers, meaning they have caps on the free data allowed during a given time period
+  Exercise A: Access the Giphy API Try hitting the Giphy API&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

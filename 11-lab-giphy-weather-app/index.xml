@@ -10,5 +10,38 @@
 	<atom:link href="/11-lab-giphy-weather-app/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Objectives</title>
+      <link>/11-lab-giphy-weather-app/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-lab-giphy-weather-app/objectives/</guid>
+      <description> Leverage knowledge of Promises to build an application that makes asynchronous requests to multiple APIs  </description>
+    </item>
+    
+    <item>
+      <title>Instructions</title>
+      <link>/11-lab-giphy-weather-app/instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-lab-giphy-weather-app/instructions/</guid>
+      <description>Overview You are tasked with building an application that leverages different APIs to provide a city’s weather in a fun way
+Instructions 1) Download starter code
+ The starter code for this code along is hosted on Github, see the url below:
+ Lab: Giphy Weather App   2) Get API keys for OpenWeather and Giphy (if you haven’t done so already)</description>
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>/11-lab-giphy-weather-app/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-lab-giphy-weather-app/requirements/</guid>
+      <description>Requirements Requirement #1: App UI: The user interface should contain a single form input and a submit button (the starter code already provides the UI)
+Requirement #2: Make Multiple API Requests When users enter a city name into the input field and press submit the following should happen:
+ API Request #1 - Fetch City’s Current Weather
+Your app should make an API request to OpenWeather and fetch the current weather associated with the city name entered into the form</description>
+    </item>
+    
   </channel>
 </rss>

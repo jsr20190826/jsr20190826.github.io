@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTTP on JavaScript</title>
+    <link>/09-http-and-apis/http/</link>
+    <description>Recent content in HTTP on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/09-http-and-apis/http/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>/09-http-and-apis/http/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/http/overview/</guid>
+      <description>What is HTTP  HTTP stands for &amp;ldquo;HyperText Transfer Protocol
+ HTTP is a protocol which allows the fetching of resources, such as HTML documents
+ It is the foundation of any data exchange on the Web and it is a client-server
+ Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses
+  Example  A client (a browser) sends an HTTP request to the web</description>
+    </item>
+    
+  </channel>
+</rss>

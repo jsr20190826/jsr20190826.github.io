@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTTP Responses on JavaScript</title>
+    <link>/09-http-and-apis/http/http-response/</link>
+    <description>Recent content in HTTP Responses on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/09-http-and-apis/http/http-response/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Status Codes</title>
+      <link>/09-http-and-apis/http/http-response/status-codes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/http/http-response/status-codes/</guid>
+      <description>Status Codes  In the HTTP response that is sent to a client, the status code, which is a three-digit number, is accompanied by a reason phrase (also known as status text) that summarizes the meaning of the code
+ Along with the HTTP version of the response, these items are placed in the first line of the response, which is therefore known as the status line.
+ The status codes are classified by number range, with each class of codes having the same basic meaning</description>
+    </item>
+    
+  </channel>
+</rss>

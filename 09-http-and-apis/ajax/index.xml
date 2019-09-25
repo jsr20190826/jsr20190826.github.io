@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AJAX on JavaScript</title>
+    <link>/09-http-and-apis/ajax/</link>
+    <description>Recent content in AJAX on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/09-http-and-apis/ajax/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>/09-http-and-apis/ajax/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/ajax/overview/</guid>
+      <description>What is AJAX?  AJAX stands for Asynchronous JavaScript And XML
+ The meaning: Web clients can send or receive data to/from the server without requesting an entire page - instead, clients can just request or send an arbitrary amount of data
+ In front-end development, AJAX is often used to make API requests that will fetch data from another service without having to refresh the web page
+  Click here for more information about AJAX</description>
+    </item>
+    
+    <item>
+      <title>AJAX Requests using Native JS</title>
+      <link>/09-http-and-apis/ajax/ajax-request-native-js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/ajax/ajax-request-native-js/</guid>
+      <description>Making AJAX Requests using Native JavaScript  JavaScript has a built-in object called XMLHttpRequest that can be used to make AJAX requests (i.e. Client-side HTTP requests made in the background which do not require a page refresh)
+ XMLHttpRequest is not normally used due to large amount to code needed to make requests; libraries jQuery (using $.ajax(), $.get(), etc) and others are often used in place of XMLHttpRequest
+  Example  Here&amp;rsquo;s an example of what an AJAX request using XMLHttpRequest looks like:  function logResponse(data) { console.</description>
+    </item>
+    
+    <item>
+      <title>AJAX Requests with jQuery</title>
+      <link>/09-http-and-apis/ajax/ajax-request-jquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/ajax/ajax-request-jquery/</guid>
+      <description>Using $.ajax  jQuery offers an .ajax() method that can be used to make API calls
+ Example of an AJAX call using jQuery&amp;rsquo;s $.ajax method
+  $.ajax({ url: &amp;#39;some/url/specified/by/api&amp;#39;, type: &amp;#34;GET&amp;#34;, data: { name: &amp;#39;bob&amp;#39; } }) .done(() =&amp;gt; { // execute this function if request is successful  console.log(data) }) .fail(() =&amp;gt; { // execute this function if request fails  alert(&amp;#39;error occurred&amp;#39;) })  $.ajax() properties Here are some of the commonly used properties of the $.</description>
+    </item>
+    
+  </channel>
+</rss>

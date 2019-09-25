@@ -10,5 +10,41 @@
 	<atom:link href="/14-intro-to-crud-and-firebase/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Objectives</title>
+      <link>/14-intro-to-crud-and-firebase/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-intro-to-crud-and-firebase/objectives/</guid>
+      <description> Explain what CRUD means
+ Learn about Firebase and its benefits
+ Use Firebase&amp;rsquo;s real-time database to provide data persistence to a front-end app
+  </description>
+    </item>
+    
+    <item>
+      <title>CRUD</title>
+      <link>/14-intro-to-crud-and-firebase/crud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-intro-to-crud-and-firebase/crud/</guid>
+      <description> What is CRUD  Stands for Create, Read, Update and Delete
+ CRUD paradigm is common in constructing data-backed software applications
+ Helps developers plan how their application&amp;rsquo;s data should be structured
+ In the context of working with APIs, CRUD maps nicely to HTTP Verbs GET (read), Post (create), PUT (update) and DELETE (delete)
+     CRUD Operation HTTP VERB Description     CREATE POST Create new data or resource   READ GET Read / fetch data or resource   UPDATE PUT Update existing data or resource   DELETE DELETE Delete existing data or resource    </description>
+    </item>
+    
+    <item>
+      <title>Code Along: Firebase Playlist App</title>
+      <link>/14-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</guid>
+      <description>Code Along: Firebase Playlist App  Together we&amp;rsquo;ll walk through creating a playlist application that has its data persisted in Firebase&amp;rsquo;s Realtime Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:
+ Code Along: Firebase Playlist App (Updated)
+ Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JSON on JavaScript</title>
+    <link>/09-http-and-apis/json/</link>
+    <description>Recent content in JSON on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/09-http-and-apis/json/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>/09-http-and-apis/json/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/json/overview/</guid>
+      <description>What is JSON?  Stands for JavaScript Object Notation
+ A way to store information in an organized, easy-to-access manner
+ A popular way to send data from on web server (service) to another
+ Most data between services are sent as objects
+ JSON objects resemble a normal Javascript Object (it contains properties and values) but does not contain methods
+  { &amp;#34;id&amp;#34;: 1, &amp;#34;name&amp;#34;: &amp;#34;Scoobie Doo&amp;#34;, &amp;#34;favoriteFood&amp;#34;: &amp;#34;Scoobie Snacks&amp;#34; }  JSON Guidelines  Property names must be double-quoted strings in order to be considered compliant JSON</description>
+    </item>
+    
+    <item>
+      <title>JSON.stringify()</title>
+      <link>/09-http-and-apis/json/json-stringify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/json/json-stringify/</guid>
+      <description>JSON.stringify()  When JSON is used to send data from one service to the next &amp;ldquo;over the wire&amp;rdquo; (i.e. via cloud) it is transmitted as a string which makes it lightweight and fast
+ JSON.stringify() allows developers to easily transform objects / arrays (or any value) into a JSON string which makes it compatible to be transmitted along with an HTTP Request
+ &amp;ldquo;Stringify-ing&amp;rdquo; data is a common step developers take before sending data to another service</description>
+    </item>
+    
+    <item>
+      <title>JSON.parse()</title>
+      <link>/09-http-and-apis/json/json-parse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/json/json-parse/</guid>
+      <description>JSON.parse()  When JSON is received from another service, it is in a string format
+ In order to effectively work with JSON data in our code, we need to covert it so an object, array or value
+ JSON.parse() is a method that converts an stringified JSON to native JavaScript datatypes (most commonly objects or arrays)
+  Example const jsonString = &amp;#39;{&amp;#34;members&amp;#34;:[{&amp;#34;name&amp;#34;:&amp;#34;Spider-Man&amp;#34;,&amp;#34;alias&amp;#34;:&amp;#34;Peter Parker&amp;#34;},{&amp;#34;name&amp;#34;:&amp;#34;Black Widow&amp;#34;,&amp;#34;alias&amp;#34;:&amp;#34;Natasha Romanova&amp;#34;}]}&amp;#39; const parsedJson = JSON.</description>
+    </item>
+    
+  </channel>
+</rss>

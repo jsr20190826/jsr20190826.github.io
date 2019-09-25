@@ -56,11 +56,46 @@
 	"content": " Weekly Office Hours Weekly, the instructional team will hold office online\n Day / Time:\n Thursdays, 8:30 PM ET to 10:30 PM ET\n Mondays, 7:00 PM ET to 8:00 PM ET\n Wednesdays, 7:00 PM ET to 8:00 PM ET\n  Location: Online via Zoom (link will be provided in Slack prior the start of office hours)\n Policy: No prior sign up required, just log drop in if you have questions\n  "
 },
 {
+	"uri": "/09-http-and-apis/ajax/overview/",
+	"title": "Overview",
+	"tags": [],
+	"description": "",
+	"content": " What is AJAX?  AJAX stands for Asynchronous JavaScript And XML\n The meaning: Web clients can send or receive data to/from the server without requesting an entire page - instead, clients can just request or send an arbitrary amount of data\n In front-end development, AJAX is often used to make API requests that will fetch data from another service without having to refresh the web page\n  Click here for more information about AJAX\n Benefits of AJAX  Update a web page without reloading the page\n Request data from a server - after the page has loaded\n Receive data from a server - after the page has loaded\n Send data to a server - in the background\n  "
+},
+{
+	"uri": "/09-http-and-apis/apis/overview/",
+	"title": "Overview",
+	"tags": [],
+	"description": "",
+	"content": " What is an API?  Stands for \u0026ldquo;Application Programing Interface\u0026rdquo;\n A way to exchange data between servers / services (i.e. software to software communication)\n Set of programming instructions and standards for accessing a service, tool or application\n For example, Amazon.com released its API so that Web site developers could more easily access Amazon\u0026rsquo;s product information\n In a nutshell, if you want to leverage information from another website or application your first choice should be to use an API (if they offer one)\n  API Considerations  Does the website I need data from even have an API?\n Do I need to authenticate with the remote data source before retrieving the information I need, either as an API consumer or as a user of that service?\n What are the URLs I use to access the data I need?\n In API terms, these URLs are known as endpoints and can usually be found in an API\u0026rsquo;s documentation   What happens when no API is available?  If the website you need data from does not have an API, you could resort to data scraping through the use of \u0026ldquo;spiders\u0026rdquo; which crawl websites and extracts information\n Many online services consider data scraping to be a violation of their Terms of Service\n  API Data Formats  The \u0026ldquo;modern standard\u0026rdquo; for API responses is JSON, or JavaScript Object Notation\n Some APIs are implemented using XML, this includes the API for WordPress, which is implemented using the XML-RPC standard\n  Request, Response lifecycle  When making an API call, you are essentially making an Request to a server and then receiving a Response\n Most of the time this response will contain data that you will make use of within your application\n  "
+},
+{
+	"uri": "/09-http-and-apis/http/overview/",
+	"title": "Overview",
+	"tags": [],
+	"description": "",
+	"content": " What is HTTP  HTTP stands for \u0026ldquo;HyperText Transfer Protocol\n HTTP is a protocol which allows the fetching of resources, such as HTML documents\n It is the foundation of any data exchange on the Web and it is a client-server\n Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses\n  Example  A client (a browser) sends an HTTP request to the web\n An web server receives the request\n The server runs an application to process the request\n The server returns an HTTP response (output) to the browser\n The client (the browser) receives the response\n  Exercise: Inspect your Browser\u0026rsquo;s HTTP Request and Response We can use our browser\u0026rsquo;s developer tools to see what an HTTP Request and HTTP Response looks like when our browser visits a webpage:\nTry the following:\n Open up your browser\u0026rsquo;s developer tools\n Select the \u0026ldquo;Network\u0026rdquo; tab\n In your browser\u0026rsquo;s address bar, navigate to https://generalassemb.ly/\n In the \u0026ldquo;Network\u0026rdquo; tab of your developer tools, you will see a list of files that were received from the web server, inspect the file named: generalassemb.ly\n Inspect the \u0026ldquo;Headers\u0026rdquo;, \u0026ldquo;Preview\u0026rdquo; \u0026amp; \u0026ldquo;Response\u0026rdquo; tabs\n  "
+},
+{
+	"uri": "/09-http-and-apis/json/overview/",
+	"title": "Overview",
+	"tags": [],
+	"description": "",
+	"content": " What is JSON?  Stands for JavaScript Object Notation\n A way to store information in an organized, easy-to-access manner\n A popular way to send data from on web server (service) to another\n Most data between services are sent as objects\n JSON objects resemble a normal Javascript Object (it contains properties and values) but does not contain methods\n  { \u0026#34;id\u0026#34;: 1, \u0026#34;name\u0026#34;: \u0026#34;Scoobie Doo\u0026#34;, \u0026#34;favoriteFood\u0026#34;: \u0026#34;Scoobie Snacks\u0026#34; }  JSON Guidelines  Property names must be double-quoted strings in order to be considered compliant JSON\n Use meaningful property names\n Access properties of a JSON object using dot notation or bracket notation\n  Example const avengers = { members: [ { \u0026#34;name\u0026#34;: \u0026#34;Spider-Man\u0026#34;, \u0026#34;alias\u0026#34;: \u0026#34;Peter Parker\u0026#34; }, { \u0026#34;name\u0026#34;: \u0026#34;Black Widow\u0026#34;, \u0026#34;alias\u0026#34;: \u0026#34;Natasha Romanova\u0026#34; } ] } console.log(avengers.members[1].name) console.log(avengers[\u0026#34;members\u0026#34;][0].alias)  JS Bin on jsbin.com\n"
+},
+{
 	"uri": "/06-dom-and-jquery/jquery-overview/what-is-jquery/",
 	"title": "What is jQuery?",
 	"tags": [],
 	"description": "",
 	"content": " What is jQuery?  A JavaScript library that makes it easy to dynamically update your pages (i.e. perform DOM manipulation)\n Offers a simple way to achieve a variety of common JavaScript tasks\n Consistent across all browsers\n Does not do anything native / vanilla JavaScript cannot do, just does it with a more intuitive syntax\n  It\u0026rsquo;s important to note that jQuery is NOT another programming language it is a library or tool built on top of JavaScript\n "
+},
+{
+	"uri": "/09-http-and-apis/ajax/ajax-request-native-js/",
+	"title": "AJAX Requests using Native JS",
+	"tags": [],
+	"description": "",
+	"content": " Making AJAX Requests using Native JavaScript  JavaScript has a built-in object called XMLHttpRequest that can be used to make AJAX requests (i.e. Client-side HTTP requests made in the background which do not require a page refresh)\n XMLHttpRequest is not normally used due to large amount to code needed to make requests; libraries jQuery (using $.ajax(), $.get(), etc) and others are often used in place of XMLHttpRequest\n  Example  Here\u0026rsquo;s an example of what an AJAX request using XMLHttpRequest looks like:  function logResponse(data) { console.log(\u0026#39;response complete ====\u0026gt;\u0026#39;, data) } function get(url, callback) { console.log(\u0026#39;step 2: declare request.\u0026#39;) const request = new XMLHttpRequest() console.log(\u0026#39;Step 3: open request.\u0026#39;) request.open(\u0026#39;GET\u0026#39;, url, true); console.log( \u0026#39;Step 4: set the request state change handler to call the callback when status = 200\u0026#39;, ) request.onreadystatechange = function() { if (request.readyState === 4 \u0026amp;\u0026amp; request.status === 200) { callback(request); } } console.log(\u0026#39;Step 5: send request.\u0026#39;) request.send() } console.log(\u0026#39;Step 1: invoke AJAX function.\u0026#39;) get( \u0026#39;http://api.giphy.com/v1/gifs/search?q=smooth\u0026amp;api_key=2qqBvRkz56JiTUcMbOJbak5VRRLEbV84\u0026#39;, logResponse, ) console.log(\u0026#39;Step 6: End of JS file.\u0026#39;)  JS Bin on jsbin.com\n"
 },
 {
 	"uri": "/06-dom-and-jquery/jquery-overview/add-jquery/via-download/",
@@ -112,6 +147,13 @@
 	"content": " Event Handlers  Event handlers are blocks of code (usually a user-defined JavaScript function) that will be run when an event fires\n There are two parts to an event handler: an event listener and a callback function.\n An event listener is a method that listens for a specified event to occur, like a click event\n A callback function is a function that executes when something triggers the event listener\n  Both the event listener and callback function make up an event handler\n  Example $(() =\u0026gt; { $(\u0026#39;button\u0026#39;).click(() =\u0026gt; { $(\u0026#39;.box\u0026#39;).hide() }) })  JS Bin on jsbin.com\n Here\u0026rsquo;s a summary of what is happening in the code above:\n $('.box') selects all HTML elements with a class of .box\n The .click() method is the event listener; it checks if the user has clicked an .box HTML element\n The second argument to .on() is a callback function; when a \u0026lsquo;click\u0026rsquo; occurs on an .box element, this function executes\n   "
 },
 {
+	"uri": "/09-http-and-apis/apis/finding-apis/",
+	"title": "Finding APIs",
+	"tags": [],
+	"description": "",
+	"content": " Where Do We Find APIs? APIs are published everywhere. Chances are good that most major content sources you follow online publish their data in some type of serialized format. Heck, even Marvel publishes an API. Look around for a \u0026ldquo;Developers\u0026rdquo; section on major websites.\nList Of Commonly Used APIs Here is a short list of commonly used APIs for testing purposes.\n   API Sample URL     This for That http://itsthisforthat.com/api.php?json   Giphy http://api.giphy.com/v1/gifs/search?q=funny+cat\u0026amp;api_key=dc6zaTOxFJmzC   Stocks http://dev.markitondemand.com/Api/Quote/xml?symbol=AAPL   Swapi https://swapi.co/api/people/1/    APIs Are No Longer Supported Sometimes APIs change their data structure or support structure. This is an important consideration if you intend to build an app based on this API only to find out several weeks\\months later that you can longer leverage their data in your project. OMBD was free to use but never had required license, however they changed this model and it\u0026rsquo;s required.\n   API Sample URL     OMDB API http://www.omdbapi.com/?t=Game%20of%20Thrones\u0026amp;Season=1    "
+},
+{
 	"uri": "/04-functions-and-scope/function-overview/",
 	"title": "Function Overview",
 	"tags": [],
@@ -119,11 +161,137 @@
 	"content": " What are Functions?  Functions are the main “building blocks” of the program; they allow the code to be called many times without repetition\n One of the main advantages of functions is code reuse\n You can control when functions are executed, for example - you can write functions that only get executed (or called) when a user clicks a specific button\n  // a simple function that greets you with a \u0026#39;Good Morning\u0026#39; alert  // 1) Declare a function named greeting  function greeting(){ console(\u0026#39;Good Morning\u0026#39;) } // 2) Call (or run) the function  greeting()  "
 },
 {
+	"uri": "/09-http-and-apis/http/http-request/http-methods/get/",
+	"title": "GET",
+	"tags": [],
+	"description": "",
+	"content": " GET  A GET request retrieves data at the provided URL\n The most common HTTP method, as it\u0026rsquo;s the default when we enter a URL into our browser\n For example, making the request GET https://restaurant-reviews.com/restaurants/353 returns the HTML content for Maysville restaurant.\n GET requests are idempotent. We can make the same request again and again and get the same result.\n  "
+},
+{
 	"uri": "/04-functions-and-scope/scope/global-scope/",
 	"title": "Global Scope",
 	"tags": [],
 	"description": "",
 	"content": " Global Scope  Variables defined outside of a function are in in the Global Scope  Example // Global function because it was declared outside of a function const name = \u0026#39;Simone Biles\u0026#39; console.log(name) function bestGymnastEver() { // \u0026#39;name\u0026#39; variable is accessible here and everywhere else because it is global  console.log(name) } logName() // logs \u0026#39;Simone Biles\u0026#39;  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/09-http-and-apis/http/http-request/",
+	"title": "HTTP Requests",
+	"tags": [],
+	"description": "",
+	"content": " HTTP Requests  An HTTP request is made by a client, to a named host, which is located on a server\n The aim of the request is to access a resource on the server.\n To make the request, the Client uses components of a URL (Uniform Resource Locator), which includes the information needed to access the resource\n A correctly composed HTTP request contains the following elements:\n A request line\n A series of HTTP headers, or header fields\n A message body, if needed\n   Request Line  The request line is the first line in the request message. It consists of at least three items:   A HTTP method\n The method is a one-word command that tells the server what it should do with the resource. For example, the server could be asked to send the resource to the client.  The path component of the URL for the request:\n The path identifies the resource on the server.  The HTTP version number:\n The HTTP specification to which the client has tried to make the message comply (current version is 1.1 but you don\u0026rsquo;t have to worry about this)   Example Request Line GET /path/to/resource/index.html HTTP/1.1\n the method is GET\n the path is /path/to/resource/index.html\n the HTTP version is HTTP/1.1\n  The HTTP Client (e.g. web browser) is responsible for constructing this request line; as developers we just need to know how this works\n "
+},
+{
+	"uri": "/09-http-and-apis/json/json-stringify/",
+	"title": "JSON.stringify()",
+	"tags": [],
+	"description": "",
+	"content": " JSON.stringify()  When JSON is used to send data from one service to the next \u0026ldquo;over the wire\u0026rdquo; (i.e. via cloud) it is transmitted as a string which makes it lightweight and fast\n JSON.stringify() allows developers to easily transform objects / arrays (or any value) into a JSON string which makes it compatible to be transmitted along with an HTTP Request\n \u0026ldquo;Stringify-ing\u0026rdquo; data is a common step developers take before sending data to another service\n  Example const avengers = { members: [ { name: \u0026#34;Spider-Man\u0026#34;, alias: \u0026#34;Peter Parker\u0026#34; }, { name: \u0026#34;Black Widow\u0026#34;, alias: \u0026#34;Natasha Romanova\u0026#34; } ] } // convert object into a JSON string  const jsonString = JSON.stringify(avengers)) console.log(jsonString) console.log(typeof jsonString); // result: string  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/09-http-and-apis/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Learn about APIs and understand how they are used\n Understand APIs and why they are used\n Explore a real use case of API usage\n  "
+},
+{
+	"uri": "/10-asynchronous-js-and-promises/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Understand the differences between synchronous and asynchronous programming\n Explain the different ways developers address issues presented with asynchronous programming\n Create and Consume Promises\n Handle errors generated from promises\n Use Async / Await to improve readability of asynchronous code\n  "
+},
+{
+	"uri": "/11-lab-giphy-weather-app/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Leverage knowledge of Promises to build an application that makes asynchronous requests to multiple APIs  "
+},
+{
+	"uri": "/12-project-build-a-slackbot/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Leverage Slack\u0026rsquo;s API and OpenWeather\u0026rsquo;s API to build a slackbot that delivers a city\u0026rsquo;s current weather directly in Slack  "
+},
+{
+	"uri": "/13-object-oriented-js/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Understand the benefits of using Classes\n Create Classes with a public and private interface\n Create Classes that inherit properties and methods from another Class\n  "
+},
+{
+	"uri": "/14-intro-to-crud-and-firebase/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Explain what CRUD means\n Learn about Firebase and its benefits\n Use Firebase\u0026rsquo;s real-time database to provide data persistence to a front-end app\n  "
+},
+{
+	"uri": "/15-project-firebase-todo-app/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Leverage knowledge of Firebase to add persistent data storage to a Todo Application  "
+},
+{
+	"uri": "/16-intro-to-express/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Review the HTTP request / response flow\n Explain the role of a web server in a full-stack application\n Write a route handler for a GET request with Express\n Pass information with query and route parameters\n  "
+},
+{
+	"uri": "/10-asynchronous-js-and-promises/async-await/overview/",
+	"title": "Overview",
+	"tags": [],
+	"description": "",
+	"content": " Async / Await  Async / Await is special that makes working with promises easy to use and understand\n The syntax and structure of Async / Await is makes our asynchronous handling look like synchronous code\n Async / Await is alternative way of consuming promises a\n  async  In order for you to use Async / Await, you must declare a function with the async keyword   async function someFunction() { return \u0026quot;something\u0026quot; }   Prepending async to a function declaration means that function always returns a promise  await  The keyword await makes JavaScript wait until that promise settles and returns its result\n await can only be used in a function that is prepended with async\n await will be ignored (and your code will not wait for the asynchronous action to complete) it you try to use await in a function that is not prepended with async   Example function delayedGreeting() { return new Promise(resolve =\u0026gt; { setTimeout(() =\u0026gt; { resolve(\u0026#39;Hi, sorry for the wait!\u0026#39;) }, 3000) }); } /* Declare function with \u0026#34;async\u0026#34; keyword */ async function msg() { // use \u0026#34;await\u0026#34; keyword to call promise and wait  // for the result before moving on  // to the next line of code  const msg = await delayedGreeting() console.log(msg) } console.log(\u0026#34;Calling msg()\u0026#34;) msg() console.log(\u0026#34;end of the code\u0026#34;)  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/10-asynchronous-js-and-promises/promises/overview/",
+	"title": "Overview",
+	"tags": [],
+	"description": "",
+	"content": " What are Promises?  Promises are objects that represent the eventual outcome of an asynchronous operation\n A Promise object can be in one of three states:\n Pending: The initial state the operation has not completed yet\n Fulfilled: The operation has completed successfully and the promise now has a resolved value; for example, a request’s promise might resolve with a JSON object as its value.\n Rejected: The operation has failed and the promise has a reason for the failure; This reason is usually an Error of some kind.\n   Dishwasher Analogy  We refer to a promise as settled if it is no longer pending— it is either fulfilled or rejected\n Let’s think of a dishwasher as having the states of a promise:\n Pending: The dishwasher is running but has not completed the washing cycle.\n Fulfilled: The dishwasher has completed the washing cycle and is full of clean dishes.\n Rejected: The dishwasher encountered a problem (it didn’t receive soap!) and returns unclean dishes.\n  If our dishwashing promise is fulfilled, we’ll be able to perform related tasks, such as unloading the clean dishes from the dishwasher\n If it’s rejected, we can take alternate steps, such as running it again with soap or washing the dishes by hand\n All promises must eventually settle; this enables us to write logic for what to do if the promise fulfills or if it rejects\n  "
+},
+{
+	"uri": "/13-object-oriented-js/classes/methods/overview/",
+	"title": "Overview",
+	"tags": [],
+	"description": "",
+	"content": " Methods  Methods in a Class function very similar to a method of an regular JavasScript object\n Let\u0026rsquo;s recap, an method in an object is a property that has a function as a value, for example:\n  const superHero = { secretIdentity: \u0026#39;Peter Parker\u0026#39;, name: \u0026#39;Spiderman\u0026#39;, sayTagline: function() { // \u0026lt;- method  console.log(\u0026#34;Hey everyone it\u0026#39;s your friendly neighborhood Spiderman\u0026#34;) } }   If we were to rewrite this object as a Class, it may look something like this:  class superHero { constructor(secretIdentity, name) { this._secretIdentity = secretIdentity this._name = name } sayTagline() { console.log(\u0026#34;Hey everyone it\u0026#39;s your friendly neighborhood Spiderman\u0026#34;) } }   The key difference here is that methods of a class are not separated by commas  "
+},
+{
+	"uri": "/13-object-oriented-js/classes/overview/",
+	"title": "Overview",
+	"tags": [],
+	"description": "",
+	"content": " What are Classes?  As we have discussed earlier in the course, in JavaScript, objects are oftentimes used to represent (or model) real world items\n Here\u0026rsquo;s an example of using an object to represent a car:\n  const myCar = { make: \u0026#39;Honda\u0026#39;, model: \u0026#39;Accord\u0026#39;, color: \u0026#39;blue\u0026#39;, year: 2015 } console.log(myHonda.make) console.log(myHonda.model) console.log(myHonda.color) // change color  myHonda.color = `blue` console.log(myHonda.color)   In practice, we often need to create many objects of the same kind, like cars, or users or whatever\n Classes are a tool that developers use to quickly produce similar objects\n  Example - Creating a Car class  If we were creating an application for a used car dealership that needed to keep track of many cars, we could use \u0026ldquo;classes\u0026rdquo; to help us quickly produce cars within our program\n Here\u0026rsquo;s what that class might look like:\n  // define Car class  class Car { constructor(make, model, color, year) { this._make = make this._model = model this._color = color this._year = year } get make() { return this._make } get model() { return this._model } get color() { return this._color } get year () { return this._year } set model (newModel) { this._model = newModel } set color (newColor) { this._color = newColor } } // create new \u0026#34;cars\u0026#34; using the Car class as a blueprint  const myHonda = new Car(\u0026#39;Honda\u0026#39;, \u0026#39;Accord\u0026#39;, \u0026#39;gray\u0026#39;, \u0026#39;2017\u0026#39;) console.log(myHonda.make) console.log(myHonda.model) console.log(myHonda.color) // change color  myHonda.color = `blue` console.log(myHonda.color)  JS Bin on jsbin.com\nCompare our Car class with our earlier car object example. Note the similarities and the differences. We\u0026rsquo;ll discuss those differences in the upcoming sections\n"
+},
+{
+	"uri": "/13-object-oriented-js/inheritance/overview/",
+	"title": "Overview",
+	"tags": [],
+	"description": "",
+	"content": " What is Inheritance?  Often we find commonality between our classes — repeated code that we’d like to consolidate\n Subclasses let us incorporate another class’s state and behavior into our own\n This process is often called inheritance, and our subclass is said to “inherit” from a parent class, also called a superclass\n Inheritance can avoid duplication and simplify the implementation of a class that needs the same data and functions as another class\n  Example class Animal { constructor(name, weight) { this._name = name this._weight = weight } eat() { return `${this._name}is eating!` } sleep() { return `${this._name}is going to sleep!` } wakeUp() { return `${this._name}is waking up!` } } class Gorilla extends Animal { constructor(name, weight, height) { super(name, weight) // property not shared with Animal class  this._height = height } get height() { return this._height } climbTrees() { return `${this._name}is climbing trees!` } poundChest() { return `${this._name}is pounding its chest!` } showVigour() { return `${this.eat()}${this.poundChest()}` } dailyRoutine() { return `${this.wakeUp()}${this.poundChest()}${this.eat()}${this.sleep()}` } } const gorilla = new Gorilla(\u0026#39;George\u0026#39;, \u0026#39;160Kg\u0026#39;) console.log(gorilla.eat()) console.log(gorilla.poundChest()) console.log(gorilla.sleep()) console.log(gorilla.height) console.log(gorilla.dailyRoutine())  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/14-intro-to-crud-and-firebase/firebase/overview/",
+	"title": "Overview",
+	"tags": [],
+	"description": "",
+	"content": " What is Firebase?  Firebase is a mobile and web application platform for developers\n Acquired by Google in 2014\n Offers many other services but we\u0026rsquo;ll be covering the basics of Firebase\u0026rsquo;s real-time backend database and seeing how we can use this in our applications\n  "
+},
+{
+	"uri": "/16-intro-to-express/express/overview/",
+	"title": "Overview",
+	"tags": [],
+	"description": "",
+	"content": " What is Express?  Express is a popular Node web framework that enables developers to build web servers (backend) that can respond to http requests and return data\n Outside of providing built-in support for routing, Express has minimal functionality of its own\n Functionality is added to an Express application through the use of Middleware\n  "
 },
 {
 	"uri": "/lesson-recordings/recordings/",
@@ -140,11 +308,32 @@
 	"content": " Repository  Most basic element of GitHub\n A repository can be referred to as a project\n contains all of a project\u0026rsquo;s files\n Stores each file\u0026rsquo;s revision history\n Repositories can have multiple collaborators and can be either public or private.\n  "
 },
 {
+	"uri": "/09-http-and-apis/http/http-response/status-codes/",
+	"title": "Status Codes",
+	"tags": [],
+	"description": "",
+	"content": " Status Codes  In the HTTP response that is sent to a client, the status code, which is a three-digit number, is accompanied by a reason phrase (also known as status text) that summarizes the meaning of the code\n Along with the HTTP version of the response, these items are placed in the first line of the response, which is therefore known as the status line.\n The status codes are classified by number range, with each class of codes having the same basic meaning\n The range 100-199 is classed as Informational\n 200-299 is Successful\n 300-399 is Redirection\n 400-499 is Client error\n 500-599 is Server error\n   Check out HTTP Status Dogs for a fun way to learn the different status codes\n Exercise: See example of 404 Status Code  404 means resource not found\n Let\u0026rsquo;s see an example of how some websites handle situations where users try to navigate to a page on their site that doesn\u0026rsquo;t exist\n   Try navigating to the following url: https://github.com/okokwhatupareyouthere\n Open up your developer tools and navigate to the \u0026ldquo;Network\u0026rdquo; tab; see if you can find the 404 response returned from Github\u0026rsquo;s servers\n  "
+},
+{
+	"uri": "/12-project-build-a-slackbot/tutorial/step-1-new-slack-workspace/",
+	"title": "Step 1: Create New Slack Workspace",
+	"tags": [],
+	"description": "",
+	"content": " Step 1: Create New Slack Workspace We\u0026rsquo;re going to need a Slack workspace to test our bot. Click on the link below and follow the instructions to create a new Slack workspace\nCreate a new workspace\n"
+},
+{
 	"uri": "/02-javascript-basics/data-types/strings/",
 	"title": "Strings",
 	"tags": [],
 	"description": "",
 	"content": " Strings  Strings can consist of letters and other characters\n They are surrounded by either double quotes or single quotes (this is how you recognize you are working with a string)\n Concatenation allows you to combine strings\n  // declare a variable called color and store a string  let color = \u0026#34;green\u0026#34;  Single or double quotes can be used for strings, but the opening quote must match the closing quote\n String Methods  JavaScript has some built-in methods that allow developers to work with strings\n For example: if you wanted to know how many characters were in a string, you would use the .length method\n Here are some example of other methods you can use on strings\n  JS Bin on jsbin.com\nString Template Literals  Template literals were introduced with ES6 (the newest version of JavaScript)\n Template literals provides are much cleaner syntax for mixing variables with strings\n Template literals are enclosed by the back-tick (` `) character instead of double or single quotes\n Template literals can contain placeholders. These are indicated by the dollar sign and curly braces (${expression})\n  let name = \u0026#34;Tristan\u0026#34; console.log(`Hello ${name}`)  JS Bin on jsbin.com\nClick here for complete list of all the String methods\n "
+},
+{
+	"uri": "/09-http-and-apis/http/http-request/urls/",
+	"title": "URLs",
+	"tags": [],
+	"description": "",
+	"content": " Importance of URLs  URLs allows Clients to specify (to the Server) which resources it wants to work it (create, read, update or delete)\n URL stands for \u0026ldquo;Uniform Resource Locator\u0026rdquo;\n Parts of a url are mandatory (such as the \u0026ldquo;http\u0026rdquo;) and parts are optional (i.e. ?key=1\u0026amp;key=2)\n All parts the parts of a URL are meant to provide context to the Server so the Server will know how to handle the HTTP Request   Anatomy of a URL  Let\u0026rsquo;s look at the following URL:\nhttps://www.example.com:80/path/to/myfile.html?key1=value1\u0026amp;key2=value2#SomewhereInTheDocument  It is made up of the following parts:\n   Part Example Description     Protocol https communicate to the Server that the HTTP protocol is being used for this Request (FTP, mailto) are examples of other protocols   Domain www.example.com Name of the web server being requested   Path /path/to/myfile.html The path to the resource on the Server   Query ?/key1=value\u0026amp;key2=value Extra parameters provided to the Server   Anchor #SomewhereInTheDocument An anchor to another part of the document; works a \u0026ldquo;bookmark\u0026rdquo; inside the resource     "
 },
 {
 	"uri": "/05-arrays-objects/warm-up-functions-practice/",
@@ -259,6 +448,13 @@
 	"content": " .text() Method  Method is either used to get (read) the combined text contents of the selected elements, including their descendants, or set (write) the text contents of the selected elements  Example of Getting (Reading) text  To Get (Read) text of an element use .text() with nothing inside the parentheses  $(() =\u0026gt; { $(\u0026#39;#readAll\u0026#39;).click(() =\u0026gt; { // read text from all p elements  const allParagraphs = $(\u0026#34;p\u0026#34;).text() alert(`text from all paragraphs: ${allParagraphs}`) }) $(\u0026#39;#readFirst\u0026#39;).click(() =\u0026gt; { // read text from only the 1st p element  const firstParagraph = $(\u0026#34;p:first\u0026#34;).text() alert(`text from the 1st paragraph: ${firstParagraph}`) }) })  JS Bin on jsbin.com\nExample of Setting (writing) text  To Set (Write) text of an element use .text(newText) with the new text inside the parentheses  $(\u0026#39;#convertAllWords\u0026#39;).click(() =\u0026gt; { // set text for all p elements to spanish translation  $(\u0026#34;.one\u0026#34;).text(\u0026#34;uno\u0026#34;) $(\u0026#34;.two\u0026#34;).text(\u0026#34;dos\u0026#34;) $(\u0026#34;.three\u0026#34;).text(\u0026#34;tres\u0026#34;) })  JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/09-http-and-apis/ajax/ajax-request-jquery/",
+	"title": "AJAX Requests with jQuery",
+	"tags": [],
+	"description": "",
+	"content": " Using $.ajax  jQuery offers an .ajax() method that can be used to make API calls\n Example of an AJAX call using jQuery\u0026rsquo;s $.ajax method\n  $.ajax({ url: \u0026#39;some/url/specified/by/api\u0026#39;, type: \u0026#34;GET\u0026#34;, data: { name: \u0026#39;bob\u0026#39; } }) .done(() =\u0026gt; { // execute this function if request is successful  console.log(data) }) .fail(() =\u0026gt; { // execute this function if request fails  alert(\u0026#39;error occurred\u0026#39;) })  $.ajax() properties Here are some of the commonly used properties of the $.ajax() method:\n url: address where the request is being sent\n type: HTTP method that is being used for the request (i.e. GET, POST, PUT, DELETE), most of the time you\u0026rsquo;ll be using GET or POST\n data: data to be sent to the server, for GET requests, this info will be added to the url value\n done: function that will be called if request is successful\n fail: function that will be called if request fails\n  Click here more information about the $.ajax() method\n Example function search (term) { const url = \u0026#39;https://api.giphy.com/v1/gifs/search\u0026#39; // this is the public beta key, sign up for production if you want this to be live on the web  // In a real project, NEVER store your API keys in Git  const apiKey = \u0026#39;2qqBvRkz56JiTUcMbOJbak5VRRLEbV84\u0026#39; // Makes an API request to the giphy server with a request for data using the search term  // This uses jQuery\u0026#39;s .ajax() function  console.log(\u0026#39;step 2: make http request using $.ajax().\u0026#39;) $.ajax({ url: url, type: \u0026#39;GET\u0026#39;, data: { q: term, api_key: apiKey } }) .done((response) =\u0026gt; { console.log(\u0026#39;step 3a: call this function if request is successful\u0026#39;) console.log(response) }) .fail((error) =\u0026gt; { console.log(\u0026#39;step 3b: call this function if request errors out\u0026#39;) console.log(error) }) } console.log(\u0026#39;Step 1: invoke AJAX function.\u0026#39;) search(\u0026#34;kittens\u0026#34;) console.log(\u0026#39;Step 4: End of JS file.\u0026#39;)  JS Bin on jsbin.com\n"
+},
+{
 	"uri": "/05-arrays-objects/objects/accessing-properties/",
 	"title": "Accessing Properties",
 	"tags": [],
@@ -280,11 +476,46 @@
 	"content": " Array Review  Creating Arrays   Accessing Array Values   Updating Array Values   Adding \u0026amp; Removing Items   length Property   "
 },
 {
+	"uri": "/14-intro-to-crud-and-firebase/firebase/benefits/",
+	"title": "Benefits",
+	"tags": [],
+	"description": "",
+	"content": " Firebase Benefits  Firebase provides a seamless way for front-end developers to add data persistence to their front-end applications\n Relieves developers from having to build out backend to support their apps\n Firebase platform offers a variety of products such as realtime database, authentication, file storage, analytics, hosting, etc\n Generous free tier\n Advanced features that developers can grow their applications into as their applications grow\n  "
+},
+{
 	"uri": "/06-dom-and-jquery/jquery-overview/benefits-of-jquery/",
 	"title": "Benefits of jQuery",
 	"tags": [],
 	"description": "",
 	"content": " Benefits of jQuery?  Uses CSS selectors to help us grab or select elements programmatically (i.e. in our code)\n Accomplishes more with less code vs using native JavaScript\n  CSS selectors means less code Here\u0026rsquo;s how we would programmatically select an element with an id of \u0026ldquo;flavors\u0026rdquo; using native JavaScript\n// selecting an element using native JavaScript document.getElementById(\u0026#39;flavors\u0026#39;).onClick = doSomething()  Here\u0026rsquo;s how we would programmatically select an element with an id of \u0026ldquo;flavors\u0026rdquo; using jQuery\n// using jQuery (same as above but with much more intuitive syntax) $(\u0026#39;#flavors\u0026#39;).click(doSomething)  In this code snippet above you can see jQuery allows us to use CSS selectors to programmatically select elements on our page\nThe ability to use CSS selectors to programmatically select elements is the main reason jQuery is so popular today\n Another Example Here\u0026rsquo;s another example of how jQuery results in much more clear and readable DOM manipulation logic\nIn this code snippet, we are using native JavaScript to programmatically select the \u0026lt;body\u0026gt; element and then change the background color to white\n// selecting an element using native JavaScript  document.getElementsByTagName(\u0026#39;body\u0026#39;)[0].style.backgroundColor = \u0026#39;white\u0026#39;  Compare the snippet above with the following snippet that accomplishes the same result using jQuery\n// using jQuery (same as above but with much more intuitive syntax)  $(\u0026#39;body\u0026#39;).css(\u0026#39;backgroundColor\u0026#39;, \u0026#39;white\u0026#39;)  Note: best practice is to use camel case when referencing css properties that have multiple words i.e. \u0026lsquo;backgroundColor\u0026rsquo; instead of \u0026lsquo;background-color\u0026rsquo;\n "
+},
+{
+	"uri": "/14-intro-to-crud-and-firebase/crud/",
+	"title": "CRUD",
+	"tags": [],
+	"description": "",
+	"content": " What is CRUD  Stands for Create, Read, Update and Delete\n CRUD paradigm is common in constructing data-backed software applications\n Helps developers plan how their application\u0026rsquo;s data should be structured\n In the context of working with APIs, CRUD maps nicely to HTTP Verbs GET (read), Post (create), PUT (update) and DELETE (delete)\n     CRUD Operation HTTP VERB Description     CREATE POST Create new data or resource   READ GET Read / fetch data or resource   UPDATE PUT Update existing data or resource   DELETE DELETE Delete existing data or resource    "
+},
+{
+	"uri": "/13-object-oriented-js/classes/",
+	"title": "Classes",
+	"tags": [],
+	"description": "",
+	"content": " Classes  Overview   Constructor   Encapsulation   Instances   Methods   "
+},
+{
+	"uri": "/09-http-and-apis/clients-servers/",
+	"title": "Clients &amp; Servers",
+	"tags": [],
+	"description": "",
+	"content": " Client \u0026amp; Servers  Computers connected to the web are called clients and servers\n Communication between the client and server are done through requests and responses\n A simplified diagram of how they interact might look like this:\n  Clients  Typically user-facing devices connected to the internet:\n Computers\n Mobile devices\n Smart Speakers (Amazon Echo, Google Home)\n Smart Appliances (Ring Doorbell, Nest Thermostat, etc)\n   Server  A computer dedicated to run services to serve the needs of other computers; examples include the following:\n Web server (stores and delivers files needed to generate web pages)\n Database server (stores and delivers data)\n File server (stores and delivers files)\n Print server (sends and receives print jobs)\n Home media server (stores and delivers video and/or audio)\n   "
+},
+{
+	"uri": "/16-intro-to-express/clients-servers/",
+	"title": "Clients &amp; Servers",
+	"tags": [],
+	"description": "",
+	"content": " Client \u0026amp; Servers  Computers connected to the web are called clients and servers\n Communication between the client and server are done through requests and responses\n A simplified diagram of how they interact might look like this:\n  Clients  Typically user-facing devices connected to the internet:\n Computers\n Mobile devices\n Smart Speakers (Amazon Echo, Google Home)\n Smart Appliances (Ring Doorbell, Nest Thermostat, etc)\n   Server  A computer dedicated to run services to serve the needs of other computers; examples include the following:\n Web server (stores and delivers files needed to generate web pages)\n Database server (stores and delivers data)\n File server (stores and delivers files)\n Print server (sends and receives print jobs)\n Home media server (stores and delivers video and/or audio)\n   "
 },
 {
 	"uri": "/01-command-line-js-and-git/git-vocabulary/commit/",
@@ -301,11 +532,32 @@
 	"content": " What are Conditionals?  Conditional statements enable our programs to decide which blocks of code to execute and which to skip, based on whether an \u0026ldquo;expression\u0026rdquo; evaluates to true or false\n if statements are the most common form of conditionals\n There are a few types of if statements\n if statement\n if..else statement\n if..else if statement\n ternary operator\n   "
 },
 {
+	"uri": "/13-object-oriented-js/classes/constructor/",
+	"title": "Constructor",
+	"tags": [],
+	"description": "",
+	"content": " Constructor  JavaScript calls the constructor() method every time it creates a new instance of a class (using the new keyword)  // define Car class  class Car { constructor(make, model) { this._make = make this._model = model } }   Car is the name of our class; by convention, we capitalize and CamelCase class names\n JavaScript will invoke the constructor() method every time we create a new instance of our Car class\n This constructor() method accepts two parameters, make and model\n Inside of the constructor() method, we use the this keyword; in the context of a class, this refers to an instance of that class\n In the Car class, we use this to set the value of the Car instance’s make property (this._make) and to the make parameter and the instance\u0026rsquo;s model property (this._model) to the model parameter\n  Think of a Class as a blueprint and think of a instance as something that is made from that blueprint\n Exercise  Create an class called Cat and inside that class create a constructor() that accepts two parameters: name and breed\n Inside the constructor() method, create _name and _breed properties and sent them equal to your parameters\n  JS Bin on jsbin.com\n"
+},
+{
 	"uri": "/05-arrays-objects/array-review/creating-arrays/",
 	"title": "Creating Arrays",
 	"tags": [],
 	"description": "",
 	"content": " Creating Arrays  You can create that doesn\u0026rsquo;t initially contain any values, this is called an empty array\n An array can also be created with initial values\n Square brackets are a means of identifying if a variable is an array\n  Example // declare a variable as an empty array let numbers = [] // or you can declare an array with initial values let streets = [\u0026#39;Broadway\u0026#39;, \u0026#39;Houston\u0026#39;, \u0026#39;Grand\u0026#39;]  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/10-asynchronous-js-and-promises/promises/creating-promises/",
+	"title": "Creating Promises",
+	"tags": [],
+	"description": "",
+	"content": " Creating Promise Objects  To create a new Promise object, we use the new keyword and the Promise constructor method:\nconst executorFunction = (resolve, reject) =\u0026gt; { } const myPromise = new Promise(executorFunction)  The Promise constructor method takes a function parameter called the executor function which runs automatically when the constructor is called\n The executor function generally starts an asynchronous operation and dictates how the promise should be settled\n  We\u0026rsquo;ll talk more about constructor methods in a later lesson\n Executor Function  The executor function has two function parameters:\n resolve(): If invoked, resolve() will change the promise’s status from \u0026ldquo;pending\u0026rdquo; to \u0026ldquo;fulfilled\u0026rdquo;, and the promise’s resolved value will be set to the argument passed into resolve()\n reject(): If invoked, reject() will change the promise’s status from \u0026ldquo;pending\u0026rdquo; to \u0026ldquo;rejected\u0026rdquo;, and the promise’s rejection reason be set to the argument passed into reject()\n  The resolve() and reject() functions aren’t defined by the programmer; when the Promise constructor runs, JavaScript will pass its own resolve() and reject() functions into the executor function\n  Example: Basic structure of an executor function // example below is meant to show structure only, this is not working code  const executorFunction = (resolve, reject) =\u0026gt; { if (someCondition) { resolve(\u0026#39;I resolved!\u0026#39;) } else { reject(\u0026#39;I rejected!\u0026#39;) } } // pass the executor function as a parameter to the Promise constructor  const myPromise = new Promise(executorFunction)  In the example above, myPromise resolves or rejects based on a simple condition, but, in practice, promises settle based on the results of asynchronous operations.; for example an API request to another service may \u0026ldquo;fulfill\u0026rdquo; by returning the desired data or it may \u0026ldquo;reject\u0026rdquo; if an error occurred during the request\n Example: Creating a Promise const inventory = { sunglasses: 202, pants: 421, shirts: 1344 } // Write your code below:  const myExecutor = (resolve, reject) =\u0026gt; { if (inventory.sunglasses \u0026gt; 0) { resolve(\u0026#39;Sunglasses order processed.\u0026#39;) } else { reject(\u0026#39;That item is sold out.\u0026#39;) } } const orderSunglasses = () =\u0026gt; { return new Promise(myExecutor) } const orderPromise = orderSunglasses() // print out the promise object  console.log(orderPromise)   Run the jsbin below and open up chrome developer tools and inspect the promise object that is being printed to the console. Can you identify the current status of the promise?  JS Bin on jsbin.com\nAlternative Syntax The most common syntax for constructing promise involves combining the executor function with the Promise constructor\nconst inventory = { sunglasses: 202, pants: 421, shirts: 1344 } const orderSunglasses = () =\u0026gt; { // Most common syntax for creating promises  return new Promise((resolve, reject) =\u0026gt; { if (inventory.sunglasses \u0026gt; 0) { resolve(\u0026#39;Sunglasses order processed.\u0026#39;) } else { reject(\u0026#39;That item is sold out.\u0026#39;) } }) } const orderPromise = orderSunglasses() // print out the promise object  console.log(orderPromise)  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/09-http-and-apis/apis/data-formats/",
+	"title": "Data Formats",
+	"tags": [],
+	"description": "",
+	"content": " What is Serialized Data?  All data sent via HTTP are strings\n Unfortunately, what we really want to pass between web applications is structured data (i.e., arrays and hashes)\n Thus, native data structures can be serialized into a string representation of the data\n This string can be transmitted and then parsed back into data by another web agent.  There are two major serialized data formats\u0026hellip;\n  JSON JSON stands for \u0026ldquo;JavaScript Object Notation\u0026rdquo; and has become a universal standard for serializing native data structures for transmission. It is light-weight, easy to read and quick to parse.\n{ \u0026quot;users\u0026quot;: [{ \u0026quot;name\u0026quot;: \u0026quot;Bob\u0026quot;, \u0026quot;id\u0026quot;: 23 }, { \u0026quot;name\u0026quot;: \u0026quot;Tim\u0026quot;, \u0026quot;id\u0026quot;: 72 }] }   Remember, JSON is a serialized format. While it may look like an object, it needs to be parsed so we can interact with it as a true Javascript object.\nFor more information about JSON\n XML XML stands for \u0026ldquo;eXtensible Markup Language\u0026rdquo; and is the granddaddy of serialized data formats (itself based on HTML). XML is fat, ugly and cumbersome to parse. It remains a major format, however, due to its legacy usage across the web. You\u0026rsquo;ll probably always favor using a JSON API, if available.\n\u0026lt;users\u0026gt; \u0026lt;user id=\u0026quot;23\u0026quot;\u0026gt; \u0026lt;name\u0026gt;\u0026lt;![CDATA[Bob]]\u0026gt;\u0026lt;/name\u0026gt; \u0026lt;/user\u0026gt; \u0026lt;user id=\u0026quot;72\u0026quot;\u0026gt; \u0026lt;name\u0026gt;\u0026lt;![CDATA[Tim]]\u0026gt;\u0026lt;/name\u0026gt; \u0026lt;/user\u0026gt; \u0026lt;/users\u0026gt;  Many APIs publish data in multiple formats, for example\u0026hellip;\n http://dev.markitondemand.com/Api/Quote/json?symbol=AAPL http://dev.markitondemand.com/Api/Quote/xml?symbol=AAPL  "
 },
 {
 	"uri": "/04-functions-and-scope/declaring-functions/",
@@ -336,11 +588,46 @@
 	"content": " Dot Notation  Dot notation allows us to access properties with a .  Example let superHero = { \u0026#39;secret identity\u0026#39;: \u0026#39;Peter Parker\u0026#39;, name: \u0026#39;Spiderman\u0026#39;, powers: [\u0026#39;super strength\u0026#39;, \u0026#39;hyper awareness\u0026#39;, \u0026#39;agility\u0026#39;, \u0026#39;genius intellect\u0026#39;], age: 17 } console.log(superHero.name) console.log(superHero.powers)  JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/16-intro-to-express/express/",
+	"title": "Express",
+	"tags": [],
+	"description": "",
+	"content": "  Overview   Middleware   Routing   Route Parameters   "
+},
+{
+	"uri": "/13-object-oriented-js/classes/methods/getters-and-setters/",
+	"title": "Getters &amp; Setters",
+	"tags": [],
+	"description": "",
+	"content": " Getters \u0026amp; Setters  Getters and Setters allow developers to write methods that enable reading (get) and the writing (set) of properties of the instances (objects)\n Getters and setters is a common pattern used in object oriented programming; ES6 classes introduced a new syntax for getters and setters on object properties\n  class Car { constructor(make, model) { this._make = make this._model = model } get make() { return this._make } get model() { return this._model } set model(newModel) { this._model = newModel } } const myTesla = new Car(\u0026#34;Telsa\u0026#34;, \u0026#34;Model 3\u0026#34;) console.log(myTesla.make) console.log(myTesla.model) // change model of myTesla  myTesla.model = \u0026#34;Model X\u0026#34; console.log(myTesla.model)  Here\u0026rsquo;s a summary of the code above:\n We are using get and set which allows us to run code on the reading or writing of a property\n Notice that we\u0026rsquo;ve prepended our property names with underscores (_make and _model) this is a convention to indicate that these properties should not be accessed directly\n Our getters simply return the value associated with the property, for example:\n   get make() { return this._make }   Our setters allows use to reassign a new value to our properties, for example:   set model(newModel) { this._model = newModel }   We call out getter methods the using dot notation *without parentheses   myTesla.make // this returns the make property   We call out setter methods the using dot notation reassigning a new value using an = sign   myTesla.model = \u0026quot;Model X\u0026quot; // this sets the model property to new value  Example JS Bin on jsbin.com\nWhy Getters and Setters?  Getters and Setters effectively protect your data, particularly when creating classes\n They provide a simple syntax for reading and writing properties\n  Exercise  In the Employee constructor, prepend the name and salary properties with an underscore (_).\n Add a getter method called name() that returns the value of the name property\n Add a getter method called salary() that returns the value of the salary property\n Add a setter method called name(newName) that allows you to provide an employee with a new name\n  class Employee { constructor(name, salary) { this.name = name this.salary = salary } // add code below  // add code above } /* Uncomment lines below after you\u0026#39;ve made your updates */ // const methodMan = new Employee(\u0026#34;Johnny Blaze\u0026#34;, \u0026#34;100000\u0026#34;) // console.log(methodMan.name) // console.log(methodMan.salary) // methodMan.name = \u0026#34;Jonathan Blaze\u0026#34; // console.log(methodName.name)  JS Bin on jsbin.com\n"
+},
+{
 	"uri": "/06-dom-and-jquery/jquery-manipulation/getting-setting-content/",
 	"title": "Getting &amp; Setting Content",
 	"tags": [],
 	"description": "",
 	"content": " Getting \u0026amp; Setting Content  .text()   .html()   .val()   .attr()   "
+},
+{
+	"uri": "/09-http-and-apis/http/",
+	"title": "HTTP",
+	"tags": [],
+	"description": "",
+	"content": " HTTP  Overview   HTTP Requests   HTTP Responses   "
+},
+{
+	"uri": "/09-http-and-apis/http/http-request/http-methods/",
+	"title": "HTTP Methods",
+	"tags": [],
+	"description": "",
+	"content": " HTTP Methods  The method, like GET, describes what effect a request is intended to have, and how the server should process it\n The following are the most widely used HTTP Methods:\n GET   POST   PUT   DELETE     "
+},
+{
+	"uri": "/09-http-and-apis/http/http-response/",
+	"title": "HTTP Responses",
+	"tags": [],
+	"description": "",
+	"content": " HTTP Responses  An HTTP response is made by a server to a client\n The aim of the response is to provide the client with the resource it requested, or inform the client that the action it requested has been carried out; or else to inform the client that an error occurred in processing its request\n An HTTP response contains:\n A status line\n A series of HTTP headers, or header fields\n A message body, which is usually needed\n   Status Line  The status line is the first line in the response message. It consists of at least three items:   The HTTP version number\n The HTTP specification to which the server has tried to make the message comply.  A status code\n Three-digit number indicating the result of the request  A reason phrase\n also known as status text, which is human-readable text that summarizes the meaning of the status code   Example Status Line HTTP/1.1 200 OK\n the HTTP version is HTTP/1.1\n the status code is 200\n the reason phrase is OK\n  The Server is responsible for constructing the status line of a request\n "
 },
 {
 	"uri": "/homework-assignments/hw-assignment-01/",
@@ -350,11 +637,39 @@
 	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Wednesday, September 18th\nComplete Homework #1 - JS Basics, Control Flow \u0026amp; Loops  You are tasked with completing the problem set which is hosted on Github, see the url below:\n Github Repo for Homework #1 - JS Basics, Control Flow \u0026amp; Loops  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
+	"uri": "/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/",
+	"title": "Handling Async Issues with Async / Await",
+	"tags": [],
+	"description": "",
+	"content": " Handling Async Issues with Async / Await  Let\u0026rsquo;s see how we can apply Async / Await to your .printLetter() program  Example: Using Async / Await to control the execution order of async functions function printLetter(letter) { return new Promise((resolve, reject) =\u0026gt; { setTimeout(() =\u0026gt; { console.log(letter) resolve() }, Math.floor(Math.random() * 3000)) }) } /* convert .printAll() to an async / await function by prepending \u0026#39;await\u0026#39; before the function keyword */ async function printAll(){ await printLetter(\u0026#34;A\u0026#34;) await printLetter(\u0026#34;B\u0026#34;) await printLetter(\u0026#34;C\u0026#34;) await printLetter(\u0026#34;D\u0026#34;) } console.log(\u0026#39;Calling printAll function\u0026#39;) printAll() console.log(\u0026#39;End of code\u0026#39;)  JS Bin on jsbin.com\n In the code above, we modify .printAll() by prepending the declaration with async\n As a result of this change, we can simplify our promise consumption by using await inside the function to call the letters in sequence: \u0026quot;A\u0026quot; -\u0026gt; \u0026quot;B\u0026quot; -\u0026gt; \u0026quot;C\u0026quot; -\u0026gt; \u0026quot;D\u0026quot;\n Compare this code to the approach we used with the regular Promise syntax and you\u0026rsquo;ll notice that the async / await syntax is much cleaner and looks like synchronous code\n  "
+},
+{
 	"uri": "/solutions/homework-solutions/",
 	"title": "Homework Solutions",
 	"tags": [],
 	"description": "",
 	"content": " Homework Solutions Disclaimer: These files are not meant to be viewed as the \u0026ldquo;right answer, instead view them as a way to learn how another developer approached the same problem.\n Homework #1:  Homework #1: JS Basics, Control Flow Loops Solution  Homework #2:  Homework #2: Functions Solution: Pending  "
+},
+{
+	"uri": "/11-lab-giphy-weather-app/instructions/",
+	"title": "Instructions",
+	"tags": [],
+	"description": "",
+	"content": " Overview You are tasked with building an application that leverages different APIs to provide a city’s weather in a fun way\nInstructions 1) Download starter code\n The starter code for this code along is hosted on Github, see the url below:\n Lab: Giphy Weather App   2) Get API keys for OpenWeather and Giphy (if you haven’t done so already)\n"
+},
+{
+	"uri": "/15-project-firebase-todo-app/instructions/",
+	"title": "Instructions",
+	"tags": [],
+	"description": "",
+	"content": " Overview You are tasked with adding persistent data storage to an unfinished todo application using Firebase\u0026rsquo;s Realtime Database product\nInstructions 1) Download starter code\n The starter code for this code along is hosted on Github, see the url below:\n Project: Firebase Todo App   2) Create a new Firebase project called doit-app\n3) Add a \u0026ldquo;Realtime Database\u0026rdquo; to the project and choose the \u0026ldquo;Start in test mode\u0026rdquo; option\n4) Add a top level node called tasks(in the name field) and paste the following in the value field: { \u0026quot;111\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;do taxes\u0026quot;, \u0026quot;completed\u0026quot;: false }}\nAfter adding the tasks node, your data should look similar to the image below:\n"
+},
+{
+	"uri": "/09-http-and-apis/json/json-parse/",
+	"title": "JSON.parse()",
+	"tags": [],
+	"description": "",
+	"content": " JSON.parse()  When JSON is received from another service, it is in a string format\n In order to effectively work with JSON data in our code, we need to covert it so an object, array or value\n JSON.parse() is a method that converts an stringified JSON to native JavaScript datatypes (most commonly objects or arrays)\n  Example const jsonString = \u0026#39;{\u0026#34;members\u0026#34;:[{\u0026#34;name\u0026#34;:\u0026#34;Spider-Man\u0026#34;,\u0026#34;alias\u0026#34;:\u0026#34;Peter Parker\u0026#34;},{\u0026#34;name\u0026#34;:\u0026#34;Black Widow\u0026#34;,\u0026#34;alias\u0026#34;:\u0026#34;Natasha Romanova\u0026#34;}]}\u0026#39; const parsedJson = JSON.parse(jsonString) console.log(\u0026#39;parsedJson\u0026#39;, parsedJson) console.log(`data type of parsedJson: ${typeof parsedJson}`)  JS Bin on jsbin.com\n"
 },
 {
 	"uri": "/02-javascript-basics/",
@@ -378,6 +693,13 @@
 	"content": " Mac OS X Installation Instructions 1) Open your terminal application  Open your terminal (Applications \u0026gt; Utilities \u0026gt; Terminal)\n All of the following commands (below) that start with $ should be copied and pasted in your terminal / command prompt (also referred to as the \u0026ldquo;command line\u0026rdquo;)\n DO NOT include the \u0026lsquo;$\u0026rsquo; when copying and pasting the commands below; \u0026lsquo;$\u0026rsquo; is a universal symbol for the terminal / command line\n Press the enter / return key on your keyboard after pasting the command\n  2) Install brew  Brew is a package manager that we use to install various command line applications to your computer.\n Paste the following command in your Terminal, and hit enter:\n  $ ruby -e \u0026quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\u0026quot;  3) Install Git Git is used to track the state of your code over time. GitHub has built its platform on Git technology. We will be using both Git and GitHub to distribute code, submit assignments, and offer feedback.\nPaste the following command in your Terminal, and hit enter to install Git:\n $ brew install git  4) Configure Git  Copy and paste the following two commands (separately) into your Terminal. Replace the name and email address values with your own   $ git config --global user.name \u0026quot;Steve Jobs\u0026quot; $ git config --global user.email \u0026quot;steve@apple.com\u0026quot;   Follow these instructions to create a new SSH Key (a special, very secure, key which allows your laptop access to your github account without having to remember your github password)\n Add your new SSH Key to GitHub following these instructions\n Verify your key works by running the following:\n  $ ssh git@github.com   You should see output similar to:   Hi \u0026lt;you\u0026gt;! You've successfully authenticated, but GitHub does not provide shell access. Connection to github.com closed.  5) Install Node  Refer to the package installer on Node’s website  "
 },
 {
+	"uri": "/16-intro-to-express/express/middleware/",
+	"title": "Middleware",
+	"tags": [],
+	"description": "",
+	"content": " Middleware  Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle\n Middleware functions can perform the following tasks:\n Execute any code.\n Make changes to the request and the response objects.\n End the request-response cycle.\n Call the next middleware function in the stack\n  An Express application is essentially a series of middleware function calls\n Here\u0026rsquo;s an example of one type of Middleware that can be found in an Express application\n  app.get(\u0026#39;/user/:id\u0026#39;, function (req, res, next) { res.send(\u0026#39;USER\u0026#39;) })   The code above uses the .get() middleware to listen for GET requests to /user/:id  "
+},
+{
 	"uri": "/06-dom-and-jquery/jquery-events/mouse-events/",
 	"title": "Mouse Events",
 	"tags": [],
@@ -399,11 +721,46 @@
 	"content": " Cover class logistics, structure \u0026amp; keys to success\n Introduce tools you will be using throughout the class\n Discuss the benchmarks for assessments in terms of class participation, homework, and unit projects\n Confirm installation and configuration of Node, Git, and other command line tools\n Practice programmatic thinking by writing pseudocode\n  "
 },
 {
+	"uri": "/09-http-and-apis/http/http-request/http-methods/post/",
+	"title": "POST",
+	"tags": [],
+	"description": "",
+	"content": " POST  A POST request creates a new item on the server\n A request like POST https://restaurant-reviews.com/reviews could make a new review when we click the \u0026ldquo;Submit review\u0026rdquo; button on the webpage\n POST requests are often accompanied by data passed along in the HTTP request body. e.g. when we write a review for Little Beet, we would include our username (eric), our review (The shrimp salad is so delightful), and a star rating (4 out of 5)\n POST requests often return an ID of the new item, like 3\n POST requests are not idempotent\n When we make one of these requests, the state of the server changes\n Making the request again would create another item with another ID\n   "
+},
+{
+	"uri": "/12-project-build-a-slackbot/project-overview/",
+	"title": "Project Overview",
+	"tags": [],
+	"description": "",
+	"content": " Project Overview OpenWeatherBot: We will be building a slackbot that allows users to get information about a city\u0026rsquo;s current weather directly in Slack.\nHere\u0026rsquo;s a diagram that provides a high-level view of how our slackbot will work:\n"
+},
+{
 	"uri": "/04-functions-and-scope/scope/block-statements/",
 	"title": "Scope in Block Statements",
 	"tags": [],
 	"description": "",
 	"content": " Scope in Block Statements  Block statements like if and switch conditions or for and while loops, unlike functions, will create a new scope if you use let or const but NOT when you use var  Example  Declaring a variable within a Block statement using let creates local scope  if (true) { // this \u0026#39;if\u0026#39; conditional block creates a new scope because we use \u0026#39;let\u0026#39;  const name = \u0026#39;Prince\u0026#39; // name is local to the if block  console.log(name) // logs \u0026#39;Prince\u0026#39; } console.log(\u0026#39;----\u0026#39;) console.log(name) // \u0026lt;--- error because the \u0026#39;name\u0026#39; variable can only be accessed from within the block (due to the use of \u0026#39;let\u0026#39;)  JS Bin on jsbin.com\n Declaring a variable within a Block statement using var DOES NOT create local scope  if (true) { var name = \u0026#39;Prince\u0026#39; // declare a variable using \u0026#39;var`  console.log(name) // logs \u0026#39;Prince\u0026#39; } console.log(\u0026#39;----\u0026#39;) console.log(name) // \u0026lt;--- logs \u0026#39;Prince\u0026#39; because the \u0026#39;name\u0026#39; variable is in the global scope due to the use of `var`  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/12-project-build-a-slackbot/tutorial/step-2-create-new-slack-app/",
+	"title": "Step 2: Create New Slack App",
+	"tags": [],
+	"description": "",
+	"content": " Step 2: Create New Slack App Slack bots are packaged as Slack apps. Slack apps allow you to add more functionality into your Slack workspace\n To create your new Slack app, go to this page: https://api.slack.com/apps?new_app=1 and set your app name to OpenWeatherBot.\n Set the \u0026ldquo;Development Slack Workspace\u0026rdquo; to the new workspace you created in Step 1.\n  "
+},
+{
+	"uri": "/13-object-oriented-js/inheritance/super-and-extends/",
+	"title": "Super &amp; Extends",
+	"tags": [],
+	"description": "",
+	"content": " Super \u0026amp; Extends  super keyword is used to access and call functions on an object\u0026rsquo;s parent\n The extends keyword is used in a Class to create a class which is a child of another class\n super and extends are used together to create parent-child relationships between Classes\n  Example class Rectangle { constructor(height, width) { this._name = \u0026#39;Rectangle\u0026#39; this._height = height this._width = width } sayName() { console.log(`Hi, I am a ${this._name}`) } calculateArea() { return this._height * this._width } } // use \u0026#34;extends\u0026#34; keyword to create a \u0026#34;child\u0026#34; class // of the Rectangle class class Square extends Rectangle { constructor(length) { // Here, it calls the parent class\u0026#39;s constructor with lengths  // provided for the Rectangle\u0026#39;s width and height  super(length, length) // Note: In derived classes, super() must be called before you  // can use \u0026#39;this\u0026#39;. Leaving this out will cause a reference error.  this._name = \u0026#39;Square\u0026#39; } calculateSurfaceArea() { return this.calculateArea() * 6 } } const myRectangle = new Rectangle(5, 7) myRectangle.sayName() const rectangleArea = myRectangle.calculateArea() console.log(rectangleArea) console.log(\u0026#39;----\u0026#39;) const mySquare = new Square(7) mySquare.sayName() const squareArea = mySquare.calculateArea() console.log(squareArea) // call calculateSurfaceArea() method owned by // the child class (Square) const surfaceAreaOfSquare = mySquare.calculateSurfaceArea() console.log(surfaceAreaOfSquare)  JS Bin on jsbin.com\nExercise  Below we\u0026rsquo;ve created two classes Employee \u0026amp; Manager\n Unfortunately our implementation contains some duplication\n Use your knowledge of inheritance and \u0026ldquo;super\u0026rdquo; and \u0026ldquo;extends\u0026rdquo; keywords to remove the duplicated logic\n  class Employee { constructor(firstName, lastName) { this._firstName = firstName this._lastName = lastName } getFullName() { return `${this._firstName}${this._lastName}` } } class Manager { constructor(firstName, lastName) { this._firstName = firstName this._lastName = lastName this._managedEmployees = [] } getFullName() { return `${this._firstName}${this._lastName}` } addEmployee(employee) { this._managedEmployees.push(employee) } listEmployees(employees) { return this._managedEmployees.map(member =\u0026gt; member) } } const employee1 = new Employee(\u0026#34;Mickey\u0026#34;, \u0026#34;Mouse\u0026#34;) const employee2 = new Employee(\u0026#34;Donald\u0026#34;, \u0026#34;Duck\u0026#34;) console.log(employee1.getFullName()) console.log(employee2.getFullName()) const manager = new Manager(\u0026#34;Minnie\u0026#34;, \u0026#34;Mouse\u0026#34;) console.log(manager.getFullName()) manager.addEmployee(employee1) manager.addEmployee(employee2) const minniesTeam = manager.listEmployees() console.log(minniesTeam)  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/10-asynchronous-js-and-promises/synchronous-programming/",
+	"title": "Synchronous Programming",
+	"tags": [],
+	"description": "",
+	"content": " What is Synchronous Programming?  In a synchronous programming model, things happen one at a time\n This means that only one operation can be in progress at time\n When you call a function that performs a long-running action, it returns only when the action has finished and it can return the result\n Subsequent actions can only be run after the previous action has completed; this means that action #1 blocks action #2\n JavaScript is a synchronous, blocking, single-threaded language by default\n  Most of the code we\u0026rsquo;ve written so far has been synchronous\n Example Here\u0026rsquo;s an example of Synchronous code\nfunction printLetter(letter) { console.log(letter) } function printAll(){ printLetter(\u0026#34;A\u0026#34;) printLetter(\u0026#34;B\u0026#34;) printLetter(\u0026#34;C\u0026#34;) } printAll()  The the example above, printAll() calls printLetter() 3 times with \u0026ldquo;A\u0026rdquo;, \u0026ldquo;B\u0026rdquo;, \u0026ldquo;C\u0026rdquo; as parameters and each letter is printed out in the order in which the function was called\nJS Bin on jsbin.com\n"
 },
 {
 	"uri": "/06-dom-and-jquery/jquery-traversing/ancestors/",
@@ -434,6 +791,20 @@
 	"content": " while Loop  While loops run its statements as long as a specified condition evaluates to true  while (condition) { statement } // run some other code   If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop  Example let n = 0 while (n \u0026lt; 5) { console.log(n) n++ }  JS Bin on jsbin.com\nExercise Write a program that uses a while loop to print (using console.log()) a countdown from 10 to 1\nJS Bin on jsbin.com\n"
 },
 {
+	"uri": "/09-http-and-apis/apis/",
+	"title": "APIs",
+	"tags": [],
+	"description": "",
+	"content": " APIs  Overview   Finding APIs   Data Formats   API Keys   "
+},
+{
+	"uri": "/13-object-oriented-js/classes/encapsulation/",
+	"title": "Encapsulation",
+	"tags": [],
+	"description": "",
+	"content": " What is Encapsulation?  A core concept in OOP\n Refers to enclosing all the functionality of an object within that object so that the object’s internal workings (its methods and properties) are hidden from the rest of the application\n This allows us to only we only expose data and functionality that is needed to accomplish such a task and nothing else; this makes your code less prone to errors\n The means breaking up our classes / objects into two 2 parts\n Public Interface - what everyone needs to know in order to get our object to accomplish some task\n Private Interface - the inner workings of the object, the parts that most people don\u0026rsquo;t see, \u0026ldquo;under the hood\u0026rdquo;\n  Real-world Analogy: Cars\n Public Interface - everything needed to accomplish the core task of getting people from point A to point B; knowledge of how to drive the car, park the car, turn on air conditioning, etc\n Private Interface - everything \u0026ldquo;under the hood\u0026rdquo; or \u0026ldquo;behind the scenes\u0026rdquo; necessary for the car to be able to function and provide all of the \u0026ldquo;features\u0026rdquo; available in the public interface\n   Most people know how to operate a car (public interface) but they probably don\u0026rsquo;t know much about fixing an engine (private interface)\nEncapsulation in JavaScript  Encapsulation can be achieved with JavaScript Classes by not directly \u0026ldquo;exposing\u0026rdquo; instance variables of a Class\n Example of an \u0026ldquo;exposed\u0026rdquo; Class\n  // define Car class  class Car { constructor(make, model) { this._make = make this._model = model } } // create a new instance of the \u0026#34;Car\u0026#34; class  // and store it in a const variable named \u0026#34;myCar\u0026#34;  const myCar = new Car(\u0026#34;toyota\u0026#34;, \u0026#34;prius\u0026#34;) // changing the \u0026#34;model\u0026#34; instance variable  // using \u0026#34;direct access\u0026#34;  myCar._model = \u0026#34;corolla\u0026#34;  The example above is not considered best practice because our instance variables are being accessed \u0026ldquo;outside\u0026rdquo; of the class; meaning our private data was accessed \u0026ldquo;publicly\u0026rdquo;\nHow do we make instance variables private?  Unfortunately, JavaScript does not have built in support for \u0026ldquo;private\u0026rdquo; data within object or class\n The most common way to communicate that an instance variable is private (best practice is to make ALL instance variables private) is to prefix the property with an underscore (_)\n This is a convention only and does not prevent someone from writing code to access a class\u0026rsquo;s private data publicly, the instance variables are still technically accessible outside of the class / object, developers will have to rely on our own discipline to do the right thing (until JavaScript implements proper support)\n The best practice is to provide \u0026ldquo;indirect\u0026rdquo; access to your class\u0026rsquo;s private dat through the use of methods (which we\u0026rsquo;ll cover next)\n  "
+},
+{
 	"uri": "/06-dom-and-jquery/jquery-effects/toggle/",
 	"title": ".toggle()",
 	"tags": [],
@@ -441,11 +812,25 @@
 	"content": " .toggle() Method  Method that shows or hides element in such a way that if the element is initially displayed, it will be hidden; if hidden, it will be displayed  Example $(() =\u0026gt; { $(\u0026#34;button\u0026#34;).click(() =\u0026gt; { // toggle #box element  $(\u0026#34;#box\u0026#34;).toggle() }) })  JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/09-http-and-apis/apis/api-keys/",
+	"title": "API Keys",
+	"tags": [],
+	"description": "",
+	"content": " What Is An API Key?  While the majority of APIs are free to use, many of them require an API \u0026ldquo;key\u0026rdquo; that identifies the developer requesting data access\n This is done to regulate usage and prevent abuse. Some APIs also rate-limit developers, meaning they have caps on the free data allowed during a given time period\n  Exercise A: Access the Giphy API Try hitting the Giphy API\u0026hellip;\n No key: http://api.giphy.com/v1/gifs/search?q=funny+cat\n With key: http://api.giphy.com/v1/gifs/search?q=funny+cat\u0026amp;api_key=dc6zaTOxFJmzC\n  It is very important that you not push your API keys to a public Github repo.\n This is especially true when working with Amazon Web Services (AWS). Here\u0026rsquo;s an example of a stolen key horror story.\n Exercise B: Your First API Key(s) As a developer you will need to figure out how to navigate a site and find what your looking for\n Now go to the following web site(s) and sign up for an API key(s).\n giphy.com\n openweathermap.com\n   "
+},
+{
 	"uri": "/06-dom-and-jquery/jquery-overview/add-jquery/",
 	"title": "Adding jQuery to your Projects",
 	"tags": [],
 	"description": "",
 	"content": " There are two ways to add jQuery to your projects  Download the jQuery library file and store it within your project\n Use a CDN (content delivery network) and reference the jQuery library file remotely\n   Add jQuery via Download   Add jQuery via CDN   "
+},
+{
+	"uri": "/10-asynchronous-js-and-promises/asynchronous-programming/",
+	"title": "Asynchronous Programming",
+	"tags": [],
+	"description": "",
+	"content": " What is Asynchronous Programming?  An asynchronous model allows multiple things to happen at the same time\n An asynchronous operation is one that allows the computer to “move on” to other tasks while waiting for the asynchronous operation to complete\n Asynchronous programming means that time-consuming operations don’t have to bring everything else in our programs to a halt\n When you start an action, your program continues to run. When the action finishes, the program is informed and gets access to the result\n  Examples of Asynchronous Operations  Program making an API request to another service\n Program making a database request\n Program making a time-consuming complex calculation\n Program running a large batch operation (i.e. sending out weekly newsletter only to customers that have opted in)\n  "
 },
 {
 	"uri": "/02-javascript-basics/data-types/booleans/",
@@ -469,6 +854,13 @@
 	"content": " Calling a Function  Calling a function means you are using the function (as opposed to defining a function which only tells us what the function can do)\n To call a function you simply write function name followed by parentheses (don’t forget the parentheses!)\n Now you can call this function as many times as you want\n  /** define / declare a function named shout() by itself this doesn\u0026#39;t do anything, we must \u0026#34;Call\u0026#34; it in order to use it **/ function shout() { console.log(\u0026#34;HELLO!\u0026#34;) } /** Calling the function named shout we call a function by writing the name of the function followed by parentheses **/ shout()  JS Bin on jsbin.com\nExercise:  Create a function named yolo that logs 'yolo'. Next, use your knowledge of calling functions to ensure that 'yolo' is printed 3 times in the console  JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/10-asynchronous-js-and-promises/promises/consuming-promises/",
+	"title": "Consuming Promises",
+	"tags": [],
+	"description": "",
+	"content": " Consuming Promises  While knowing how to construct a promise is useful, most of your interactions with promises will be spent consuming (or using) Promises\n Put another way, you’ll be handling Promise objects returned to you as the result of an asynchronous operation\n These promises will start off pending but must settle eventually\n  Settling Promises  Promise objects offer a .then() function that allows us to dictate what should happen after the promise settles\n .then() is a function that takes two callback functions as arguments; when the promise settles, the appropriate handler will be invoked with that settled value\n onFulfilled: The first handler is the success handler, and it should contain the logic for the promise resolving\n onRejected: The second handler is the failure handler, and it should contain the logic for the promise rejecting\n   Example #1: Settling Promises: Successfully resolving a promise let promise = new Promise(function(resolve, reject) { setTimeout(() =\u0026gt; resolve(\u0026#34;done!\u0026#34;), 1000) }) // resolve runs the first function in .then() promise.then( result =\u0026gt; console.log(result), // shows \u0026#34;done!\u0026#34; after 1 second  error =\u0026gt; console.log(error) // doesn\u0026#39;t run )  JS Bin on jsbin.com\nExample #2: Settling Promises: Rejecting a promise let promise = new Promise(function(resolve, reject) { setTimeout(() =\u0026gt; reject(new Error(\u0026#34;Whoops!\u0026#34;)), 1000) }) // reject runs the second function in .then promise.then( result =\u0026gt; console.log(result), // doesn\u0026#39;t run  error =\u0026gt; console.log(error) // shows \u0026#34;Error: Whoops!\u0026#34; after 1 second )  JS Bin on jsbin.com\n"
+},
+{
 	"uri": "/03-control-flow-and-loops/",
 	"title": "Control Flow and Loops",
 	"tags": [],
@@ -476,11 +868,95 @@
 	"content": " Lesson 03 Control Flow and Loops "
 },
 {
+	"uri": "/12-project-build-a-slackbot/documentaton/",
+	"title": "Documentation",
+	"tags": [],
+	"description": "",
+	"content": " Documentation Since we\u0026rsquo;ll be the APIs of both Slack and OpenWeather, you should have the API docs of both platforms open in your browser so you can quickly reference them when needed:\n Slack API Docs\n OpenWeather API Docs\n  "
+},
+{
+	"uri": "/14-intro-to-crud-and-firebase/firebase/",
+	"title": "Firebase",
+	"tags": [],
+	"description": "",
+	"content": " Firebase  Overview   Benefits   NoSQL Databases   "
+},
+{
+	"uri": "/13-object-oriented-js/classes/methods/general-methods/",
+	"title": "General Methods",
+	"tags": [],
+	"description": "",
+	"content": " General Methods  You can specify \u0026ldquo;regular\u0026rdquo; methods that allow you do things other than simply getting and setting the property values  Example class Car { constructor(make, model) { this._make = make this._model = model this._miles = 30 } get make() { return this._make } get model() { return this._model } get miles() { return this._miles } set model(newModel) { this._model = newModel } drive(newMiles) { console.log(`driving ${newMiles}miles`) this._miles = this._miles + newMiles } } const myTesla = new Car(\u0026#34;Telsa\u0026#34;, \u0026#34;Model 3\u0026#34;) console.log(myTesla.make) console.log(myTesla.miles) // call instance.addMilage() method  // to add additional miles  myTesla.drive(15) myTesla.drive(7) console.log(myTesla.miles)  Here\u0026rsquo;s a summary of the code above:\n We\u0026rsquo;ve specified a new property miles and set it to 30 for each new Car instance\n Next, we added a getter method for miles, that simply returns the value stored in the miles property\n Then, we created a \u0026ldquo;regular\u0026rdquo; method drive() that accepts a parameter (newMiles) and updates our miles property with a new value\n  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/13-object-oriented-js/classes/instances/",
+	"title": "Instances",
+	"tags": [],
+	"description": "",
+	"content": " Instances  An instance is an object that contains the property names and methods of a class, but with unique property values (i.e. instances of a Class have their own unique identities)  Example - Creating Instances // define Car class  class Car { constructor(make, model) { this._make = make this._model = model } } // create a new instance of the Car class  // and store it in a variable named myTesla  const myTesla = new Car(\u0026#34;Tesla\u0026#34;, \u0026#34;Model 3\u0026#34;) console.log(myTesla)   Here\u0026rsquo;s a summary of the code above:\n Below our Class definition we are using the new keyword to create a new instance of our Car class\n We create a new variable named myTesla that will store an instance of our Car class\n We use new keyword to generate a new instance of the Car class\n The new keyword calls the constructor() method of a class, runs the code inside of it and then returns a new instance  We pass the two strings to the Car constructor (\u0026quot;Tesla\u0026quot; and \u0026quot;Model 3\u0026quot;)\n This will set the make property to \u0026quot;Tesla\u0026quot; and the model property to \u0026quot;Model 3\u0026quot;  Then we log the value saved to the make property of the myTesla instance which prints out \u0026quot;Tesla\u0026quot;\n   JS Bin on jsbin.com\nExercise  Create an instance of the Cat class and set name to \u0026quot;Hobbes\u0026quot; and breed to \u0026quot;Tabby\u0026quot;; save the instance to a const variable named hobbesCat\n Create another instance of the Cat class and set name to \u0026quot;Tigger\u0026quot; and breed to \u0026quot;Tiger\u0026quot;, save the instance to a const variable named tiggerCat\n  class Cat { constructor(name, breed) { this._name = name this._breed = breed } } // add your code below  // add your code above  console.log(hobbesCat) console.log(tiggerCat)  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/09-http-and-apis/json/",
+	"title": "JSON",
+	"tags": [],
+	"description": "",
+	"content": " JSON  Overview   JSON.stringify()   JSON.parse()   "
+},
+{
+	"uri": "/14-intro-to-crud-and-firebase/firebase/nosql-databases/",
+	"title": "NoSQL Databases",
+	"tags": [],
+	"description": "",
+	"content": " What is a NoSQL Database  Firebase uses a NoSQL for it\u0026rsquo;s cloud-based databases\n Like many NoSQL databases, Firebase\u0026rsquo;s Real-time database stores data as JSON objects\n NoSQL databases don\u0026rsquo;t enforce strict data structure which results in much more flexibility than traditional SQL databases\n Downsides: when dealing with \u0026ldquo;loosely structured\u0026rdquo; data, common use cases such as building out relationships (for example: a student has many courses, and courses contain many students) in your data can be non-intuitive and complex\n  Firebase\u0026rsquo;s Realtime Database  Firebase Realtime Database is a cloud-hosted NoSQL database that lets you store and sync between your users in realtime\n It\u0026rsquo;s really just one big JSON object that the developers can manage in realtime\n  "
+},
+{
+	"uri": "/09-http-and-apis/http/http-request/http-methods/put/",
+	"title": "PUT",
+	"tags": [],
+	"description": "",
+	"content": " PUT  The PUT method updates an item at the specified resource\n A request like PUT https://restaurant-reviews.com/restaurants/353 could update the information for Little Beet Restaurant after the owner edits the restaurant\u0026rsquo;s hours\n Like POST requests, PUT requests come with data in the HTTP request body to specify the fields and new values to update\n For example Hours: M-F 10a-10p, closed on Saturday and Sunday\n  "
+},
+{
+	"uri": "/10-asynchronous-js-and-promises/async-await/passing-values-with-async-await/",
+	"title": "Passing Values with Async / Await",
+	"tags": [],
+	"description": "",
+	"content": " Passing values with Async / Await  Similar to the original Promise syntax, we can easily pass values from one async function to other functions if needed  Example function getSuperheroes() { return new Promise(resolve =\u0026gt; { setTimeout(() =\u0026gt; { // send an array of heroes when  // promise is resolved  resolve([ { name: \u0026#34;Captain Marvel\u0026#34;, team: \u0026#34;Avengers\u0026#34; }, { name: \u0026#34;Batman\u0026#34;, team: \u0026#34;Justice League\u0026#34;}, { name: \u0026#34;Jean Grey\u0026#34;, team: \u0026#34;X-Men\u0026#34;}, { name: \u0026#34;Domino\u0026#34;, team: \u0026#34;X-Force\u0026#34;} ]) }, 3000) }); } function printHeroes(heroes) { heroes.forEach((hero) =\u0026gt; { console.log(`name: ${hero.name}, team: ${hero.team}`) }) } /* Declare function with \u0026#34;async\u0026#34; keyword */ async function fetchHeroes() { // make asynchronous call to .getSuperheroes()  // wait for the result and then use that  // result as input for the .printHeroes() function  const fetchedHeroes = await getSuperheroes() printHeroes(fetchedHeroes) } console.log(\u0026#34;Calling fetchHeroes()\u0026#34;) fetchHeroes() console.log(\u0026#34;end of the code\u0026#34;)  JS Bin on jsbin.com\n"
+},
+{
 	"uri": "/class-resources/atom-editor-settings/",
 	"title": "Recommended Atom Editor Settings",
 	"tags": [],
 	"description": "",
 	"content": " All of the settings below can be accessed using the following steps:\n Mac: cmd + , -\u0026gt; Editor PC: ctrl + , -\u0026gt; Editor  Setting indentation levels / default tab-size During our course we will be using a set indentation level of 2 spaces (1 indentation level = 2 spaces). Atom makes it easy conform to this approach by setting our tab to a set level of indentation.\nAfter updating this setting, pressing the tab key will represent one level of indentation which will translate to 2 spaces.\nDisplaying indentation guides Displaying the indentation guide provides a visual way of helping you ensure your indentation levels are correct\nSetting wordwrap Wordwrap ensures that long lines in your code are automatically wrapped to the next line. This improves readability of your code.\n"
+},
+{
+	"uri": "/11-lab-giphy-weather-app/requirements/",
+	"title": "Requirements",
+	"tags": [],
+	"description": "",
+	"content": " Requirements Requirement #1: App UI: The user interface should contain a single form input and a submit button (the starter code already provides the UI)\nRequirement #2: Make Multiple API Requests When users enter a city name into the input field and press submit the following should happen:\n API Request #1 - Fetch City’s Current Weather\nYour app should make an API request to OpenWeather and fetch the current weather associated with the city name entered into the form\n API Request #2 - Fetch Gif representing the City\nYour app should make an API request to Giphy and retrieve a gifs associated with the city name entered into the form field\n API Request #3 - Fetch Gif representing City’s weather description\nThe current weather data fetched from “API Request #1” returns a weather description (i.e. rain, clear sky, snow, etc) . Make an API request to the Giphy and retrieve gifs associated with this weather description\n  Requirement #3: Display Data Once all the data has been received from the API requests, display the following data on the screen:\n * The city’s current weather * City name * Current temperature (displayed in Fahrenheit or Celsius) * Weather description * Min temp * Max temp * 1 gif that represents the city * 1 gif that represents the city’s current weather description  Requirement #4: Use Promises  Promises must be used to make consume / handle the API responses\n Axios must be used to make the API requests\n  "
+},
+{
+	"uri": "/15-project-firebase-todo-app/requirements/",
+	"title": "Requirements",
+	"tags": [],
+	"description": "",
+	"content": " Requirements Requirement #1: Add Create Functionality When users attempt to add a new task using the #addItem form, the task should be successfully saved in the app\u0026rsquo;s Firebase database. Within your Firebase database, the name of the new task should be stored as name and the completed value of every newly created task should be set to false\nRequirement #2: Add Read Functionality The Doit app should list all tasks stored in your Firebase database within the #taskList div. Make sure you comment out the hardcoded tasks after you\u0026rsquo;ve successfully completed this step.\nRequirement #3: Add Update Functionality 2a: Users should be able update a task name and have that change reflected in the app\u0026rsquo;s Firebase database.\n2b: Users should be able toggle the checkbox (i.e. check and uncheck) to change the completed status of a task. The updated completed status (resulting from a checkbox change) should be reflected in the app\u0026rsquo;s Firebase database.\nRequirement #4: Add Delete Functionality Users should be able delete a task and have that task also deleted from the app\u0026rsquo;s Firebase database.\n"
+},
+{
+	"uri": "/16-intro-to-express/express/routing/",
+	"title": "Routing",
+	"tags": [],
+	"description": "",
+	"content": " Routing  Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on)\n Each route can have one or more handler functions, which are executed when the route is matched\n Route definition takes the following structure:\n  app.METHOD(PATH, HANDLER)   app is an instance of express.\n METHOD is an HTTP request method, in lowercase.\n PATH is a path on the server.\n HANDLER is the function executed when the route is matched.\n  Examples Respond with Hello World! on the homepage:\napp.get(\u0026#39;/\u0026#39;, function (req, res) { res.send(\u0026#39;Hello World!\u0026#39;) })  Respond to POST request on the root route (/), the application’s home page:\napp.post(\u0026#39;/\u0026#39;, function (req, res) { res.send(\u0026#39;Got a POST request\u0026#39;) })  Respond to a PUT request to the /user route:\napp.put(\u0026#39;/user\u0026#39;, function (req, res) { res.send(\u0026#39;Got a PUT request at /user\u0026#39;) })  Respond to a DELETE request to the /user route:\napp.delete(\u0026#39;/user\u0026#39;, function (req, res) { res.send(\u0026#39;Got a DELETE request at /user\u0026#39;) })  "
+},
+{
+	"uri": "/12-project-build-a-slackbot/tutorial/step-3-set-up-node-application/",
+	"title": "Step 3: Set Up Node Application",
+	"tags": [],
+	"description": "",
+	"content": " Step 3: Set up Node Application In this step we\u0026rsquo;re going to create a node application that will function as our server\n1. Create project folder  Navigate to the appropriate lesson_0x_file in your class folder\n Create a new folder named openweather-bot\n Change directories into that folder\n  2. Run npm init to bootstrap the Node application  Run npm init from the command line (make sure you inside your newly created project folder)\n Accept all of the default values (just press \u0026ldquo;enter\u0026rdquo; at every prompt)\n  3. Install the node packages (libraries) needed to create our server We\u0026rsquo;re going to be using Express, a minimal Node.js web framework, to quickly create our local server\nIn addition, we\u0026rsquo;ll also be adding other packages such as axios give our sever additional functionality\n From the command line (inside your project folder) run the following command:\n$ npm install express axios body-parser dotenv   4. Confirm package.json contains the recently installed packages  Open the project in your text editor and view the contents of package.json\n Confirm that the content of the file looks similar to the following:\n  { \u0026#34;name\u0026#34;: \u0026#34;openweather-bot\u0026#34;, \u0026#34;version\u0026#34;: \u0026#34;1.0.0\u0026#34;, \u0026#34;description\u0026#34;: \u0026#34;\u0026#34;, \u0026#34;main\u0026#34;: \u0026#34;index.js\u0026#34;, \u0026#34;scripts\u0026#34;: { \u0026#34;test\u0026#34;: \u0026#34;echo \\\u0026#34;Error: no test specified\\\u0026#34; \u0026amp;\u0026amp; exit 1\u0026#34; }, \u0026#34;author\u0026#34;: \u0026#34;\u0026#34;, \u0026#34;license\u0026#34;: \u0026#34;ISC\u0026#34;, \u0026#34;dependencies\u0026#34;: { \u0026#34;axios\u0026#34;: \u0026#34;^0.19.0\u0026#34;, \u0026#34;body-parser\u0026#34;: \u0026#34;^1.19.0\u0026#34;, \u0026#34;dotenv\u0026#34;: \u0026#34;^8.1.0\u0026#34;, \u0026#34;express\u0026#34;: \u0026#34;^4.17.1\u0026#34; } } 5. Add logic necessary to run our server Let\u0026rsquo;s add some code to our server to get it up and running\n Create a file named index.js\n Next, add the following code to index.js:\n  require(\u0026#39;dotenv\u0026#39;).config() const express = require(\u0026#39;express\u0026#39;) const bodyParser = require(\u0026#39;body-parser\u0026#39;) const axios = require(\u0026#39;axios\u0026#39;) // establishing the I/O port const PORT = process.env.PORT || 3000 const app = express() app.use(bodyParser.urlencoded({ extended: true })) app.use(bodyParser.json()) app.listen(PORT, () =\u0026gt; console.log(`App is up and running listening on port ${PORT}`)) app.get(\u0026#39;/\u0026#39;, async (req, res) =\u0026gt; { try { res.json({ message: \u0026#39;Welcome to Express Auth App!\u0026#39; }) } catch (e) { res.status(e.status).json({ message: e.status }) } })   In the code above, we are specifying that our server should run on port 3000 (const PORT = process.env.PORT || 3000)\n This means that our the url of our server (when running) can be found at http://localhost:3000  app.get('/'...) is what Express refers to as a route handler\n Route handlers are functions that get called when the server receives a request to a specified route  The following code tells our server to return a welcome message (as json) for any successful requests sent to the root path (i.e. /)\napp.get(\u0026#39;/\u0026#39;, async (req, res) =\u0026gt; { try { res.json({ message: \u0026#39;Welcome to Express Auth App!\u0026#39; }) } catch (e) { res.status(e.status).json({ message: e.status }) } })  With servers, the root path represents host part of the url without anyting after the domain\n For example the root path of CNN is https://cnn.com (and not https://cnn.com/world)\n In our case, the root path of our local server http://localhost:3000\n   6. Run the server  On the command line run the following command to run the server\n$ node index.js   Open your browser and enter http://localhost:3000 into the address bar and press enter\n The welcome message should be successfully displayed\n  "
 },
 {
 	"uri": "/03-control-flow-and-loops/switch-statement/",
@@ -553,6 +1029,13 @@
 	"content": " .submit() Event  Attaches an event handler function to \u0026lt;form\u0026gt; elements that is executed when the user is attempts to submit a form  Example $(() =\u0026gt; { // listen for a .submit() event on this form  $(\u0026#39;form\u0026#39;).submit((event) =\u0026gt; { // prevent default behavior of forms  event.preventDefault() // read data from text field  const name = $(\u0026#39;input\u0026#39;).val() if (name === \u0026#39;\u0026#39;) { alert(\u0026#39;Please enter a name\u0026#39;) } else { alert(`Hello ${name}!`) } }) })  JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/09-http-and-apis/ajax/",
+	"title": "AJAX",
+	"tags": [],
+	"description": "",
+	"content": " AJAX  Overview   AJAX Requests using Native JS   AJAX Requests with jQuery   "
+},
+{
 	"uri": "/05-arrays-objects/array-review/accessing-array-values/",
 	"title": "Accessing Array Values",
 	"tags": [],
@@ -588,11 +1071,39 @@
 	"content": " Bracket Notation  Bracket notation is another way to to access a key’s value is by using bracket notation, [ ]\n To use bracket notation to access an object’s property, we pass in the property name (key) as a string\nsuperHero['secret identity']`\n We must use bracket notation when accessing keys that have numbers, spaces, or special characters in them\n Remember, object keys are always strings\n  Example let superHero = { \u0026#39;secret identity\u0026#39;: \u0026#39;Peter Parker\u0026#39;, name: \u0026#39;Spiderman\u0026#39;, powers: [\u0026#39;super strength\u0026#39;, \u0026#39;hyper awareness\u0026#39;, \u0026#39;agility\u0026#39;, \u0026#39;genius intellect\u0026#39;], age: 17 } console.log(superHero[\u0026#34;secret identity\u0026#34;]) console.log(superHero[\u0026#34;name\u0026#34;])  JS Bin on jsbin.com\nUsing variables to access properties  Bracket notation also allows us to use a variable inside the brackets to select the keys of an object  Example let superHero = { \u0026#39;secret identity\u0026#39;: \u0026#39;Peter Parker\u0026#39;, name: \u0026#39;Spiderman\u0026#39;, powers: [\u0026#39;super strength\u0026#39;, \u0026#39;hyper awareness\u0026#39;, \u0026#39;agility\u0026#39;, \u0026#39;genius intellect\u0026#39;], age: 17 } let attribute = \u0026#34;name\u0026#34; // use the \u0026#39;attribute\u0026#39; variable to access a property in superHero  let attributeValue = superHero[attribute] console.log(superHero[attribute]) // This is the result of trying the same thing using dot notation  console.log(superHero.attribute) // undefined  JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/16-intro-to-express/code-along-express-tmdb-app/",
+	"title": "Code Along: Express TMDB App",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: Express TMDB App  Together we\u0026rsquo;ll walk through creating a full stack (backend \u0026amp; front-end) application that provides movie and tv show data using the TMDb API  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:\n Code Along: Express TMDb App\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n   2. Install Node Packages required to run the app  Navigate to project folder in the terminal and run the following   $ npm install   Then run the server   $ npm run start  3. Create a TMDB account  Create a free TMDb Account using the following link: create account\n Register for an API Key - follow the instructions found here: https://developers.themoviedb.org/3/getting-started/introduction\n  4. Access your TMDb API Key  Navigate to https://www.themoviedb.org/settings/api\n Look for the heading with the following label: API Key (v3 Auth)\n Copy the API key\n  5. Store API as Environment Variable  Open project in your editor\n In your terminal from the project folder, create a file named inside the .env\n   $ touch .env   Add the following to the .env file  TMDB_API_KEY=ADD_YOUR_API_KEY_HERE  "
+},
+{
+	"uri": "/14-intro-to-crud-and-firebase/code-along-firebase-playlist-app/",
+	"title": "Code Along: Firebase Playlist App",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: Firebase Playlist App  Together we\u0026rsquo;ll walk through creating a playlist application that has its data persisted in Firebase\u0026rsquo;s Realtime Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:\n Code Along: Firebase Playlist App (Updated)\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n   2. Create a Firebase account  Create a free Firebase Account using the following link: create account  "
+},
+{
+	"uri": "/09-http-and-apis/http/http-request/http-methods/delete/",
+	"title": "DELETE",
+	"tags": [],
+	"description": "",
+	"content": " DELETE  The DELETE method removes the resource at the URL.\n For example, DELETE https://restaurant-reviews.com/restaurants/353 will delete the review with the ID of 353\n DELETE requests are not idempotent. When we make one of these requests, the state of the server changes. Making the request again would probably result in an error since the item was already deleted\n The DELETE method is similar to the DELETE FROM statement\n  "
+},
+{
 	"uri": "/02-javascript-basics/data-types/",
 	"title": "Data Types",
 	"tags": [],
 	"description": "",
 	"content": " Strings\n Numbers\n Booleans\n Arrays\n Objects\n  "
+},
+{
+	"uri": "/10-asynchronous-js-and-promises/async-await/error-handling-with-async-await/",
+	"title": "Error Handling with Async / Await",
+	"tags": [],
+	"description": "",
+	"content": " Error Handling with Async / Await  With Async / Await we can use try..catch block to easily catch errors  Example function yayOrNay() { return new Promise((resolve, reject) =\u0026gt; { const val = Math.round(Math.random() * 1) // 0 or 1, at random  val ? resolve(\u0026#39;Lucky!!\u0026#39;) : reject(\u0026#39;Nope 😠\u0026#39;) }) } async function msg() { // use try..catch to handle any potential errors  // when using \u0026#34;async / await\u0026#34;  try { const msg = await yayOrNay(); console.log(msg) } catch(err) { console.log(err) } } msg() msg() msg() msg() msg() msg()  JS Bin on jsbin.com\n Notice how all of your \u0026ldquo;async-related\u0026rdquo; code lives inside the try {} portion of the try..catch block  Example #2: Handling errors with our Superhero fetcher  Let\u0026rsquo;s use try..catch to any errors that occur with our Superhero fetcher program  function getSuperheroes() { return new Promise((resolve, reject) =\u0026gt; { setTimeout(() =\u0026gt; { // comment out to simulate reject()  /* resolve([ { name: \u0026#34;Captain Marvel\u0026#34;, team: \u0026#34;Avengers\u0026#34; }, { name: \u0026#34;Batman\u0026#34;, team: \u0026#34;Justice League\u0026#34;}, { name: \u0026#34;Jean Grey\u0026#34;, team: \u0026#34;X-Men\u0026#34;}, { name: \u0026#34;Domino\u0026#34;, team: \u0026#34;X-Force\u0026#34;} ]) */ // reject promise  reject(\u0026#34;Oh no!!! An error occurred while fetching heroes.\u0026#34;) }, 3000) }); } function printHeroes(heroes) { heroes.forEach((hero) =\u0026gt; { console.log(`name: ${hero.name}, team: ${hero.team}`) }) } async function fetchHeroes() { /* use `try..catch` to catch any errors that occur during our asynchronous operation */ try { const fetchedHeroes = await getSuperheroes() printHeroes(fetchedHeroes) } catch (e) { console.log(e) } } console.log(\u0026#34;Calling fetchHeroes()\u0026#34;) fetchHeroes() console.log(\u0026#34;end of the code\u0026#34;)  JS Bin on jsbin.com\n"
 },
 {
 	"uri": "/06-dom-and-jquery/jquery-events/form-events/",
@@ -623,6 +1134,13 @@
 	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Wednesday, September 25th\nComplete Homework #2 - Functions  You are tasked with completing the problem set which is hosted on Github, see the url below:\n Github Repo for Homework #2 - Functions  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
+	"uri": "/10-asynchronous-js-and-promises/promises/handling-async-issues-with-promises/",
+	"title": "Handling Async Issues with Promises",
+	"tags": [],
+	"description": "",
+	"content": " Handling Async Issues with Promises  Let\u0026rsquo;s revisit our .printLetter() example and use promises\n First let\u0026rsquo;s modify our .printLetter() function to return a Promise\n  function printLetter(letter) { return new Promise((resolve, reject) =\u0026gt; { setTimeout(() =\u0026gt; { console.log(letter) resolve() }, Math.floor(Math.random() * 3000)) }) } //... the rest of code below not shown for brevity  Example: Using Promises to control the execution order of async functions function printLetter(letter) { return new Promise((resolve, reject) =\u0026gt; { setTimeout(() =\u0026gt; { console.log(letter) resolve() }, Math.floor(Math.random() * 3000)) }) } function printAll(){ printLetter(\u0026#34;A\u0026#34;) .then(() =\u0026gt; printLetter(\u0026#34;B\u0026#34;)) .then(() =\u0026gt; printLetter(\u0026#34;C\u0026#34;)) .then(() =\u0026gt; printLetter(\u0026#34;D\u0026#34;)) } console.log(\u0026#39;Calling printAll function\u0026#39;) printAll() console.log(\u0026#39;End of code\u0026#39;)  JS Bin on jsbin.com\nPromise Chain The following code snippet from the example above is referred to as a promise chain:\nprintLetter(\u0026quot;A\u0026quot;) .then(() =\u0026gt; printLetter(\u0026quot;B\u0026quot;)) .then(() =\u0026gt; printLetter(\u0026quot;C\u0026quot;)) .then(() =\u0026gt; printLetter(\u0026quot;D\u0026quot;))  "
+},
+{
 	"uri": "/04-functions-and-scope/hoisting/",
 	"title": "Hoisting",
 	"tags": [],
@@ -651,6 +1169,13 @@
 	"content": " Master Branch  The default branch found in every Git respository\n For most companies, the master branch reflects that latest version of production code (i.e. working code available to customers)\n  "
 },
 {
+	"uri": "/13-object-oriented-js/classes/methods/",
+	"title": "Methods",
+	"tags": [],
+	"description": "",
+	"content": "  Overview   Getters \u0026amp; Setters   General Methods   Static Methods   "
+},
+{
 	"uri": "/02-javascript-basics/variables/naming-rules/",
 	"title": "Naming Rules for Variables",
 	"tags": [],
@@ -670,6 +1195,41 @@
 	"tags": [],
 	"description": "",
 	"content": " Atom allows you to open files from the command line\nIf you have Atom installed you can run the atom command with one or more file paths to open up those files in Atom.\nCheck if Atom is already configured to run on your computer\u0026rsquo;s Command Line Open up your terminal and run the following command\n$ atom --help  You should receive output similar to the following\nAtom Editor v1.39.1 Usage: atom atom [options] [path ...] atom file[:line[:column]] One or more paths to files or folders may be specified. If there is an existing Atom window that contains all of the given folders, the paths will be opened in that window. Otherwise, they will be opened in a new window.  If Atom is not configured to run from your computer\u0026rsquo;s Command Line Open Atom and choose the following from the menu bar Atom -\u0026gt; Install Shell Commands\n"
+},
+{
+	"uri": "/16-intro-to-express/express/route-parameters/",
+	"title": "Route Parameters",
+	"tags": [],
+	"description": "",
+	"content": " Route Parameters  Route parameters are named URL segments that are used to capture the values specified at their position in the URL\n The captured values are populated in the req.params object, with the name of the route parameter specified in the path as their respective keys\n Route parameters are similar to function parameters\n Given the following route handler:\napp.get('/users/:userId/books/:bookId', function (req, res) { res.send(req.params) })   If the client makes a request to the following url: GET http://localhost:3000/users/34/books/8989\n Then inside our route handle req.params will contain the following object: { \u0026quot;userId\u0026quot;: \u0026quot;34\u0026quot;, \u0026quot;bookId\u0026quot;: \u0026quot;8989\u0026quot; }\n   "
+},
+{
+	"uri": "/10-asynchronous-js-and-promises/simulating-async-operations/",
+	"title": "Simulating Async Operations",
+	"tags": [],
+	"description": "",
+	"content": " setTimeout()  .setTimeout() function, available both in Node.js and in browsers, waits a given number of milliseconds (1 sec = 1000 ms) and then calls a function\n .setTimeout() takes two parameters:\n A callback function (remember callbacks are just functions passed in as parameters)\n The number of seconds after which the method will be called\n  .setTimeout() is async by default; this is the primary reason it\u0026rsquo;s often used to simulate asynchronous operations\n  Example const delayedGreeting = () =\u0026gt; { console.log(\u0026#39;Hi, sorry for the wait!\u0026#39;) } /* call setTimout(), it accepts 2 parameters 1. callback (function to be executed) 2. delay in milliseconds (1000 ms = 1 sec) */ console.log(\u0026#39;calling .setTimeout()\u0026#39;) setTimeout(delayedGreeting, 3000) console.log(\u0026#39;end of the code\u0026#39;)  In the code above, .setTimeout() is used to delay the execution of the .delayedGreeting() function by 3 seconds.\n Run the example in the jsbin below and notice how the message: end of the code is executed before the Hi, sorry for the wait!.  JS Bin on jsbin.com\n This means that our program did not wait for .delayedGreeting() to finishing running before it executed  Event Loop  Asynchronous JavaScript uses something called the event-loop\n In the example above, After 3 seconds, .delayedGreeting() is added to a line of code (Event Queue) waiting to be run\n Before it can run, any synchronous code from the program will run first (from the Call Stack)\n Next, any code in front of it in the line will run\n This means it might be more than two seconds before delayedHello() is actually executed\n  "
+},
+{
+	"uri": "/13-object-oriented-js/classes/methods/static-methods/",
+	"title": "Static Methods",
+	"tags": [],
+	"description": "",
+	"content": " Static Methods  Static method calls are made directly on the class and are not callable on instances of the class\n Static methods are prepended with the static keyword\n  class Car { constructor(make, model, price) { this._make = make this._model = model this._price = price } // instance methods  get price() { return this._price } drive() { console.log(\u0026#39;calling \u0026#34;this\u0026#34; in an instance method\u0026#39;, this) console.log(`driving ${this._make}${this._model}`) } // static method  static mostExpensiveCar(cars) { console.log(\u0026#39;calling \u0026#34;this\u0026#34; in a static method\u0026#39;, this) return cars.sort((a, b) =\u0026gt; b.price - a.price)[0] } } // Create 3 instances of the Car class  const car1 = new Car(\u0026#34;honda\u0026#34;, \u0026#34;accord\u0026#34;, 20000) const car2 = new Car(\u0026#34;aston martin\u0026#34;, \u0026#34;db7\u0026#34;, 110000) const car3 = new Car(\u0026#34;bmw\u0026#34;, \u0026#34;5 series\u0026#34;, 50000) // call static method mostExpensiveCar() on the Class (Car)  // not the instance  const priceyCar = Car.mostExpensiveCar([car1, car2, car3]) console.log(priceyCar)  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/12-project-build-a-slackbot/tutorial/step-4-run-ngrok/",
+	"title": "Step 4: Run ngrok",
+	"tags": [],
+	"description": "",
+	"content": " Run ngrok  Next we need to give our local server access to the internet so our slack app can communicate with it\n ngrok is a tool that allows developers to create \u0026ldquo;tunnels\u0026rdquo; that connect the server running locally (i.e. on your computer) to the internet\n  1. Run ngrok command from within project folder  In a new command line tab run the following command (make sure you run this within the project folder)   $ ngrok http 3000   Here, we are are telling ngrok to create a local tunnel that connects our server running on port 3000 (i.e. http://localhost:3000) and to ngrok url that is accessible to the internet\n You ngrok command should display output that looks similar to the following (the urls will be unique to your server and will not match the output below):\n  2. Confirm your local server is accessible via the internet At this point in the project, you will want to have multiple tabs open in your command line application. In order for the Slack to be able to communicate with our server both our local server and ngrok must be running in their own separate tabs.\n  Copy the ngrok \u0026ldquo;forwarding\u0026rdquo; url (from our ngrok tab) that begins with https and paste it into the address bar of a new browser tab\n Confirm that the welcome message is successfully displayed when using the ngrok url to access your server\n  "
+},
+{
+	"uri": "/12-project-build-a-slackbot/tutorial/",
+	"title": "Tutorial",
+	"tags": [],
+	"description": "",
+	"content": "  Step 1: Create New Slack Workspace   Step 2: Create New Slack App   Step 3: Set Up Node Application   Step 4: Run ngrok   Step 5: Create a test Slash command   Step 6: Install App to Workspace   Step 7: Responding to Slash Commands   Step 8: Test your Slash Command   Step 9: Access Slash Command Parameters   Step 10: Make API Request to OpenWeather   Step 11: Respond to Slack with Current Weather   Step 12: Use Environment Variables to Protect Secure Credentials   Step 13: Handle Errors Gracefully   Step 14: Enhance Weather Response with Emojis   "
 },
 {
 	"uri": "/class-resources/node-git-installation/windows/",
@@ -742,6 +1302,13 @@
 	"content": " Lesson 05 Arrays \u0026amp; Objects "
 },
 {
+	"uri": "/10-asynchronous-js-and-promises/challenges-of-async-programming/",
+	"title": "Challenges of Async Programming",
+	"tags": [],
+	"description": "",
+	"content": " Challenges of Asynchronous Programming  Asynchronous programming presents a challenge when we want make multiple asynchronous requests and we want to control the order of the responses  Example Let\u0026rsquo;s see an example of this below:\n/* Modify printLetter() to make it an async function by using .setTimeout After the changes, the letter will be print at a random interval from 0 seconds to 3 seconds */ function printLetter(letter) { setTimeout(() =\u0026gt; { console.log(letter) }, Math.floor(Math.random() * 3000)) } function printAll(){ printLetter(\u0026#34;A\u0026#34;) printLetter(\u0026#34;B\u0026#34;) printLetter(\u0026#34;C\u0026#34;) } console.log(\u0026#39;Calling printAll function\u0026#39;) printAll() console.log(\u0026#39;End of code\u0026#39;)   In the code example above we have turned .printLetter() into an asynchronous function through the use of .setTimeout to randomly delay each function call from anywhere between 0 seconds and 3 seconds\n Run the jsbin below (multiple times) and notice how the order of the printed letters is no longer predictable and that A, B, and C print in a different and random order each time you call printAll\n  JS Bin on jsbin.com\n One way to fix this issue is to use callbacks  "
+},
+{
 	"uri": "/01-command-line-js-and-git/git-vocabulary/",
 	"title": "Git Vocabulary",
 	"tags": [],
@@ -749,11 +1316,25 @@
 	"content": " Git Vocabulary  Repository   Commit   Branch   Master Branch   Merge   Push   Pull   Fork   Clone   Pull Request   "
 },
 {
+	"uri": "/13-object-oriented-js/inheritance/",
+	"title": "Inheritance",
+	"tags": [],
+	"description": "",
+	"content": "  Overview   Super \u0026amp; Extends   "
+},
+{
 	"uri": "/01-command-line-js-and-git/git-vocabulary/merge/",
 	"title": "Merge",
 	"tags": [],
 	"description": "",
 	"content": " Merge  Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another\n This often happens as a Pull Request (which can be thought of as a request for comments and a request to merge into the another branch * usually the master branch)\n  "
+},
+{
+	"uri": "/10-asynchronous-js-and-promises/promises/passing-values-with-promises/",
+	"title": "Passing values with Promises",
+	"tags": [],
+	"description": "",
+	"content": " Passing values with Promises  A common use case when working with asynchronous code is to take the data received from one asynchronous call (output) and use that data as input for another function or action in your program\n Promises allow developers to easily pass data (or values) between functions\n  Example function getSuperheroes() { return new Promise(resolve =\u0026gt; { setTimeout(() =\u0026gt; { // send an array of heroes when  // promise is resolved  resolve([ { name: \u0026#34;Captain Marvel\u0026#34;, team: \u0026#34;Avengers\u0026#34; }, { name: \u0026#34;Batman\u0026#34;, team: \u0026#34;Justice League\u0026#34;}, { name: \u0026#34;Jean Grey\u0026#34;, team: \u0026#34;X-Men\u0026#34;}, { name: \u0026#34;Domino\u0026#34;, team: \u0026#34;X-Force\u0026#34;} ]) }, 3000) }); } function printHeroes(heroes) { heroes.forEach((hero) =\u0026gt; { console.log(`name: ${hero.name}, team: ${hero.team}`) }) } /* Declare function with \u0026#34;async\u0026#34; keyword */ function fetchHeroes() { /* make asynchronous call to .getSuperheroes() and use .then() to pass the result from .getSuperheroes (\u0026#34;fetchedHeroes\u0026#34;) so it can be used as a parameter for .printHeroes() */ getSuperheroes() .then((fetchedHeroes) =\u0026gt; { printHeroes(fetchedHeroes) }) } console.log(\u0026#34;Calling fetchHeroes()\u0026#34;) fetchHeroes() console.log(\u0026#34;end of the code\u0026#34;)  JS Bin on jsbin.com\n In the code above, we have two functions .getSuperheroes() which is responsible for asynchronously fetching a list of superheroes and .printHeroes which is responsible for printing the heroes to the console\n .printHeroes depends on the data from the (asynchronous) .getSuperheroes() function\n In addition to helping us control the sequence of asynchronous functions, .then() also allows us to \u0026ldquo;pass\u0026rdquo; values to other function in the \u0026ldquo;promise chain\u0026rdquo;\n .getSuperheroes returns an array of objects, we use .then() to pass that array of objects as a parameter (fetchedHeroes) to the next function in the promise chain: printHeroes()\n  "
 },
 {
 	"uri": "/04-functions-and-scope/returning-values-from-functions/",
@@ -768,6 +1349,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Show Git-Ignored Files in Atom Atom, by default, will not show files in its file pane (file tree view) if those files have been added to .gitignore.\nAn easy approach to fixing this issue is to do the following:\n Click anywhere in the Tree View (left hand pane with files and folders) Press i (this will toggle the visibility of hidden files)  "
+},
+{
+	"uri": "/12-project-build-a-slackbot/tutorial/step-5-create-a-test-slash-command/",
+	"title": "Step 5: Create a test Slash command",
+	"tags": [],
+	"description": "",
+	"content": " Step 5: Create a test Slash command 1. Go to your Slack developer page  Go to https://api.slack.com/apps and select your OpenWeatherBot app  2. Create a new slash command for OpenWeatherBot  Click on Slack Commands in the left side panel and then press the button labeled Create New Command\n Next fill out the form with the following information and press the \u0026ldquo;Save\u0026rdquo; button:\n Command: test Request URL: [YOUR NGROK HTTPS URL]/test Short Description: Test command Usage Hint: [name]   We are creating a slash command called test, when initiated in Slack, this command will make a POST request to our server using the ngrok https url for our app (remember the ngrok url is unique to your server)   "
 },
 {
 	"uri": "/06-dom-and-jquery/jquery-overview/jquery-selectors/",
@@ -882,6 +1470,20 @@
 	"content": " Lesson 06 Intro to DOM \u0026amp; jQuery "
 },
 {
+	"uri": "/10-asynchronous-js-and-promises/promises/error-handling-with-catch/",
+	"title": "Error Handling with .catch()",
+	"tags": [],
+	"description": "",
+	"content": " Error Handling with .catch()  Promises chains are a great place to handle errors\n The .catch() method provides us with an easy way to catch any errors that occur in a Promise chain\n  Example const myPromise = () =\u0026gt; { return new Promise((resolve, reject) =\u0026gt; { // return 1 after the promise is resolved  setTimeout(() =\u0026gt; resolve(1), 2000) }) } myPromise().then((result) =\u0026gt; { console.log(result) return result + 1 }).then((result) =\u0026gt; { console.log(result) return result + 1 }).then((result) =\u0026gt; { throw new Error(\u0026#39;FAILED HERE\u0026#39;) // \u0026lt;- simulate an error in the promise chain  console.log(result) return result + 1 }).catch((e) =\u0026gt; { // catch error that occurs anywhere  // the promise chain  console.log(\u0026#39;an error occurred\u0026#39;) console.log(e) })  JS Bin on jsbin.com\nExample #2: Handling errors with our Superhero fetcher  Let\u0026rsquo;s use .catch() to any errors that occur with our Superhero fetcher program  function getSuperheroes() { return new Promise((resolve, reject) =\u0026gt; { setTimeout(() =\u0026gt; { // comment out to simulate reject()  /* resolve([ { name: \u0026#34;Captain Marvel\u0026#34;, team: \u0026#34;Avengers\u0026#34; }, { name: \u0026#34;Batman\u0026#34;, team: \u0026#34;Justice League\u0026#34;}, { name: \u0026#34;Jean Grey\u0026#34;, team: \u0026#34;X-Men\u0026#34;}, { name: \u0026#34;Domino\u0026#34;, team: \u0026#34;X-Force\u0026#34;} ]) */ // reject promise  reject(\u0026#34;Oh no!!! An error occurred while fetching heroes.\u0026#34;) }, 3000) }); } function printHeroes(heroes) { heroes.forEach((hero) =\u0026gt; { console.log(`name: ${hero.name}, team: ${hero.team}`) }) } function fetchHeroes() { /* use .catch() to catch any errors that occur during our asynchronous operation */ getSuperheroes() .then((fetchedHeroes) =\u0026gt; { printHeroes(fetchedHeroes) }).catch((e) =\u0026gt; { console.log(e) }) } console.log(\u0026#34;Calling fetchHeroes()\u0026#34;) fetchHeroes() console.log(\u0026#34;end of the code\u0026#34;)  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/10-asynchronous-js-and-promises/handling-async-issue-with-callbacks/",
+	"title": "Handling Async Issues with Callbacks",
+	"tags": [],
+	"description": "",
+	"content": " What is a Callback?  Callbacks are functions that are passed to another function\n We can use callbacks to control the order in which our multiple asynchronous functions are executed\n The code below modifies our .printLetter() function to accept a callback as a 2nd parameter\n  function printLetter(letter, callback) { //\u0026lt;- callback function param added  setTimeout(() =\u0026gt; { console.log(letter) callback() // \u0026lt;- execute (call) the callback param after printing letter  }, Math.floor(Math.random() * 3000)) } //... the rest of code below not shown for brevity   The changes will result in .printLetter() calling the next function (callback) after it\u0026rsquo;s done with the current function\n Now let\u0026rsquo;s see how we can use this callback approach to control the order in which our asynchronous functions are executed\n  Example: Using callbacks to control the execution order of async functions function printLetter(letter, callback) { //\u0026lt;- callback function param added  setTimeout(() =\u0026gt; { console.log(letter) callback() // \u0026lt;- execute (call) the callback param after printing letter  }, Math.floor(Math.random() * 3000)) } /* Using nested callback structure to control the execution order of the async functions */ function printAll(){ printLetter(\u0026#34;A\u0026#34;, () =\u0026gt; { printLetter(\u0026#34;B\u0026#34;, () =\u0026gt; { printLetter(\u0026#34;C\u0026#34;, () =\u0026gt; {}) }) }) } console.log(\u0026#39;Calling printAll function\u0026#39;) printAll() console.log(\u0026#39;End of code\u0026#39;)   Run the jsbin below and notice that no matter how many times we run the code, our asynchronous functions will be executed in the desired order (\u0026ldquo;A\u0026rdquo; -\u0026gt; \u0026ldquo;B\u0026rdquo; -\u0026gt; \u0026ldquo;C\u0026rdquo;)  JS Bin on jsbin.com\n However, observe how our .printAll() function is now using nested callbacks to meet our goals\n The introduction of nesting introduces additional complexity and makes the code difficult to maintain\n The use of nested callbacks to handle asynchronous code is referred to as \u0026ldquo;Callback Hell\u0026rdquo; and should generally be avoided\n  "
+},
+{
 	"uri": "/03-control-flow-and-loops/lab-js-basics-control-flow-loops/",
 	"title": "Lab: JS Basics, Control Flow &amp; Loops",
 	"tags": [],
@@ -922,6 +1524,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Push  Refers to sending your committed changes to a remote repository such as GitHub.com\n For instance, if you change something locally, you\u0026rsquo;d want to then push those changes so that others may access them\n  "
+},
+{
+	"uri": "/12-project-build-a-slackbot/tutorial/step-6-install-app-to-workspace/",
+	"title": "Step 6: Install App to Workspace",
+	"tags": [],
+	"description": "",
+	"content": " Step 6: Install App to your Workspace 1. Go to your Slack developer page  Go to https://api.slack.com/apps and select your OpenWeatherBot app  2. Install App to your workspace  Click on OAuth \u0026amp; Permissions in the left side panel and then press the button labeled Install App to Workspace\n Confirm that your newly created workspace (from Step 1) is listed and press \u0026ldquo;Allow\u0026rdquo;\n  3. Confirm that your slash command is available in your workspace  Navigate to your slack workspace via the web: https://slack.com/signin\n Select your testing workspace from Step 1\n Go to any channel and type /tes (purposely leaving off the last \u0026ldquo;t\u0026rdquo;) and our \u0026ldquo;test\u0026rdquo; slash command in the autocomplete listing\n Congrats you\u0026rsquo;ve installed your first slash command, during the next step, we will set up our server to handle the command\n  "
 },
 {
 	"uri": "/05-arrays-objects/array-review/updating-array-values/",
@@ -973,6 +1582,13 @@
 	"content": " .unshift()  Adds one or more elements to the beginning of an array and returns the new length of the array\n This method is a mutating method because it changes the original array\n  Example let fruits = [\u0026#34;Apple\u0026#34;, \u0026#34;Orange\u0026#34;, \u0026#34;Grapes\u0026#34;] fruits.unshift(\u0026#34;Peach\u0026#34;, \u0026#34;Mango\u0026#34;) console.log(fruits) // Peach, Mango, Apple, Orange, Grapes  JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/09-http-and-apis/code-along-giphy-api/",
+	"title": "Code Along: Giphy API",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: Giphy Search API We\u0026rsquo;re going to build an application that uses Giphy\u0026rsquo;s API to display gifs based on search terms provided by users\n The starter code for this code along is hosted on Github, see the url below:\n Code Along: Giphy Search API  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
 	"uri": "/02-javascript-basics/comparison-operators/",
 	"title": "Comparison Operators",
 	"tags": [],
@@ -1001,11 +1617,25 @@
 	"content": " Functions can call other functions  Function reusability is key results in cleaner code\n Reusing functions leverages key programming principle - Don\u0026rsquo;t Repeat Yourself (DRY)\n  Example  In the example of below, the surfaceAreaOfCube function calls another function (areaOfSquare) instead of duplicating work that was already done  // Function that calculates area of a square  function areaOfSquare(side){ return side * side } areaOfSquare(3) // returns 9  // This is a function that calculates the // surface area of a cube that *reuses* the areaOfSquare function  function surfaceAreaOfCube(side){ return 6 * areaOfSquare(side) } surfaceAreaOfCube(7) // returns 294  JS Bin on jsbin.com\nExercise  Create a function named surfaceAreaOfSphere that calculates the surface area of the Sphere using the following formula: 4 * PI * r**2; the function MUST reuse the provided areaOfCircle function  JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/10-asynchronous-js-and-promises/promises/",
+	"title": "Promises",
+	"tags": [],
+	"description": "",
+	"content": " Promises  Overview   Creating Promises   Consuming Promises   Handling Async Issues with Promises   Passing values with Promises   Error Handling with .catch()   "
+},
+{
 	"uri": "/01-command-line-js-and-git/git-vocabulary/pull/",
 	"title": "Pull",
 	"tags": [],
 	"description": "",
 	"content": " Pull  Pulls code from a remote repository and merges it with code in your local repository (on your computer)  "
+},
+{
+	"uri": "/12-project-build-a-slackbot/tutorial/step-7-responding-to-slash-commands/",
+	"title": "Step 7: Responding to Slash Commands",
+	"tags": [],
+	"description": "",
+	"content": " Step 7: Responding to Slash Commands Next we\u0026rsquo;ll set up our server to respond to the Slash command, here\u0026rsquo;s how Slack describes the process in their documentation:\n When a slash command is invoked, Slack sends an HTTP POST to the Request URL you specified above. This request contains a data payload describing the source command and who invoked it, like a really detailed knock at the door.\n We are going to have our server send back an immediate response the process is detailed here\n1. Update index.js Add the following code to the bottom of index.js\napp.post(\u0026#39;/test\u0026#39;, async (req, res) =\u0026gt; { try { console.log(req) const data = { \u0026#39;response_type\u0026#39;: \u0026#39;in_channel\u0026#39;, \u0026#39;text\u0026#39;: \u0026#39;Testing testing 123!\u0026#39; } res.json(data) } catch (e) { console.log(e) } })   Here\u0026rsquo;s a summary of the newly added code\n We are using the API of Express to create a route with the path /test, this is the same route that matches url we entered during the creation of the Slash command on Step 5\n We are also leveraging a feature of Express that allows us to use the async/await syntax (and the try..catch syntax for error handling) to handle asynchronous calls\n When we create a route in Express, we get access to a callback that provides us with two parameters (request and response)\n The request object will contain information about the request that was sent to our server\n The response object allows us to send back a response to the sender\n  We are constructing a json object (according to Slack\u0026rsquo;s API documentation) that will allow send a response back with data to Slack\n We are using the .json() method available on the response object to send back a json response to Slack\n   2. Restart your Express server  Any time we make changes to our server code, we will need to restart the server before those new changes can be applied\n Navigate to the tab in your command line application that houses the running node server\n On your keyboard press Ctrl-C to shut down the server\n Then press the up arrow to access your previous command (which should be node index.js) and press enter to restart the server\n  "
 },
 {
 	"uri": "/02-javascript-basics/variables/when-to-use-let-vs-const/",
@@ -1092,11 +1722,25 @@
 	"content": " Adding \u0026amp; Removing Items  Let\u0026rsquo;s review some of the most common ways to Add and Remove elements from an array:   .push()   .pop()   .shift()   .unshift()   .slice()   "
 },
 {
+	"uri": "/10-asynchronous-js-and-promises/async-await/",
+	"title": "Async / Await",
+	"tags": [],
+	"description": "",
+	"content": " Async / Await  Overview   Handling Async Issues with Async / Await   Passing Values with Async / Await   Error Handling with Async / Await   "
+},
+{
 	"uri": "/07-dom-and-jquery-ii/code-along-traffic-light/",
 	"title": "Code Along: Traffic Light",
 	"tags": [],
 	"description": "",
 	"content": " Code Along: Traffic Light  The starter code for this code along is hosted on Github, see the url below:\n Code Along: Traffic Light  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
+	"uri": "/09-http-and-apis/code-along-twilio-api-sms/",
+	"title": "Code Along: Twilio SMS API",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: Twilio SMS API We\u0026rsquo;ll be using the Twilio API to build a small app that sends text messages.\n1) Sign up for a free Twilio account\n2) Verify your Personal Number - trial accounts are only allowed to send SMS messages to \u0026ldquo;verified numbers\u0026rdquo;, follow this process and add your mobile phone number as a \u0026ldquo;verified number\u0026rdquo;\nYou can optionally set up a Google Voice number as an alternative to using your own mobile number\n 3) Get the starter code*: It\u0026rsquo;s hosted on Github, see the url below:\n Code Along: Twilio SMS API\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  4) Navigate to this guide: Sending Outbound SMS with Nodejs - we\u0026rsquo;ll be following along with this guide to build the application\n"
 },
 {
 	"uri": "/09-http-and-apis/",
@@ -1125,6 +1769,20 @@
 	"tags": [],
 	"description": "",
 	"content": " Scope Overview  Scope is the set of variables you have access to\n As we learned in the beginning of this class, JavaScript reads from top to bottom\n Sometimes, however, we declare variables inside functions (just like arguments), which aren\u0026rsquo;t accessible in other parts of our code; this is the concept of scope.\n  Types of Scope  A variables scope is determined primarily based on where is was declared\n Variables declared inside a function are in local scope\n Variables defined outside of a function are in the global scope\n Each function when invoked creates a new scope\n  Details  Global Scope   Local Scope   Scope in Block Statements   "
+},
+{
+	"uri": "/12-project-build-a-slackbot/tutorial/step-8-test-your-slash-command/",
+	"title": "Step 8: Test your Slash Command",
+	"tags": [],
+	"description": "",
+	"content": " Step 8: Test your Slash Command Now we\u0026rsquo;ll test our Slash command to see if our Server is able to successfully return a response\n1. Navigate back to your workspace  Navigate to your slack workspace via the web: https://slack.com/signin\n Select your testing workspace from Step 1\n Go to any channel and type /test and press enter\n   Congrat\u0026rsquo;s your server successfully responded to your Slash Command  "
+},
+{
+	"uri": "/12-project-build-a-slackbot/tutorial/step-9-access-slash-command-parameters/",
+	"title": "Step 9: Access Slash Command Parameters",
+	"tags": [],
+	"description": "",
+	"content": " Step 9: Access Slash Command Parameters Next we will take a look at the information that Slack sends us when we receive a request from a Slash command\n1. Update the app.post(/test..) function in index.js  Inside the our app.post(/test) function, change the console.log(req) to console.log(req.body)  app.post(\u0026#39;/test\u0026#39;, async (req, res) =\u0026gt; { try { console.log(req.body) // \u0026lt;-- update this line  const data = { \u0026#39;response_type\u0026#39;: \u0026#39;in_channel\u0026#39;, \u0026#39;text\u0026#39;: \u0026#39;Testing testing 123!\u0026#39; } res.json(data) } catch (e) { console.log(e) } })   Restart your node server\n Navigate to your Slack workspace and make another slash command to but this time add a name for example, /test Fred Flintstone\n  2. Navigate to your node server tab in your command line application and observe the output  Let\u0026rsquo;s see the result of console.log(req.body)\n Navigate to the node server tab in your command line application and you should see something similar to the following\n  { token: \u0026#39;CePdTWPzpIXUufKUL3UJhaVx\u0026#39;, team_id: \u0026#39;TN43P8U3X\u0026#39;, team_domain: \u0026#39;reemcoworkspace\u0026#39;, channel_id: \u0026#39;CN17QEB2M\u0026#39;, channel_name: \u0026#39;slackbot-testing\u0026#39;, user_id: \u0026#39;UN43P8UCD\u0026#39;, user_name: \u0026#39;kareem.grant\u0026#39;, command: \u0026#39;/test\u0026#39;, text: \u0026#39;Fred Flintstone\u0026#39;, response_url: \u0026#39;https://hooks.slack.com/commands/TN43P8U3X/755841282464/Xu0N0r65xVmo3dbMgD83xUq7\u0026#39;, trigger_id: \u0026#39;755841282544.752125300133.615d84c666fefe471d23a7e53bf50f07\u0026#39; }   Note that the parameter \u0026ldquo;Fred Flintstone\u0026rdquo; is available to us through req.body.text in the object we get back from Slack  3. Update your response back to Slack in include the parameter We are going to update our response back the Slack to the parameter that was sent along with the slash command (`text: \u0026lsquo;Fred Flintstone\u0026rsquo;)\n Update the app.post(/test..) function  app.post(\u0026#39;/test\u0026#39;, async (req, res) =\u0026gt; { try { console.log(req.body) const data = { \u0026#39;response_type\u0026#39;: \u0026#39;in_channel\u0026#39;, \u0026#39;text\u0026#39;: `Testing testing 123! ${req.body.text}` // \u0026lt;-- update this line  } res.json(data) } catch (e) { console.log(e) } })  4. Make a slash command to /test Fred Flintstone in your workspace  Let\u0026rsquo;s see if we can successfully send back data we received from Slack in our response\n In your workspace, make the following slash command: /test Fred Flintstone\n You should now see: Testing testing 123! Fred Flintstone\n  "
 },
 {
 	"uri": "/03-control-flow-and-loops/loops-and-iteration/for-each/",
@@ -1162,6 +1820,13 @@
 	"content": " Lesson 10 Asynchronous JS and Promises "
 },
 {
+	"uri": "/10-asynchronous-js-and-promises/code-along-giphy-api-with-async-await/",
+	"title": "Code Along: Giphy API with Async / Await",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: Giphy Search API with Async / Await We\u0026rsquo;re going to modify our Giphy\u0026rsquo;s API application and use async / await to make our API request\n1) Sign up for a Giphy API Key here: https://developers.giphy.com/ (only for those students who don\u0026rsquo;t already have one)\n2) Get the starter code\n The starter code for this code along is hosted on Github, see the url below:\n Code Along: Giphy Search API with Async / Await\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n   3) We\u0026rsquo;ll be using axios to make our API request. Add the following script tag right before your closing \u0026lt;body\u0026gt; tag but before the script tag targeting your app.js file\n\u0026lt;script src=\u0026#34;https://code.jquery.com/jquery-3.4.1.min.js\u0026#34; integrity=\u0026#34;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=\u0026#34; crossorigin=\u0026#34;anonymous\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;script src=\u0026#34;https://unpkg.com/axios/dist/axios.min.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;!-- Add the axios script tag here --\u0026gt; \u0026lt;script src=\u0026#34;js/app.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt;  "
+},
+{
 	"uri": "/01-command-line-js-and-git/git-vocabulary/fork/",
 	"title": "Fork",
 	"tags": [],
@@ -1169,11 +1834,25 @@
 	"content": " Fork  A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project\n Most commonly, forks are used to either propose changes to someone else\u0026rsquo;s project or to use someone else\u0026rsquo;s project as a starting point for your own idea\n  "
 },
 {
+	"uri": "/09-http-and-apis/lab-send-receive-sms-twilio-api/",
+	"title": "Lab: Send &amp; Receive with Twilio SMS API",
+	"tags": [],
+	"description": "",
+	"content": " Lab: Sending and Receiving with Twilio SMS API We\u0026rsquo;re going to build on the Twilio Code Along and follow this tutorial: https://www.twilio.com/docs/sms/quickstart/node#receive-and-reply-to-inbound-sms-messages-with-express\n"
+},
+{
 	"uri": "/04-functions-and-scope/single-responsibility-principle/",
 	"title": "Single Responsibility Principle",
 	"tags": [],
 	"description": "",
 	"content": " Single Responsibility Principle (SRP)  SRP is a programming best practice that advocates modular code\n Put another way, your programs should be broken up in such a way where each part is responsible for only one \u0026ldquo;thing\u0026rdquo; or domain\n SRP is often applied to functions\n  Applying SRP to Functions  This concepts calls for your functions to only be \u0026ldquo;responsible\u0026rdquo; for one thing\n Often you\u0026rsquo;ll find that the logic in your functions are doing too much (for example: making calculations AND displaying the result to the screen)\n In these cases you should break out those multiple responsibilities into multiple functions\n This is what we did in the Geometry Calculator code along\n  "
+},
+{
+	"uri": "/12-project-build-a-slackbot/tutorial/step-10-make-api-request-to-openweather/",
+	"title": "Step 10: Make API Request to OpenWeather",
+	"tags": [],
+	"description": "",
+	"content": " Step 10: Make API Request to OpenWeather Now it\u0026rsquo;s time to make an API request from our server to OpenWeather\n1. Add the following code to the bottom of index.js  Add the following code to the bottom of index.js and replace [YOUR_OPENWEATHER_API_KEY] with your api key from OpenWeather  async function openWeatherApi (query) { try { const url = \u0026#39;https://api.openweathermap.org/data/2.5/weather\u0026#39; const apiKey = \u0026#39;[YOUR_OPENWEATHER_API_KEY]\u0026#39; // make api request using axios  const response = await axios.get(url, { params: { appid: apiKey, q: query, units: \u0026#39;imperial\u0026#39; } }) console.log(response) return response.data } catch (e) { console.log(e) } }   Here\u0026rsquo;s a summary of the code above:\n We\u0026rsquo;re going to use async/await to handle our API request to OpenWeather so we\u0026rsquo;ve prepended async in front of openWeatherApi()\n openWeatherApi() accepts a query parameter which will represent the city name received from slash command\n axios is being used to make a get request to the OpenWeather API\n axios is a \u0026ldquo;promise-based\u0026rdquo; http client, which means it will return a promise after it\u0026rsquo;s done making the request\n we are using await to halt the execution of the rest of the code in the function until a response is received from OpenWeather\n Once the response is received, we are returning the response.data object since axios always includes any payload (data information) in a key named data\n If an error occurs, we are simply logging the error to the console for now\n   2. Update app.post(/weather...) in index.js We are going to update the logic in our route handler app.post(/weather...) so it calls the openWeatherApi()\n Update the app.post(/weather...) route handler to reflect the code below:  app.post(\u0026#39;/weather\u0026#39;, async (req, res) =\u0026gt; { try { console.log(req.body) // respond with an OK to sender within 3 secs  // as required by Slack for delayed responses  // documentation: https://api.slack.com/slash-commands#responding_response_url  res.json() // extract city passed in as a parameter to  // our slash command (/weather cityName)  const query = req.body.text // making API request via openWeatherApi function  const response = await openWeatherApi(query) // print out OpenWeather API  // response to the console  console.log(response) // res.json(data)  } catch (e) { console.log(e) }  3. Try your /weather slash command again  Restart your Express server and go back to your development workspace on Slack and try the /weather slash command again (make sure you include a valid city name): /weather brooklyn\n Go to your command line application and open the tab associated with your Express server\n Confirm the data from our OpenWeather API request is now being displayed in our server log (via) - the output should look similar to the image below:\n   Nice! We just made a successful API request to OpenWeather  "
 },
 {
 	"uri": "/06-dom-and-jquery/jquery-events/",
@@ -1232,6 +1911,13 @@
 	"content": " Other Traversal Methods There are many other traversal methods available click here to see a complete list\n"
 },
 {
+	"uri": "/12-project-build-a-slackbot/tutorial/step-11-respond-to-slack-with-current-weather/",
+	"title": "Step 11: Respond to Slack with Current Weather",
+	"tags": [],
+	"description": "",
+	"content": " Step 11: Respond to Slack with Current Weather Now that we\u0026rsquo;ve confirmed that we can make an successful API call to OpenWeather, we need to send weather data back to Slack\nAccording to Slack\u0026rsquo;s API documentation, if we are going to make an API call on our server as a result of slash command then we should send data back to Slack as a \u0026ldquo;delayed response\u0026rdquo; (see docs)\nIn order to send a delayed response to Slack we need to make a POST request back to Slack using the response_url that is sent with the initial request associated with the slash command (in req.body)\nHere\u0026rsquo;s a reminder of what Slack is sending our server users use our /weather slash command\n1. Update app.post(/weather...) route handler in index.js We\u0026rsquo;re going to take the data we received from our request to OpenWeather and send it to Slack as a \u0026ldquo;delayed response\u0026rdquo;\n Update the app.post(/weather...) route handler to reflect the code below:  app.post(\u0026#39;/weather\u0026#39;, async (req, res) =\u0026gt; { try { console.log(req.body) // respond with an OK to sender within 3 secs  // as required by Slack for delayed responses  // documentation: https://api.slack.com/slash-commands#responding_response_url  res.json() // extract city passed in as a parameter to  // our slash command (/weather cityName)  const query = req.body.text // making API request via openWeatherApi function  const response = await openWeatherApi(query) // print out OpenWeather API  // response to the console  console.log(response) // Create a forecast based on info  // received from OpenWeather  const forecast = `Current temperature in ${query}is ${response.main.temp}degrees with a high of ${response.main.temp_max}degrees and a low of ${response.main.temp_min}degrees` // construct an object (according to Slack API docs)  // that will be used to send a response  // back to Slack  const data = { \u0026#39;response_type\u0026#39;: \u0026#39;in_channel\u0026#39;, \u0026#39;text\u0026#39;: forecast } // make a POST request (with axios) using \u0026#34;response_url\u0026#34;  // to complete our \u0026#34;delayed response\u0026#34; as  // per the Slack API docs  axios.post(req.body.response_url, data) // res.json(data)  } catch (e) { console.log(e) } })  Here\u0026rsquo;s a summary of the changes made:\n We\u0026rsquo;re using the data received from OpenWeather to constructing a forecast that includes current temp and the min and max temps and storing the string in a variable named forecast\n Next, we are formatting our response object (the structure of the object is specified by the Slack API docs) named data; the value stored in the forecast variable will be included in this object\n Lastly, we\u0026rsquo;re using axios to make a POST request to the response_url and send the data object that contains our forecast\n  2. Try your /weather slash command again  Restart your Express server and go back to your development workspace on Slack and try the /weather slash command again (make sure you include a valid city name): /weather brooklyn\n After submitting the slash command (with a valid city), the forecast for that city should be displayed directly in Slack\n   Congrats! Your server successfully responded with a current weather forecast for the requested city  "
+},
+{
 	"uri": "/06-dom-and-jquery/jquery-manipulation/",
 	"title": "jQuery Manipulation",
 	"tags": [],
@@ -1281,11 +1967,25 @@
 	"content": " Lesson 13 Object Oriented JS "
 },
 {
+	"uri": "/12-project-build-a-slackbot/tutorial/step-12-use-environment-variables-to-protect-secure-credentials/",
+	"title": "Step 12: Use Environment Variables to Protect Secure Credentials",
+	"tags": [],
+	"description": "",
+	"content": " Step 12: Use Environment Variables to Protect Secure Credentials In our openWeatherApi() function we\u0026rsquo;ve hard coded our API key from OpenWeather. While this works, it is not a best practice because if we were to push our code to Github then anyone who had access to the code would be able to see and potential use our API key. This introduces security risk and can lead to some serious consequences in a real-world application.\nasync function openWeatherApi (query) { try { const url = \u0026#39;https://api.openweathermap.org/data/2.5/weather\u0026#39; const apiKey = \u0026#39;111222333abcabcabcabc\u0026#39; // \u0026lt;- Danger danger! - security risk!!!  // make api request using axios  const response = await axios.get(url, { params: { appid: apiKey, q: query, units: \u0026#39;imperial\u0026#39; } }) return response.data } catch (e) { console.log(e) } }  Thankfully, there\u0026rsquo;s an approach that solves this problem for developers. The best practice is to store our application\u0026rsquo;s secure credentials (API Keys, security keys, etc) in Environment Variables\nEnvironment variables are used to obscure your secure credentials by representing them as variables instead of hard coding them.\nLet\u0026rsquo;s walk through the process securing our OpenWeather API key\n1. Create a file named .env We are going to be using the popular npm package called dotenv (we installed in Step 3) to manage our environment variables\n Create a file (inside your project folder) named .env  $ touch .env  2. Add secure credentials to .env Open .env in your editor and add the following:\n// OpenWeather API Key OPEN_WEATHER_API_KEY=[YOUR_OPENWEATHER_API_KEY]  Here are storing our OpenWeather API key in an environment variable named OPEN_WEATHER_API_KEY (best practice is to use snake case and all caps when naming your environment variables)\n3. Update openWeatherApi() to use our environment variable Replace the hardcoded API key with the environment variable\nasync function openWeatherApi (query) { try { const url = \u0026#39;https://api.openweathermap.org/data/2.5/weather\u0026#39; const apiKey = process.env.OPEN_WEATHER_API_KEY // \u0026lt;- using the env variable  // make api request using axios  const response = await axios.get(url, { params: { appid: apiKey, q: query, units: \u0026#39;imperial\u0026#39; } }) return response.data } catch (e) { console.log(e) } }  The dotenv package (see docs) allows us to access our environment variables (store in .env) via process.env.[YOUR_ENVIRONMENT_VARIABLE_NAME]\nIn our code, we replaced the our hardcoded API key with process.env.OPEN_WEATHER_API_KEY (the name of the environment variable we added to .env)\n4. Create a .gitignore file to prevent .env from being included in your git repository Git allows developers to specify files that they do not want to be tracked and committed to their git repository. These files will essentially be ignored by git\nWe accomplish this by creating a .gitignore file and adding the path of any files that we\u0026rsquo;d like to be ignored to .gitignore\n Create a .gitignore file  $ touch .gitignore   Open .gitignore in your editor and add the following:  .env /node_modules  Here we are adding .env to prevent our secure credentials from tracked.\nWe are also adding /node_modules folder. This is often a best practice because the /node_modules directory can become quite large (it is where all of the libraries and their dependencies) are installed. There\u0026rsquo;s no need to include these libraries in the git repository because a detailed list of all the packages needed for your application are stored in package.json. If someone were to pull your application from Github, they would simply need to run:\n$ npm install  This command will inspect the project\u0026rsquo;s package.json and install all of the packages (and their dependencies)\nYou have now secured your application\u0026rsquo;s secure credentials. If you were to push this code to Github your actual API key would not be available since you added .env to your .gitignore file\n4: Initialize a git repository for our project and confirm .env is being ignored  Initialize a new repository for the project by running the following command:  $ git init   Stage your changes  $ git add .   Run git status to confirm that .env and /node_modules are being ignored  $ git status  Confirm that .env and /node_modules are not listed (meaning they are successfully being ignored by git)\n6. Ensure that you\u0026rsquo;re able to see \u0026ldquo;git-ignored\u0026rdquo; files in your text editor Some text editors (such as Atom) will hide files that have been \u0026ldquo;git-ignored\u0026rdquo; which will result in those files not being visible in your text editor\u0026rsquo;s file pane (tree view)\nCheck if you\u0026rsquo;re able to see the recently created .env file in the file pane of your text editor\nDo the following if you don\u0026rsquo;t see the .env file:\n For Atom, users - follow the instructions found here to display hidden files\n Display git-ignored files in Atom  For non-Atom users, you will need to look up how to display hidden files in your editor (only if hidden files aren\u0026rsquo;t currently showing)\n  6. Try your /weather slash command again  Restart your Express server and go back to your development workspace on Slack and try the /weather slash command again (make sure you include a valid city name): /weather brooklyn\n Confirm that everything continues to work as before\n  "
+},
+{
 	"uri": "/00-course-intro-and-tools/what-is-programming/",
 	"title": "What is Programming?",
 	"tags": [],
 	"description": "",
 	"content": " What is Programming?  List of instructions that a computer needs in order to complete a task\n Instructions are provided in a programming language that the computer understands\n These set of instructions are commonly referred as source code or a program\n There are many programming languages available, during this course we will be learning JavaScript\n  "
+},
+{
+	"uri": "/12-project-build-a-slackbot/tutorial/step-13-handle-errors-gracefully/",
+	"title": "Step 13: Handle Errors Gracefully",
+	"tags": [],
+	"description": "",
+	"content": " Step 13: Handle Errors Gracefully If you try the pass an invalid city name to your /weather slash command, we\u0026rsquo;ll receive the following error in our server log:\nThis is happening because we aren\u0026rsquo;t appropriately handling errors. In an ideal scenario, if a user was to pass an invalid city name to the /weather slash command our server should respond back a message informing users of the error\n1. Update openWeatherApi() in index.js  Update the openWeatherApi() to reflect the code below:  async function openWeatherApi (query) { try { const url = \u0026#39;https://api.openweathermap.org/data/2.5/weather\u0026#39; const apiKey = process.env.OPEN_WEATHER_API_KEY // make api request using axios  const response = await axios.get(url, { params: { appid: apiKey, q: query, units: \u0026#39;imperial\u0026#39; } }) console.log(response) return response.data } catch (e) { console.log(e) // \u0026#34;throw\u0026#34; error, which will be \u0026#34;caught\u0026#34;  // by the function that called openWeatherApi  throw new Error(\u0026#39;City not found\u0026#39;) } }  Here\u0026rsquo;s a summary of the update:\n In the catch(){} part of our try..catch block we are using throw to forward our error to the function that called openWeatherApi() - we are doing this because we want to make the app.post(/weather...) route handler aware that an error occurred during our API request to OpenWeather\n We are following the JavaScript best practice of creating an Error object (using the new keyword) when constructing errors; we are passing a message to provide additional context around the error\n  2. Update app.post(/weather...) in index.js Now that we\u0026rsquo;ve made openWeatherApi() throw any errors it encounters, our app.post(/weather...) route handle with then catch those errors in its own try..catch block`\n Update the app.post(/weather...) to reflect the code below:  app.post(\u0026#39;/weather\u0026#39;, async (req, res) =\u0026gt; { try { console.log(req.body) // respond with an OK to sender within 3 secs  // as required by Slack for delayed responses  // documentation: https://api.slack.com/slash-commands#responding_response_url  res.json() // extract city passed in as a parameter to  // our slash command (/weather cityName)  const query = req.body.text // making API request via openWeatherApi function  const response = await openWeatherApi(query) // print out OpenWeather API  // response to the console  console.log(response) // Create a forecast based on info  // received from OpenWeather  const forecast = `Current temperature in ${query}is ${response.main.temp}degrees with a high of ${response.main.temp_max}degrees and a low of ${response.main.temp_min}degrees` // construct an object (according to Slack API docs)  // that will be used to send a response  // back to Slack  const data = { \u0026#39;response_type\u0026#39;: \u0026#39;in_channel\u0026#39;, \u0026#39;text\u0026#39;: forecast } // make a POST request (with axios) using \u0026#34;response_url\u0026#34;  // to complete our \u0026#34;delayed response\u0026#34; as  // per the Slack API docs  axios.post(req.body.response_url, data) // res.json(data)  } catch (e) { console.log(e) // construct an error response to send  // to Slack in the case of the user  // sending an invalid city  const errorResponse = { \u0026#39;response_type\u0026#39;: \u0026#39;in_channel\u0026#39;, \u0026#39;text\u0026#39;: \u0026#39;[ADD ANY SLACK EMOJI CODE HERE] Oh oh, there was a problem with your last request. Please make sure you enter a valid city name.\u0026#39; } axios.post(req.body.response_url, errorResponse) } })  Here\u0026rsquo;s a summary of the update:\n In the catch(){} portion of openWeatherApi() we are constructing an object that will contain our response to Slack (structure of this object is based on Slack API docs); in the \u0026quot;text\u0026quot; section of the object, we are sending a helpful message to users so they can take corrective action\n Lastly, we\u0026rsquo;re using axios to make a POST request to the response_url and send the errorResponse object that contains our message\n  3. Try your /weather slash command with an invalid city name  Restart your Express server and go back to your development workspace on Slack and try the /weather slash command with an invalid city name such as /weather yolo town\n After submitting the slash command with an invalid city), an informative error message should be displayed in Slack\n  "
 },
 {
 	"uri": "/class-resources/keys-to-success/",
@@ -1316,6 +2016,13 @@
 	"content": " Lab: CitiPix  The starter code for this lab is hosted on Github, see the url below:\n Lab: CitiPix  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
+	"uri": "/12-project-build-a-slackbot/tutorial/step-14-enhance-weather-response-with-emojis/",
+	"title": "Step 14: Enhance Weather Response with Emojis",
+	"tags": [],
+	"description": "",
+	"content": " Step 14: Enhance Weather Response with Emojis As a final touch, let\u0026rsquo;s spruce up our forecasts with emojis. Slack has native support for emojies using codes such as 👍\nOpenWeather\u0026rsquo;s API provides \u0026ldquo;weather codes\u0026rdquo; that it uses to categorize the different types of weather conditions (see docs). For example, rain falls under codes in the 500\u0026rsquo;s (5xx) and snow falls under codes in the 600\u0026rsquo;s (6xx).\nLet\u0026rsquo;s map some emojis to the weather codes we receive from OpenWeather to help make our OpenWeatherBot even more informative.\n1. Update index.js Add the following code to the bottom of index.js\nHere we have created a function called getWeatherEmoji() that accepts a weatherCode as a parameter. Function uses the weatherCode to determine which emoji should be returned\n2. Update app.post(/weather...) in index.js Next, we need to update our app.post(/weather...) router handler so it can make use of getWeatherEmoji()\n Update the app.post(/weather...) to reflect the code below:  app.post(\u0026#39;/weather\u0026#39;, async (req, res) =\u0026gt; { try { console.log(req.body) // respond with an OK to sender within 3 secs  // as required by Slack for delayed responses  // documentation: https://api.slack.com/slash-commands#responding_response_url  res.json() // extract city passed in as a parameter to  // our slash command (/weather cityName)  const query = req.body.text // making API request via openWeatherApi function  const response = await openWeatherApi(query) // print out OpenWeather API  // response to the console  console.log(response) // Create a forecast based on info  // received from OpenWeather  const forecast = `Current temperature in ${query}is ${response.main.temp}degrees with a high of ${response.main.temp_max}degrees and a low of ${response.main.temp_min}degrees` // pass weather code from OpenWeather response  // to getWeatherEmoji() and receive an emoji  const emoji = getWeatherEmoji(response.weather[0].id) // construct an object (according to Slack API docs)  // that will be used to send a response  // back to Slack  // Add attachments section  // (see Slack API docs: https://api.slack.com/docs/message-attachments) to display our emoji and description  const data = { \u0026#39;response_type\u0026#39;: \u0026#39;in_channel\u0026#39;, \u0026#39;text\u0026#39;: forecast, \u0026#39;attachments\u0026#39;: [ // \u0026lt;-- new code  { \u0026#39;text\u0026#39;: `Forecast: ${emoji}${response.weather[0].description}` } ] } // make a POST request (with axios) using \u0026#34;response_url\u0026#34;  // to complete our \u0026#34;delayed response\u0026#34; as  // per the Slack API docs  axios.post(req.body.response_url, data) // res.json(data)  } catch (e) { console.log(e) // construct an error response to send  // to Slack in the case of the user  // sending an invalid city  const errorResponse = { \u0026#39;response_type\u0026#39;: \u0026#39;in_channel\u0026#39;, \u0026#39;text\u0026#39;: \u0026#39; Oh oh, there was a problem with your last request. Please make sure you enter a valid city name.\u0026#39; } axios.post(req.body.response_url, errorResponse) } })  Here\u0026rsquo;s a summary of the updates:\n After receiving the OpenWeather response, we are going to pass the weather code to our getWeatherEmoji() function and store the result in a variable named emoji\n Next, we are going to update the response object to include an attachments section that will allow us to add additional content to our Slack response (see Slack docs on attachments)\n  3. Try your /weather slash with a valid city name  Restart your Express server and go back to your development workspace on Slack and try the /weather slash command again (make sure you include a valid city name): /weather brooklyn\n Confirm that your response now includes an emoji along with the weather description from OpenWeather\u0026rsquo;s API response\n   Congrats, you\u0026rsquo;ve created your first Slackbot!  "
+},
+{
 	"uri": "/00-course-intro-and-tools/what-is-javascript/",
 	"title": "What is JavaScript?",
 	"tags": [],
@@ -1337,11 +2044,11 @@
 	"content": " Lesson 15 Project: Firebase Todo App "
 },
 {
-	"uri": "/16-deploying-your-app/",
-	"title": "Deploying Your App",
+	"uri": "/16-intro-to-express/",
+	"title": "Intro to Express",
 	"tags": [],
 	"description": "",
-	"content": " Lesson 16 Deploying Your App "
+	"content": " Lesson 16 Intro to Express "
 },
 {
 	"uri": "/class-resources/learning-html-css/",
@@ -1370,6 +2077,13 @@
 	"tags": [],
 	"description": "",
 	"content": " jQuery Traversing  Traversal methods allows us to select elements up and down the DOM tree very easily\n DOM traversing is one of the prominent features of the jQuery\n   Notice how DOM elements are structured in a parent-child relationship\n The \u0026lt;body\u0026gt; element is the parent of the \u0026lt;div\u0026gt; element, and an ancestor of everything inside of it. The enclosed \u0026lt;div\u0026gt; element is the parent of \u0026lt;h1\u0026gt;, \u0026lt;p\u0026gt; and \u0026lt;ul\u0026gt; elements, and a child of the \u0026lt;body\u0026gt; element.\n The elements \u0026lt;h1\u0026gt;, \u0026lt;p\u0026gt; and \u0026lt;ul\u0026gt; are siblings, since they share the same parent.\n The \u0026lt;h1\u0026gt; element is a child of the \u0026lt;div\u0026gt; element and a descendant of the \u0026lt;body\u0026gt; element. This element does not have any children.\n The \u0026lt;p\u0026gt; element is the parent of \u0026lt;em\u0026gt; element, child of the \u0026lt;div\u0026gt; element and a descendant of the \u0026lt;body\u0026gt; element. The containing \u0026lt;em\u0026gt; element is a child of this \u0026lt;p\u0026gt; element and a descendant of the \u0026lt;div\u0026gt; and \u0026lt;body\u0026gt; element.\n Similarly, the \u0026lt;ul\u0026gt; element is the parent of the \u0026lt;li\u0026gt; elements, child of the \u0026lt;div\u0026gt; element and a descendant of the \u0026lt;body\u0026gt; element. The containing \u0026lt;li\u0026gt; elements are the child of this \u0026lt;ul\u0026gt; element and a descendant of the \u0026lt;div\u0026gt; and \u0026lt;body\u0026gt; element. Also, both the \u0026lt;li\u0026gt; elements are siblings.\n  Here some commonly used jQuery traversal methods used to programatically nagivate the DOM\n ancestors   descendants   Other Traversal Methods     "
+},
+{
+	"uri": "/17-deploying-your-app/",
+	"title": "Deploying Your App",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 17 Deploying Your App "
 },
 {
 	"uri": "/class-resources/cors/",

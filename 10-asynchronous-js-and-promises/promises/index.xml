@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Promises on JavaScript</title>
+    <link>/10-asynchronous-js-and-promises/promises/</link>
+    <description>Recent content in Promises on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/10-asynchronous-js-and-promises/promises/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>/10-asynchronous-js-and-promises/promises/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/promises/overview/</guid>
+      <description>What are Promises?  Promises are objects that represent the eventual outcome of an asynchronous operation
+ A Promise object can be in one of three states:
+ Pending: The initial state the operation has not completed yet
+ Fulfilled: The operation has completed successfully and the promise now has a resolved value; for example, a request’s promise might resolve with a JSON object as its value.
+ Rejected: The operation has failed and the promise has a reason for the failure; This reason is usually an Error of some kind.</description>
+    </item>
+    
+    <item>
+      <title>Creating Promises</title>
+      <link>/10-asynchronous-js-and-promises/promises/creating-promises/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/promises/creating-promises/</guid>
+      <description>Creating Promise Objects  To create a new Promise object, we use the new keyword and the Promise constructor method:
+const executorFunction = (resolve, reject) =&amp;gt; { } const myPromise = new Promise(executorFunction)  The Promise constructor method takes a function parameter called the executor function which runs automatically when the constructor is called
+ The executor function generally starts an asynchronous operation and dictates how the promise should be settled</description>
+    </item>
+    
+    <item>
+      <title>Consuming Promises</title>
+      <link>/10-asynchronous-js-and-promises/promises/consuming-promises/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/promises/consuming-promises/</guid>
+      <description>Consuming Promises  While knowing how to construct a promise is useful, most of your interactions with promises will be spent consuming (or using) Promises
+ Put another way, you’ll be handling Promise objects returned to you as the result of an asynchronous operation
+ These promises will start off pending but must settle eventually
+  Settling Promises  Promise objects offer a .then() function that allows us to dictate what should happen after the promise settles</description>
+    </item>
+    
+    <item>
+      <title>Handling Async Issues with Promises</title>
+      <link>/10-asynchronous-js-and-promises/promises/handling-async-issues-with-promises/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/promises/handling-async-issues-with-promises/</guid>
+      <description>Handling Async Issues with Promises  Let&amp;rsquo;s revisit our .printLetter() example and use promises
+ First let&amp;rsquo;s modify our .printLetter() function to return a Promise
+  function printLetter(letter) { return new Promise((resolve, reject) =&amp;gt; { setTimeout(() =&amp;gt; { console.log(letter) resolve() }, Math.floor(Math.random() * 3000)) }) } //... the rest of code below not shown for brevity  Example: Using Promises to control the execution order of async functions function printLetter(letter) { return new Promise((resolve, reject) =&amp;gt; { setTimeout(() =&amp;gt; { console.</description>
+    </item>
+    
+    <item>
+      <title>Passing values with Promises</title>
+      <link>/10-asynchronous-js-and-promises/promises/passing-values-with-promises/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/promises/passing-values-with-promises/</guid>
+      <description>Passing values with Promises  A common use case when working with asynchronous code is to take the data received from one asynchronous call (output) and use that data as input for another function or action in your program
+ Promises allow developers to easily pass data (or values) between functions
+  Example function getSuperheroes() { return new Promise(resolve =&amp;gt; { setTimeout(() =&amp;gt; { // send an array of heroes when  // promise is resolved  resolve([ { name: &amp;#34;Captain Marvel&amp;#34;, team: &amp;#34;Avengers&amp;#34; }, { name: &amp;#34;Batman&amp;#34;, team: &amp;#34;Justice League&amp;#34;}, { name: &amp;#34;Jean Grey&amp;#34;, team: &amp;#34;X-Men&amp;#34;}, { name: &amp;#34;Domino&amp;#34;, team: &amp;#34;X-Force&amp;#34;} ]) }, 3000) }); } function printHeroes(heroes) { heroes.</description>
+    </item>
+    
+    <item>
+      <title>Error Handling with .catch()</title>
+      <link>/10-asynchronous-js-and-promises/promises/error-handling-with-catch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/promises/error-handling-with-catch/</guid>
+      <description>Error Handling with .catch()  Promises chains are a great place to handle errors
+ The .catch() method provides us with an easy way to catch any errors that occur in a Promise chain
+  Example const myPromise = () =&amp;gt; { return new Promise((resolve, reject) =&amp;gt; { // return 1 after the promise is resolved  setTimeout(() =&amp;gt; resolve(1), 2000) }) } myPromise().then((result) =&amp;gt; { console.log(result) return result + 1 }).</description>
+    </item>
+    
+  </channel>
+</rss>

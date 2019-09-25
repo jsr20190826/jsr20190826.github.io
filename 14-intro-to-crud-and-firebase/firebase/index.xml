@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Firebase on JavaScript</title>
+    <link>/14-intro-to-crud-and-firebase/firebase/</link>
+    <description>Recent content in Firebase on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/14-intro-to-crud-and-firebase/firebase/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>/14-intro-to-crud-and-firebase/firebase/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-intro-to-crud-and-firebase/firebase/overview/</guid>
+      <description> What is Firebase?  Firebase is a mobile and web application platform for developers
+ Acquired by Google in 2014
+ Offers many other services but we&amp;rsquo;ll be covering the basics of Firebase&amp;rsquo;s real-time backend database and seeing how we can use this in our applications
+  </description>
+    </item>
+    
+    <item>
+      <title>Benefits</title>
+      <link>/14-intro-to-crud-and-firebase/firebase/benefits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-intro-to-crud-and-firebase/firebase/benefits/</guid>
+      <description> Firebase Benefits  Firebase provides a seamless way for front-end developers to add data persistence to their front-end applications
+ Relieves developers from having to build out backend to support their apps
+ Firebase platform offers a variety of products such as realtime database, authentication, file storage, analytics, hosting, etc
+ Generous free tier
+ Advanced features that developers can grow their applications into as their applications grow
+  </description>
+    </item>
+    
+    <item>
+      <title>NoSQL Databases</title>
+      <link>/14-intro-to-crud-and-firebase/firebase/nosql-databases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-intro-to-crud-and-firebase/firebase/nosql-databases/</guid>
+      <description>What is a NoSQL Database  Firebase uses a NoSQL for it&amp;rsquo;s cloud-based databases
+ Like many NoSQL databases, Firebase&amp;rsquo;s Real-time database stores data as JSON objects
+ NoSQL databases don&amp;rsquo;t enforce strict data structure which results in much more flexibility than traditional SQL databases
+ Downsides: when dealing with &amp;ldquo;loosely structured&amp;rdquo; data, common use cases such as building out relationships (for example: a student has many courses, and courses contain many students) in your data can be non-intuitive and complex</description>
+    </item>
+    
+  </channel>
+</rss>
