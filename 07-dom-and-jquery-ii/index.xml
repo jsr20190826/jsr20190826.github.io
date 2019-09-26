@@ -11,6 +11,30 @@
     
     
     <item>
+      <title>Objectives</title>
+      <link>/07-dom-and-jquery-ii/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-dom-and-jquery-ii/objectives/</guid>
+      <description> Understand the benefits of $(this) or $(event.currentTarget)
+ Explain how the type of function used (regular or array) dictates usage of $(this) or $(event.currentTarget)
+ Use knowledge of DOM manipulation with jQuery to build small frontend applications
+  </description>
+    </item>
+    
+    <item>
+      <title>Warm Up: Iterators Practice</title>
+      <link>/07-dom-and-jquery-ii/warm-up-iterators-practice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-dom-and-jquery-ii/warm-up-iterators-practice/</guid>
+      <description> Warm Up: Iterators Practice  Work in groups of 2-3 to solve problems using functions
+ The problem set for this warm up is hosted on Github, see the url below:
+ Warm Up: Iterators Practice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+    <item>
       <title>$(this)</title>
       <link>/07-dom-and-jquery-ii/jquery-this/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

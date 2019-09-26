@@ -49,6 +49,13 @@
 	"content": " Understand the key differences between using Native JavaScript and jQuery for DOM manipulation\n Learn the most commonly used jQuery methods to manipulate the DOM\n  "
 },
 {
+	"uri": "/07-dom-and-jquery-ii/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Understand the benefits of $(this) or $(event.currentTarget)\n Explain how the type of function used (regular or array) dictates usage of $(this) or $(event.currentTarget)\n Use knowledge of DOM manipulation with jQuery to build small frontend applications\n  "
+},
+{
 	"uri": "/class-resources/office-hours/",
 	"title": "Office Hours",
 	"tags": [],
@@ -341,6 +348,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Warm Up: Functions Practice  Work in groups of 2-3 to solve problems using functions\n The problem set for this warm up is hosted on Github, see the url below:\n Warm Up: Functions Practice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
+	"uri": "/07-dom-and-jquery-ii/warm-up-iterators-practice/",
+	"title": "Warm Up: Iterators Practice",
+	"tags": [],
+	"description": "",
+	"content": " Warm Up: Iterators Practice  Work in groups of 2-3 to solve problems using functions\n The problem set for this warm up is hosted on Github, see the url below:\n Warm Up: Iterators Practice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
 	"uri": "/02-javascript-basics/variables/what-are-variables/",
