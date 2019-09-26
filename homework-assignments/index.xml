@@ -34,5 +34,19 @@ Complete Homework #2 - Functions  You are tasked with completing the problem set
   </description>
     </item>
     
+    <item>
+      <title>HW Assignment #3</title>
+      <link>/homework-assignments/hw-assignment-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/homework-assignments/hw-assignment-03/</guid>
+      <description>Summary of this week&amp;rsquo;s homework assignment: Due Date: Thursday, October 3rd
+Complete Homework #3 - Iterators  You are tasked with completing the problem set
+ Only use either .map(), .find() or .filter() to solve the problems in the problem set
+ Do not use .forEach()
+  The problem set for this assignment is hosted on Github, see the url below:
+ Github Repo for Homework #3 - Iterators  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
+    </item>
+    
   </channel>
 </rss>

@@ -28,10 +28,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/07-dom-and-jquery-ii/warm-up-iterators-practice/</guid>
-      <description> Warm Up: Iterators Practice  Work in groups of 2-3 to solve problems using functions
+      <description>Warm Up: Iterators Practice  Work in groups of 2-3 to solve problems using functions
+ Only use either .map(), .find() or .filter() to solve the problems in the problem set
+ Do not use .forEach()
  The problem set for this warm up is hosted on Github, see the url below:
- Warm Up: Iterators Practice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
-  </description>
+ Warm Up: Iterators Practice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
     </item>
     
     <item>

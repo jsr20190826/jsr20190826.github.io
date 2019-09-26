@@ -494,7 +494,7 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lesson-recordings/recordings/</guid>
-      <description> Lesson Recordings    Lesson Date Link Notes     00 8/26/2019 lesson 00 recording    01 8/28/2019 lesson 01 recording    02 9/4/2019 lesson 02 recording The 1st half of Lesson 03 was also covered   03 9/9/2019 lesson 03 recording We also covered some of lesson 04 up through (Returning values from functions)   04 9/11/2019 lesson 04 recording    05 9/18/2019 lesson 05 recording    06 9/23/2019 lesson 06 recording     </description>
+      <description> Lesson Recordings    Lesson Date Link Notes     00 8/26/2019 lesson 00 recording    01 8/28/2019 lesson 01 recording    02 9/4/2019 lesson 02 recording The 1st half of Lesson 03 was also covered   03 9/9/2019 lesson 03 recording We also covered some of lesson 04 up through (Returning values from functions)   04 9/11/2019 lesson 04 recording    05 9/18/2019 lesson 05 recording    06 9/23/2019 lesson 06 recording    07 9/25/2019 lesson 07 recording During this class we continued to work through lesson 06 and completed 2 code alongs (Color Scheme Switcher &amp;amp; Traffic Light) in lesson 07    </description>
     </item>
     
     <item>
@@ -562,10 +562,11 @@ Create a new workspace</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/07-dom-and-jquery-ii/warm-up-iterators-practice/</guid>
-      <description> Warm Up: Iterators Practice  Work in groups of 2-3 to solve problems using functions
+      <description>Warm Up: Iterators Practice  Work in groups of 2-3 to solve problems using functions
+ Only use either .map(), .find() or .filter() to solve the problems in the problem set
+ Do not use .forEach()
  The problem set for this warm up is hosted on Github, see the url below:
- Warm Up: Iterators Practice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
-  </description>
+ Warm Up: Iterators Practice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
     </item>
     
     <item>
@@ -1583,6 +1584,20 @@ superHero[&#39;secret identity&#39;]`
 Complete Homework #2 - Functions  You are tasked with completing the problem set which is hosted on Github, see the url below:
  Github Repo for Homework #2 - Functions  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
   </description>
+    </item>
+    
+    <item>
+      <title>HW Assignment #3</title>
+      <link>/homework-assignments/hw-assignment-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/homework-assignments/hw-assignment-03/</guid>
+      <description>Summary of this week&amp;rsquo;s homework assignment: Due Date: Thursday, October 3rd
+Complete Homework #3 - Iterators  You are tasked with completing the problem set
+ Only use either .map(), .find() or .filter() to solve the problems in the problem set
+ Do not use .forEach()
+  The problem set for this assignment is hosted on Github, see the url below:
+ Github Repo for Homework #3 - Iterators  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
     </item>
     
     <item>

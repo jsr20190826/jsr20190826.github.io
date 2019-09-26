@@ -305,7 +305,7 @@
 	"title": "Recordings",
 	"tags": [],
 	"description": "",
-	"content": " Lesson Recordings    Lesson Date Link Notes     00 8/26/2019 lesson 00 recording    01 8/28/2019 lesson 01 recording    02 9/4/2019 lesson 02 recording The 1st half of Lesson 03 was also covered   03 9/9/2019 lesson 03 recording We also covered some of lesson 04 up through (Returning values from functions)   04 9/11/2019 lesson 04 recording    05 9/18/2019 lesson 05 recording    06 9/23/2019 lesson 06 recording     "
+	"content": " Lesson Recordings    Lesson Date Link Notes     00 8/26/2019 lesson 00 recording    01 8/28/2019 lesson 01 recording    02 9/4/2019 lesson 02 recording The 1st half of Lesson 03 was also covered   03 9/9/2019 lesson 03 recording We also covered some of lesson 04 up through (Returning values from functions)   04 9/11/2019 lesson 04 recording    05 9/18/2019 lesson 05 recording    06 9/23/2019 lesson 06 recording    07 9/25/2019 lesson 07 recording During this class we continued to work through lesson 06 and completed 2 code alongs (Color Scheme Switcher \u0026amp; Traffic Light) in lesson 07    "
 },
 {
 	"uri": "/01-command-line-js-and-git/git-vocabulary/repository/",
@@ -354,7 +354,7 @@
 	"title": "Warm Up: Iterators Practice",
 	"tags": [],
 	"description": "",
-	"content": " Warm Up: Iterators Practice  Work in groups of 2-3 to solve problems using functions\n The problem set for this warm up is hosted on Github, see the url below:\n Warm Up: Iterators Practice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+	"content": " Warm Up: Iterators Practice  Work in groups of 2-3 to solve problems using functions\n Only use either .map(), .find() or .filter() to solve the problems in the problem set\n Do not use .forEach()\n The problem set for this warm up is hosted on Github, see the url below:\n Warm Up: Iterators Practice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
 	"uri": "/02-javascript-basics/variables/what-are-variables/",
@@ -1146,6 +1146,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Wednesday, September 25th\nComplete Homework #2 - Functions  You are tasked with completing the problem set which is hosted on Github, see the url below:\n Github Repo for Homework #2 - Functions  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
+	"uri": "/homework-assignments/hw-assignment-03/",
+	"title": "HW Assignment #3",
+	"tags": [],
+	"description": "",
+	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Thursday, October 3rd\nComplete Homework #3 - Iterators  You are tasked with completing the problem set\n Only use either .map(), .find() or .filter() to solve the problems in the problem set\n Do not use .forEach()\n  The problem set for this assignment is hosted on Github, see the url below:\n Github Repo for Homework #3 - Iterators  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
 	"uri": "/10-asynchronous-js-and-promises/promises/handling-async-issues-with-promises/",
