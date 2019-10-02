@@ -53,7 +53,7 @@ Create a new workspace</description>
       <guid>/12-project-build-a-slackbot/tutorial/step-4-run-ngrok/</guid>
       <description>Run ngrok  Next we need to give our local server access to the internet so our slack app can communicate with it
  ngrok is a tool that allows developers to create &amp;ldquo;tunnels&amp;rdquo; that connect the server running locally (i.e. on your computer) to the internet
-  1. Run ngrok command from within project folder  In a new command line tab run the following command (make sure you run this within the project folder)   $ ngrok http 3000   Here, we are are telling ngrok to create a local tunnel that connects our server running on port 3000 (i.</description>
+  1. Run ngrok command from within project folder  In a new command line tab run the following command (make sure you run this within the project folder)</description>
     </item>
     
     <item>

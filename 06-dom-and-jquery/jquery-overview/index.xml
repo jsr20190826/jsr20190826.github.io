@@ -66,7 +66,7 @@
  Programmatically select (or grab) an element, then
  Add an event listener to it or manipulate (change) it in some way
   jQuery allows us to use css selectors to select elements:
-   // We can use css selectors to programmatically select elements $(&#39;p&#39;) // Type (Tag) selector $(&#39;.feature&#39;) // Class selector $(&#39;#checkout&#39;) // ID selector $(&#39;li strong&#39;) // Descendant selector $(&#39;em, i&#39;) // Multiple selector $(&#39;a[target=&amp;quot;_blank&amp;quot;]&#39;) // Attribute selector $(&#39;p:nth-child(2)&#39;) // Pseudo-class selector   ID, Class, Type and Descendant selectors are the selectors we&amp;rsquo;ll be using the most during this course  A complete list of CSS Selectors can be found here</description>
+// We can use css selectors to programmatically select elements $(&#39;p&#39;) // Type (Tag) selector $(&#39;.feature&#39;) // Class selector $(&#39;#checkout&#39;) // ID selector $(&#39;li strong&#39;) // Descendant selector $(&#39;em, i&#39;) // Multiple selector $(&#39;a[target=&amp;quot;_blank&amp;quot;]&#39;) // Attribute selector $(&#39;p:nth-child(2)&#39;) // Pseudo-class selector  ID, Class, Type and Descendant selectors are the selectors we&amp;rsquo;ll be using the most during this course</description>
     </item>
     
     <item>

@@ -6,7 +6,7 @@
     <description>Recent content in JSR on JavaScript</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Jan 2017 18:05:18 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 16 Mar 2019 17:11:17 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -186,6 +186,16 @@
     </item>
     
     <item>
+      <title>Add jQuery via Download</title>
+      <link>/06-dom-and-jquery/jquery-overview/add-jquery/via-download/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-overview/add-jquery/via-download/</guid>
+      <description> Add jQuery via Download This approach assumes you downloaded the jQuery file and stored it on your js folder
+&amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Add jQuery by downloading jQuery file(s)&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;script src=&amp;quot;js/jquery-3.4.1.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;js/app.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;  </description>
+    </item>
+    
+    <item>
       <title>AJAX Requests using Native JS</title>
       <link>/09-http-and-apis/ajax/ajax-request-native-js/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -194,16 +204,6 @@
       <description>Making AJAX Requests using Native JavaScript  JavaScript has a built-in object called XMLHttpRequest that can be used to make AJAX requests (i.e. Client-side HTTP requests made in the background which do not require a page refresh)
  XMLHttpRequest is not normally used due to large amount to code needed to make requests; libraries jQuery (using $.ajax(), $.get(), etc) and others are often used in place of XMLHttpRequest
   Example  Here&amp;rsquo;s an example of what an AJAX request using XMLHttpRequest looks like:  function logResponse(data) { console.</description>
-    </item>
-    
-    <item>
-      <title>Add jQuery via Download</title>
-      <link>/06-dom-and-jquery/jquery-overview/add-jquery/via-download/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/06-dom-and-jquery/jquery-overview/add-jquery/via-download/</guid>
-      <description> Add jQuery via Download This approach assumes you downloaded the jQuery file and stored it on your js folder
-&amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Add jQuery by downloading jQuery file(s)&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;script src=&amp;quot;js/jquery-3.4.1.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;js/app.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;  </description>
     </item>
     
     <item>
@@ -414,7 +414,7 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
       <description>Async / Await  Async / Await is special that makes working with promises easy to use and understand
  The syntax and structure of Async / Await is makes our asynchronous handling look like synchronous code
  Async / Await is alternative way of consuming promises a
-  async  In order for you to use Async / Await, you must declare a function with the async keyword   async function someFunction() { return &amp;quot;something&amp;quot; }   Prepending async to a function declaration means that function always returns a promise  await  The keyword await makes JavaScript wait until that promise settles and returns its result</description>
+  async  In order for you to use Async / Await, you must declare a function with the async keyword</description>
     </item>
     
     <item>
@@ -494,7 +494,7 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lesson-recordings/recordings/</guid>
-      <description> Lesson Recordings    Lesson Date Link Notes     00 8/26/2019 lesson 00 recording    01 8/28/2019 lesson 01 recording    02 9/4/2019 lesson 02 recording The 1st half of Lesson 03 was also covered   03 9/9/2019 lesson 03 recording We also covered some of lesson 04 up through (Returning values from functions)   04 9/11/2019 lesson 04 recording    05 9/18/2019 lesson 05 recording    06 9/23/2019 lesson 06 recording    07 9/25/2019 lesson 07 recording During this class we continued to work through lesson 06 and completed 2 code alongs (Color Scheme Switcher &amp;amp; Traffic Light) in lesson 07    </description>
+      <description> Lesson Recordings    Lesson Date Link Notes     00 8/26/2019 lesson 00 recording    01 8/28/2019 lesson 01 recording    02 9/4/2019 lesson 02 recording The 1st half of Lesson 03 was also covered   03 9/9/2019 lesson 03 recording We also covered some of lesson 04 up through (Returning values from functions)   04 9/11/2019 lesson 04 recording    05 9/18/2019 lesson 05 recording    06 9/23/2019 lesson 06 recording    07 9/25/2019 lesson 07 recording During this class we continued to work through lesson 06 and completed 2 code alongs (Color Scheme Switcher &amp;amp; Traffic Light) in lesson 07   08 9/30/2019 lesson 08 recording Finished up lesson 07 and worked through the HiLo Code Along in Lesson 08    </description>
     </item>
     
     <item>
@@ -732,6 +732,18 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
     </item>
     
     <item>
+      <title>Add jQuery via CDN</title>
+      <link>/06-dom-and-jquery/jquery-overview/add-jquery/via-cdn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-overview/add-jquery/via-cdn/</guid>
+      <description>Add jQuery via CDN  This approach references the jQuery file that lives on a CDN (another server)
+ The example below utilizes a jQuery-specific CDN found here
+ The integrity and crossorigin properties in the example ensure the file is delivered without any third-party manipulation
+&amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Add jQuery using a CDN&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;script src=&amp;quot;https://code.jquery.com/jquery-3.4.1.min.js&amp;quot; integrity=&amp;quot;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=&amp;quot; crossorigin=&amp;quot;anonymous&amp;quot;&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;js/app.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   Using a CDN like jQuery or Google also helps with loading time, and potential caching benefits.</description>
+    </item>
+    
+    <item>
       <title>AJAX Requests with jQuery</title>
       <link>/09-http-and-apis/ajax/ajax-request-jquery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -743,14 +755,13 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
     </item>
     
     <item>
-      <title>Add jQuery via CDN</title>
-      <link>/06-dom-and-jquery/jquery-overview/add-jquery/via-cdn/</link>
+      <title>ancestors</title>
+      <link>/06-dom-and-jquery/jquery-traversing/ancestors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/06-dom-and-jquery/jquery-overview/add-jquery/via-cdn/</guid>
-      <description>Add jQuery via CDN  This approach references the jQuery file that lives on a CDN (another server)
- The example below utilizes a jQuery-specific CDN found here
- The integrity and crossorigin properties in the example ensure the file is delivered without any third-party manipulation   &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Add jQuery using a CDN&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;script src=&amp;quot;https://code.jquery.com/jquery-3.4.1.min.js&amp;quot; integrity=&amp;quot;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=&amp;quot; crossorigin=&amp;quot;anonymous&amp;quot;&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;js/app.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   Using a CDN like jQuery or Google also helps with loading time, and potential caching benefits.</description>
+      <guid>/06-dom-and-jquery/jquery-traversing/ancestors/</guid>
+      <description>ancestor Methods  Methods used to get the ancestors of the selected element  .parent()  Method is used to get the direct parent of the selected element  Example $(() =&amp;gt; { $(&amp;#39;button&amp;#39;).click(() =&amp;gt; { $(&amp;#39;.box&amp;#39;).parent().toggleClass(&amp;#39;backgroundEffect&amp;#39;) }) })  JS Bin on jsbin.com
+.parents()  Method is used to get the ancestors of the selected element  Example $(() =&amp;gt; { $(&amp;#39;button&amp;#39;).click(() =&amp;gt; { // this will apply the class to &amp;#34;all&amp;#34; ancestors  $(&amp;#39;.</description>
     </item>
     
     <item>
@@ -777,19 +788,6 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
  Accomplishes more with less code vs using native JavaScript
   CSS selectors means less code Here&amp;rsquo;s how we would programmatically select an element with an id of &amp;ldquo;flavors&amp;rdquo; using native JavaScript
 // selecting an element using native JavaScript document.getElementById(&amp;#39;flavors&amp;#39;).onClick = doSomething()  Here&amp;rsquo;s how we would programmatically select an element with an id of &amp;ldquo;flavors&amp;rdquo; using jQuery</description>
-    </item>
-    
-    <item>
-      <title>CRUD</title>
-      <link>/14-intro-to-crud-and-firebase/crud/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/14-intro-to-crud-and-firebase/crud/</guid>
-      <description> What is CRUD  Stands for Create, Read, Update and Delete
- CRUD paradigm is common in constructing data-backed software applications
- Helps developers plan how their application&amp;rsquo;s data should be structured
- In the context of working with APIs, CRUD maps nicely to HTTP Verbs GET (read), Post (create), PUT (update) and DELETE (delete)
-     CRUD Operation HTTP VERB Description     CREATE POST Create new data or resource   READ GET Read / fetch data or resource   UPDATE PUT Update existing data or resource   DELETE DELETE Delete existing data or resource    </description>
     </item>
     
     <item>
@@ -871,6 +869,19 @@ const executorFunction = (resolve, reject) =&amp;gt; { } const myPromise = new P
     </item>
     
     <item>
+      <title>CRUD</title>
+      <link>/14-intro-to-crud-and-firebase/crud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-intro-to-crud-and-firebase/crud/</guid>
+      <description> What is CRUD  Stands for Create, Read, Update and Delete
+ CRUD paradigm is common in constructing data-backed software applications
+ Helps developers plan how their application&amp;rsquo;s data should be structured
+ In the context of working with APIs, CRUD maps nicely to HTTP Verbs GET (read), Post (create), PUT (update) and DELETE (delete)
+     CRUD Operation HTTP VERB Description     CREATE POST Create new data or resource   READ GET Read / fetch data or resource   UPDATE PUT Update existing data or resource   DELETE DELETE Delete existing data or resource    </description>
+    </item>
+    
+    <item>
       <title>Data Formats</title>
       <link>/09-http-and-apis/apis/data-formats/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -941,6 +952,15 @@ const executorFunction = (resolve, reject) =&amp;gt; { } const myPromise = new P
     </item>
     
     <item>
+      <title>Handling Async Issues with Async / Await</title>
+      <link>/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/</guid>
+      <description>Handling Async Issues with Async / Await  Let&amp;rsquo;s see how we can apply Async / Await to your .printLetter() program  Example: Using Async / Await to control the execution order of async functions function printLetter(letter) { return new Promise((resolve, reject) =&amp;gt; { setTimeout(() =&amp;gt; { console.log(letter) resolve() }, Math.floor(Math.random() * 3000)) }) } /* convert .printAll() to an async / await function by prepending &amp;#39;await&amp;#39; before the function keyword */ async function printAll(){ await printLetter(&amp;#34;A&amp;#34;) await printLetter(&amp;#34;B&amp;#34;) await printLetter(&amp;#34;C&amp;#34;) await printLetter(&amp;#34;D&amp;#34;) } console.</description>
+    </item>
+    
+    <item>
       <title>HW Assignment #1</title>
       <link>/homework-assignments/hw-assignment-01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -953,12 +973,12 @@ Complete Homework #1 - JS Basics, Control Flow &amp;amp; Loops  You are tasked w
     </item>
     
     <item>
-      <title>Handling Async Issues with Async / Await</title>
-      <link>/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/</link>
+      <title>if Statement</title>
+      <link>/03-control-flow-and-loops/conditionals/if-statement/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/</guid>
-      <description>Handling Async Issues with Async / Await  Let&amp;rsquo;s see how we can apply Async / Await to your .printLetter() program  Example: Using Async / Await to control the execution order of async functions function printLetter(letter) { return new Promise((resolve, reject) =&amp;gt; { setTimeout(() =&amp;gt; { console.log(letter) resolve() }, Math.floor(Math.random() * 3000)) }) } /* convert .printAll() to an async / await function by prepending &amp;#39;await&amp;#39; before the function keyword */ async function printAll(){ await printLetter(&amp;#34;A&amp;#34;) await printLetter(&amp;#34;B&amp;#34;) await printLetter(&amp;#34;C&amp;#34;) await printLetter(&amp;#34;D&amp;#34;) } console.</description>
+      <guid>/03-control-flow-and-loops/conditionals/if-statement/</guid>
+      <description>if Statement  Used when you want to have some sort of single branching logic  if (condition) { code to run if condition is true } // run some other code  Example const isRewardsMember = true let totalPrice = 100 if (isRewardsMember) { totalPrice = totalPrice * 0.80 } console.log(totalPrice)  JS Bin on jsbin.com</description>
     </item>
     
     <item>
@@ -1132,25 +1152,6 @@ Here&amp;rsquo;s a diagram that provides a high-level view of how our slackbot w
     </item>
     
     <item>
-      <title>ancestors</title>
-      <link>/06-dom-and-jquery/jquery-traversing/ancestors/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/06-dom-and-jquery/jquery-traversing/ancestors/</guid>
-      <description>ancestor Methods  Methods used to get the ancestors of the selected element  .parent()  Method is used to get the direct parent of the selected element  Example $(() =&amp;gt; { $(&amp;#39;button&amp;#39;).click(() =&amp;gt; { $(&amp;#39;.box&amp;#39;).parent().toggleClass(&amp;#39;backgroundEffect&amp;#39;) }) })  JS Bin on jsbin.com
-.parents()  Method is used to get the ancestors of the selected element  Example $(() =&amp;gt; { $(&amp;#39;button&amp;#39;).click(() =&amp;gt; { // this will apply the class to &amp;#34;all&amp;#34; ancestors  $(&amp;#39;.</description>
-    </item>
-    
-    <item>
-      <title>if Statement</title>
-      <link>/03-control-flow-and-loops/conditionals/if-statement/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/03-control-flow-and-loops/conditionals/if-statement/</guid>
-      <description>if Statement  Used when you want to have some sort of single branching logic  if (condition) { code to run if condition is true } // run some other code  Example const isRewardsMember = true let totalPrice = 100 if (isRewardsMember) { totalPrice = totalPrice * 0.80 } console.log(totalPrice)  JS Bin on jsbin.com</description>
-    </item>
-    
-    <item>
       <title>while Loop</title>
       <link>/03-control-flow-and-loops/loops-and-iteration/while-loops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1292,6 +1293,15 @@ Here&amp;rsquo;s a diagram that provides a high-level view of how our slackbot w
     </item>
     
     <item>
+      <title>Passing Values with Async / Await</title>
+      <link>/10-asynchronous-js-and-promises/async-await/passing-values-with-async-await/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/async-await/passing-values-with-async-await/</guid>
+      <description>Passing values with Async / Await  Similar to the original Promise syntax, we can easily pass values from one async function to other functions if needed  Example function getSuperheroes() { return new Promise(resolve =&amp;gt; { setTimeout(() =&amp;gt; { // send an array of heroes when  // promise is resolved  resolve([ { name: &amp;#34;Captain Marvel&amp;#34;, team: &amp;#34;Avengers&amp;#34; }, { name: &amp;#34;Batman&amp;#34;, team: &amp;#34;Justice League&amp;#34;}, { name: &amp;#34;Jean Grey&amp;#34;, team: &amp;#34;X-Men&amp;#34;}, { name: &amp;#34;Domino&amp;#34;, team: &amp;#34;X-Force&amp;#34;} ]) }, 3000) }); } function printHeroes(heroes) { heroes.</description>
+    </item>
+    
+    <item>
       <title>PUT</title>
       <link>/09-http-and-apis/http/http-request/http-methods/put/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1302,15 +1312,6 @@ Here&amp;rsquo;s a diagram that provides a high-level view of how our slackbot w
  Like POST requests, PUT requests come with data in the HTTP request body to specify the fields and new values to update
  For example Hours: M-F 10a-10p, closed on Saturday and Sunday
   </description>
-    </item>
-    
-    <item>
-      <title>Passing Values with Async / Await</title>
-      <link>/10-asynchronous-js-and-promises/async-await/passing-values-with-async-await/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/10-asynchronous-js-and-promises/async-await/passing-values-with-async-await/</guid>
-      <description>Passing values with Async / Await  Similar to the original Promise syntax, we can easily pass values from one async function to other functions if needed  Example function getSuperheroes() { return new Promise(resolve =&amp;gt; { setTimeout(() =&amp;gt; { // send an array of heroes when  // promise is resolved  resolve([ { name: &amp;#34;Captain Marvel&amp;#34;, team: &amp;#34;Avengers&amp;#34; }, { name: &amp;#34;Batman&amp;#34;, team: &amp;#34;Justice League&amp;#34;}, { name: &amp;#34;Jean Grey&amp;#34;, team: &amp;#34;X-Men&amp;#34;}, { name: &amp;#34;Domino&amp;#34;, team: &amp;#34;X-Force&amp;#34;} ]) }, 3000) }); } function printHeroes(heroes) { heroes.</description>
     </item>
     
     <item>
@@ -1354,7 +1355,7 @@ Requirement #2: Add Read Functionality The Doit app should list all tasks stored
       <description>Routing  Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on)
  Each route can have one or more handler functions, which are executed when the route is matched
  Route definition takes the following structure:
-  app.METHOD(PATH, HANDLER)   app is an instance of express.</description>
+app.METHOD(PATH, HANDLER)   app is an instance of express.</description>
     </item>
     
     <item>
@@ -1551,12 +1552,46 @@ superHero[&#39;secret identity&#39;]`
     </item>
     
     <item>
+      <title>descendants</title>
+      <link>/06-dom-and-jquery/jquery-traversing/descendants/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-traversing/descendants/</guid>
+      <description>descendant Methods .children()  Method is used to get the direct children of the selected element  Example $(() =&amp;gt; { $(&amp;#34;button&amp;#34;).click(() =&amp;gt; { // this will add a border bottom  // to all the children of the div element (the &amp;lt;p&amp;gt; elements)  $(&amp;#39;div&amp;#39;).children().css(&amp;#34;border-bottom&amp;#34;, &amp;#34;3px double red&amp;#34;) }) })  JS Bin on jsbin.com
+.find()  Method is used to get the descendant elements of the selected element</description>
+    </item>
+    
+    <item>
+      <title>do..while Loop</title>
+      <link>/03-control-flow-and-loops/loops-and-iteration/do-while-loops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-control-flow-and-loops/loops-and-iteration/do-while-loops/</guid>
+      <description>do..while Loop  A do&amp;hellip;while loop repeats until a specified condition evaluates to false  do { statement } while (condition)   statement is always executed once before the condition is checked (and then again until the while condition returns false)
+ With do&amp;hellip;while loops, everything in-between the curly braces (i.e. statement(s)) will run at least once
+  Example let n = 0 do { console.log(n) n++ } while (n &amp;lt; 0)   the loop will run at least once and then terminate because 0 is NOT &amp;lt; 0  JS Bin on jsbin.</description>
+    </item>
+    
+    <item>
       <title>Error Handling with Async / Await</title>
       <link>/10-asynchronous-js-and-promises/async-await/error-handling-with-async-await/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/10-asynchronous-js-and-promises/async-await/error-handling-with-async-await/</guid>
       <description>Error Handling with Async / Await  With Async / Await we can use try..catch block to easily catch errors  Example function yayOrNay() { return new Promise((resolve, reject) =&amp;gt; { const val = Math.round(Math.random() * 1) // 0 or 1, at random  val ? resolve(&amp;#39;Lucky!!&amp;#39;) : reject(&amp;#39;Nope 😠&amp;#39;) }) } async function msg() { // use try..catch to handle any potential errors  // when using &amp;#34;async / await&amp;#34;  try { const msg = await yayOrNay(); console.</description>
+    </item>
+    
+    <item>
+      <title>event.currentTarget</title>
+      <link>/07-dom-and-jquery-ii/event-current-target/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-dom-and-jquery-ii/event-current-target/</guid>
+      <description>event.currentTarget  JavaScript property (not specific to jQuery) that identifies the current target for the event
+ It always refers to the element to which the event handler has been attached, as opposed
+ Similar to $(this), with the added benefit that it works with arrow functions
+ When using event.currentTarget in the context of jQuery, it should be wrapped in a jQuery object: $(event.currentTarget)
+  Example $(() =&amp;gt; { $(&amp;#34;#box&amp;#34;).</description>
     </item>
     
     <item>
@@ -1572,6 +1607,29 @@ superHero[&#39;secret identity&#39;]`
  When were the changes made?
  Why were changes needed?
    What is Git?  Git is VCS that is distributed - meaning developers don&amp;rsquo;t need a constant connection to be able to collaborate with other developers (unlike other VCSs)</description>
+    </item>
+    
+    <item>
+      <title>Handling Async Issues with Promises</title>
+      <link>/10-asynchronous-js-and-promises/promises/handling-async-issues-with-promises/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/promises/handling-async-issues-with-promises/</guid>
+      <description>Handling Async Issues with Promises  Let&amp;rsquo;s revisit our .printLetter() example and use promises
+ First let&amp;rsquo;s modify our .printLetter() function to return a Promise
+  function printLetter(letter) { return new Promise((resolve, reject) =&amp;gt; { setTimeout(() =&amp;gt; { console.log(letter) resolve() }, Math.floor(Math.random() * 3000)) }) } //... the rest of code below not shown for brevity  Example: Using Promises to control the execution order of async functions function printLetter(letter) { return new Promise((resolve, reject) =&amp;gt; { setTimeout(() =&amp;gt; { console.</description>
+    </item>
+    
+    <item>
+      <title>Hoisting</title>
+      <link>/04-functions-and-scope/hoisting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-functions-and-scope/hoisting/</guid>
+      <description>Hoisting  Hoisting is a feature in JavaScript which allows access to function declarations before they’re defined
+ This means that we can place a function call before our function declaration and everything will still work as expected
+  Example // Calling greetWorld() BEFORE it&amp;#39;s function declararion greetWorld() // declaration of greetWorld() function greetWorld() { console.log(&amp;#39;Hello, World!&amp;#39;) }  JS Bin on jsbin.com
+ Notice how hoisting allowed greetWorld() to be called before the greetWorld() function was defined</description>
     </item>
     
     <item>
@@ -1601,26 +1659,26 @@ Complete Homework #3 - Iterators  You are tasked with completing the problem set
     </item>
     
     <item>
-      <title>Handling Async Issues with Promises</title>
-      <link>/10-asynchronous-js-and-promises/promises/handling-async-issues-with-promises/</link>
+      <title>if..else Statement</title>
+      <link>/03-control-flow-and-loops/conditionals/if-else/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/10-asynchronous-js-and-promises/promises/handling-async-issues-with-promises/</guid>
-      <description>Handling Async Issues with Promises  Let&amp;rsquo;s revisit our .printLetter() example and use promises
- First let&amp;rsquo;s modify our .printLetter() function to return a Promise
-  function printLetter(letter) { return new Promise((resolve, reject) =&amp;gt; { setTimeout(() =&amp;gt; { console.log(letter) resolve() }, Math.floor(Math.random() * 3000)) }) } //... the rest of code below not shown for brevity  Example: Using Promises to control the execution order of async functions function printLetter(letter) { return new Promise((resolve, reject) =&amp;gt; { setTimeout(() =&amp;gt; { console.</description>
+      <guid>/03-control-flow-and-loops/conditionals/if-else/</guid>
+      <description>if..else Statement  Used when evaluating between just two choices
+ These are great for “either or” situations
+ You do not specify a condition for the “else” clause
+  // if..else statement  if (condition) { code to run if condition is true } else { code to run if the above condition is NOT true } // run some other code  Example const yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
     </item>
     
     <item>
-      <title>Hoisting</title>
-      <link>/04-functions-and-scope/hoisting/</link>
+      <title>jQuery Syntax</title>
+      <link>/06-dom-and-jquery/jquery-overview/jquery-syntax/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/04-functions-and-scope/hoisting/</guid>
-      <description>Hoisting  Hoisting is a feature in JavaScript which allows access to function declarations before they’re defined
- This means that we can place a function call before our function declaration and everything will still work as expected
-  Example // Calling greetWorld() BEFORE it&amp;#39;s function declararion greetWorld() // declaration of greetWorld() function greetWorld() { console.log(&amp;#39;Hello, World!&amp;#39;) }  JS Bin on jsbin.com
- Notice how hoisting allowed greetWorld() to be called before the greetWorld() function was defined</description>
+      <guid>/06-dom-and-jquery/jquery-overview/jquery-syntax/</guid>
+      <description>$() function  jQuery uses a built-in function called jQuery() to allow developers to programmatically select elements on a html page
+ $() is shorthand for jQuery()
+ This shorthand syntax is used almost exclusively (because results in less typing) and that is what we will be using throughout the course   // programmatically &amp;#34;select&amp;#34; all p tags on the page using jQuery() syntax  jQuery(&amp;#39;p&amp;#39;)  is the same as:</description>
     </item>
     
     <item>
@@ -1713,7 +1771,7 @@ app.get(&#39;/users/:userId/books/:bookId&#39;, function (req, res) { res.send(r
       <guid>/12-project-build-a-slackbot/tutorial/step-4-run-ngrok/</guid>
       <description>Run ngrok  Next we need to give our local server access to the internet so our slack app can communicate with it
  ngrok is a tool that allows developers to create &amp;ldquo;tunnels&amp;rdquo; that connect the server running locally (i.e. on your computer) to the internet
-  1. Run ngrok command from within project folder  In a new command line tab run the following command (make sure you run this within the project folder)   $ ngrok http 3000   Here, we are are telling ngrok to create a local tunnel that connects our server running on port 3000 (i.</description>
+  1. Run ngrok command from within project folder  In a new command line tab run the following command (make sure you run this within the project folder)</description>
     </item>
     
     <item>
@@ -1735,63 +1793,6 @@ app.get(&#39;/users/:userId/books/:bookId&#39;, function (req, res) { res.send(r
       <guid>/class-resources/atom-themes/</guid>
       <description>Changing Themes Atom allows you to easily switch between your installed themes by doing the following:
  Opening Atom Settings (mac: cmd + , | pc: ctrl + ,) Select Themes in the left-hand menu Select the dropdown menu labeled Syntax Themes Choose one of the installed themes listed in the dropdown menu  Atom comes pre-installed with a set of themes. See that section below to add new themes to Atom</description>
-    </item>
-    
-    <item>
-      <title>descendants</title>
-      <link>/06-dom-and-jquery/jquery-traversing/descendants/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/06-dom-and-jquery/jquery-traversing/descendants/</guid>
-      <description>descendant Methods .children()  Method is used to get the direct children of the selected element  Example $(() =&amp;gt; { $(&amp;#34;button&amp;#34;).click(() =&amp;gt; { // this will add a border bottom  // to all the children of the div element (the &amp;lt;p&amp;gt; elements)  $(&amp;#39;div&amp;#39;).children().css(&amp;#34;border-bottom&amp;#34;, &amp;#34;3px double red&amp;#34;) }) })  JS Bin on jsbin.com
-.find()  Method is used to get the descendant elements of the selected element</description>
-    </item>
-    
-    <item>
-      <title>do..while Loop</title>
-      <link>/03-control-flow-and-loops/loops-and-iteration/do-while-loops/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/03-control-flow-and-loops/loops-and-iteration/do-while-loops/</guid>
-      <description>do..while Loop  A do&amp;hellip;while loop repeats until a specified condition evaluates to false  do { statement } while (condition)   statement is always executed once before the condition is checked (and then again until the while condition returns false)
- With do&amp;hellip;while loops, everything in-between the curly braces (i.e. statement(s)) will run at least once
-  Example let n = 0 do { console.log(n) n++ } while (n &amp;lt; 0)   the loop will run at least once and then terminate because 0 is NOT &amp;lt; 0  JS Bin on jsbin.</description>
-    </item>
-    
-    <item>
-      <title>event.currentTarget</title>
-      <link>/07-dom-and-jquery-ii/event-current-target/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/07-dom-and-jquery-ii/event-current-target/</guid>
-      <description>event.currentTarget  JavaScript property (not specific to jQuery) that identifies the current target for the event
- It always refers to the element to which the event handler has been attached, as opposed
- Similar to $(this), with the added benefit that it works with arrow functions
- When using event.currentTarget in the context of jQuery, it should be wrapped in a jQuery object: $(event.currentTarget)
-  Example $(() =&amp;gt; { $(&amp;#34;#box&amp;#34;).</description>
-    </item>
-    
-    <item>
-      <title>if..else Statement</title>
-      <link>/03-control-flow-and-loops/conditionals/if-else/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/03-control-flow-and-loops/conditionals/if-else/</guid>
-      <description>if..else Statement  Used when evaluating between just two choices
- These are great for “either or” situations
- You do not specify a condition for the “else” clause
-  // if..else statement  if (condition) { code to run if condition is true } else { code to run if the above condition is NOT true } // run some other code  Example const yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
-    </item>
-    
-    <item>
-      <title>jQuery Syntax</title>
-      <link>/06-dom-and-jquery/jquery-overview/jquery-syntax/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/06-dom-and-jquery/jquery-overview/jquery-syntax/</guid>
-      <description>$() function  jQuery uses a built-in function called jQuery() to allow developers to programmatically select elements on a html page
- $() is shorthand for jQuery()
- This shorthand syntax is used almost exclusively (because results in less typing) and that is what we will be using throughout the course   // programmatically &amp;#34;select&amp;#34; all p tags on the page using jQuery() syntax  jQuery(&amp;#39;p&amp;#39;)  is the same as:</description>
     </item>
     
     <item>
@@ -1827,6 +1828,19 @@ app.get(&#39;/users/:userId/books/:bookId&#39;, function (req, res) { res.send(r
       <guid>/10-asynchronous-js-and-promises/challenges-of-async-programming/</guid>
       <description>Challenges of Asynchronous Programming  Asynchronous programming presents a challenge when we want make multiple asynchronous requests and we want to control the order of the responses  Example Let&amp;rsquo;s see an example of this below:
 /* Modify printLetter() to make it an async function by using .setTimeout After the changes, the letter will be print at a random interval from 0 seconds to 3 seconds */ function printLetter(letter) { setTimeout(() =&amp;gt; { console.</description>
+    </item>
+    
+    <item>
+      <title>jQuery Selectors</title>
+      <link>/06-dom-and-jquery/jquery-overview/jquery-selectors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-dom-and-jquery/jquery-overview/jquery-selectors/</guid>
+      <description>Selecting Elements  A most common usage pattern for jQuery is to:
+ Programmatically select (or grab) an element, then
+ Add an event listener to it or manipulate (change) it in some way
+  jQuery allows us to use css selectors to select elements:
+// We can use css selectors to programmatically select elements $(&#39;p&#39;) // Type (Tag) selector $(&#39;.feature&#39;) // Class selector $(&#39;#checkout&#39;) // ID selector $(&#39;li strong&#39;) // Descendant selector $(&#39;em, i&#39;) // Multiple selector $(&#39;a[target=&amp;quot;_blank&amp;quot;]&#39;) // Attribute selector $(&#39;p:nth-child(2)&#39;) // Pseudo-class selector  ID, Class, Type and Descendant selectors are the selectors we&amp;rsquo;ll be using the most during this course</description>
     </item>
     
     <item>
@@ -1883,19 +1897,6 @@ An easy approach to fixing this issue is to do the following:
       <description> Step 5: Create a test Slash command 1. Go to your Slack developer page  Go to https://api.slack.com/apps and select your OpenWeatherBot app  2. Create a new slash command for OpenWeatherBot  Click on Slack Commands in the left side panel and then press the button labeled Create New Command
  Next fill out the form with the following information and press the &amp;ldquo;Save&amp;rdquo; button:
  Command: test Request URL: [YOUR NGROK HTTPS URL]/test Short Description: Test command Usage Hint: [name]   We are creating a slash command called test, when initiated in Slack, this command will make a POST request to our server using the ngrok https url for our app (remember the ngrok url is unique to your server)   </description>
-    </item>
-    
-    <item>
-      <title>jQuery Selectors</title>
-      <link>/06-dom-and-jquery/jquery-overview/jquery-selectors/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/06-dom-and-jquery/jquery-overview/jquery-selectors/</guid>
-      <description>Selecting Elements  A most common usage pattern for jQuery is to:
- Programmatically select (or grab) an element, then
- Add an event listener to it or manipulate (change) it in some way
-  jQuery allows us to use css selectors to select elements:
-   // We can use css selectors to programmatically select elements $(&#39;p&#39;) // Type (Tag) selector $(&#39;.feature&#39;) // Class selector $(&#39;#checkout&#39;) // ID selector $(&#39;li strong&#39;) // Descendant selector $(&#39;em, i&#39;) // Multiple selector $(&#39;a[target=&amp;quot;_blank&amp;quot;]&#39;) // Attribute selector $(&#39;p:nth-child(2)&#39;) // Pseudo-class selector   ID, Class, Type and Descendant selectors are the selectors we&amp;rsquo;ll be using the most during this course  A complete list of CSS Selectors can be found here</description>
     </item>
     
     <item>
@@ -2041,6 +2042,18 @@ An easy approach to fixing this issue is to do the following:
     </item>
     
     <item>
+      <title>const</title>
+      <link>/02-javascript-basics/variables/const/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-javascript-basics/variables/const/</guid>
+      <description>const  Stands for constant
+ The values of these variables can not be changed through reassignment (i.e. have it&amp;rsquo;s value changed using =)
+ This help make your code easier to debug and protects certain values from accidentally being overridden in your codebase
+  Declaring a variable using const const are the same as let but with one key difference, values can only be assigned once to a const variable</description>
+    </item>
+    
+    <item>
       <title>Error Handling with .catch()</title>
       <link>/10-asynchronous-js-and-promises/promises/error-handling-with-catch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2049,6 +2062,18 @@ An easy approach to fixing this issue is to do the following:
       <description>Error Handling with .catch()  Promises chains are a great place to handle errors
  The .catch() method provides us with an easy way to catch any errors that occur in a Promise chain
   Example const myPromise = () =&amp;gt; { return new Promise((resolve, reject) =&amp;gt; { // return 1 after the promise is resolved  setTimeout(() =&amp;gt; resolve(1), 2000) }) } myPromise().then((result) =&amp;gt; { console.log(result) return result + 1 }).</description>
+    </item>
+    
+    <item>
+      <title>for Loop</title>
+      <link>/03-control-flow-and-loops/loops-and-iteration/for-loop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-control-flow-and-loops/loops-and-iteration/for-loop/</guid>
+      <description>for Loop  The for loop consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement (usually a block statement) to be executed in the loop.
+ The three expression help determine how many times the loop will iterate before it terminates
+ The statements involve an iterator variable (usually depicted as an &amp;ldquo;i&amp;rdquo;)
+  for (statement 1; statement 2; statement 3) { // code block to be executed }   statement 1 is executed (one time) before the execution of the code block</description>
     </item>
     
     <item>
@@ -2061,6 +2086,18 @@ An easy approach to fixing this issue is to do the following:
  We can use callbacks to control the order in which our multiple asynchronous functions are executed
  The code below modifies our .printLetter() function to accept a callback as a 2nd parameter
   function printLetter(letter, callback) { //&amp;lt;- callback function param added  setTimeout(() =&amp;gt; { console.log(letter) callback() // &amp;lt;- execute (call) the callback param after printing letter  }, Math.</description>
+    </item>
+    
+    <item>
+      <title>if..else if Statement</title>
+      <link>/03-control-flow-and-loops/conditionals/if-else-if/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-control-flow-and-loops/conditionals/if-else-if/</guid>
+      <description>if..else if Statement  Used when evaluation among more than two choices, use if/else if
+ You must specify a condition for every else if clause
+ You can use as many else if clauses as is needed
+  // if..else if statement  if (condition) { code to run if this condition is true } else if (another condition) { code to run if this condition is true } else { code to run if NONE of the above conditions are true } // run some other code  Example const yourGrade = 84 if (yourGrade &amp;gt;= 90) { console.</description>
     </item>
     
     <item>
@@ -2148,42 +2185,6 @@ An easy approach to fixing this issue is to do the following:
  To provide parameters to a function, you specify them inside the parentheses after the parameter name
  The parameters are used like variables within the function body
  We use the return keyword when we want our function to &amp;ldquo;give us back&amp;rdquo; a value</description>
-    </item>
-    
-    <item>
-      <title>const</title>
-      <link>/02-javascript-basics/variables/const/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/02-javascript-basics/variables/const/</guid>
-      <description>const  Stands for constant
- The values of these variables can not be changed through reassignment (i.e. have it&amp;rsquo;s value changed using =)
- This help make your code easier to debug and protects certain values from accidentally being overridden in your codebase
-  Declaring a variable using const const are the same as let but with one key difference, values can only be assigned once to a const variable</description>
-    </item>
-    
-    <item>
-      <title>for Loop</title>
-      <link>/03-control-flow-and-loops/loops-and-iteration/for-loop/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/03-control-flow-and-loops/loops-and-iteration/for-loop/</guid>
-      <description>for Loop  The for loop consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement (usually a block statement) to be executed in the loop.
- The three expression help determine how many times the loop will iterate before it terminates
- The statements involve an iterator variable (usually depicted as an &amp;ldquo;i&amp;rdquo;)
-  for (statement 1; statement 2; statement 3) { // code block to be executed }   statement 1 is executed (one time) before the execution of the code block</description>
-    </item>
-    
-    <item>
-      <title>if..else if Statement</title>
-      <link>/03-control-flow-and-loops/conditionals/if-else-if/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/03-control-flow-and-loops/conditionals/if-else-if/</guid>
-      <description>if..else if Statement  Used when evaluation among more than two choices, use if/else if
- You must specify a condition for every else if clause
- You can use as many else if clauses as is needed
-  // if..else if statement  if (condition) { code to run if this condition is true } else if (another condition) { code to run if this condition is true } else { code to run if NONE of the above conditions are true } // run some other code  Example const yourGrade = 84 if (yourGrade &amp;gt;= 90) { console.</description>
     </item>
     
     <item>
@@ -2410,6 +2411,27 @@ You can optionally set up a Google Voice number as an alternative to using your 
     </item>
     
     <item>
+      <title>forEach Loop</title>
+      <link>/03-control-flow-and-loops/loops-and-iteration/for-each/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-control-flow-and-loops/loops-and-iteration/for-each/</guid>
+      <description>forEach Loop  forEach() is an Array method executes a provided function once for each item (or element) in the array
+ The function used in forEach is called a callback function because it is being passed as a parameter into another function (we&amp;rsquo;ll cover these concepts in more detail in a later class)
+ The callback function for forEach provides the following:
+ element - this current element from the array that is being evaluated</description>
+    </item>
+    
+    <item>
+      <title>length Property</title>
+      <link>/05-arrays-objects/array-review/length-property/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-arrays-objects/array-review/length-property/</guid>
+      <description>length property  Property of an Array that returns the number of elements in that array  Example const fruits = [&amp;#34;Peach&amp;#34;, &amp;#34;Mango&amp;#34;, &amp;#34;Apple&amp;#34;, &amp;#34;Orange&amp;#34;, &amp;#34;Grapes&amp;#34;, &amp;#34;Strawberries&amp;#34;, &amp;#34;Plum&amp;#34;] const numberOfFruits = fruits.length console.log(numberOfFruits) // 7  JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
       <title>Logical Operators</title>
       <link>/02-javascript-basics/logical-operators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2453,27 +2475,6 @@ You can optionally set up a Google Voice number as an alternative to using your 
       <guid>/12-project-build-a-slackbot/tutorial/step-9-access-slash-command-parameters/</guid>
       <description>Step 9: Access Slash Command Parameters Next we will take a look at the information that Slack sends us when we receive a request from a Slash command
 1. Update the app.post(/test..) function in index.js  Inside the our app.post(/test) function, change the console.log(req) to console.log(req.body)  app.post(&amp;#39;/test&amp;#39;, async (req, res) =&amp;gt; { try { console.log(req.body) // &amp;lt;-- update this line  const data = { &amp;#39;response_type&amp;#39;: &amp;#39;in_channel&amp;#39;, &amp;#39;text&amp;#39;: &amp;#39;Testing testing 123!</description>
-    </item>
-    
-    <item>
-      <title>forEach Loop</title>
-      <link>/03-control-flow-and-loops/loops-and-iteration/for-each/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/03-control-flow-and-loops/loops-and-iteration/for-each/</guid>
-      <description>forEach Loop  forEach() is an Array method executes a provided function once for each item (or element) in the array
- The function used in forEach is called a callback function because it is being passed as a parameter into another function (we&amp;rsquo;ll cover these concepts in more detail in a later class)
- The callback function for forEach provides the following:
- element - this current element from the array that is being evaluated</description>
-    </item>
-    
-    <item>
-      <title>length Property</title>
-      <link>/05-arrays-objects/array-review/length-property/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/05-arrays-objects/array-review/length-property/</guid>
-      <description>length property  Property of an Array that returns the number of elements in that array  Example const fruits = [&amp;#34;Peach&amp;#34;, &amp;#34;Mango&amp;#34;, &amp;#34;Apple&amp;#34;, &amp;#34;Orange&amp;#34;, &amp;#34;Grapes&amp;#34;, &amp;#34;Strawberries&amp;#34;, &amp;#34;Plum&amp;#34;] const numberOfFruits = fruits.length console.log(numberOfFruits) // 7  JS Bin on jsbin.com</description>
     </item>
     
     <item>
@@ -2801,6 +2802,18 @@ HTML &amp;amp; CSS  Codecademy - HTML &amp;amp; CSS course
     </item>
     
     <item>
+      <title>Class Exercise - Smart Thermostat Pseudocode</title>
+      <link>/00-course-intro-and-tools/class-exercise-smart-thermostat-pseudocode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/00-course-intro-and-tools/class-exercise-smart-thermostat-pseudocode/</guid>
+      <description> Class Exercise: Thermostat logic in pseudocode We&amp;rsquo;re going to use pseudocode to describe the basic functionality of a smart thermostat
+ As as class we are going to write some pseudocode for a program for a smart thermostat
+ We’ll focus on coming up with the logic that will help the thermostat know when to turn the heat on and off
+  </description>
+    </item>
+    
+    <item>
       <title>CORS</title>
       <link>/class-resources/cors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2811,18 +2824,6 @@ HTML &amp;amp; CSS  Codecademy - HTML &amp;amp; CSS course
  Some domains don&amp;rsquo;t allow you to ping them from other domains and some do
   Click here for more information about CORS
  </description>
-    </item>
-    
-    <item>
-      <title>Class Exercise - Smart Thermostat Pseudocode</title>
-      <link>/00-course-intro-and-tools/class-exercise-smart-thermostat-pseudocode/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/00-course-intro-and-tools/class-exercise-smart-thermostat-pseudocode/</guid>
-      <description> Class Exercise: Thermostat logic in pseudocode We&amp;rsquo;re going to use pseudocode to describe the basic functionality of a smart thermostat
- As as class we are going to write some pseudocode for a program for a smart thermostat
- We’ll focus on coming up with the logic that will help the thermostat know when to turn the heat on and off
-  </description>
     </item>
     
     <item>

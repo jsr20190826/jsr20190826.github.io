@@ -19,7 +19,7 @@
       <description>Async / Await  Async / Await is special that makes working with promises easy to use and understand
  The syntax and structure of Async / Await is makes our asynchronous handling look like synchronous code
  Async / Await is alternative way of consuming promises a
-  async  In order for you to use Async / Await, you must declare a function with the async keyword   async function someFunction() { return &amp;quot;something&amp;quot; }   Prepending async to a function declaration means that function always returns a promise  await  The keyword await makes JavaScript wait until that promise settles and returns its result</description>
+  async  In order for you to use Async / Await, you must declare a function with the async keyword</description>
     </item>
     
     <item>

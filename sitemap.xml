@@ -59,11 +59,11 @@
   </url>
   
   <url>
-    <loc>/09-http-and-apis/ajax/ajax-request-native-js/</loc>
+    <loc>/06-dom-and-jquery/jquery-overview/add-jquery/via-download/</loc>
   </url>
   
   <url>
-    <loc>/06-dom-and-jquery/jquery-overview/add-jquery/via-download/</loc>
+    <loc>/09-http-and-apis/ajax/ajax-request-native-js/</loc>
   </url>
   
   <url>
@@ -268,15 +268,19 @@
   </url>
   
   <url>
-    <loc>/09-http-and-apis/ajax/ajax-request-jquery/</loc>
-  </url>
-  
-  <url>
     <loc>/05-arrays-objects/objects/accessing-properties/</loc>
   </url>
   
   <url>
     <loc>/06-dom-and-jquery/jquery-overview/add-jquery/via-cdn/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/ajax/ajax-request-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-traversing/ancestors/</loc>
   </url>
   
   <url>
@@ -289,10 +293,6 @@
   
   <url>
     <loc>/06-dom-and-jquery/jquery-overview/benefits-of-jquery/</loc>
-  </url>
-  
-  <url>
-    <loc>/14-intro-to-crud-and-firebase/crud/</loc>
   </url>
   
   <url>
@@ -328,6 +328,10 @@
   </url>
   
   <url>
+    <loc>/14-intro-to-crud-and-firebase/crud/</loc>
+  </url>
+  
+  <url>
     <loc>/09-http-and-apis/apis/data-formats/</loc>
   </url>
   
@@ -360,6 +364,14 @@
   </url>
   
   <url>
+    <loc>/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/</loc>
+  </url>
+  
+  <url>
+    <loc>/solutions/homework-solutions/</loc>
+  </url>
+  
+  <url>
     <loc>/09-http-and-apis/http/</loc>
   </url>
   
@@ -376,11 +388,7 @@
   </url>
   
   <url>
-    <loc>/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/</loc>
-  </url>
-  
-  <url>
-    <loc>/solutions/homework-solutions/</loc>
+    <loc>/03-control-flow-and-loops/conditionals/if-statement/</loc>
   </url>
   
   <url>
@@ -392,11 +400,15 @@
   </url>
   
   <url>
-    <loc>/09-http-and-apis/json/json-parse/</loc>
+    <loc>/02-javascript-basics/</loc>
   </url>
   
   <url>
-    <loc>/02-javascript-basics/</loc>
+    <loc>/06-dom-and-jquery/jquery-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/json/json-parse/</loc>
   </url>
   
   <url>
@@ -448,18 +460,6 @@
   </url>
   
   <url>
-    <loc>/06-dom-and-jquery/jquery-traversing/ancestors/</loc>
-  </url>
-  
-  <url>
-    <loc>/03-control-flow-and-loops/conditionals/if-statement/</loc>
-  </url>
-  
-  <url>
-    <loc>/06-dom-and-jquery/jquery-overview/</loc>
-  </url>
-  
-  <url>
     <loc>/03-control-flow-and-loops/loops-and-iteration/while-loops/</loc>
   </url>
   
@@ -476,11 +476,11 @@
   </url>
   
   <url>
-    <loc>/09-http-and-apis/apis/api-keys/</loc>
+    <loc>/06-dom-and-jquery/jquery-overview/add-jquery/</loc>
   </url>
   
   <url>
-    <loc>/06-dom-and-jquery/jquery-overview/add-jquery/</loc>
+    <loc>/09-http-and-apis/apis/api-keys/</loc>
   </url>
   
   <url>
@@ -532,11 +532,11 @@
   </url>
   
   <url>
-    <loc>/09-http-and-apis/http/http-request/http-methods/put/</loc>
+    <loc>/10-asynchronous-js-and-promises/async-await/passing-values-with-async-await/</loc>
   </url>
   
   <url>
-    <loc>/10-asynchronous-js-and-promises/async-await/passing-values-with-async-await/</loc>
+    <loc>/09-http-and-apis/http/http-request/http-methods/put/</loc>
   </url>
   
   <url>
@@ -600,11 +600,11 @@
   </url>
   
   <url>
-    <loc>/09-http-and-apis/ajax/</loc>
+    <loc>/05-arrays-objects/array-review/accessing-array-values/</loc>
   </url>
   
   <url>
-    <loc>/05-arrays-objects/array-review/accessing-array-values/</loc>
+    <loc>/09-http-and-apis/ajax/</loc>
   </url>
   
   <url>
@@ -632,15 +632,27 @@
   </url>
   
   <url>
-    <loc>/09-http-and-apis/http/http-request/http-methods/delete/</loc>
-  </url>
-  
-  <url>
     <loc>/02-javascript-basics/data-types/</loc>
   </url>
   
   <url>
+    <loc>/09-http-and-apis/http/http-request/http-methods/delete/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-traversing/descendants/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/loops-and-iteration/do-while-loops/</loc>
+  </url>
+  
+  <url>
     <loc>/10-asynchronous-js-and-promises/async-await/error-handling-with-async-await/</loc>
+  </url>
+  
+  <url>
+    <loc>/07-dom-and-jquery-ii/event-current-target/</loc>
   </url>
   
   <url>
@@ -656,14 +668,6 @@
   </url>
   
   <url>
-    <loc>/homework-assignments/hw-assignment-02/</loc>
-  </url>
-  
-  <url>
-    <loc>/homework-assignments/hw-assignment-03/</loc>
-  </url>
-  
-  <url>
     <loc>/10-asynchronous-js-and-promises/promises/handling-async-issues-with-promises/</loc>
   </url>
   
@@ -672,7 +676,23 @@
   </url>
   
   <url>
+    <loc>/homework-assignments/hw-assignment-02/</loc>
+  </url>
+  
+  <url>
+    <loc>/homework-assignments/hw-assignment-03/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/conditionals/if-else/</loc>
+  </url>
+  
+  <url>
     <loc>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/jquery-syntax/</loc>
   </url>
   
   <url>
@@ -728,26 +748,6 @@
   </url>
   
   <url>
-    <loc>/06-dom-and-jquery/jquery-traversing/descendants/</loc>
-  </url>
-  
-  <url>
-    <loc>/03-control-flow-and-loops/loops-and-iteration/do-while-loops/</loc>
-  </url>
-  
-  <url>
-    <loc>/07-dom-and-jquery-ii/event-current-target/</loc>
-  </url>
-  
-  <url>
-    <loc>/03-control-flow-and-loops/conditionals/if-else/</loc>
-  </url>
-  
-  <url>
-    <loc>/06-dom-and-jquery/jquery-overview/jquery-syntax/</loc>
-  </url>
-  
-  <url>
     <loc>/01-command-line-js-and-git/github/</loc>
   </url>
   
@@ -772,6 +772,10 @@
   </url>
   
   <url>
+    <loc>/06-dom-and-jquery/jquery-overview/jquery-selectors/</loc>
+  </url>
+  
+  <url>
     <loc>/01-command-line-js-and-git/git-vocabulary/merge/</loc>
   </url>
   
@@ -789,10 +793,6 @@
   
   <url>
     <loc>/12-project-build-a-slackbot/tutorial/step-5-create-a-test-slash-command/</loc>
-  </url>
-  
-  <url>
-    <loc>/06-dom-and-jquery/jquery-overview/jquery-selectors/</loc>
   </url>
   
   <url>
@@ -836,10 +836,6 @@
   </url>
   
   <url>
-    <loc>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/</loc>
-  </url>
-  
-  <url>
     <loc>/00-course-intro-and-tools/class-logistics-materials/</loc>
   </url>
   
@@ -852,6 +848,14 @@
   </url>
   
   <url>
+    <loc>/02-javascript-basics/variables/const/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/</loc>
+  </url>
+  
+  <url>
     <loc>/06-dom-and-jquery/</loc>
   </url>
   
@@ -860,7 +864,15 @@
   </url>
   
   <url>
+    <loc>/03-control-flow-and-loops/loops-and-iteration/for-loop/</loc>
+  </url>
+  
+  <url>
     <loc>/10-asynchronous-js-and-promises/handling-async-issue-with-callbacks/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/conditionals/if-else-if/</loc>
   </url>
   
   <url>
@@ -897,18 +909,6 @@
   
   <url>
     <loc>/04-functions-and-scope/working-with-parameters/</loc>
-  </url>
-  
-  <url>
-    <loc>/02-javascript-basics/variables/const/</loc>
-  </url>
-  
-  <url>
-    <loc>/03-control-flow-and-loops/loops-and-iteration/for-loop/</loc>
-  </url>
-  
-  <url>
-    <loc>/03-control-flow-and-loops/conditionals/if-else-if/</loc>
   </url>
   
   <url>
@@ -1012,7 +1012,15 @@
   </url>
   
   <url>
+    <loc>/03-control-flow-and-loops/loops-and-iteration/for-each/</loc>
+  </url>
+  
+  <url>
     <loc>/09-http-and-apis/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/length-property/</loc>
   </url>
   
   <url>
@@ -1036,14 +1044,6 @@
   </url>
   
   <url>
-    <loc>/03-control-flow-and-loops/loops-and-iteration/for-each/</loc>
-  </url>
-  
-  <url>
-    <loc>/05-arrays-objects/array-review/length-property/</loc>
-  </url>
-  
-  <url>
     <loc>/03-control-flow-and-loops/conditionals/ternary-operator/</loc>
   </url>
   
@@ -1064,6 +1064,10 @@
   </url>
   
   <url>
+    <loc>/06-dom-and-jquery/jquery-events/</loc>
+  </url>
+  
+  <url>
     <loc>/09-http-and-apis/lab-send-receive-sms-twilio-api/</loc>
   </url>
   
@@ -1076,10 +1080,6 @@
   </url>
   
   <url>
-    <loc>/06-dom-and-jquery/jquery-events/</loc>
-  </url>
-  
-  <url>
     <loc>/01-command-line-js-and-git/git-vocabulary/clone/</loc>
   </url>
   
@@ -1089,6 +1089,10 @@
   
   <url>
     <loc>/00-course-intro-and-tools/folder-structure/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/</loc>
   </url>
   
   <url>
@@ -1109,10 +1113,6 @@
   
   <url>
     <loc>/12-project-build-a-slackbot/tutorial/step-11-respond-to-slack-with-current-weather/</loc>
-  </url>
-  
-  <url>
-    <loc>/06-dom-and-jquery/jquery-manipulation/</loc>
   </url>
   
   <url>
@@ -1165,6 +1165,10 @@
   </url>
   
   <url>
+    <loc>/06-dom-and-jquery/jquery-effects/</loc>
+  </url>
+  
+  <url>
     <loc>/08-dom-jquery-iii/lab-citipix/</loc>
   </url>
   
@@ -1177,15 +1181,15 @@
   </url>
   
   <url>
-    <loc>/06-dom-and-jquery/jquery-effects/</loc>
-  </url>
-  
-  <url>
     <loc>/15-project-firebase-todo-app/</loc>
   </url>
   
   <url>
     <loc>/16-intro-to-express/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-traversing/</loc>
   </url>
   
   <url>
@@ -1201,19 +1205,15 @@
   </url>
   
   <url>
-    <loc>/06-dom-and-jquery/jquery-traversing/</loc>
-  </url>
-  
-  <url>
     <loc>/17-deploying-your-app/</loc>
   </url>
   
   <url>
-    <loc>/class-resources/cors/</loc>
+    <loc>/00-course-intro-and-tools/class-exercise-smart-thermostat-pseudocode/</loc>
   </url>
   
   <url>
-    <loc>/00-course-intro-and-tools/class-exercise-smart-thermostat-pseudocode/</loc>
+    <loc>/class-resources/cors/</loc>
   </url>
   
   <url>
@@ -1222,7 +1222,7 @@
   
   <url>
     <loc>/class-resources/</loc>
-    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+    <lastmod>2019-03-16T17:11:17-04:00</lastmod>
   </url>
   
   <url>
@@ -1242,22 +1242,21 @@
   </url>
   
   <url>
+    <loc>/</loc>
+    <lastmod>2019-03-16T17:11:17-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/02-javascript-basics/truthy-falsey/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

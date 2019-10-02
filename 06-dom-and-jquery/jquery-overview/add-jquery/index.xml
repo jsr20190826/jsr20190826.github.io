@@ -28,7 +28,8 @@
       <guid>/06-dom-and-jquery/jquery-overview/add-jquery/via-cdn/</guid>
       <description>Add jQuery via CDN  This approach references the jQuery file that lives on a CDN (another server)
  The example below utilizes a jQuery-specific CDN found here
- The integrity and crossorigin properties in the example ensure the file is delivered without any third-party manipulation   &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Add jQuery using a CDN&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;script src=&amp;quot;https://code.jquery.com/jquery-3.4.1.min.js&amp;quot; integrity=&amp;quot;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=&amp;quot; crossorigin=&amp;quot;anonymous&amp;quot;&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;js/app.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   Using a CDN like jQuery or Google also helps with loading time, and potential caching benefits.</description>
+ The integrity and crossorigin properties in the example ensure the file is delivered without any third-party manipulation
+&amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Add jQuery using a CDN&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;script src=&amp;quot;https://code.jquery.com/jquery-3.4.1.min.js&amp;quot; integrity=&amp;quot;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=&amp;quot; crossorigin=&amp;quot;anonymous&amp;quot;&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;js/app.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   Using a CDN like jQuery or Google also helps with loading time, and potential caching benefits.</description>
     </item>
     
   </channel>
