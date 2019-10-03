@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Milestones &amp; Due Dates on JavaScript</title>
+    <link>/final-projects/milestones-due-dates/</link>
+    <description>Recent content in Milestones &amp; Due Dates on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/final-projects/milestones-due-dates/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Submit Project Ideas</title>
+      <link>/final-projects/milestones-due-dates/submit-project-ideas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/submit-project-ideas/</guid>
+      <description> Milestone I: Submit Project Ideas  Submit three (3) ideas for your final project
+ Deliverable: Use this form to submit your final project ideas
+ Due Date: Tuesday, September 3rd
+ After which, I&amp;rsquo;ll schedule some time to meet with you to discuss your ideas
+  </description>
+    </item>
+    
+    <item>
+      <title>Get Idea Approved</title>
+      <link>/final-projects/milestones-due-dates/get-idea-approved/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/get-idea-approved/</guid>
+      <description> Milestone II: Get Final Project Idea Approved  Due Date: Thursday, September 5th
+ After meeting with the instructor and discussing your idea, you&amp;rsquo;ll formally decide what you want to build   </description>
+    </item>
+    
+    <item>
+      <title>Create Github Repository for Final Project</title>
+      <link>/final-projects/milestones-due-dates/create-github-repository-for-final-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/create-github-repository-for-final-project/</guid>
+      <description>Milestone III: Create Github Repository for Final Project  Create a github repository for your final project, clone the project down to your &amp;lsquo;github&amp;rsquo; folder on your laptop
+ Submit a link to your final project&amp;rsquo;s github repository
+ Here&amp;rsquo;s an example of what link should look like: https://github.com/kareemgrant/kg-awesome-game  Due Date: Thursday, September 5th
+ Deliverable: Use this form to submit your repository url
+  Do not include spaces in your github repository names</description>
+    </item>
+    
+    <item>
+      <title>Create &amp; Submit Wireframes</title>
+      <link>/final-projects/milestones-due-dates/create-submit-wireframes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/create-submit-wireframes/</guid>
+      <description>Milestone IV: Create and Submit Wireframes  Due Date: Tuesday, September 10th
+ Create wireframes for each page layout (assuming you have multiple pages with different layouts) of your final project
+ Instructions
+  The following assumes you have already created a github repository for your final project and cloned the project down to your &amp;lsquo;github&amp;rsquo; folder on your laptop (see Milestone II)
+  Add a new folder to your project files/folders for final project (created in Milestone II) called wireframes</description>
+    </item>
+    
+    <item>
+      <title>Create Project Plan</title>
+      <link>/final-projects/milestones-due-dates/create-project-plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/create-project-plan/</guid>
+      <description> Milestone V: Create Project Plan  Due Date: Tuesday, September 16th
+ Work with the instructor team to break up your final project into a series of steps that you&amp;rsquo;ll turn into tasks
+  Details: TBD
+Trello is a free project management tool that uses the kanban approach to track tasks
+ -- </description>
+    </item>
+    
+    <item>
+      <title>Host Final Project</title>
+      <link>/final-projects/milestones-due-dates/host-final-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/host-final-project/</guid>
+      <description> Milestone VI: Host Final Project Details TBD
+ Due Date: Thursday, September 26th  </description>
+    </item>
+    
+    <item>
+      <title>Submit Final Project</title>
+      <link>/final-projects/milestones-due-dates/submit-final-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/submit-final-project/</guid>
+      <description> Milestone VII: Submit Final Project Details TBD
+ Due Date: Tuesday, Oct 1st  </description>
+    </item>
+    
+  </channel>
+</rss>

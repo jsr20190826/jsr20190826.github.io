@@ -301,6 +301,13 @@
 	"content": " What is Express?  Express is a popular Node web framework that enables developers to build web servers (backend) that can respond to http requests and return data\n Outside of providing built-in support for routing, Express has minimal functionality of its own\n Functionality is added to an Express application through the use of Middleware\n  "
 },
 {
+	"uri": "/final-projects/overview-requirements/",
+	"title": "Overview &amp; Requirements",
+	"tags": [],
+	"description": "",
+	"content": " Overview  Final Projects are a requirement of \u0026ldquo;course completion\u0026rdquo;\n Project should be something that you are passionate about\n We\u0026rsquo;ve established some milestones (and due dates) that will help you stay on track to complete your projects on time\n Each milestone will include a deliverable  Instruction team will actively work with you to help you manage scope and come up with a project plan\n  Requirements For the final project, you\u0026rsquo;ll be designing and building a web application of your choice. This project will test your knowledge of JavaScript and ask you to apply everything you\u0026rsquo;ve learned in this course. The result will be a web app that you can add to your portfolio.\nYou could create anything from: a blog users can comment on; an app that allows users to search for social media posts; or a web-based game (memory, tic-tac-toe, etc). Use of an API is optional but highly recommended (because it\u0026rsquo;s fun!).\nI\u0026rsquo;ll work with you to determine the scope and feasibility of your ideas considering the amount of time remaining in the class and other other factors.\nYour final projects must make use of the following:\n JavaScript\n Adhere to DRY principle (Don\u0026rsquo;t Repeat Yourself)\n Code is properly indented\n Follow best practices for file/folder structure\n  "
+},
+{
 	"uri": "/lesson-recordings/recordings/",
 	"title": "Recordings",
 	"tags": [],
@@ -735,6 +742,13 @@
 	"content": " Middleware  Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle\n Middleware functions can perform the following tasks:\n Execute any code.\n Make changes to the request and the response objects.\n End the request-response cycle.\n Call the next middleware function in the stack\n  An Express application is essentially a series of middleware function calls\n Here\u0026rsquo;s an example of one type of Middleware that can be found in an Express application\n  app.get(\u0026#39;/user/:id\u0026#39;, function (req, res, next) { res.send(\u0026#39;USER\u0026#39;) })   The code above uses the .get() middleware to listen for GET requests to /user/:id  "
 },
 {
+	"uri": "/final-projects/milestones-due-dates/",
+	"title": "Milestones &amp; Due Dates",
+	"tags": [],
+	"description": "",
+	"content": " Throughout the course you will be providing deliverables that will help keep your final projects on track to be completed on time.\nMilestones    Milestone Due Date     Submit three (3) of project ideas Mon, Oct 7th   Get your project idea approved Wed, Oct 9th   Create github repository for your final project Thurs, Sept 5th   Create and submit wireframes Tues, Sept 10th   Provide a project plan for your final project Tues, Sept 16th   Host your project Thurs, Sept 26th   Submit your final project Tues, Oct 1st    "
+},
+{
 	"uri": "/06-dom-and-jquery/jquery-events/mouse-events/",
 	"title": "Mouse Events",
 	"tags": [],
@@ -782,6 +796,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Step 2: Create New Slack App Slack bots are packaged as Slack apps. Slack apps allow you to add more functionality into your Slack workspace\n To create your new Slack app, go to this page: https://api.slack.com/apps?new_app=1 and set your app name to OpenWeatherBot.\n Set the \u0026ldquo;Development Slack Workspace\u0026rdquo; to the new workspace you created in Step 1.\n  "
+},
+{
+	"uri": "/final-projects/milestones-due-dates/submit-project-ideas/",
+	"title": "Submit Project Ideas",
+	"tags": [],
+	"description": "",
+	"content": " Milestone I: Submit Project Ideas  Submit three (3) ideas for your final project\n Deliverable: Use this form to submit your final project ideas\n Due Date: Tuesday, September 3rd\n After which, I\u0026rsquo;ll schedule some time to meet with you to discuss your ideas\n  "
 },
 {
 	"uri": "/13-object-oriented-js/inheritance/super-and-extends/",
@@ -901,6 +922,13 @@
 	"tags": [],
 	"description": "",
 	"content": " General Methods  You can specify \u0026ldquo;regular\u0026rdquo; methods that allow you do things other than simply getting and setting the property values  Example class Car { constructor(make, model) { this._make = make this._model = model this._miles = 30 } get make() { return this._make } get model() { return this._model } get miles() { return this._miles } set model(newModel) { this._model = newModel } drive(newMiles) { console.log(`driving ${newMiles}miles`) this._miles = this._miles + newMiles } } const myTesla = new Car(\u0026#34;Telsa\u0026#34;, \u0026#34;Model 3\u0026#34;) console.log(myTesla.make) console.log(myTesla.miles) // call instance.addMilage() method  // to add additional miles  myTesla.drive(15) myTesla.drive(7) console.log(myTesla.miles)  Here\u0026rsquo;s a summary of the code above:\n We\u0026rsquo;ve specified a new property miles and set it to 30 for each new Car instance\n Next, we added a getter method for miles, that simply returns the value stored in the miles property\n Then, we created a \u0026ldquo;regular\u0026rdquo; method drive() that accepts a parameter (newMiles) and updates our miles property with a new value\n  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/final-projects/milestones-due-dates/get-idea-approved/",
+	"title": "Get Idea Approved",
+	"tags": [],
+	"description": "",
+	"content": " Milestone II: Get Final Project Idea Approved  Due Date: Thursday, September 5th\n After meeting with the instructor and discussing your idea, you\u0026rsquo;ll formally decide what you want to build   "
 },
 {
 	"uri": "/13-object-oriented-js/classes/instances/",
@@ -1097,6 +1125,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Code Along: Firebase Playlist App  Together we\u0026rsquo;ll walk through creating a playlist application that has its data persisted in Firebase\u0026rsquo;s Realtime Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:\n Code Along: Firebase Playlist App (Updated)\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n   2. Create a Firebase account  Create a free Firebase Account using the following link: create account  "
+},
+{
+	"uri": "/final-projects/milestones-due-dates/create-github-repository-for-final-project/",
+	"title": "Create Github Repository for Final Project",
+	"tags": [],
+	"description": "",
+	"content": " Milestone III: Create Github Repository for Final Project  Create a github repository for your final project, clone the project down to your \u0026lsquo;github\u0026rsquo; folder on your laptop\n Submit a link to your final project\u0026rsquo;s github repository\n Here\u0026rsquo;s an example of what link should look like: https://github.com/kareemgrant/kg-awesome-game  Due Date: Thursday, September 5th\n Deliverable: Use this form to submit your repository url\n  Do not include spaces in your github repository names\n - **Deliverable**: Submit a link to your github repo here -- "
 },
 {
 	"uri": "/02-javascript-basics/data-types/",
@@ -1330,6 +1365,13 @@
 	"content": " Challenges of Asynchronous Programming  Asynchronous programming presents a challenge when we want make multiple asynchronous requests and we want to control the order of the responses  Example Let\u0026rsquo;s see an example of this below:\n/* Modify printLetter() to make it an async function by using .setTimeout After the changes, the letter will be print at a random interval from 0 seconds to 3 seconds */ function printLetter(letter) { setTimeout(() =\u0026gt; { console.log(letter) }, Math.floor(Math.random() * 3000)) } function printAll(){ printLetter(\u0026#34;A\u0026#34;) printLetter(\u0026#34;B\u0026#34;) printLetter(\u0026#34;C\u0026#34;) } console.log(\u0026#39;Calling printAll function\u0026#39;) printAll() console.log(\u0026#39;End of code\u0026#39;)   In the code example above we have turned .printLetter() into an asynchronous function through the use of .setTimeout to randomly delay each function call from anywhere between 0 seconds and 3 seconds\n Run the jsbin below (multiple times) and notice how the order of the printed letters is no longer predictable and that A, B, and C print in a different and random order each time you call printAll\n  JS Bin on jsbin.com\n One way to fix this issue is to use callbacks  "
 },
 {
+	"uri": "/final-projects/milestones-due-dates/create-submit-wireframes/",
+	"title": "Create &amp; Submit Wireframes",
+	"tags": [],
+	"description": "",
+	"content": " Milestone IV: Create and Submit Wireframes  Due Date: Tuesday, September 10th\n Create wireframes for each page layout (assuming you have multiple pages with different layouts) of your final project\n Instructions\n  The following assumes you have already created a github repository for your final project and cloned the project down to your \u0026lsquo;github\u0026rsquo; folder on your laptop (see Milestone II)\n  Add a new folder to your project files/folders for final project (created in Milestone II) called wireframes\n Add the digital version of your wireframe files to the newly created wireframes folder\n In Github Desktop: Commit your updates that includes the newly added wireframe files\n In Github Desktop: Push your commit to the remote repository for final project on Github.com so your changes can be reflected on Github.com\n Navigate to the repository on Github.com, open the wireframe folder (on Github.com) and copy the url (this url leads directly to your wireframes)\n Deliverable: Submit the url that leads directly to your wireframe files using this form\n  Here\u0026rsquo;s an example of what link should look like: https://github.com/kareemgrant/kg-awesome-game/tree/master/wireframes\n"
+},
+{
 	"uri": "/01-command-line-js-and-git/git-vocabulary/",
 	"title": "Git Vocabulary",
 	"tags": [],
@@ -1484,6 +1526,13 @@
 	"content": " const  Stands for constant\n The values of these variables can not be changed through reassignment (i.e. have it\u0026rsquo;s value changed using =)\n This help make your code easier to debug and protects certain values from accidentally being overridden in your codebase\n  Declaring a variable using const const are the same as let but with one key difference, values can only be assigned once to a const variable\n// declare a constant named \u0026#39;school\u0026#39;  const school = \u0026#34;General Assembly\u0026#34;  An error will occur if you try to update the value of a const\n// correctly declare a constant using \u0026#34;const\u0026#34; keyword const greeting = \u0026#34;Hello\u0026#34; // const values cannot be updated, if you attempt to do so // an error will occur  greeting = \u0026#34;Good Morning\u0026#34; // this will throw an error  Variables declared with const can still be mutated When dealing with arrays and objects you will find that you are still able to mutate their respective values because updating their values does not require reassignment\nHere\u0026rsquo;s an example of working with arrays declared with const:\n// declare an array using const const myNumbers = [1, 2, 3] /* add a new number to the array and no error will occur, because we did not \u0026#34;reassign\u0026#34; new values directly to the myNumbers variables using `=` */ myNnumbers.push(4) console.log(myNumbers) // [1, 2, 3, 4]  /* However, uncomment the line below and observe the error when we attempt to \u0026#34;reassign\u0026#34; myNumbers */ // myNumbers = [4, 5] // an error will occur  JS Bin on jsbin.com\nObjects declared with const can have their properties changes without any issues:\n// declare an object using const const myObject = {a: 1, b: 2, c: 3} /* add update an existing property and add a new property to myObject and no error will occur, because we did not \u0026#34;reassign\u0026#34; new values directly to the myObject variable using `=` */ myObject.c = 30 myObject.d = 4 console.log(myObject) // { a: 1, b: 2, c: 30, d: 4}  /* However, uncomment the line below and observe the error when we attempt to \u0026#34;reassign\u0026#34; values directly to myObject */ // myObject = {e: 5, g: 6} // an error will occur  JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/final-projects/milestones-due-dates/create-project-plan/",
+	"title": "Create Project Plan",
+	"tags": [],
+	"description": "",
+	"content": " Milestone V: Create Project Plan  Due Date: Tuesday, September 16th\n Work with the instructor team to break up your final project into a series of steps that you\u0026rsquo;ll turn into tasks\n  Details: TBD\nTrello is a free project management tool that uses the kanban approach to track tasks\n -- "
+},
+{
 	"uri": "/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/",
 	"title": "CSS &amp; Style Manipulation",
 	"tags": [],
@@ -1517,6 +1566,13 @@
 	"tags": [],
 	"description": "",
 	"content": " What is a Callback?  Callbacks are functions that are passed to another function\n We can use callbacks to control the order in which our multiple asynchronous functions are executed\n The code below modifies our .printLetter() function to accept a callback as a 2nd parameter\n  function printLetter(letter, callback) { //\u0026lt;- callback function param added  setTimeout(() =\u0026gt; { console.log(letter) callback() // \u0026lt;- execute (call) the callback param after printing letter  }, Math.floor(Math.random() * 3000)) } //... the rest of code below not shown for brevity   The changes will result in .printLetter() calling the next function (callback) after it\u0026rsquo;s done with the current function\n Now let\u0026rsquo;s see how we can use this callback approach to control the order in which our asynchronous functions are executed\n  Example: Using callbacks to control the execution order of async functions function printLetter(letter, callback) { //\u0026lt;- callback function param added  setTimeout(() =\u0026gt; { console.log(letter) callback() // \u0026lt;- execute (call) the callback param after printing letter  }, Math.floor(Math.random() * 3000)) } /* Using nested callback structure to control the execution order of the async functions */ function printAll(){ printLetter(\u0026#34;A\u0026#34;, () =\u0026gt; { printLetter(\u0026#34;B\u0026#34;, () =\u0026gt; { printLetter(\u0026#34;C\u0026#34;, () =\u0026gt; {}) }) }) } console.log(\u0026#39;Calling printAll function\u0026#39;) printAll() console.log(\u0026#39;End of code\u0026#39;)   Run the jsbin below and notice that no matter how many times we run the code, our asynchronous functions will be executed in the desired order (\u0026ldquo;A\u0026rdquo; -\u0026gt; \u0026ldquo;B\u0026rdquo; -\u0026gt; \u0026ldquo;C\u0026rdquo;)  JS Bin on jsbin.com\n However, observe how our .printAll() function is now using nested callbacks to meet our goals\n The introduction of nesting introduces additional complexity and makes the code difficult to maintain\n The use of nested callbacks to handle asynchronous code is referred to as \u0026ldquo;Callback Hell\u0026rdquo; and should generally be avoided\n  "
+},
+{
+	"uri": "/homework-assignments/hw-assignment-04/",
+	"title": "HW Assignment #3",
+	"tags": [],
+	"description": "",
+	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Wednesday, October 9th\nComplete Homework #4 - Rock, Paper, Scissors Application  You are tasked with finishing the partially built Rock, Paper, Scissors application. The code is hosted on Github, see the url below:\n Github Repo for Homework #4 - Rock, Paper, Scissors Application  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
 	"uri": "/03-control-flow-and-loops/conditionals/if-else-if/",
@@ -1636,6 +1692,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Functions can call other functions  Function reusability is key results in cleaner code\n Reusing functions leverages key programming principle - Don\u0026rsquo;t Repeat Yourself (DRY)\n  Example  In the example of below, the surfaceAreaOfCube function calls another function (areaOfSquare) instead of duplicating work that was already done  // Function that calculates area of a square  function areaOfSquare(side){ return side * side } areaOfSquare(3) // returns 9  // This is a function that calculates the // surface area of a cube that *reuses* the areaOfSquare function  function surfaceAreaOfCube(side){ return 6 * areaOfSquare(side) } surfaceAreaOfCube(7) // returns 294  JS Bin on jsbin.com\nExercise  Create a function named surfaceAreaOfSphere that calculates the surface area of the Sphere using the following formula: 4 * PI * r**2; the function MUST reuse the provided areaOfCircle function  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/final-projects/milestones-due-dates/host-final-project/",
+	"title": "Host Final Project",
+	"tags": [],
+	"description": "",
+	"content": " Milestone VI: Host Final Project Details TBD\n Due Date: Thursday, September 26th  "
 },
 {
 	"uri": "/10-asynchronous-js-and-promises/promises/",
@@ -1881,6 +1944,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Step 10: Make API Request to OpenWeather Now it\u0026rsquo;s time to make an API request from our server to OpenWeather\n1. Add the following code to the bottom of index.js  Add the following code to the bottom of index.js and replace [YOUR_OPENWEATHER_API_KEY] with your api key from OpenWeather  async function openWeatherApi (query) { try { const url = \u0026#39;https://api.openweathermap.org/data/2.5/weather\u0026#39; const apiKey = \u0026#39;[YOUR_OPENWEATHER_API_KEY]\u0026#39; // make api request using axios  const response = await axios.get(url, { params: { appid: apiKey, q: query, units: \u0026#39;imperial\u0026#39; } }) console.log(response) return response.data } catch (e) { console.log(e) } }   Here\u0026rsquo;s a summary of the code above:\n We\u0026rsquo;re going to use async/await to handle our API request to OpenWeather so we\u0026rsquo;ve prepended async in front of openWeatherApi()\n openWeatherApi() accepts a query parameter which will represent the city name received from slash command\n axios is being used to make a get request to the OpenWeather API\n axios is a \u0026ldquo;promise-based\u0026rdquo; http client, which means it will return a promise after it\u0026rsquo;s done making the request\n we are using await to halt the execution of the rest of the code in the function until a response is received from OpenWeather\n Once the response is received, we are returning the response.data object since axios always includes any payload (data information) in a key named data\n If an error occurs, we are simply logging the error to the console for now\n   2. Update app.post(/weather...) in index.js We are going to update the logic in our route handler app.post(/weather...) so it calls the openWeatherApi()\n Update the app.post(/weather...) route handler to reflect the code below:  app.post(\u0026#39;/weather\u0026#39;, async (req, res) =\u0026gt; { try { console.log(req.body) // respond with an OK to sender within 3 secs  // as required by Slack for delayed responses  // documentation: https://api.slack.com/slash-commands#responding_response_url  res.json() // extract city passed in as a parameter to  // our slash command (/weather cityName)  const query = req.body.text // making API request via openWeatherApi function  const response = await openWeatherApi(query) // print out OpenWeather API  // response to the console  console.log(response) // res.json(data)  } catch (e) { console.log(e) }  3. Try your /weather slash command again  Restart your Express server and go back to your development workspace on Slack and try the /weather slash command again (make sure you include a valid city name): /weather brooklyn\n Go to your command line application and open the tab associated with your Express server\n Confirm the data from our OpenWeather API request is now being displayed in our server log (via) - the output should look similar to the image below:\n   Nice! We just made a successful API request to OpenWeather  "
+},
+{
+	"uri": "/final-projects/milestones-due-dates/submit-final-project/",
+	"title": "Submit Final Project",
+	"tags": [],
+	"description": "",
+	"content": " Milestone VII: Submit Final Project Details TBD\n Due Date: Tuesday, Oct 1st  "
 },
 {
 	"uri": "/01-command-line-js-and-git/git-vocabulary/clone/",

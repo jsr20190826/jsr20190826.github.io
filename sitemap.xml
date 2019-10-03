@@ -175,6 +175,10 @@
   </url>
   
   <url>
+    <loc>/final-projects/overview-requirements/</loc>
+  </url>
+  
+  <url>
     <loc>/lesson-recordings/recordings/</loc>
   </url>
   
@@ -424,6 +428,10 @@
   </url>
   
   <url>
+    <loc>/final-projects/milestones-due-dates/</loc>
+  </url>
+  
+  <url>
     <loc>/06-dom-and-jquery/jquery-events/mouse-events/</loc>
   </url>
   
@@ -449,6 +457,10 @@
   
   <url>
     <loc>/12-project-build-a-slackbot/tutorial/step-2-create-new-slack-app/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/submit-project-ideas/</loc>
   </url>
   
   <url>
@@ -517,6 +529,10 @@
   
   <url>
     <loc>/13-object-oriented-js/classes/methods/general-methods/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/get-idea-approved/</loc>
   </url>
   
   <url>
@@ -629,6 +645,10 @@
   
   <url>
     <loc>/14-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/create-github-repository-for-final-project/</loc>
   </url>
   
   <url>
@@ -764,6 +784,10 @@
   </url>
   
   <url>
+    <loc>/final-projects/milestones-due-dates/create-submit-wireframes/</loc>
+  </url>
+  
+  <url>
     <loc>/01-command-line-js-and-git/git-vocabulary/</loc>
   </url>
   
@@ -852,6 +876,10 @@
   </url>
   
   <url>
+    <loc>/final-projects/milestones-due-dates/create-project-plan/</loc>
+  </url>
+  
+  <url>
     <loc>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/</loc>
   </url>
   
@@ -869,6 +897,10 @@
   
   <url>
     <loc>/10-asynchronous-js-and-promises/handling-async-issue-with-callbacks/</loc>
+  </url>
+  
+  <url>
+    <loc>/homework-assignments/hw-assignment-04/</loc>
   </url>
   
   <url>
@@ -937,6 +969,10 @@
   
   <url>
     <loc>/04-functions-and-scope/functions-calling-other-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/host-final-project/</loc>
   </url>
   
   <url>
@@ -1077,6 +1113,10 @@
   
   <url>
     <loc>/12-project-build-a-slackbot/tutorial/step-10-make-api-request-to-openweather/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/submit-final-project/</loc>
   </url>
   
   <url>

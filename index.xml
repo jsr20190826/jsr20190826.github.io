@@ -489,6 +489,19 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     </item>
     
     <item>
+      <title>Overview &amp; Requirements</title>
+      <link>/final-projects/overview-requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/overview-requirements/</guid>
+      <description>Overview  Final Projects are a requirement of &amp;ldquo;course completion&amp;rdquo;
+ Project should be something that you are passionate about
+ We&amp;rsquo;ve established some milestones (and due dates) that will help you stay on track to complete your projects on time
+ Each milestone will include a deliverable  Instruction team will actively work with you to help you manage scope and come up with a project plan
+  Requirements For the final project, you&amp;rsquo;ll be designing and building a web application of your choice.</description>
+    </item>
+    
+    <item>
       <title>Recordings</title>
       <link>/lesson-recordings/recordings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1128,6 +1141,19 @@ Here&amp;rsquo;s a diagram that provides a high-level view of how our slackbot w
     </item>
     
     <item>
+      <title>Submit Project Ideas</title>
+      <link>/final-projects/milestones-due-dates/submit-project-ideas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/submit-project-ideas/</guid>
+      <description> Milestone I: Submit Project Ideas  Submit three (3) ideas for your final project
+ Deliverable: Use this form to submit your final project ideas
+ Due Date: Tuesday, September 3rd
+ After which, I&amp;rsquo;ll schedule some time to meet with you to discuss your ideas
+  </description>
+    </item>
+    
+    <item>
       <title>Super &amp; Extends</title>
       <link>/13-object-oriented-js/inheritance/super-and-extends/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1269,6 +1295,16 @@ Here&amp;rsquo;s a diagram that provides a high-level view of how our slackbot w
       
       <guid>/13-object-oriented-js/classes/methods/general-methods/</guid>
       <description>General Methods  You can specify &amp;ldquo;regular&amp;rdquo; methods that allow you do things other than simply getting and setting the property values  Example class Car { constructor(make, model) { this._make = make this._model = model this._miles = 30 } get make() { return this._make } get model() { return this._model } get miles() { return this._miles } set model(newModel) { this._model = newModel } drive(newMiles) { console.log(`driving ${newMiles}miles`) this.</description>
+    </item>
+    
+    <item>
+      <title>Get Idea Approved</title>
+      <link>/final-projects/milestones-due-dates/get-idea-approved/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/get-idea-approved/</guid>
+      <description> Milestone II: Get Final Project Idea Approved  Due Date: Thursday, September 5th
+ After meeting with the instructor and discussing your idea, you&amp;rsquo;ll formally decide what you want to build   </description>
     </item>
     
     <item>
@@ -1537,6 +1573,19 @@ superHero[&#39;secret identity&#39;]`
       <description>Code Along: Firebase Playlist App  Together we&amp;rsquo;ll walk through creating a playlist application that has its data persisted in Firebase&amp;rsquo;s Realtime Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:
  Code Along: Firebase Playlist App (Updated)
  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
+    </item>
+    
+    <item>
+      <title>Create Github Repository for Final Project</title>
+      <link>/final-projects/milestones-due-dates/create-github-repository-for-final-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/create-github-repository-for-final-project/</guid>
+      <description>Milestone III: Create Github Repository for Final Project  Create a github repository for your final project, clone the project down to your &amp;lsquo;github&amp;rsquo; folder on your laptop
+ Submit a link to your final project&amp;rsquo;s github repository
+ Here&amp;rsquo;s an example of what link should look like: https://github.com/kareemgrant/kg-awesome-game  Due Date: Thursday, September 5th
+ Deliverable: Use this form to submit your repository url
+  Do not include spaces in your github repository names</description>
     </item>
     
     <item>
@@ -1831,6 +1880,19 @@ app.get(&#39;/users/:userId/books/:bookId&#39;, function (req, res) { res.send(r
     </item>
     
     <item>
+      <title>Create &amp; Submit Wireframes</title>
+      <link>/final-projects/milestones-due-dates/create-submit-wireframes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/create-submit-wireframes/</guid>
+      <description>Milestone IV: Create and Submit Wireframes  Due Date: Tuesday, September 10th
+ Create wireframes for each page layout (assuming you have multiple pages with different layouts) of your final project
+ Instructions
+  The following assumes you have already created a github repository for your final project and cloned the project down to your &amp;lsquo;github&amp;rsquo; folder on your laptop (see Milestone II)
+  Add a new folder to your project files/folders for final project (created in Milestone II) called wireframes</description>
+    </item>
+    
+    <item>
       <title>jQuery Selectors</title>
       <link>/06-dom-and-jquery/jquery-overview/jquery-selectors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2054,6 +2116,19 @@ An easy approach to fixing this issue is to do the following:
     </item>
     
     <item>
+      <title>Create Project Plan</title>
+      <link>/final-projects/milestones-due-dates/create-project-plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/create-project-plan/</guid>
+      <description> Milestone V: Create Project Plan  Due Date: Tuesday, September 16th
+ Work with the instructor team to break up your final project into a series of steps that you&amp;rsquo;ll turn into tasks
+  Details: TBD
+Trello is a free project management tool that uses the kanban approach to track tasks
+ -- </description>
+    </item>
+    
+    <item>
       <title>Error Handling with .catch()</title>
       <link>/10-asynchronous-js-and-promises/promises/error-handling-with-catch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2086,6 +2161,18 @@ An easy approach to fixing this issue is to do the following:
  We can use callbacks to control the order in which our multiple asynchronous functions are executed
  The code below modifies our .printLetter() function to accept a callback as a 2nd parameter
   function printLetter(letter, callback) { //&amp;lt;- callback function param added  setTimeout(() =&amp;gt; { console.log(letter) callback() // &amp;lt;- execute (call) the callback param after printing letter  }, Math.</description>
+    </item>
+    
+    <item>
+      <title>HW Assignment #3</title>
+      <link>/homework-assignments/hw-assignment-04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/homework-assignments/hw-assignment-04/</guid>
+      <description> Summary of this week&amp;rsquo;s homework assignment: Due Date: Wednesday, October 9th
+Complete Homework #4 - Rock, Paper, Scissors Application  You are tasked with finishing the partially built Rock, Paper, Scissors application. The code is hosted on Github, see the url below:
+ Github Repo for Homework #4 - Rock, Paper, Scissors Application  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
     </item>
     
     <item>
@@ -2253,6 +2340,16 @@ $ mkdir nursery_rhymes  Navigate into the nursery_rhymes directory using the cd 
       <description>Functions can call other functions  Function reusability is key results in cleaner code
  Reusing functions leverages key programming principle - Don&amp;rsquo;t Repeat Yourself (DRY)
   Example  In the example of below, the surfaceAreaOfCube function calls another function (areaOfSquare) instead of duplicating work that was already done  // Function that calculates area of a square  function areaOfSquare(side){ return side * side } areaOfSquare(3) // returns 9  // This is a function that calculates the // surface area of a cube that *reuses* the areaOfSquare function  function surfaceAreaOfCube(side){ return 6 * areaOfSquare(side) } surfaceAreaOfCube(7) // returns 294  JS Bin on jsbin.</description>
+    </item>
+    
+    <item>
+      <title>Host Final Project</title>
+      <link>/final-projects/milestones-due-dates/host-final-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/host-final-project/</guid>
+      <description> Milestone VI: Host Final Project Details TBD
+ Due Date: Thursday, September 26th  </description>
     </item>
     
     <item>
@@ -2554,6 +2651,16 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
       <guid>/12-project-build-a-slackbot/tutorial/step-10-make-api-request-to-openweather/</guid>
       <description>Step 10: Make API Request to OpenWeather Now it&amp;rsquo;s time to make an API request from our server to OpenWeather
 1. Add the following code to the bottom of index.js  Add the following code to the bottom of index.js and replace [YOUR_OPENWEATHER_API_KEY] with your api key from OpenWeather  async function openWeatherApi (query) { try { const url = &amp;#39;https://api.openweathermap.org/data/2.5/weather&amp;#39; const apiKey = &amp;#39;[YOUR_OPENWEATHER_API_KEY]&amp;#39; // make api request using axios  const response = await axios.</description>
+    </item>
+    
+    <item>
+      <title>Submit Final Project</title>
+      <link>/final-projects/milestones-due-dates/submit-final-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/submit-final-project/</guid>
+      <description> Milestone VII: Submit Final Project Details TBD
+ Due Date: Tuesday, Oct 1st  </description>
     </item>
     
     <item>

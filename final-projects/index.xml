@@ -10,5 +10,18 @@
 	<atom:link href="/final-projects/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Overview &amp; Requirements</title>
+      <link>/final-projects/overview-requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/overview-requirements/</guid>
+      <description>Overview  Final Projects are a requirement of &amp;ldquo;course completion&amp;rdquo;
+ Project should be something that you are passionate about
+ We&amp;rsquo;ve established some milestones (and due dates) that will help you stay on track to complete your projects on time
+ Each milestone will include a deliverable  Instruction team will actively work with you to help you manage scope and come up with a project plan
+  Requirements For the final project, you&amp;rsquo;ll be designing and building a web application of your choice.</description>
+    </item>
+    
   </channel>
 </rss>
