@@ -1096,6 +1096,10 @@
   </url>
   
   <url>
+    <loc>/final-projects/milestones-due-dates/complete-final-project/</loc>
+  </url>
+  
+  <url>
     <loc>/01-command-line-js-and-git/git-vocabulary/fork/</loc>
   </url>
   
@@ -1113,10 +1117,6 @@
   
   <url>
     <loc>/12-project-build-a-slackbot/tutorial/step-10-make-api-request-to-openweather/</loc>
-  </url>
-  
-  <url>
-    <loc>/final-projects/milestones-due-dates/submit-final-project/</loc>
   </url>
   
   <url>
