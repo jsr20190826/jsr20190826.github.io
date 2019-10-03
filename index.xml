@@ -406,6 +406,18 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     </item>
     
     <item>
+      <title>Objectives</title>
+      <link>/17-deploying-your-app/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/objectives/</guid>
+      <description> Deploy a JavaScript-based application using Github Pages, Surge or Heroku
+ Learn how to secure sensitive credentials in a &amp;ldquo;non node-based&amp;rdquo; front-end application
+ Deploy your final projects the approach that best fits your application&amp;rsquo;s needs
+  </description>
+    </item>
+    
+    <item>
       <title>Overview</title>
       <link>/10-asynchronous-js-and-promises/async-await/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -543,6 +555,18 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
       <guid>/12-project-build-a-slackbot/tutorial/step-1-new-slack-workspace/</guid>
       <description>Step 1: Create New Slack Workspace We&amp;rsquo;re going to need a Slack workspace to test our bot. Click on the link below and follow the instructions to create a new Slack workspace
 Create a new workspace</description>
+    </item>
+    
+    <item>
+      <title>Step 1: Install Heroku</title>
+      <link>/17-deploying-your-app/code-along-hosting-with-heroku/step-1-install-heroku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/code-along-hosting-with-heroku/step-1-install-heroku/</guid>
+      <description> Step 1: Install Heroku a. Sign up for a free Heroku account  Sign up here: https://signup.heroku.com/signup/dc  
+b. Install Heroku Command Line Interface (CLI)  Follow the instructions for your Operation System found here: https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true#set-up  
+c. Use the Heroku CLI to log into your Heroku Account  Once installed, open your terminal and run the command below to log into the Heroku CLI
+$ heroku login   </description>
     </item>
     
     <item>
@@ -965,6 +989,17 @@ const executorFunction = (resolve, reject) =&amp;gt; { } const myPromise = new P
     </item>
     
     <item>
+      <title>Github Pages</title>
+      <link>/17-deploying-your-app/github-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/github-pages/</guid>
+      <description> What is Github Pages?  GitHub Pages is a static site hosting service designed to host your personal, organization, or project pages directly from a GitHub repository
+ GitHub Pages is a static site hosting service and doesn&amp;rsquo;t support server-side code such as, Express (via Node JS), Ruby, Python or PHP
+  </description>
+    </item>
+    
+    <item>
       <title>Handling Async Issues with Async / Await</title>
       <link>/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1141,6 +1176,18 @@ Here&amp;rsquo;s a diagram that provides a high-level view of how our slackbot w
     </item>
     
     <item>
+      <title>Step 2: Prepare the App</title>
+      <link>/17-deploying-your-app/code-along-hosting-with-heroku/step-2-prepare-the-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/code-along-hosting-with-heroku/step-2-prepare-the-app/</guid>
+      <description>Prepare the App During this step we are going to get the application ready for a Heroku deployment
+a. Install parcel-bundler locally Since this application used Parcel, we need to instruct Heroku&amp;rsquo;s servers to install Parcel before it tries to &amp;ldquo;build&amp;rdquo; the application in the cloud
+ In your terminal, navigate to the project folder and run the following command:
+$ npm install parcel-bundler   Do not include the -g or --global flag here</description>
+    </item>
+    
+    <item>
       <title>Submit Project Ideas</title>
       <link>/final-projects/milestones-due-dates/submit-project-ideas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1262,6 +1309,16 @@ Here&amp;rsquo;s a diagram that provides a high-level view of how our slackbot w
  To call a function you simply write function name followed by parentheses (don’t forget the parentheses!)
  Now you can call this function as many times as you want
   /** define / declare a function named shout() by itself this doesn&amp;#39;t do anything, we must &amp;#34;Call&amp;#34; it in order to use it **/ function shout() { console.</description>
+    </item>
+    
+    <item>
+      <title>Code Along: Hosting with Github Pages</title>
+      <link>/17-deploying-your-app/code-along-hosting-with-github-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/code-along-hosting-with-github-pages/</guid>
+      <description>Code Along: Hosting with Github Pages  Together we&amp;rsquo;ll walk through the process of hosting a static application, an application that does not have a server (i.e. Express), on Github Pages  Instructions 1. Find Traffic Light project Using your operating system&amp;rsquo;s finder / explorer application, copy your Traffic Light application (project name: traffic-light) application from a lesson earlier in the course folder to your lesson_17 folder
+ If you do not have a working version of traffic-light you can clone down a working version here</description>
     </item>
     
     <item>
@@ -1392,6 +1449,18 @@ Requirement #2: Add Read Functionality The Doit app should list all tasks stored
  Each route can have one or more handler functions, which are executed when the route is matched
  Route definition takes the following structure:
 app.METHOD(PATH, HANDLER)   app is an instance of express.</description>
+    </item>
+    
+    <item>
+      <title>Step 3: Run Heroku Locally</title>
+      <link>/17-deploying-your-app/code-along-hosting-with-heroku/step-3-run-heroku-locally/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/code-along-hosting-with-heroku/step-3-run-heroku-locally/</guid>
+      <description>Step 3: Run Heroku Locally Heroku&amp;rsquo;s CLI has a feature that allows us to run application locally in a &amp;ldquo;heroku production-like&amp;rdquo; environment
+This is a great way to catch issues before deploying the production
+a. Copy .env.local to .env When running heroku locally it, heroku will automatically look for the .env (and not .env.local) for any potential environment variables
+ Run the following command from the project folder to copy .</description>
     </item>
     
     <item>
@@ -1813,6 +1882,19 @@ app.get(&#39;/users/:userId/books/:bookId&#39;, function (req, res) { res.send(r
     </item>
     
     <item>
+      <title>Step 4: Deploy to Heroku</title>
+      <link>/17-deploying-your-app/code-along-hosting-with-heroku/step-4-deploy-to-heroku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/code-along-hosting-with-heroku/step-4-deploy-to-heroku/</guid>
+      <description>Step 4: Deploy to Heroku Now it&amp;rsquo;s time to deploy our application to production (i.e. Heroku&amp;rsquo;s cloud servers)
+a. Create a &amp;ldquo;Heroku app&amp;rdquo;  In your terminal (from within your project folder) run the following command to create a Heroku app
+$ heroku create  This will result in output that looks like the following:
+   heroku create did the following:
+ Added a new remote repository for your project that points to Heroku&amp;rsquo;s servers (we&amp;rsquo;ll soon see that Heroku uses to the git toolchain, similar to Github, for deployment)</description>
+    </item>
+    
+    <item>
       <title>Step 4: Run ngrok</title>
       <link>/12-project-build-a-slackbot/tutorial/step-4-run-ngrok/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1821,6 +1903,18 @@ app.get(&#39;/users/:userId/books/:bookId&#39;, function (req, res) { res.send(r
       <description>Run ngrok  Next we need to give our local server access to the internet so our slack app can communicate with it
  ngrok is a tool that allows developers to create &amp;ldquo;tunnels&amp;rdquo; that connect the server running locally (i.e. on your computer) to the internet
   1. Run ngrok command from within project folder  In a new command line tab run the following command (make sure you run this within the project folder)</description>
+    </item>
+    
+    <item>
+      <title>Surge</title>
+      <link>/17-deploying-your-app/surge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/surge/</guid>
+      <description> What is Surge?  An alternative to Github pages
+ Best used for Static websites
+ Simple to deploy
+  </description>
     </item>
     
     <item>
@@ -1877,6 +1971,17 @@ app.get(&#39;/users/:userId/books/:bookId&#39;, function (req, res) { res.send(r
       <guid>/10-asynchronous-js-and-promises/challenges-of-async-programming/</guid>
       <description>Challenges of Asynchronous Programming  Asynchronous programming presents a challenge when we want make multiple asynchronous requests and we want to control the order of the responses  Example Let&amp;rsquo;s see an example of this below:
 /* Modify printLetter() to make it an async function by using .setTimeout After the changes, the letter will be print at a random interval from 0 seconds to 3 seconds */ function printLetter(letter) { setTimeout(() =&amp;gt; { console.</description>
+    </item>
+    
+    <item>
+      <title>Code Along: Hosting with Surge</title>
+      <link>/17-deploying-your-app/code-along-hosting-with-surge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/code-along-hosting-with-surge/</guid>
+      <description>Code Along: Hosting with Surge  Together we&amp;rsquo;ll walk through the process of hosting a static website / application (that does not have a backend server like Express) using Surge  Instructions 1. Install the surge package on your computer  Run the following from your command line (from any folder location) to install surge globally on your computer
+$ npm install --global surge   
+2. Run surge from the Traffic Light project folder  On the command line, navigate to the project folder of the Traffic Light app (the one we used in the Github Pages code along)</description>
     </item>
     
     <item>
@@ -2242,6 +2347,17 @@ Complete Homework #4 - Rock, Paper, Scissors Application  You are tasked with fi
     </item>
     
     <item>
+      <title>Securing Sensitive Credentials with Parcel</title>
+      <link>/17-deploying-your-app/securing-sensitive-credentials-with-parcel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/securing-sensitive-credentials-with-parcel/</guid>
+      <description>Securing Sensitive Credentials with Parcel  Often times when using an API in our applications, those API providers require that we send an API Key with our API requests
+ Those API keys should be considered sensitive credentials and the best practice is to use Environment Variables to prevent those sensitive credentials from being exposed
+ However, the use of Environment Variables have traditionally only been available to applications that have a backend server (i.</description>
+    </item>
+    
+    <item>
       <title>Step 6: Install App to Workspace</title>
       <link>/12-project-build-a-slackbot/tutorial/step-6-install-app-to-workspace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2306,6 +2422,15 @@ $ mkdir nursery_rhymes  Navigate into the nursery_rhymes directory using the cd 
  The starter code for this code along is hosted on Github, see the url below:
  Code Along: Giphy Search API  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
   </description>
+    </item>
+    
+    <item>
+      <title>Code Along: Using Environment Variables with Parcel</title>
+      <link>/17-deploying-your-app/code-along-using-env-variables-with-parcel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/code-along-using-env-variables-with-parcel/</guid>
+      <description>Code Along: Using Environment Variables with Parcel  Together we&amp;rsquo;ll walk through the process of using Parcel to bundle a static application that needs to secure sensitive credentials  Instructions 1. Access your Giphy API project from a class session earlier in the course  Using your operating system&amp;rsquo;s finder / explorer application, copy your Giphy Search API application (project name: giphy-search-api) application an earlier lesson to your lesson_17 folder</description>
     </item>
     
     <item>
@@ -2519,6 +2644,17 @@ You can optionally set up a Google Voice number as an alternative to using your 
  The function used in forEach is called a callback function because it is being passed as a parameter into another function (we&amp;rsquo;ll cover these concepts in more detail in a later class)
  The callback function for forEach provides the following:
  element - this current element from the array that is being evaluated</description>
+    </item>
+    
+    <item>
+      <title>Heroku</title>
+      <link>/17-deploying-your-app/heroku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/heroku/</guid>
+      <description>What is Heroku?  Heroku is a PaaS (Platform as a Service) that enables developers to easily host (deploy), monitor and scale their applications
+ Supports many different languages (Node.js (JavaScript), Ruby, Python, Jav, PHP, etc) and supports virtually any type of application (from static websites to server-backed applications connected to a database)
+ Heroku&amp;rsquo;s focus is to take the pain of deploying applications and maintaining environment (server updates &amp;amp; scalability, database backups, etc) so developers can focus solely on building their applications</description>
     </item>
     
     <item>

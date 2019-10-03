@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Along: Hosting with Heroku on JavaScript</title>
+    <link>/17-deploying-your-app/code-along-hosting-with-heroku/</link>
+    <description>Recent content in Code Along: Hosting with Heroku on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/17-deploying-your-app/code-along-hosting-with-heroku/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Step 1: Install Heroku</title>
+      <link>/17-deploying-your-app/code-along-hosting-with-heroku/step-1-install-heroku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/code-along-hosting-with-heroku/step-1-install-heroku/</guid>
+      <description> Step 1: Install Heroku a. Sign up for a free Heroku account  Sign up here: https://signup.heroku.com/signup/dc  
+b. Install Heroku Command Line Interface (CLI)  Follow the instructions for your Operation System found here: https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true#set-up  
+c. Use the Heroku CLI to log into your Heroku Account  Once installed, open your terminal and run the command below to log into the Heroku CLI
+$ heroku login   </description>
+    </item>
+    
+    <item>
+      <title>Step 2: Prepare the App</title>
+      <link>/17-deploying-your-app/code-along-hosting-with-heroku/step-2-prepare-the-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/code-along-hosting-with-heroku/step-2-prepare-the-app/</guid>
+      <description>Prepare the App During this step we are going to get the application ready for a Heroku deployment
+a. Install parcel-bundler locally Since this application used Parcel, we need to instruct Heroku&amp;rsquo;s servers to install Parcel before it tries to &amp;ldquo;build&amp;rdquo; the application in the cloud
+ In your terminal, navigate to the project folder and run the following command:
+$ npm install parcel-bundler   Do not include the -g or --global flag here</description>
+    </item>
+    
+    <item>
+      <title>Step 3: Run Heroku Locally</title>
+      <link>/17-deploying-your-app/code-along-hosting-with-heroku/step-3-run-heroku-locally/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/code-along-hosting-with-heroku/step-3-run-heroku-locally/</guid>
+      <description>Step 3: Run Heroku Locally Heroku&amp;rsquo;s CLI has a feature that allows us to run application locally in a &amp;ldquo;heroku production-like&amp;rdquo; environment
+This is a great way to catch issues before deploying the production
+a. Copy .env.local to .env When running heroku locally it, heroku will automatically look for the .env (and not .env.local) for any potential environment variables
+ Run the following command from the project folder to copy .</description>
+    </item>
+    
+    <item>
+      <title>Step 4: Deploy to Heroku</title>
+      <link>/17-deploying-your-app/code-along-hosting-with-heroku/step-4-deploy-to-heroku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/code-along-hosting-with-heroku/step-4-deploy-to-heroku/</guid>
+      <description>Step 4: Deploy to Heroku Now it&amp;rsquo;s time to deploy our application to production (i.e. Heroku&amp;rsquo;s cloud servers)
+a. Create a &amp;ldquo;Heroku app&amp;rdquo;  In your terminal (from within your project folder) run the following command to create a Heroku app
+$ heroku create  This will result in output that looks like the following:
+   heroku create did the following:
+ Added a new remote repository for your project that points to Heroku&amp;rsquo;s servers (we&amp;rsquo;ll soon see that Heroku uses to the git toolchain, similar to Github, for deployment)</description>
+    </item>
+    
+  </channel>
+</rss>

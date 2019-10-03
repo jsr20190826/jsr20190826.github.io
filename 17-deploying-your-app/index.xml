@@ -10,5 +10,92 @@
 	<atom:link href="/17-deploying-your-app/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Objectives</title>
+      <link>/17-deploying-your-app/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/objectives/</guid>
+      <description> Deploy a JavaScript-based application using Github Pages, Surge or Heroku
+ Learn how to secure sensitive credentials in a &amp;ldquo;non node-based&amp;rdquo; front-end application
+ Deploy your final projects the approach that best fits your application&amp;rsquo;s needs
+  </description>
+    </item>
+    
+    <item>
+      <title>Github Pages</title>
+      <link>/17-deploying-your-app/github-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/github-pages/</guid>
+      <description> What is Github Pages?  GitHub Pages is a static site hosting service designed to host your personal, organization, or project pages directly from a GitHub repository
+ GitHub Pages is a static site hosting service and doesn&amp;rsquo;t support server-side code such as, Express (via Node JS), Ruby, Python or PHP
+  </description>
+    </item>
+    
+    <item>
+      <title>Code Along: Hosting with Github Pages</title>
+      <link>/17-deploying-your-app/code-along-hosting-with-github-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/code-along-hosting-with-github-pages/</guid>
+      <description>Code Along: Hosting with Github Pages  Together we&amp;rsquo;ll walk through the process of hosting a static application, an application that does not have a server (i.e. Express), on Github Pages  Instructions 1. Find Traffic Light project Using your operating system&amp;rsquo;s finder / explorer application, copy your Traffic Light application (project name: traffic-light) application from a lesson earlier in the course folder to your lesson_17 folder
+ If you do not have a working version of traffic-light you can clone down a working version here</description>
+    </item>
+    
+    <item>
+      <title>Surge</title>
+      <link>/17-deploying-your-app/surge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/surge/</guid>
+      <description> What is Surge?  An alternative to Github pages
+ Best used for Static websites
+ Simple to deploy
+  </description>
+    </item>
+    
+    <item>
+      <title>Code Along: Hosting with Surge</title>
+      <link>/17-deploying-your-app/code-along-hosting-with-surge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/code-along-hosting-with-surge/</guid>
+      <description>Code Along: Hosting with Surge  Together we&amp;rsquo;ll walk through the process of hosting a static website / application (that does not have a backend server like Express) using Surge  Instructions 1. Install the surge package on your computer  Run the following from your command line (from any folder location) to install surge globally on your computer
+$ npm install --global surge   
+2. Run surge from the Traffic Light project folder  On the command line, navigate to the project folder of the Traffic Light app (the one we used in the Github Pages code along)</description>
+    </item>
+    
+    <item>
+      <title>Securing Sensitive Credentials with Parcel</title>
+      <link>/17-deploying-your-app/securing-sensitive-credentials-with-parcel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/securing-sensitive-credentials-with-parcel/</guid>
+      <description>Securing Sensitive Credentials with Parcel  Often times when using an API in our applications, those API providers require that we send an API Key with our API requests
+ Those API keys should be considered sensitive credentials and the best practice is to use Environment Variables to prevent those sensitive credentials from being exposed
+ However, the use of Environment Variables have traditionally only been available to applications that have a backend server (i.</description>
+    </item>
+    
+    <item>
+      <title>Code Along: Using Environment Variables with Parcel</title>
+      <link>/17-deploying-your-app/code-along-using-env-variables-with-parcel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/code-along-using-env-variables-with-parcel/</guid>
+      <description>Code Along: Using Environment Variables with Parcel  Together we&amp;rsquo;ll walk through the process of using Parcel to bundle a static application that needs to secure sensitive credentials  Instructions 1. Access your Giphy API project from a class session earlier in the course  Using your operating system&amp;rsquo;s finder / explorer application, copy your Giphy Search API application (project name: giphy-search-api) application an earlier lesson to your lesson_17 folder</description>
+    </item>
+    
+    <item>
+      <title>Heroku</title>
+      <link>/17-deploying-your-app/heroku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/17-deploying-your-app/heroku/</guid>
+      <description>What is Heroku?  Heroku is a PaaS (Platform as a Service) that enables developers to easily host (deploy), monitor and scale their applications
+ Supports many different languages (Node.js (JavaScript), Ruby, Python, Jav, PHP, etc) and supports virtually any type of application (from static websites to server-backed applications connected to a database)
+ Heroku&amp;rsquo;s focus is to take the pain of deploying applications and maintaining environment (server updates &amp;amp; scalability, database backups, etc) so developers can focus solely on building their applications</description>
+    </item>
+    
   </channel>
 </rss>

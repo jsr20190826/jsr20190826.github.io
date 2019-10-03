@@ -147,6 +147,10 @@
   </url>
   
   <url>
+    <loc>/17-deploying-your-app/objectives/</loc>
+  </url>
+  
+  <url>
     <loc>/10-asynchronous-js-and-promises/async-await/overview/</loc>
   </url>
   
@@ -192,6 +196,10 @@
   
   <url>
     <loc>/12-project-build-a-slackbot/tutorial/step-1-new-slack-workspace/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-your-app/code-along-hosting-with-heroku/step-1-install-heroku/</loc>
   </url>
   
   <url>
@@ -368,6 +376,10 @@
   </url>
   
   <url>
+    <loc>/17-deploying-your-app/github-pages/</loc>
+  </url>
+  
+  <url>
     <loc>/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/</loc>
   </url>
   
@@ -460,6 +472,10 @@
   </url>
   
   <url>
+    <loc>/17-deploying-your-app/code-along-hosting-with-heroku/step-2-prepare-the-app/</loc>
+  </url>
+  
+  <url>
     <loc>/final-projects/milestones-due-dates/submit-project-ideas/</loc>
   </url>
   
@@ -509,6 +525,10 @@
   
   <url>
     <loc>/04-functions-and-scope/calling-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-your-app/code-along-hosting-with-github-pages/</loc>
   </url>
   
   <url>
@@ -569,6 +589,10 @@
   
   <url>
     <loc>/16-intro-to-express/express/routing/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-your-app/code-along-hosting-with-heroku/step-3-run-heroku-locally/</loc>
   </url>
   
   <url>
@@ -752,7 +776,15 @@
   </url>
   
   <url>
+    <loc>/17-deploying-your-app/code-along-hosting-with-heroku/step-4-deploy-to-heroku/</loc>
+  </url>
+  
+  <url>
     <loc>/12-project-build-a-slackbot/tutorial/step-4-run-ngrok/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-your-app/surge/</loc>
   </url>
   
   <url>
@@ -781,6 +813,10 @@
   
   <url>
     <loc>/10-asynchronous-js-and-promises/challenges-of-async-programming/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-your-app/code-along-hosting-with-surge/</loc>
   </url>
   
   <url>
@@ -932,6 +968,10 @@
   </url>
   
   <url>
+    <loc>/17-deploying-your-app/securing-sensitive-credentials-with-parcel/</loc>
+  </url>
+  
+  <url>
     <loc>/12-project-build-a-slackbot/tutorial/step-6-install-app-to-workspace/</loc>
   </url>
   
@@ -953,6 +993,10 @@
   
   <url>
     <loc>/09-http-and-apis/code-along-giphy-api/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-your-app/code-along-using-env-variables-with-parcel/</loc>
   </url>
   
   <url>
@@ -1052,6 +1096,10 @@
   </url>
   
   <url>
+    <loc>/17-deploying-your-app/heroku/</loc>
+  </url>
+  
+  <url>
     <loc>/09-http-and-apis/</loc>
   </url>
   
@@ -1093,6 +1141,10 @@
   
   <url>
     <loc>/10-asynchronous-js-and-promises/code-along-giphy-api-with-async-await/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-your-app/code-along-hosting-with-heroku/</loc>
   </url>
   
   <url>
