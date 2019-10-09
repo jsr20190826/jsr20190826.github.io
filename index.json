@@ -669,7 +669,7 @@
 	"title": "Homework Solutions",
 	"tags": [],
 	"description": "",
-	"content": " Homework Solutions Disclaimer: These files are not meant to be viewed as the \u0026ldquo;right answer, instead view them as a way to learn how another developer approached the same problem.\n Homework #1:  Homework #1: JS Basics, Control Flow Loops Solution  Homework #2:  Homework #2: Functions Solution  "
+	"content": " Homework Solutions Disclaimer: These files are not meant to be viewed as the \u0026ldquo;right answer, instead view them as a way to learn how another developer approached the same problem.\n Homework #1:  Homework #1: JS Basics, Control Flow Loops Solution  Homework #2:  Homework #2: Functions Solution  Homework #3:  Homework #3: Iterators Solution  "
 },
 {
 	"uri": "/09-http-and-apis/http/",
@@ -1776,6 +1776,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Milestone VI: Host Final Project  Due Date: Friday, November 1st\n Deploy and host your fully-functioning project on either Github Pages or Heroku (we\u0026rsquo;ll be going over both options during the \u0026ldquo;Deploying Your App\u0026rdquo; lesson)\n Deliverable: Submit the url that leads to the hosted version of your app using this form\n  "
+},
+{
+	"uri": "/homework-assignments/hw-assignment-05/",
+	"title": "HW Assignment #5",
+	"tags": [],
+	"description": "",
+	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Wednesday, October 16th\nComplete Homework #5 - Weather App using OpenWeather API  You are tasked with leveraging the API from OpenWeatherMap to display the current weather for a given city. The starter code is hosted on Github, see the url below:\n Github Repo for Homework #5 - Weather App using OpenWeather API  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
 	"uri": "/10-asynchronous-js-and-promises/promises/",
