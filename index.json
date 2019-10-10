@@ -210,11 +210,11 @@
 	"content": " Understand the differences between synchronous and asynchronous programming\n Explain the different ways developers address issues presented with asynchronous programming\n Create and Consume Promises\n Handle errors generated from promises\n Use Async / Await to improve readability of asynchronous code\n  "
 },
 {
-	"uri": "/11-lab-giphy-weather-app/objectives/",
+	"uri": "/11-lab-github-api-app/objectives/",
 	"title": "Objectives",
 	"tags": [],
 	"description": "",
-	"content": " Leverage knowledge of Promises to build an application that makes asynchronous requests to multiple APIs  "
+	"content": " Leverage knowledge of Promises to build an application that makes an asynchronous request to a 3rd party API  "
 },
 {
 	"uri": "/12-project-build-a-slackbot/objectives/",
@@ -319,7 +319,7 @@
 	"title": "Recordings",
 	"tags": [],
 	"description": "",
-	"content": " Lesson Recordings    Lesson Date Link Notes     00 8/26/2019 lesson 00 recording    01 8/28/2019 lesson 01 recording    02 9/4/2019 lesson 02 recording The 1st half of Lesson 03 was also covered   03 9/9/2019 lesson 03 recording We also covered some of lesson 04 up through (Returning values from functions)   04 9/11/2019 lesson 04 recording    05 9/18/2019 lesson 05 recording    06 9/23/2019 lesson 06 recording    07 9/25/2019 lesson 07 recording During this class we continued to work through lesson 06 and completed 2 code alongs (Color Scheme Switcher \u0026amp; Traffic Light) in lesson 07   08 9/30/2019 lesson 08 recording Finished up lesson 07 and worked through the HiLo Code Along in Lesson 08   09 10/2/2019 lesson 09 recording    10 10/7/2019 lesson 10 recording Completed lesson 09 and started lesson 10    "
+	"content": " Lesson Recordings    Lesson Date Link Notes     00 8/26/2019 lesson 00 recording    01 8/28/2019 lesson 01 recording    02 9/4/2019 lesson 02 recording The 1st half of Lesson 03 was also covered   03 9/9/2019 lesson 03 recording We also covered some of lesson 04 up through (Returning values from functions)   04 9/11/2019 lesson 04 recording    05 9/18/2019 lesson 05 recording    06 9/23/2019 lesson 06 recording    07 9/25/2019 lesson 07 recording During this class we continued to work through lesson 06 and completed 2 code alongs (Color Scheme Switcher \u0026amp; Traffic Light) in lesson 07   08 9/30/2019 lesson 08 recording Finished up lesson 07 and worked through the HiLo Code Along in Lesson 08   09 10/2/2019 lesson 09 recording    10 10/7/2019 lesson 10 recording Completed lesson 09 and started lesson 10   11 10/9/2019 [lesson 11 recording]()     "
 },
 {
 	"uri": "/01-command-line-js-and-git/git-vocabulary/repository/",
@@ -707,11 +707,11 @@
 	"content": " if Statement  Used when you want to have some sort of single branching logic  if (condition) { code to run if condition is true } // run some other code  Example const isRewardsMember = true let totalPrice = 100 if (isRewardsMember) { totalPrice = totalPrice * 0.80 } console.log(totalPrice)  JS Bin on jsbin.com\n"
 },
 {
-	"uri": "/11-lab-giphy-weather-app/instructions/",
+	"uri": "/11-lab-github-api-app/instructions/",
 	"title": "Instructions",
 	"tags": [],
 	"description": "",
-	"content": " Overview You are tasked with building an application that leverages different APIs to provide a city’s weather in a fun way\nInstructions 1) Download starter code\n The starter code for this code along is hosted on Github, see the url below:\n Lab: Giphy Weather App   2) Get API keys for OpenWeather and Giphy (if you haven’t done so already)\n"
+	"content": " Overview You are tasked with building an application that leverages the Githup API to list the public repositories of a given Github user\nInstructions 1) Generate a personal access token by following the instructions here\n2) Fork and Clone the starter code\n The starter code for this code along is hosted on Github, see the url below:\n Lab: Github API App   "
 },
 {
 	"uri": "/15-project-firebase-todo-app/instructions/",
@@ -1008,11 +1008,11 @@
 	"content": " All of the settings below can be accessed using the following steps:\n Mac: cmd + , -\u0026gt; Editor PC: ctrl + , -\u0026gt; Editor  Setting indentation levels / default tab-size During our course we will be using a set indentation level of 2 spaces (1 indentation level = 2 spaces). Atom makes it easy conform to this approach by setting our tab to a set level of indentation.\nAfter updating this setting, pressing the tab key will represent one level of indentation which will translate to 2 spaces.\nDisplaying indentation guides Displaying the indentation guide provides a visual way of helping you ensure your indentation levels are correct\nSetting wordwrap Wordwrap ensures that long lines in your code are automatically wrapped to the next line. This improves readability of your code.\n"
 },
 {
-	"uri": "/11-lab-giphy-weather-app/requirements/",
+	"uri": "/11-lab-github-api-app/requirements/",
 	"title": "Requirements",
 	"tags": [],
 	"description": "",
-	"content": " Requirements Requirement #1: App UI: The user interface should contain a single form input and a submit button (the starter code already provides the UI)\nRequirement #2: Make Multiple API Requests When users enter a city name into the input field and press submit the following should happen:\n API Request #1 - Fetch City’s Current Weather\nYour app should make an API request to OpenWeather and fetch the current weather associated with the city name entered into the form\n API Request #2 - Fetch Gif representing the City\nYour app should make an API request to Giphy and retrieve a gifs associated with the city name entered into the form field\n API Request #3 - Fetch Gif representing City’s weather description\nThe current weather data fetched from “API Request #1” returns a weather description (i.e. rain, clear sky, snow, etc) . Make an API request to the Giphy and retrieve gifs associated with this weather description\n  Requirement #3: Display Data Once all the data has been received from the API requests, display the following data on the screen:\n * The city’s current weather * City name * Current temperature (displayed in Fahrenheit or Celsius) * Weather description * Min temp * Max temp * 1 gif that represents the city * 1 gif that represents the city’s current weather description  Requirement #4: Use Promises  Promises must be used to make consume / handle the API responses\n Axios must be used to make the API requests\n  "
+	"content": " Requirements Requirement #1: App UI The user interface should contain a single form input and a submit button (the starter code already provides the UI)\nRequirement #2: Make the API Request  When users enter in a valid Github username into the input field and the submits the form, the app should use the the List user repositories endpoint to return a list of all public repositories associated with the Github username  Requirement #3: Display Data  Once you successfully GET data from the API, display list of the repositories as links. The text displayed in each link should represent full_name of each returned repository (example: facebook/react), clicking on that link should navigate you to the repository on github.com  Requirement #4: Use Promises  Promises must be used to make consume / handle the API responses\n Axios must be used to make the API requests\n  "
 },
 {
 	"uri": "/15-project-firebase-todo-app/requirements/",
@@ -2079,11 +2079,11 @@
 	"content": " jQuery Manipulation During this section we\u0026rsquo;ll cover:\n Getting \u0026amp; Setting Content   Inserting \u0026amp; Removing Content   CSS \u0026amp; Style Manipulation   "
 },
 {
-	"uri": "/11-lab-giphy-weather-app/",
-	"title": "Lab: Giphy Weather App",
+	"uri": "/11-lab-github-api-app/",
+	"title": "Lab: Github API App",
 	"tags": [],
 	"description": "",
-	"content": " Lesson 11 Lab: Giphy Weather App "
+	"content": " Lesson 11 Lab: Github API App "
 },
 {
 	"uri": "/class-resources/node-git-installation/",

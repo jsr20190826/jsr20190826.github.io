@@ -343,11 +343,11 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Objectives</title>
-      <link>/11-lab-giphy-weather-app/objectives/</link>
+      <link>/11-lab-github-api-app/objectives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/11-lab-giphy-weather-app/objectives/</guid>
-      <description> Leverage knowledge of Promises to build an application that makes asynchronous requests to multiple APIs  </description>
+      <guid>/11-lab-github-api-app/objectives/</guid>
+      <description> Leverage knowledge of Promises to build an application that makes an asynchronous request to a 3rd party API  </description>
     </item>
     
     <item>
@@ -519,7 +519,7 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lesson-recordings/recordings/</guid>
-      <description> Lesson Recordings    Lesson Date Link Notes     00 8/26/2019 lesson 00 recording    01 8/28/2019 lesson 01 recording    02 9/4/2019 lesson 02 recording The 1st half of Lesson 03 was also covered   03 9/9/2019 lesson 03 recording We also covered some of lesson 04 up through (Returning values from functions)   04 9/11/2019 lesson 04 recording    05 9/18/2019 lesson 05 recording    06 9/23/2019 lesson 06 recording    07 9/25/2019 lesson 07 recording During this class we continued to work through lesson 06 and completed 2 code alongs (Color Scheme Switcher &amp;amp; Traffic Light) in lesson 07   08 9/30/2019 lesson 08 recording Finished up lesson 07 and worked through the HiLo Code Along in Lesson 08   09 10/2/2019 lesson 09 recording    10 10/7/2019 lesson 10 recording Completed lesson 09 and started lesson 10    </description>
+      <description> Lesson Recordings    Lesson Date Link Notes     00 8/26/2019 lesson 00 recording    01 8/28/2019 lesson 01 recording    02 9/4/2019 lesson 02 recording The 1st half of Lesson 03 was also covered   03 9/9/2019 lesson 03 recording We also covered some of lesson 04 up through (Returning values from functions)   04 9/11/2019 lesson 04 recording    05 9/18/2019 lesson 05 recording    06 9/23/2019 lesson 06 recording    07 9/25/2019 lesson 07 recording During this class we continued to work through lesson 06 and completed 2 code alongs (Color Scheme Switcher &amp;amp; Traffic Light) in lesson 07   08 9/30/2019 lesson 08 recording Finished up lesson 07 and worked through the HiLo Code Along in Lesson 08   09 10/2/2019 lesson 09 recording    10 10/7/2019 lesson 10 recording Completed lesson 09 and started lesson 10   11 10/9/2019 [lesson 11 recording]()     </description>
     </item>
     
     <item>
@@ -1031,14 +1031,15 @@ Complete Homework #1 - JS Basics, Control Flow &amp;amp; Loops  You are tasked w
     
     <item>
       <title>Instructions</title>
-      <link>/11-lab-giphy-weather-app/instructions/</link>
+      <link>/11-lab-github-api-app/instructions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/11-lab-giphy-weather-app/instructions/</guid>
-      <description>Overview You are tasked with building an application that leverages different APIs to provide a city’s weather in a fun way
-Instructions 1) Download starter code
+      <guid>/11-lab-github-api-app/instructions/</guid>
+      <description> Overview You are tasked with building an application that leverages the Githup API to list the public repositories of a given Github user
+Instructions 1) Generate a personal access token by following the instructions here
+2) Fork and Clone the starter code
  The starter code for this code along is hosted on Github, see the url below:
- Lab: Giphy Weather App   2) Get API keys for OpenWeather and Giphy (if you haven’t done so already)</description>
+ Lab: Github API App   </description>
     </item>
     
     <item>
@@ -1419,14 +1420,12 @@ $ npm install parcel-bundler   Do not include the -g or --global flag here</desc
     
     <item>
       <title>Requirements</title>
-      <link>/11-lab-giphy-weather-app/requirements/</link>
+      <link>/11-lab-github-api-app/requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/11-lab-giphy-weather-app/requirements/</guid>
-      <description>Requirements Requirement #1: App UI: The user interface should contain a single form input and a submit button (the starter code already provides the UI)
-Requirement #2: Make Multiple API Requests When users enter a city name into the input field and press submit the following should happen:
- API Request #1 - Fetch City’s Current Weather
-Your app should make an API request to OpenWeather and fetch the current weather associated with the city name entered into the form</description>
+      <guid>/11-lab-github-api-app/requirements/</guid>
+      <description>Requirements Requirement #1: App UI The user interface should contain a single form input and a submit button (the starter code already provides the UI)
+Requirement #2: Make the API Request  When users enter in a valid Github username into the input field and the submits the form, the app should use the the List user repositories endpoint to return a list of all public repositories associated with the Github username  Requirement #3: Display Data  Once you successfully GET data from the API, display list of the repositories as links.</description>
     </item>
     
     <item>

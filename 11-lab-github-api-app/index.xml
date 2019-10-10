@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lab: Github API App on JavaScript</title>
+    <link>/11-lab-github-api-app/</link>
+    <description>Recent content in Lab: Github API App on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/11-lab-github-api-app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Objectives</title>
+      <link>/11-lab-github-api-app/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-lab-github-api-app/objectives/</guid>
+      <description> Leverage knowledge of Promises to build an application that makes an asynchronous request to a 3rd party API  </description>
+    </item>
+    
+    <item>
+      <title>Instructions</title>
+      <link>/11-lab-github-api-app/instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-lab-github-api-app/instructions/</guid>
+      <description> Overview You are tasked with building an application that leverages the Githup API to list the public repositories of a given Github user
+Instructions 1) Generate a personal access token by following the instructions here
+2) Fork and Clone the starter code
+ The starter code for this code along is hosted on Github, see the url below:
+ Lab: Github API App   </description>
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>/11-lab-github-api-app/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-lab-github-api-app/requirements/</guid>
+      <description>Requirements Requirement #1: App UI The user interface should contain a single form input and a submit button (the starter code already provides the UI)
+Requirement #2: Make the API Request  When users enter in a valid Github username into the input field and the submits the form, the app should use the the List user repositories endpoint to return a list of all public repositories associated with the Github username  Requirement #3: Display Data  Once you successfully GET data from the API, display list of the repositories as links.</description>
+    </item>
+    
+  </channel>
+</rss>
