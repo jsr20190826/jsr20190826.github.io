@@ -767,7 +767,7 @@
 	"title": "Milestones &amp; Due Dates",
 	"tags": [],
 	"description": "",
-	"content": " Throughout the course you will be providing deliverables that will help keep your final projects on track to be completed on time.\nMilestones    Milestone Due Date     Submit three (3) of project ideas Tues, Oct 8th   Get your project idea approved Wed, Oct 9th   Create github repository for your final project Wed, Oct 9th   Create and submit wireframes Mon, Oct 14th   Provide a project plan for your final project Wed, Oct 16th   Host your project Fri, Nov 1st   Complete your final project Mon, Nov 4th    "
+	"content": " Throughout the course you will be providing deliverables that will help keep your final projects on track to be completed on time.\nMilestones    Milestone Due Date     Submit three (3) of project ideas Tues, Oct 8th   Get your project idea approved Mon, Oct 14th   Create github repository for your final project Mon, Oct 14th   Create and submit wireframes Fri, Oct 18th   Provide a project plan for your final project Mon, Oct 21st   Host your project Fri, Nov 1st   Complete your final project Mon, Nov 4th    "
 },
 {
 	"uri": "/06-dom-and-jquery/jquery-events/mouse-events/",
@@ -963,7 +963,7 @@
 	"title": "Get Idea Approved",
 	"tags": [],
 	"description": "",
-	"content": " Milestone II: Get Final Project Idea Approved  Due Date: Wednesday, October 9th\n After meeting with the instructor and discussing your idea, you\u0026rsquo;ll formally decide what you want to build   "
+	"content": " Milestone II: Get Final Project Idea Approved  Due Date: Monday, October 14th\n After meeting with the instructor and discussing your idea, you\u0026rsquo;ll formally decide what you want to build   "
 },
 {
 	"uri": "/13-object-oriented-js/classes/instances/",
@@ -1173,7 +1173,7 @@
 	"title": "Create Github Repository for Final Project",
 	"tags": [],
 	"description": "",
-	"content": " Milestone III: Create Github Repository for Final Project  Create a github repository for your final project, clone the project down to your \u0026lsquo;github\u0026rsquo; folder on your laptop\n Submit a link to your final project\u0026rsquo;s github repository\n Here\u0026rsquo;s an example of what link should look like: https://github.com/kareemgrant/kg-awesome-game  Due Date: Wednesday, October 9th\n Deliverable: Use this form to submit your repository url\n  Do not include spaces in your github repository names\n - **Deliverable**: Submit a link to your github repo here -- "
+	"content": " Milestone III: Create Github Repository for Final Project  Create a github repository for your final project, clone the project down to your \u0026lsquo;github\u0026rsquo; folder on your laptop\n Submit a link to your final project\u0026rsquo;s github repository\n Here\u0026rsquo;s an example of what link should look like: https://github.com/kareemgrant/kg-awesome-game  Due Date: Monday, October 14th\n Deliverable: Use this form to submit your repository url\n  Do not include spaces in your github repository names\n - **Deliverable**: Submit a link to your github repo here -- "
 },
 {
 	"uri": "/02-javascript-basics/data-types/",
@@ -1432,7 +1432,7 @@
 	"title": "Create &amp; Submit Wireframes",
 	"tags": [],
 	"description": "",
-	"content": " Milestone IV: Create and Submit Wireframes  Due Date: Monday, October 14th\n Create wireframes for each page layout (assuming you have multiple pages with different layouts) of your final project\n Instructions\n  The following assumes you have already created a github repository for your final project and cloned the project down to your \u0026lsquo;github\u0026rsquo; folder on your laptop (see Milestone II)\n  Add a new folder to your project files/folders for final project (created in Milestone II) called wireframes\n Add the digital version of your wireframe files to the newly created wireframes folder\n In Github Desktop: Commit your updates that includes the newly added wireframe files\n In Github Desktop: Push your commit to the remote repository for final project on Github.com so your changes can be reflected on Github.com\n Navigate to the repository on Github.com, open the wireframe folder (on Github.com) and copy the url (this url leads directly to your wireframes)\n Deliverable: Submit the url that leads directly to your wireframe files using this form\n  Here\u0026rsquo;s an example of what link should look like: https://github.com/kareemgrant/kg-awesome-game/tree/master/wireframes\n"
+	"content": " Milestone IV: Create and Submit Wireframes  Due Date: Friday, October 18th\n Create wireframes for each page layout (assuming you have multiple pages with different layouts) of your final project\n Instructions\n  The following assumes you have already created a github repository for your final project and cloned the project down to your \u0026lsquo;github\u0026rsquo; folder on your laptop (see Milestone II)\n  Add a new folder to your project files/folders for final project (created in Milestone II) called wireframes\n Add the digital version of your wireframe files to the newly created wireframes folder\n In Github Desktop: Commit your updates that includes the newly added wireframe files\n In Github Desktop: Push your commit to the remote repository for final project on Github.com so your changes can be reflected on Github.com\n Navigate to the repository on Github.com, open the wireframe folder (on Github.com) and copy the url (this url leads directly to your wireframes)\n Deliverable: Submit the url that leads directly to your wireframe files using this form\n  Here\u0026rsquo;s an example of what link should look like: https://github.com/kareemgrant/kg-awesome-game/tree/master/wireframes\n"
 },
 {
 	"uri": "/01-command-line-js-and-git/git-vocabulary/",
@@ -1593,7 +1593,7 @@
 	"title": "Create Project Plan",
 	"tags": [],
 	"description": "",
-	"content": " Milestone V: Create Project Plan  Due Date: Wednesday, October 16th\n Work with the instructor team to break up your final project into a series of steps that you\u0026rsquo;ll turn into tasks\n  Details: TBD\nTrello is a free project management tool that uses the kanban approach to track tasks\n -- "
+	"content": " Milestone V: Create Project Plan  Due Date: Monday, October 21st\n Work with the instructor team to break up your final project into a series of steps that you\u0026rsquo;ll turn into tasks\n  Details: TBD\nTrello is a free project management tool that uses the kanban approach to track tasks\n -- "
 },
 {
 	"uri": "/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/",
@@ -2013,7 +2013,7 @@
 	"title": "Complete Final Project",
 	"tags": [],
 	"description": "",
-	"content": " Milestone VII: Complete Final Project  Complete your final project\n Due Date: Tuesday, November 4th\n  "
+	"content": " Milestone VII: Complete Final Project  Complete your final project\n Due Date: Monday, November 4th\n  "
 },
 {
 	"uri": "/01-command-line-js-and-git/git-vocabulary/fork/",
