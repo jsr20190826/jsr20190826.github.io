@@ -1582,6 +1582,13 @@
 	"content": " Code Along: Color Scheme Switcher  The starter code for this code along is hosted on Github, see the url below:\n Code Along: Color Scheme Switcher  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
+	"uri": "/13-object-oriented-js/code-along-oop-book-collection/",
+	"title": "Code Along: OOP Book Collection",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: OOP Book Collection  We\u0026rsquo;ll walk through the process using OOP to create a program manages a person\u0026rsquo;s book collection\n Get the starter code and the requirements can be found in the Github repo below:\n Github Repo for OOP Book Collection  Use the \u0026ldquo;Assignment Submission Git Workflow\u0026rdquo; (instructions) to access the lab files and submit your completed assignment\n  "
+},
+{
 	"uri": "/02-javascript-basics/variables/const/",
 	"title": "const",
 	"tags": [],

@@ -2208,6 +2208,18 @@ An easy approach to fixing this issue is to do the following:
     </item>
     
     <item>
+      <title>Code Along: OOP Book Collection</title>
+      <link>/13-object-oriented-js/code-along-oop-book-collection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-js/code-along-oop-book-collection/</guid>
+      <description> Code Along: OOP Book Collection  We&amp;rsquo;ll walk through the process using OOP to create a program manages a person&amp;rsquo;s book collection
+ Get the starter code and the requirements can be found in the Github repo below:
+ Github Repo for OOP Book Collection  Use the &amp;ldquo;Assignment Submission Git Workflow&amp;rdquo; (instructions) to access the lab files and submit your completed assignment
+  </description>
+    </item>
+    
+    <item>
       <title>const</title>
       <link>/02-javascript-basics/variables/const/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
