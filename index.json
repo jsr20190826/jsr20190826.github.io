@@ -235,7 +235,7 @@
 	"title": "Objectives",
 	"tags": [],
 	"description": "",
-	"content": " Explain what CRUD means\n Learn about Firebase and its benefits\n Use Firebase\u0026rsquo;s real-time database to provide data persistence to a front-end app\n  "
+	"content": " Explain what CRUD means\n Learn about Firebase and its benefits\n Use Firebase\u0026rsquo;s Firestore database to provide data persistence to a front-end app\n  "
 },
 {
 	"uri": "/15-project-firebase-todo-app/objectives/",
@@ -984,7 +984,7 @@
 	"title": "NoSQL Databases",
 	"tags": [],
 	"description": "",
-	"content": " What is a NoSQL Database  Firebase uses a NoSQL for it\u0026rsquo;s cloud-based databases\n Like many NoSQL databases, Firebase\u0026rsquo;s Real-time database stores data as JSON objects\n NoSQL databases don\u0026rsquo;t enforce strict data structure which results in much more flexibility than traditional SQL databases\n Downsides: when dealing with \u0026ldquo;loosely structured\u0026rdquo; data, common use cases such as building out relationships (for example: a student has many courses, and courses contain many students) in your data can be non-intuitive and complex\n  Firebase\u0026rsquo;s Realtime Database  Firebase Realtime Database is a cloud-hosted NoSQL database that lets you store and sync between your users in realtime\n It\u0026rsquo;s really just one big JSON object that the developers can manage in realtime\n  "
+	"content": " What is a NoSQL Database  Firebase uses a NoSQL for it\u0026rsquo;s cloud-based databases\n Like many NoSQL databases, Firebase\u0026rsquo;s Real-time database stores data as JSON objects\n NoSQL databases don\u0026rsquo;t enforce strict data structure which results in much more flexibility than traditional SQL databases\n Downsides: when dealing with \u0026ldquo;loosely structured\u0026rdquo; data, common use cases such as building out relationships (for example: a student has many courses, and courses contain many students) in your data can be non-intuitive and complex\n  "
 },
 {
 	"uri": "/10-asynchronous-js-and-promises/async-await/passing-values-with-async-await/",
@@ -1166,7 +1166,7 @@
 	"title": "Code Along: Firebase Playlist App",
 	"tags": [],
 	"description": "",
-	"content": " Code Along: Firebase Playlist App  Together we\u0026rsquo;ll walk through creating a playlist application that has its data persisted in Firebase\u0026rsquo;s Realtime Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:\n Code Along: Firebase Playlist App (Updated)\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n   2. Create a Firebase account  Create a free Firebase Account using the following link: create account  "
+	"content": " Code Along: Firebase Playlist App  Together we\u0026rsquo;ll walk through creating a playlist application that has its data persisted in Firebase\u0026rsquo;s Firestore Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:\n Code Along: Firebase Playlist App (Updated)\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n   2. Create a Firebase account  Create a free Firebase Account using the following link: create account  "
 },
 {
 	"uri": "/final-projects/milestones-due-dates/create-github-repository-for-final-project/",

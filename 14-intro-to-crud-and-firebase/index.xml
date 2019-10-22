@@ -18,7 +18,7 @@
       <guid>/14-intro-to-crud-and-firebase/objectives/</guid>
       <description> Explain what CRUD means
  Learn about Firebase and its benefits
- Use Firebase&amp;rsquo;s real-time database to provide data persistence to a front-end app
+ Use Firebase&amp;rsquo;s Firestore database to provide data persistence to a front-end app
   </description>
     </item>
     
@@ -41,7 +41,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/14-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</guid>
-      <description>Code Along: Firebase Playlist App  Together we&amp;rsquo;ll walk through creating a playlist application that has its data persisted in Firebase&amp;rsquo;s Realtime Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:
+      <description>Code Along: Firebase Playlist App  Together we&amp;rsquo;ll walk through creating a playlist application that has its data persisted in Firebase&amp;rsquo;s Firestore Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:
  Code Along: Firebase Playlist App (Updated)
  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
     </item>
