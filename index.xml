@@ -1052,7 +1052,7 @@ Instructions 1) Generate a personal access token by following the instructions h
 Instructions 1) Download starter code
  The starter code for this code along is hosted on Github, see the url below:
  Project: Firebase Todo App   2) Create a new Firebase project called doit-app
-3) Add a &amp;ldquo;Realtime Database&amp;rdquo; to the project and choose the &amp;ldquo;Start in test mode&amp;rdquo; option</description>
+3) Add a &amp;ldquo;Firestore Database&amp;rdquo; to the project and choose the &amp;ldquo;Start in test mode&amp;rdquo; option</description>
     </item>
     
     <item>
@@ -1434,8 +1434,8 @@ Requirement #2: Make the API Request  When users enter in a valid Github usernam
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/15-project-firebase-todo-app/requirements/</guid>
-      <description>Requirements Requirement #1: Add Create Functionality When users attempt to add a new task using the #addItem form, the task should be successfully saved in the app&amp;rsquo;s Firebase database. Within your Firebase database, the name of the new task should be stored as name and the completed value of every newly created task should be set to false
-Requirement #2: Add Read Functionality The Doit app should list all tasks stored in your Firebase database within the #taskList div.</description>
+      <description>Requirements Requirement #1: Add Create Functionality When users attempt to add a new task using the #add-item form, the task should be successfully saved in the app&amp;rsquo;s Firebase database. Within your Firestore database, the name of the new task should be stored as name and the completed value of every newly created task should be set to false
+Requirement #2: Add Read Functionality The Doit app should list all tasks stored in your Firebase database within the #task-list div.</description>
     </item>
     
     <item>
@@ -1619,6 +1619,16 @@ superHero[&#39;secret identity&#39;]`
  We must use bracket notation when accessing keys that have numbers, spaces, or special characters in them
  Remember, object keys are always strings
   Example const superHero = { &amp;#39;secret identity&amp;#39;: &amp;#39;Peter Parker&amp;#39;, name: &amp;#39;Spiderman&amp;#39;, powers: [&amp;#39;super strength&amp;#39;, &amp;#39;hyper awareness&amp;#39;, &amp;#39;agility&amp;#39;, &amp;#39;genius intellect&amp;#39;], age: 17 } console.</description>
+    </item>
+    
+    <item>
+      <title>Code Along: Add Auth to Firebase Todo App</title>
+      <link>/15-project-firebase-todo-app/code-along-add-auth-to-firebase-todo-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/15-project-firebase-todo-app/code-along-add-auth-to-firebase-todo-app/</guid>
+      <description>Code Along: Firebase Playlist App  Together we&amp;rsquo;ll walk through the process of added authentication to your Firebase Todo App  1. Use your completed Firebase Todo App OR use the starter code found in the link below which has the completed logic for the Firebase Todo App (w/o authentication)  The starter code for this code along is hosted on Github, see the url below:
+ Code Along: Firebase Todo App Solution</description>
     </item>
     
     <item>
