@@ -20,7 +20,7 @@
  The callback function for forEach provides the following:
  element - this current element from the array that is being evaluated
  index - this represents the current element&amp;rsquo;s index (or position in the array)
-   Example const chipmunks = [&amp;#34;alvin&amp;#34;, &amp;#34;simon&amp;#34;, &amp;#34;theodore&amp;#34;] chipmunks.forEach(function(element, index) { console.log(`${element}is at index ${index}`) })  JS Bin on jsbin.</description>
+   Example const chipmunks = [&amp;#34;alvin&amp;#34;, &amp;#34;simon&amp;#34;, &amp;#34;theodore&amp;#34;] chipmunks.forEach((element, index) =&amp;gt; { console.log(`${element}is at index ${index}`) })  JS Bin on jsbin.</description>
     </item>
     
     <item>
