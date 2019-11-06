@@ -56,6 +56,13 @@
 	"content": " Understand the benefits of $(this) or $(event.currentTarget)\n Explain how the type of function used (regular or array) dictates usage of $(this) or $(event.currentTarget)\n Use knowledge of DOM manipulation with jQuery to build small frontend applications\n  "
 },
 {
+	"uri": "/continue-learning/free-courses-guides/",
+	"title": "Free Courses &amp; Guides",
+	"tags": [],
+	"description": "",
+	"content": " Free Courses \u0026amp; Guides JavaScript    Course / Site Description     Scrimba lots of free interactive video tutorials on various front-end technologies   FreeCodeCamp free interactive tutorials on all things front-end development   FreeCodeCamp free interactive tutorials on all things front-end development   Javascript Algorithms And Data Structures Certification Full FreeCodeCamp JS Course   Intro to JavaScript free JavaScript course from Udacity   JavaScript30 Build 30 things with vanilla JS in 30 days with 30 tutorials (free)   Practical JavaScript Free JS course    Node    Course / Site Description     Server-side Development with NodeJS, Express and MongoDB Free node course from Coursera    HTML / CSS    Course / Site Description     Learn to Code HTML \u0026amp; CSS Visual and thorough HTML \u0026amp; CSS tutorial (covers some jQuery as well)   Marksheet.io Visual HTML/CSS Tutorial   CSS Diner interactive css selectors tutorial   Flexbox Froggy interactive flexbox tutorial   Flexbox Zombies interactive flexbox tutorial   Flexbox Defense interactive flexbox tutorial   CSS Grid Garden interactive css grid tutorial    Coding Challenge Sites The following a list of sites that offer coding challenges (i.e. exercises) that will help you sharpen you programming skills:\n Coderbyte | Coding Assessment Platform\n Codewars | Train with Programming Challenges/Kata \n CodinGames | Coding Games and Programming Challenges to Code Better\n Exercism\n HackerRank\n  "
+},
+{
 	"uri": "/class-resources/office-hours/",
 	"title": "Office Hours",
 	"tags": [],
@@ -196,6 +203,13 @@
 	"content": " JSON.stringify()  When JSON is used to send data from one service to the next \u0026ldquo;over the wire\u0026rdquo; (i.e. via cloud) it is transmitted as a string which makes it lightweight and fast\n JSON.stringify() allows developers to easily transform objects / arrays (or any value) into a JSON string which makes it compatible to be transmitted along with an HTTP Request\n \u0026ldquo;Stringify-ing\u0026rdquo; data is a common step developers take before sending data to another service\n  Example const avengers = { members: [ { name: \u0026#34;Spider-Man\u0026#34;, alias: \u0026#34;Peter Parker\u0026#34; }, { name: \u0026#34;Black Widow\u0026#34;, alias: \u0026#34;Natasha Romanova\u0026#34; } ] } // convert object into a JSON string  const jsonString = JSON.stringify(avengers)) console.log(jsonString) console.log(typeof jsonString); // result: string  JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/18-final-projects-lab/lab-final-projects/",
+	"title": "Lab: Final Projects",
+	"tags": [],
+	"description": "",
+	"content": " Work on your finalizing your projects\n Ensure your project is deployed \u0026amp; hosted using either Github Pages or Heroku\n At this point you should only be adding finishing touches (fine tuning CSS, fixing indentation, etc)\n You should avoid adding new features at this point\n  "
+},
+{
 	"uri": "/09-http-and-apis/objectives/",
 	"title": "Objectives",
 	"tags": [],
@@ -313,6 +327,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Overview  Final Projects are a requirement of \u0026ldquo;course completion\u0026rdquo;\n Project should be something that you are passionate about\n We\u0026rsquo;ve established some milestones (and due dates) that will help you stay on track to complete your projects on time\n Each milestone will include a deliverable  Instruction team will actively work with you to help you manage scope and come up with a project plan\n  Requirements For the final project, you\u0026rsquo;ll be designing and building a web application of your choice. This project will test your knowledge of JavaScript and ask you to apply everything you\u0026rsquo;ve learned in this course. The result will be a web app that you can add to your portfolio.\nYou could create anything from: a blog users can comment on; an app that allows users to search for social media posts; or a web-based game (memory, tic-tac-toe, etc). Use of an API is optional but highly recommended (because it\u0026rsquo;s fun!).\nI\u0026rsquo;ll work with you to determine the scope and feasibility of your ideas considering the amount of time remaining in the class and other other factors.\nYour final projects must make use of the following:\n JavaScript\n Adhere to DRY principle (Don\u0026rsquo;t Repeat Yourself)\n Code is properly indented\n Follow best practices for file/folder structure\n  "
+},
+{
+	"uri": "/19-final-project-presentations/presentation-script/",
+	"title": "Presentation Script",
+	"tags": [],
+	"description": "",
+	"content": " Presentation Script Each student will use the script below to present their projects to the class\n Introduce yourself and your project\n Question: Why did you choose to build this project?\n Provide the class with a quick demo of your project\n Question: What was the most challenging aspect your project?\n Question: Given more time and knowledge what additional features would you have added?\n Question: What did you enjoy most about building this project?\n Audience Q/A\n  "
 },
 {
 	"uri": "/lesson-recordings/recordings/",
@@ -2303,6 +2324,20 @@
 	"content": " CORS  CORS is the policy that defines this, an acronym that stands for \u0026ldquo;Cross-Origin Resource Sharing\u0026rdquo;\n You cannot normally make an AJAX request across different domains\n Some domains don\u0026rsquo;t allow you to ping them from other domains and some do\n  Click here for more information about CORS\n "
 },
 {
+	"uri": "/18-final-projects-lab/",
+	"title": "Final Projects Lab",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 18 Final Projects Lab "
+},
+{
+	"uri": "/19-final-project-presentations/",
+	"title": "Final Project Presentations",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 19 Final Project Presentations "
+},
+{
 	"uri": "/00-course-intro-and-tools/group-exercise-rock-paper-scissors/",
 	"title": "Group Exercise - Rock, Paper, Scissors",
 	"tags": [],
@@ -2343,6 +2378,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Solutions "
+},
+{
+	"uri": "/continue-learning/",
+	"title": "Continue Learning",
+	"tags": [],
+	"description": "",
+	"content": " Continue Learning "
 },
 {
 	"uri": "/",

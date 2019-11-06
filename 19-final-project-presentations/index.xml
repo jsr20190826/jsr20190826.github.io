@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Final Project Presentations on JavaScript</title>
+    <link>/19-final-project-presentations/</link>
+    <description>Recent content in Final Project Presentations on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/19-final-project-presentations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Presentation Script</title>
+      <link>/19-final-project-presentations/presentation-script/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/19-final-project-presentations/presentation-script/</guid>
+      <description>Presentation Script Each student will use the script below to present their projects to the class
+ Introduce yourself and your project
+ Question: Why did you choose to build this project?
+ Provide the class with a quick demo of your project
+ Question: What was the most challenging aspect your project?
+ Question: Given more time and knowledge what additional features would you have added?
+ Question: What did you enjoy most about building this project?</description>
+    </item>
+    
+  </channel>
+</rss>
